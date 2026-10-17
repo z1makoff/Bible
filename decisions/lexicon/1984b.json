@@ -1,0 +1,28 @@
+{
+  "key": "1984b",
+  "kind": "word",
+  "display": "halal",
+  "senses": [
+    {
+      "id": "praise",
+      "ru": "хвалить",
+      "stems": [
+        "хвал"
+      ],
+      "gloss": "хвалить, превозносить",
+      "evidence": [
+        "Gen.12.15",
+        "Ps.150.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

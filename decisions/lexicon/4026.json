@@ -1,0 +1,29 @@
+{
+  "key": "4026",
+  "kind": "word",
+  "display": "migdal",
+  "senses": [
+    {
+      "id": "tower",
+      "ru": "башня",
+      "stems": [
+        "башн",
+        "башен"
+      ],
+      "gloss": "башня",
+      "evidence": [
+        "Gen.11.4",
+        "Gen.11.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

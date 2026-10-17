@@ -1,0 +1,28 @@
+{
+  "key": "3303",
+  "kind": "word",
+  "display": "yafeh",
+  "senses": [
+    {
+      "id": "beautiful",
+      "ru": "красивый",
+      "stems": [
+        "красив"
+      ],
+      "gloss": "красивый, прекрасный",
+      "evidence": [
+        "Gen.12.11",
+        "Gen.12.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

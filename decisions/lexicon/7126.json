@@ -1,0 +1,29 @@
+{
+  "key": "7126",
+  "kind": "word",
+  "display": "qarav",
+  "senses": [
+    {
+      "id": "approach",
+      "ru": "приблизиться",
+      "stems": [
+        "приблиз",
+        "приближ"
+      ],
+      "gloss": "приблизиться, подойти",
+      "evidence": [
+        "Gen.12.11",
+        "Gen.20.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

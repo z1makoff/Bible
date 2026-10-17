@@ -1,0 +1,28 @@
+{
+  "key": "5061",
+  "kind": "word",
+  "display": "nega",
+  "senses": [
+    {
+      "id": "blow",
+      "ru": "удар",
+      "stems": [
+        "удар"
+      ],
+      "gloss": "удар, поражение; язва (о коже — Лев 13)",
+      "evidence": [
+        "Gen.12.17",
+        "Exod.11.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

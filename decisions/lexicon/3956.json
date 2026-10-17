@@ -1,0 +1,28 @@
+{
+  "key": "3956",
+  "kind": "word",
+  "display": "lashon",
+  "senses": [
+    {
+      "id": "tongue",
+      "ru": "язык",
+      "stems": [
+        "язык"
+      ],
+      "gloss": "язык — орган и язык-речь (в русском тот же разброс)",
+      "evidence": [
+        "Gen.10.5",
+        "Exod.4.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

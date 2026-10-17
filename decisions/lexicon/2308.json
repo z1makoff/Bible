@@ -1,0 +1,28 @@
+{
+  "key": "2308",
+  "kind": "word",
+  "display": "chadal",
+  "senses": [
+    {
+      "id": "stop",
+      "ru": "перестать",
+      "stems": [
+        "перест"
+      ],
+      "gloss": "перестать, оставить",
+      "evidence": [
+        "Gen.11.8",
+        "Gen.18.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

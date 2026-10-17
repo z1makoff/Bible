@@ -1,0 +1,28 @@
+{
+  "key": "1237",
+  "kind": "word",
+  "display": "biqah",
+  "senses": [
+    {
+      "id": "valley",
+      "ru": "долина",
+      "stems": [
+        "долин"
+      ],
+      "gloss": "долина, равнина",
+      "evidence": [
+        "Gen.11.2",
+        "Deut.8.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

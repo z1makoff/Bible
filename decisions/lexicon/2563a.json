@@ -1,0 +1,28 @@
+{
+  "key": "2563a",
+  "kind": "word",
+  "display": "chomer",
+  "senses": [
+    {
+      "id": "clay",
+      "ru": "глина",
+      "stems": [
+        "глин"
+      ],
+      "gloss": "глина; строительный раствор",
+      "evidence": [
+        "Gen.11.3",
+        "Isa.29.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

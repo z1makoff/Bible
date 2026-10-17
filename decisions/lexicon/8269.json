@@ -1,0 +1,28 @@
+{
+  "key": "8269",
+  "kind": "word",
+  "display": "sar",
+  "senses": [
+    {
+      "id": "official",
+      "ru": "вельможа",
+      "stems": [
+        "вельмож"
+      ],
+      "gloss": "вельможа, начальник, правитель",
+      "evidence": [
+        "Gen.12.15",
+        "Gen.21.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

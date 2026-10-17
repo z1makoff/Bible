@@ -1,0 +1,28 @@
+{
+  "key": "1293",
+  "kind": "word",
+  "display": "berakhah",
+  "senses": [
+    {
+      "id": "blessing",
+      "ru": "благословение",
+      "stems": [
+        "благослов"
+      ],
+      "gloss": "благословение; дар",
+      "evidence": [
+        "Gen.12.2",
+        "Gen.27.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "biglino-sarai-half-sister",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.11.29",
+  "Gen.12.13",
+  "Gen.12.19"
+ ],
+ "claim": "Avram взял в жёны сводную сестру — «дочь отца, но не матери» (20:12). Так же поступали шумерские правители, а до них Anunnaki: династию сохраняли браком с женщиной из той же семьи. Отсюда и «скажи, что сестра моя ты» (12:13). Бильино спрашивает, случайно ли обычаи семьи Avraham совпадали с обычаями правителей Шумера и Anunnaki.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "7. Popolo di proprietà",
+  "quote": "garantivano la discendenza dinastica attraverso il matrimonio con una donna appartenente alla stessa famiglia",
+  "quoteRu": "обеспечивали династическое потомство браком с женщиной из той же семьи",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Sarai — сводная сестра Avram.",
+   "grade": "supported",
+   "for": [
+    "Gen.20.12"
+   ],
+   "against": [],
+   "note": "Так говорит сам Avraham в 20:12. В 11:29 отец Sarai не назван; Terach называет её невесткой (11:31)."
+  },
+  {
+   "claim": "Такие браки — обычай шумерских правителей и Anunnaki.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "О цели брака Бытие ничего не говорит; источников о шумерских брачных обычаях в проекте нет. Позднее Закон запрещает брак со сводной сестрой (Лев 18:9)."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 10–12, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "1697",
+  "kind": "word",
+  "display": "davar",
+  "senses": [
+    {
+      "id": "word",
+      "ru": "слово",
+      "stems": [
+        "слов"
+      ],
+      "gloss": "слово, речь",
+      "evidence": [
+        "Gen.11.1",
+        "Gen.24.30"
+      ]
+    },
+    {
+      "id": "thing",
+      "ru": "дело",
+      "stems": [
+        "дел"
+      ],
+      "gloss": "дело, вещь, событие («после этих davarim»)",
+      "evidence": [
+        "Gen.15.1",
+        "Gen.22.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

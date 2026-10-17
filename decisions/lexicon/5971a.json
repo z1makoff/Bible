@@ -1,0 +1,28 @@
+{
+  "key": "5971a",
+  "kind": "word",
+  "display": "am",
+  "senses": [
+    {
+      "id": "people",
+      "ru": "народ",
+      "stems": [
+        "народ"
+      ],
+      "gloss": "народ; родня, свои",
+      "evidence": [
+        "Gen.11.6",
+        "Gen.14.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

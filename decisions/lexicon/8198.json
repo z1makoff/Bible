@@ -1,0 +1,29 @@
+{
+  "key": "8198",
+  "kind": "word",
+  "display": "shifchah",
+  "senses": [
+    {
+      "id": "maidservant",
+      "ru": "служанка",
+      "stems": [
+        "служанк",
+        "служан"
+      ],
+      "gloss": "служанка, рабыня",
+      "evidence": [
+        "Gen.12.16",
+        "Gen.16.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "1241",
+  "kind": "word",
+  "display": "baqar",
+  "senses": [
+    {
+      "id": "cattle",
+      "ru": "крупный скот",
+      "stems": [
+        "крупн"
+      ],
+      "gloss": "крупный скот, волы",
+      "evidence": [
+        "Gen.12.16",
+        "Gen.13.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

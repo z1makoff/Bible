@@ -1,0 +1,28 @@
+{
+  "key": "1060",
+  "kind": "word",
+  "display": "bekhor",
+  "senses": [
+    {
+      "id": "firstborn",
+      "ru": "первенец",
+      "stems": [
+        "первен"
+      ],
+      "gloss": "первенец (тот же корень, что bekhorah)",
+      "evidence": [
+        "Gen.10.15",
+        "Gen.25.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

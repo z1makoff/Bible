@@ -1,0 +1,29 @@
+{
+  "key": "2543",
+  "kind": "word",
+  "display": "chamor",
+  "senses": [
+    {
+      "id": "donkey",
+      "ru": "осёл",
+      "stems": [
+        "осл",
+        "осёл"
+      ],
+      "gloss": "осёл",
+      "evidence": [
+        "Gen.12.16",
+        "Gen.22.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

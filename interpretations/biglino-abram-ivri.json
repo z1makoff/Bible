@@ -1,0 +1,65 @@
+{
+ "id": "biglino-abram-ivri",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.10.21",
+  "Gen.11.16",
+  "Gen.12.1"
+ ],
+ "claim": "Евреи существовали ещё до Avram: их родоначальник — Ever (10:21), а Avram в 14:13 назван ivri как один из потомков Ever. Значит, евреями были не только потомки Avram. «Избрание» (12:1–3) — выбор YHWH одной семьи этого народа, которой он обещает сделать её великим племенем.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "7. Popolo di proprietà",
+  "quote": "dunque l’etnia ebraica esisteva ancora prima di Abramo",
+  "quoteRu": "значит, еврейский народ существовал ещё до Авраама",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Shem — «отец всех сыновей Ever».",
+   "grade": "entailed",
+   "for": [
+    "Gen.10.21"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Avram — потомок Ever.",
+   "grade": "entailed",
+   "for": [
+    "Gen.11.16",
+    "Gen.11.26"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Ivri значит «потомок Ever».",
+   "grade": "plausible",
+   "for": [
+    "Gen.14.13",
+    "Gen.10.21"
+   ],
+   "against": [],
+   "note": "Так понимает и Лопухин (имя евреев «от Евера» — толкование на 10:21). Другое объяснение — от avar, «переходить»: Септуагинта в 14:13 переводит «перешедший»."
+  },
+  {
+   "claim": "«Евреями» были и другие потомки Ever.",
+   "grade": "compatible",
+   "for": [
+    "Gen.10.25",
+    "Gen.10.26"
+   ],
+   "against": [],
+   "note": "Yoqtan — тоже сын Ever, но слово ivri текст к нему не применяет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 10–12, отрывок проверен по тексту"
+  }
+ ]
+}

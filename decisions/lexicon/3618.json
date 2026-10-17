@@ -1,0 +1,28 @@
+{
+  "key": "3618",
+  "kind": "word",
+  "display": "kallah",
+  "senses": [
+    {
+      "id": "daughter-in-law",
+      "ru": "невестка",
+      "stems": [
+        "невестк"
+      ],
+      "gloss": "невестка; невеста",
+      "evidence": [
+        "Gen.11.31",
+        "Gen.38.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

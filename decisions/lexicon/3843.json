@@ -1,0 +1,28 @@
+{
+  "key": "3843",
+  "kind": "word",
+  "display": "levenah",
+  "senses": [
+    {
+      "id": "brick",
+      "ru": "кирпич",
+      "stems": [
+        "кирпич"
+      ],
+      "gloss": "кирпич",
+      "evidence": [
+        "Gen.11.3",
+        "Exod.1.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

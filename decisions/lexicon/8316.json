@@ -1,0 +1,29 @@
+{
+  "key": "8316",
+  "kind": "word",
+  "display": "serefah",
+  "senses": [
+    {
+      "id": "burning",
+      "ru": "обжиг",
+      "stems": [
+        "обжиг",
+        "сожж"
+      ],
+      "gloss": "обжиг, сожжение",
+      "evidence": [
+        "Gen.11.3",
+        "Lev.10.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

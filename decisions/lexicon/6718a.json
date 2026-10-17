@@ -1,0 +1,28 @@
+{
+  "key": "6718a",
+  "kind": "word",
+  "display": "tsayid",
+  "senses": [
+    {
+      "id": "hunting",
+      "ru": "охота",
+      "stems": [
+        "охот"
+      ],
+      "gloss": "охота; добыча, дичь",
+      "evidence": [
+        "Gen.10.9",
+        "Gen.25.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

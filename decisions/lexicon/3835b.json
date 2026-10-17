@@ -1,0 +1,28 @@
+{
+  "key": "3835b",
+  "kind": "word",
+  "display": "lavan",
+  "senses": [
+    {
+      "id": "make-bricks",
+      "ru": "делать кирпичи",
+      "stems": [
+        "кирпич"
+      ],
+      "gloss": "делать кирпичи (от levenah)",
+      "evidence": [
+        "Gen.11.3",
+        "Exod.5.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

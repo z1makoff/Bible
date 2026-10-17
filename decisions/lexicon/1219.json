@@ -1,0 +1,28 @@
+{
+  "key": "1219",
+  "kind": "word",
+  "display": "batsar",
+  "senses": [
+    {
+      "id": "withhold",
+      "ru": "быть недоступным",
+      "stems": [
+        "недоступ"
+      ],
+      "gloss": "niphal: быть недоступным, невозможным (Иов 42:2)",
+      "evidence": [
+        "Gen.11.6",
+        "Job.42.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "7408",
+  "kind": "word",
+  "display": "rakhash",
+  "senses": [
+    {
+      "id": "acquire-goods",
+      "ru": "нажить",
+      "stems": [
+        "нажи"
+      ],
+      "gloss": "нажить, накопить имущество",
+      "evidence": [
+        "Gen.12.5",
+        "Gen.31.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

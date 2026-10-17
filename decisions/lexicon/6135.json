@@ -1,0 +1,28 @@
+{
+  "key": "6135",
+  "kind": "word",
+  "display": "aqar",
+  "senses": [
+    {
+      "id": "barren",
+      "ru": "бесплодная",
+      "stems": [
+        "бесплод"
+      ],
+      "gloss": "бесплодный, бездетный",
+      "evidence": [
+        "Gen.11.30",
+        "Gen.25.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

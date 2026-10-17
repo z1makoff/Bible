@@ -1,0 +1,29 @@
+{
+  "key": "2161",
+  "kind": "word",
+  "display": "zamam",
+  "senses": [
+    {
+      "id": "devise",
+      "ru": "замыслить",
+      "stems": [
+        "замысл",
+        "задум"
+      ],
+      "gloss": "замыслить, задумать",
+      "evidence": [
+        "Gen.11.6",
+        "Deut.19.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "3051",
+  "kind": "word",
+  "display": "yahav",
+  "senses": [
+    {
+      "id": "come-on",
+      "ru": "давай",
+      "stems": [
+        "дава"
+      ],
+      "gloss": "давай! ну! (повелительное «дай»)",
+      "evidence": [
+        "Gen.11.3",
+        "Gen.11.4",
+        "Gen.11.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

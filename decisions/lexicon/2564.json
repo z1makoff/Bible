@@ -1,0 +1,28 @@
+{
+  "key": "2564",
+  "kind": "word",
+  "display": "chemar",
+  "senses": [
+    {
+      "id": "bitumen",
+      "ru": "битум",
+      "stems": [
+        "битум"
+      ],
+      "gloss": "битум, земляная смола (другое слово, чем kofer — 6:14)",
+      "evidence": [
+        "Gen.11.3",
+        "Gen.14.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

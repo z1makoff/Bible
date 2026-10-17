@@ -1,0 +1,28 @@
+{
+  "key": "7458",
+  "kind": "word",
+  "display": "raav",
+  "senses": [
+    {
+      "id": "famine",
+      "ru": "голод",
+      "stems": [
+        "голод"
+      ],
+      "gloss": "голод",
+      "evidence": [
+        "Gen.12.10",
+        "Gen.26.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}

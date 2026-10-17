@@ -1,0 +1,28 @@
+{
+  "key": "4467",
+  "kind": "word",
+  "display": "mamlakhah",
+  "senses": [
+    {
+      "id": "kingdom",
+      "ru": "царство",
+      "stems": [
+        "царств"
+      ],
+      "gloss": "царство, царская власть",
+      "evidence": [
+        "Gen.10.10",
+        "Gen.20.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 10–12"
+    }
+  ]
+}
