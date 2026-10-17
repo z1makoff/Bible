@@ -1,0 +1,29 @@
+{
+  "key": "5046",
+  "kind": "word",
+  "display": "nagad",
+  "senses": [
+    {
+      "id": "tell",
+      "ru": "сообщить",
+      "stems": [
+        "сообщ",
+        "сказ"
+      ],
+      "gloss": "сообщать, рассказывать (hiphil)",
+      "evidence": [
+        "Gen.3.11",
+        "Gen.9.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

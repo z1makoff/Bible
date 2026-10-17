@@ -1,0 +1,29 @@
+{
+  "key": "7896",
+  "kind": "word",
+  "display": "shit",
+  "senses": [
+    {
+      "id": "place",
+      "ru": "положить",
+      "stems": [
+        "полож",
+        "клад"
+      ],
+      "gloss": "положить, установить, сделать",
+      "evidence": [
+        "Gen.3.15",
+        "Gen.4.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Положу» — чтобы не совпадать с natan, sim и yanach.",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

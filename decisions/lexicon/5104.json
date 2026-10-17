@@ -1,0 +1,29 @@
+{
+  "key": "5104",
+  "kind": "word",
+  "display": "nahar",
+  "senses": [
+    {
+      "id": "river",
+      "ru": "река",
+      "stems": [
+        "рек",
+        "рёк"
+      ],
+      "gloss": "река, поток",
+      "evidence": [
+        "Gen.2.10",
+        "Gen.15.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

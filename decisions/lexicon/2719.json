@@ -1,0 +1,28 @@
+{
+  "key": "2719",
+  "kind": "word",
+  "display": "cherev",
+  "senses": [
+    {
+      "id": "sword",
+      "ru": "меч",
+      "stems": [
+        "меч"
+      ],
+      "gloss": "меч; также нож, резец",
+      "evidence": [
+        "Gen.3.24",
+        "Gen.27.40"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

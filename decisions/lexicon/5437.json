@@ -1,0 +1,29 @@
+{
+  "key": "5437",
+  "kind": "word",
+  "display": "savav",
+  "senses": [
+    {
+      "id": "go-around",
+      "ru": "окружать",
+      "stems": [
+        "окруж"
+      ],
+      "gloss": "обходить, окружать, поворачивать",
+      "evidence": [
+        "Gen.2.11",
+        "Gen.2.13",
+        "Josh.6.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

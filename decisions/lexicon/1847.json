@@ -1,0 +1,28 @@
+{
+  "key": "1847",
+  "kind": "word",
+  "display": "daat",
+  "senses": [
+    {
+      "id": "knowledge",
+      "ru": "знание",
+      "stems": [
+        "знан"
+      ],
+      "gloss": "знание, познание",
+      "evidence": [
+        "Gen.2.9",
+        "Gen.2.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

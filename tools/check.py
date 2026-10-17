@@ -16,7 +16,7 @@ LEXICON = ROOT / "decisions" / "lexicon"
 TRANSLATIONS = ROOT / "translations" / "ot"
 INTERPRETATIONS = ROOT / "interpretations"
 
-KINDS = {"word", "name", "divine", "function"}
+KINDS = {"word", "name", "divine", "function", "keep"}
 SPAN_KINDS = {None, "lat", "fn", "ins", "p"}
 GRADES = {"entailed", "strong", "supported", "plausible", "compatible", "speculative", "contradicted"}
 OMIT_REASONS = {"et": "метка прямого дополнения"}
@@ -46,6 +46,12 @@ def lexemes():
 
 
 @lru_cache(maxsize=None)
+def occurrence_verses():
+    occ = json.loads((CORPUS / "occurrences.json").read_text("utf-8"))
+    return {k: {ref for ref, _ in v} for k, v in occ.items()}
+
+
+@lru_cache(maxsize=None)
 def corpus_chapter(book, chapter):
     path = CORPUS / "ot" / book / f"{chapter:03d}.json"
     return json.loads(path.read_text("utf-8")) if path.exists() else None
@@ -64,7 +70,8 @@ def content_lemmas(word):
 
 
 def has_prefix(word):
-    return any(s["prefix"] for s in word["segs"])
+    """Приставка или местоименное окончание: их можно передать отдельным служебным словом."""
+    return any(s["prefix"] or (s["morph"] or "").startswith("S") for s in word["segs"])
 
 
 def load_lexicon(rep):
@@ -102,6 +109,10 @@ def load_lexicon(rep):
             for ref in s.get("evidence", []):
                 if not ref_exists(ref):
                     rep.error(where, f"значение «{sid}»: места {ref} нет в корпусе")
+                elif ref not in occurrence_verses().get(key, set()):
+                    rep.error(where, f"значение «{sid}»: в {ref} этого слова нет")
+        if e.get("kind") == "keep" and not e.get("notes"):
+            rep.error(where, "у слова без перевода не объяснено, почему оно не переводится")
         if e.get("kind") == "word" and not e.get("senses"):
             rep.error(where, "у обычного слова нет ни одного значения")
         entries[key] = e
@@ -176,7 +187,7 @@ def check_chapter(path, lex, rep, version):
                 keys = content_lemmas(w)
                 if k == "fn":
                     if not has_prefix(w) and not any(lex.get(c, {}).get("kind") == "function" for c in keys):
-                        rep.error(here, f"{w['tr']}: служебным может быть только приставка или служебное слово")
+                        rep.error(here, f"{w['tr']}: служебным может быть только приставка, окончание или служебное слово")
                     for c in keys:
                         if lex.get(c, {}).get("kind") == "function":
                             rendered.add(alt_of.get(wid, wid))
@@ -187,11 +198,15 @@ def check_chapter(path, lex, rep, version):
                         rep.error(here, f"{w['tr']}: для слова {c} нет решения в словаре")
                         continue
                     if k == "lat":
-                        if sp["t"] != e["display"] and not sp.get("x"):
-                            rep.error(here, f"латинская форма должна быть «{e['display']}» (словарь решений)")
+                        allowed = [e["display"]] + e.get("displayForms", [])
+                        if sp["t"] not in allowed and not sp.get("x"):
+                            rep.error(here, f"латинская форма должна быть «{'» или «'.join(allowed)}» (словарь решений)")
                     else:
                         if e["kind"] in ("name", "divine"):
                             rep.error(here, f"{e['display']}: имена и титулы не переводятся (правила, раздел 2)")
+                            continue
+                        if e["kind"] == "keep":
+                            rep.error(here, f"{e['display']}: по словарю решений это слово не переводится")
                             continue
                         sid = sense_of(sp, wid)
                         sense = next((s for s in e.get("senses", []) if s["id"] == sid), None)

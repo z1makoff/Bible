@@ -1,0 +1,28 @@
+{
+  "key": "2091",
+  "kind": "word",
+  "display": "zahav",
+  "senses": [
+    {
+      "id": "gold",
+      "ru": "золото",
+      "stems": [
+        "золот"
+      ],
+      "gloss": "золото",
+      "evidence": [
+        "Gen.2.11",
+        "Gen.2.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

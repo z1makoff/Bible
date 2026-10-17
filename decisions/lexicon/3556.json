@@ -1,0 +1,29 @@
+{
+  "key": "3556",
+  "kind": "word",
+  "display": "kokhav",
+  "senses": [
+    {
+      "id": "star",
+      "ru": "звезда",
+      "stems": [
+        "звезд",
+        "звёзд"
+      ],
+      "gloss": "звезда",
+      "evidence": [
+        "Gen.1.16",
+        "Gen.15.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -7,7 +7,8 @@ const SECTIONS = [
   ["Пророки", ["Isa", "Jer", "Lam", "Ezek", "Dan", "Hos", "Joel", "Amos", "Obad", "Jonah", "Mic", "Nah", "Hab", "Zeph", "Hag", "Zech", "Mal"]],
 ];
 const STATUS = { draft: "черновик", ready: "подготовлена", reviewed: "проверена вами" };
-const KIND = { word: "слово", name: "имя собственное", divine: "имя или титул божества", function: "служебное слово" };
+const KIND = { word: "слово", name: "имя собственное", divine: "имя или титул божества", function: "служебное слово",
+  keep: "не переводится нигде" };
 const NO_SPACE_BEFORE = new Set([".", ",", ";", ":", "!", "?", "»", ")", "…"]);
 const NO_SPACE_AFTER = new Set(["«", "("]);
 

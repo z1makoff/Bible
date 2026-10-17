@@ -1,0 +1,29 @@
+{
+  "key": "3801",
+  "kind": "word",
+  "display": "kuttonet",
+  "senses": [
+    {
+      "id": "tunic",
+      "ru": "рубаха",
+      "stems": [
+        "рубах",
+        "рубаш"
+      ],
+      "gloss": "длинная рубаха, туника",
+      "evidence": [
+        "Gen.3.21",
+        "Gen.37.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

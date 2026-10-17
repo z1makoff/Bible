@@ -1,0 +1,28 @@
+{
+  "key": "3978",
+  "kind": "word",
+  "display": "maakhal",
+  "senses": [
+    {
+      "id": "food",
+      "ru": "еда",
+      "stems": [
+        "ед"
+      ],
+      "gloss": "еда, пища",
+      "evidence": [
+        "Gen.2.9",
+        "Gen.3.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

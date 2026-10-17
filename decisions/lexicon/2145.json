@@ -1,0 +1,29 @@
+{
+  "key": "2145",
+  "kind": "word",
+  "display": "zakhar",
+  "senses": [
+    {
+      "id": "male",
+      "ru": "мужской",
+      "stems": [
+        "мужск",
+        "мужеск"
+      ],
+      "gloss": "мужского пола (о людях и животных)",
+      "evidence": [
+        "Gen.1.27",
+        "Gen.6.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

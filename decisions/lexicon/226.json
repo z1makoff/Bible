@@ -1,0 +1,30 @@
+{
+  "key": "226",
+  "kind": "word",
+  "display": "ot",
+  "senses": [
+    {
+      "id": "sign",
+      "ru": "знак",
+      "stems": [
+        "знак",
+        "знам"
+      ],
+      "gloss": "знак, знамение, примета",
+      "evidence": [
+        "Gen.1.14",
+        "Gen.9.12",
+        "Exod.4.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

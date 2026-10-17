@@ -1,0 +1,27 @@
+{
+  "key": "8345",
+  "kind": "word",
+  "display": "shishi",
+  "senses": [
+    {
+      "id": "sixth",
+      "ru": "шестой",
+      "stems": [
+        "шест"
+      ],
+      "gloss": "шестой",
+      "evidence": [
+        "Gen.1.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "8248",
+  "kind": "word",
+  "display": "shaqah",
+  "senses": [
+    {
+      "id": "irrigate",
+      "ru": "орошать",
+      "stems": [
+        "ороша",
+        "орош"
+      ],
+      "gloss": "орошать (землю, сад)",
+      "evidence": [
+        "Gen.2.6",
+        "Gen.2.10"
+      ]
+    },
+    {
+      "id": "give-drink",
+      "ru": "поить",
+      "stems": [
+        "по"
+      ],
+      "gloss": "поить (людей, скот)",
+      "evidence": [
+        "Gen.24.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

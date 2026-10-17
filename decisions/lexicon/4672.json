@@ -1,0 +1,30 @@
+{
+  "key": "4672",
+  "kind": "word",
+  "display": "matsa",
+  "senses": [
+    {
+      "id": "find",
+      "ru": "найти",
+      "stems": [
+        "наш",
+        "найд",
+        "наход"
+      ],
+      "gloss": "находить",
+      "evidence": [
+        "Gen.2.20",
+        "Gen.6.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

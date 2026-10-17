@@ -1,0 +1,33 @@
+{
+  "key": "1980",
+  "kind": "word",
+  "display": "halakh",
+  "senses": [
+    {
+      "id": "walk",
+      "ru": "ходить",
+      "stems": [
+        "ход",
+        "ид",
+        "шёл",
+        "шел",
+        "шл"
+      ],
+      "gloss": "идти, ходить; hithpael — прохаживаться",
+      "evidence": [
+        "Gen.2.14",
+        "Gen.3.8",
+        "Gen.5.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6529",
+  "kind": "word",
+  "display": "peri",
+  "senses": [
+    {
+      "id": "fruit",
+      "ru": "плод",
+      "stems": [
+        "плод"
+      ],
+      "gloss": "плод",
+      "evidence": [
+        "Gen.1.11",
+        "Gen.3.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

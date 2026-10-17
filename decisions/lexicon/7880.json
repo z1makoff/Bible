@@ -1,0 +1,28 @@
+{
+  "key": "7880",
+  "kind": "word",
+  "display": "siach",
+  "senses": [
+    {
+      "id": "shrub",
+      "ru": "куст",
+      "stems": [
+        "куст"
+      ],
+      "gloss": "куст, кустарник",
+      "evidence": [
+        "Gen.2.5",
+        "Gen.21.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

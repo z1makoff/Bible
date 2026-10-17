@@ -1,0 +1,29 @@
+{
+  "key": "1692",
+  "kind": "word",
+  "display": "davaq",
+  "senses": [
+    {
+      "id": "cling",
+      "ru": "прилепиться",
+      "stems": [
+        "лепи",
+        "лепл"
+      ],
+      "gloss": "прилепляться, держаться",
+      "evidence": [
+        "Gen.2.24",
+        "Ruth.1.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

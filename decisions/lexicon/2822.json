@@ -1,0 +1,29 @@
+{
+  "key": "2822",
+  "kind": "word",
+  "display": "choshekh",
+  "senses": [
+    {
+      "id": "darkness",
+      "ru": "тьма",
+      "stems": [
+        "тьм",
+        "тем"
+      ],
+      "gloss": "тьма",
+      "evidence": [
+        "Gen.1.2",
+        "Exod.10.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

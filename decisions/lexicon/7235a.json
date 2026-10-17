@@ -1,0 +1,28 @@
+{
+  "key": "7235a",
+  "kind": "word",
+  "display": "ravah",
+  "senses": [
+    {
+      "id": "multiply",
+      "ru": "умножаться",
+      "stems": [
+        "множ"
+      ],
+      "gloss": "умножаться, увеличиваться; hiphil — умножать",
+      "evidence": [
+        "Gen.1.22",
+        "Gen.3.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

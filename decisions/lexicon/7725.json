@@ -1,0 +1,30 @@
+{
+  "key": "7725",
+  "kind": "word",
+  "display": "shuv",
+  "senses": [
+    {
+      "id": "return",
+      "ru": "вернуться",
+      "stems": [
+        "верн",
+        "возвра",
+        "возвращ"
+      ],
+      "gloss": "возвращаться",
+      "evidence": [
+        "Gen.3.19",
+        "Gen.8.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

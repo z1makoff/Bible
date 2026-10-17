@@ -1,0 +1,29 @@
+{
+  "key": "2530a",
+  "kind": "word",
+  "display": "chamad",
+  "senses": [
+    {
+      "id": "desire",
+      "ru": "желать",
+      "stems": [
+        "жела"
+      ],
+      "gloss": "желать, вожделеть; niphal — желанный",
+      "evidence": [
+        "Gen.2.9",
+        "Gen.3.6",
+        "Exod.20.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

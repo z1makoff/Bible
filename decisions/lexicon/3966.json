@@ -1,0 +1,29 @@
+{
+  "key": "3966",
+  "kind": "word",
+  "display": "meod",
+  "senses": [
+    {
+      "id": "very",
+      "ru": "весьма",
+      "stems": [
+        "весьма",
+        "очень"
+      ],
+      "gloss": "весьма, очень",
+      "evidence": [
+        "Gen.1.31",
+        "Gen.13.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

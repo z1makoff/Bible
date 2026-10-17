@@ -1,0 +1,29 @@
+{
+  "key": "8639",
+  "kind": "word",
+  "display": "tardemah",
+  "senses": [
+    {
+      "id": "deep-sleep",
+      "ru": "глубокий сон",
+      "stems": [
+        "глубок"
+      ],
+      "gloss": "глубокий сон, оцепенение",
+      "evidence": [
+        "Gen.2.21",
+        "1Sam.26.12",
+        "Gen.15.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

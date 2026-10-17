@@ -1,0 +1,30 @@
+{
+  "key": "6779",
+  "kind": "word",
+  "display": "tsamach",
+  "senses": [
+    {
+      "id": "sprout",
+      "ru": "прорастать",
+      "stems": [
+        "прораст",
+        "произраст"
+      ],
+      "gloss": "прорастать; hiphil — произращивать",
+      "evidence": [
+        "Gen.2.5",
+        "Gen.2.9",
+        "Gen.3.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

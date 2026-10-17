@@ -1,0 +1,29 @@
+{
+  "key": "8318",
+  "kind": "word",
+  "display": "sherets",
+  "senses": [
+    {
+      "id": "swarm",
+      "ru": "кишащее",
+      "stems": [
+        "кишащ",
+        "кишен"
+      ],
+      "gloss": "кишащие существа, мелкая живность",
+      "evidence": [
+        "Gen.1.20",
+        "Lev.11.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2416a",
+  "kind": "word",
+  "display": "chay",
+  "senses": [
+    {
+      "id": "alive",
+      "ru": "живой",
+      "stems": [
+        "жив"
+      ],
+      "gloss": "живой; «kol chay» — всё живое",
+      "evidence": [
+        "Gen.1.20",
+        "Gen.3.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

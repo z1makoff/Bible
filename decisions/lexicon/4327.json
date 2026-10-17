@@ -1,0 +1,29 @@
+{
+  "key": "4327",
+  "kind": "word",
+  "display": "min",
+  "senses": [
+    {
+      "id": "kind",
+      "ru": "род",
+      "stems": [
+        "род"
+      ],
+      "gloss": "род, вид (живых существ и растений)",
+      "evidence": [
+        "Gen.1.11",
+        "Gen.1.21",
+        "Lev.11.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

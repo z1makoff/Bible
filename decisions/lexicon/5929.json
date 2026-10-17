@@ -1,0 +1,28 @@
+{
+  "key": "5929",
+  "kind": "word",
+  "display": "aleh",
+  "senses": [
+    {
+      "id": "leaf",
+      "ru": "лист",
+      "stems": [
+        "лист"
+      ],
+      "gloss": "лист, листва",
+      "evidence": [
+        "Gen.3.7",
+        "Gen.8.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

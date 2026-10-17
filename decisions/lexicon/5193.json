@@ -1,0 +1,30 @@
+{
+  "key": "5193",
+  "kind": "word",
+  "display": "nata",
+  "senses": [
+    {
+      "id": "plant",
+      "ru": "насадить",
+      "stems": [
+        "сади",
+        "сажа",
+        "насад"
+      ],
+      "gloss": "насаждать, сажать",
+      "evidence": [
+        "Gen.2.8",
+        "Gen.9.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

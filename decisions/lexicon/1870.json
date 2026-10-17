@@ -1,0 +1,28 @@
+{
+  "key": "1870",
+  "kind": "word",
+  "display": "derekh",
+  "senses": [
+    {
+      "id": "way",
+      "ru": "путь",
+      "stems": [
+        "пут"
+      ],
+      "gloss": "путь, дорога; образ действий",
+      "evidence": [
+        "Gen.3.24",
+        "Gen.6.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

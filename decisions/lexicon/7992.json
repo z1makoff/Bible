@@ -1,0 +1,28 @@
+{
+  "key": "7992",
+  "kind": "word",
+  "display": "shelishi",
+  "senses": [
+    {
+      "id": "third",
+      "ru": "третий",
+      "stems": [
+        "трет"
+      ],
+      "gloss": "третий",
+      "evidence": [
+        "Gen.1.13",
+        "Gen.2.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

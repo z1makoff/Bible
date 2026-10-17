@@ -1,0 +1,32 @@
+{
+  "key": "398",
+  "kind": "word",
+  "display": "akhal",
+  "senses": [
+    {
+      "id": "eat",
+      "ru": "есть",
+      "stems": [
+        "ест",
+        "еш",
+        "ел",
+        "ед",
+        "съе"
+      ],
+      "gloss": "есть, съесть",
+      "evidence": [
+        "Gen.2.16",
+        "Gen.3.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

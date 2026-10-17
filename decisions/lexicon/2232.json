@@ -1,0 +1,30 @@
+{
+  "key": "2232",
+  "kind": "word",
+  "display": "zara",
+  "senses": [
+    {
+      "id": "sow",
+      "ru": "сеять",
+      "stems": [
+        "се",
+        "сея",
+        "сею"
+      ],
+      "gloss": "сеять; давать семя",
+      "evidence": [
+        "Gen.1.11",
+        "Gen.26.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "4305",
+  "kind": "word",
+  "display": "matar",
+  "senses": [
+    {
+      "id": "rain",
+      "ru": "пролить дождь",
+      "stems": [
+        "дожд"
+      ],
+      "gloss": "посылать дождь (hiphil)",
+      "evidence": [
+        "Gen.2.5",
+        "Gen.7.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

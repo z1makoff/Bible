@@ -1,0 +1,29 @@
+{
+  "key": "1",
+  "kind": "word",
+  "display": "av",
+  "senses": [
+    {
+      "id": "father",
+      "ru": "отец",
+      "stems": [
+        "отц",
+        "отец",
+        "отч"
+      ],
+      "gloss": "отец; предок",
+      "evidence": [
+        "Gen.2.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

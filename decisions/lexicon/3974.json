@@ -1,0 +1,29 @@
+{
+  "key": "3974",
+  "kind": "word",
+  "display": "maor",
+  "senses": [
+    {
+      "id": "luminary",
+      "ru": "светило",
+      "stems": [
+        "светил"
+      ],
+      "gloss": "светило, источник света; также светильник (Исх 25:6)",
+      "evidence": [
+        "Gen.1.14",
+        "Gen.1.16",
+        "Exod.25.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

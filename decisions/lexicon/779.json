@@ -1,0 +1,29 @@
+{
+  "key": "779",
+  "kind": "word",
+  "display": "arar",
+  "senses": [
+    {
+      "id": "curse",
+      "ru": "проклясть",
+      "stems": [
+        "прокл"
+      ],
+      "gloss": "проклинать; «arur» — проклят (противоположно «barukh» — благословен)",
+      "evidence": [
+        "Gen.3.14",
+        "Gen.3.17",
+        "Deut.28.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

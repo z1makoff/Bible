@@ -1,0 +1,30 @@
+{
+  "key": "8147",
+  "kind": "word",
+  "display": "shnayim",
+  "senses": [
+    {
+      "id": "two",
+      "ru": "два",
+      "stems": [
+        "дв",
+        "об"
+      ],
+      "gloss": "два; «shneihem» — оба",
+      "evidence": [
+        "Gen.1.16",
+        "Gen.2.25",
+        "Gen.3.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

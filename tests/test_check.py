@@ -117,7 +117,7 @@ class CheckGen11(unittest.TestCase):
         self.assertError(rep, "передано только служебной частью")
         v["spans"][3] = {"t": "и", "w": ["01Nvk"], "k": "fn"}
         rep = self.run_check(v)
-        self.assertError(rep, "служебным может быть только приставка")
+        self.assertError(rep, "служебным может быть только приставка, окончание")
 
     def test_interpretation_needs_checked_source(self):
         it = {"id": "test-claim", "tradition": "Автор", "claim": "утверждение", "lemmas": ["430"],

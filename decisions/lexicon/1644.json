@@ -1,0 +1,30 @@
+{
+  "key": "1644",
+  "kind": "word",
+  "display": "garash",
+  "senses": [
+    {
+      "id": "drive-out",
+      "ru": "изгнать",
+      "stems": [
+        "изгн",
+        "выгн",
+        "изгон"
+      ],
+      "gloss": "изгонять, прогонять",
+      "evidence": [
+        "Gen.3.24",
+        "Gen.4.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

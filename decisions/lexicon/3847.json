@@ -1,0 +1,30 @@
+{
+  "key": "3847",
+  "kind": "word",
+  "display": "lavash",
+  "senses": [
+    {
+      "id": "clothe",
+      "ru": "одеть",
+      "stems": [
+        "оде",
+        "одев",
+        "облек"
+      ],
+      "gloss": "одевать, одеваться",
+      "evidence": [
+        "Gen.3.21",
+        "Gen.28.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "6106",
+  "kind": "word",
+  "display": "etsem",
+  "senses": [
+    {
+      "id": "bone",
+      "ru": "кость",
+      "stems": [
+        "кост",
+        "кост"
+      ],
+      "gloss": "кость",
+      "evidence": [
+        "Gen.2.23",
+        "Gen.50.25"
+      ]
+    },
+    {
+      "id": "self",
+      "ru": "самый",
+      "stems": [
+        "сам"
+      ],
+      "gloss": "«be-etsem ha-yom» — в тот самый день",
+      "evidence": [
+        "Gen.7.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

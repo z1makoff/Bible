@@ -1,0 +1,30 @@
+{
+  "key": "6960b",
+  "kind": "word",
+  "display": "qavah",
+  "senses": [
+    {
+      "id": "gather",
+      "ru": "собраться",
+      "stems": [
+        "собер",
+        "собра",
+        "собир"
+      ],
+      "gloss": "собираться (о воде; основа niphal)",
+      "evidence": [
+        "Gen.1.9",
+        "Jer.3.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

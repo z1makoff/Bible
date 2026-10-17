@@ -1,0 +1,29 @@
+{
+  "key": "2416e",
+  "kind": "word",
+  "display": "chayyim",
+  "senses": [
+    {
+      "id": "life",
+      "ru": "жизнь",
+      "stems": [
+        "жизн"
+      ],
+      "gloss": "жизнь (форма множественного числа)",
+      "evidence": [
+        "Gen.2.7",
+        "Gen.2.9",
+        "Gen.3.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

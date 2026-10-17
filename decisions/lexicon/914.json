@@ -1,0 +1,29 @@
+{
+  "key": "914",
+  "kind": "word",
+  "display": "badal",
+  "senses": [
+    {
+      "id": "separate",
+      "ru": "разделить",
+      "stems": [
+        "раздел",
+        "разделя"
+      ],
+      "gloss": "разделять, отделять (основа hiphil)",
+      "evidence": [
+        "Gen.1.4",
+        "Lev.20.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

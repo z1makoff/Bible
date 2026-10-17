@@ -1,0 +1,28 @@
+{
+  "key": "2896b",
+  "kind": "word",
+  "display": "tov",
+  "senses": [
+    {
+      "id": "good",
+      "ru": "хорошее",
+      "stems": [
+        "хорош"
+      ],
+      "gloss": "хорошее, благо (существительное)",
+      "evidence": [
+        "Gen.2.9",
+        "Gen.3.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "8034",
+  "kind": "word",
+  "display": "shem",
+  "senses": [
+    {
+      "id": "name",
+      "ru": "имя",
+      "stems": [
+        "им"
+      ],
+      "gloss": "имя; также слава, известность",
+      "evidence": [
+        "Gen.2.11",
+        "Gen.2.19",
+        "Gen.6.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

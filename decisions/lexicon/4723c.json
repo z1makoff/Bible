@@ -1,0 +1,28 @@
+{
+  "key": "4723c",
+  "kind": "word",
+  "display": "miqveh",
+  "senses": [
+    {
+      "id": "gathering",
+      "ru": "скопление",
+      "stems": [
+        "скоплен"
+      ],
+      "gloss": "собранное множество (вод)",
+      "evidence": [
+        "Gen.1.10",
+        "Exod.7.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

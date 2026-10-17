@@ -1,0 +1,28 @@
+{
+  "key": "517",
+  "kind": "word",
+  "display": "em",
+  "senses": [
+    {
+      "id": "mother",
+      "ru": "мать",
+      "stems": [
+        "мат"
+      ],
+      "gloss": "мать",
+      "evidence": [
+        "Gen.2.24",
+        "Gen.3.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

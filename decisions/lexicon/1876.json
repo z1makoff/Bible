@@ -1,0 +1,28 @@
+{
+  "key": "1876",
+  "kind": "word",
+  "display": "dasha",
+  "senses": [
+    {
+      "id": "sprout",
+      "ru": "зеленеть",
+      "stems": [
+        "зелен"
+      ],
+      "gloss": "давать зелень, прорастать",
+      "evidence": [
+        "Gen.1.11",
+        "Joel.2.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

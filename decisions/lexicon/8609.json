@@ -1,0 +1,30 @@
+{
+  "key": "8609",
+  "kind": "word",
+  "display": "tafar",
+  "senses": [
+    {
+      "id": "sew",
+      "ru": "сшить",
+      "stems": [
+        "сши",
+        "шил",
+        "шит"
+      ],
+      "gloss": "шить",
+      "evidence": [
+        "Gen.3.7",
+        "Job.16.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

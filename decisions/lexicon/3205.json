@@ -1,0 +1,29 @@
+{
+  "key": "3205",
+  "kind": "word",
+  "display": "yalad",
+  "senses": [
+    {
+      "id": "bear",
+      "ru": "рожать",
+      "stems": [
+        "рож",
+        "род"
+      ],
+      "gloss": "рожать; о мужчине — порождать",
+      "evidence": [
+        "Gen.3.16",
+        "Gen.4.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "key": "3915",
+  "kind": "word",
+  "display": "laylah",
+  "senses": [
+    {
+      "id": "night",
+      "ru": "ночь",
+      "stems": [
+        "ноч"
+      ],
+      "gloss": "ночь",
+      "evidence": [
+        "Gen.1.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

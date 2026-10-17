@@ -1,0 +1,28 @@
+{
+  "key": "3220",
+  "kind": "word",
+  "display": "yam",
+  "senses": [
+    {
+      "id": "sea",
+      "ru": "море",
+      "stems": [
+        "мор"
+      ],
+      "gloss": "море; также большое озеро или река",
+      "evidence": [
+        "Gen.1.10",
+        "Gen.1.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

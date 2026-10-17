@@ -1,0 +1,29 @@
+{
+  "key": "2416c",
+  "kind": "word",
+  "display": "chayyah",
+  "senses": [
+    {
+      "id": "animal",
+      "ru": "животное",
+      "stems": [
+        "животн"
+      ],
+      "gloss": "животное, живое существо; «chayyat ha-sadeh» — животные поля",
+      "evidence": [
+        "Gen.1.24",
+        "Gen.2.19",
+        "Gen.3.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

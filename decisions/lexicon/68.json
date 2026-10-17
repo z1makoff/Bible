@@ -1,0 +1,29 @@
+{
+  "key": "68",
+  "kind": "word",
+  "display": "even",
+  "senses": [
+    {
+      "id": "stone",
+      "ru": "камень",
+      "stems": [
+        "камн",
+        "камен"
+      ],
+      "gloss": "камень",
+      "evidence": [
+        "Gen.2.12",
+        "Gen.28.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

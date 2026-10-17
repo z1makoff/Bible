@@ -1,0 +1,51 @@
+{
+  "key": "376",
+  "kind": "word",
+  "display": "ish",
+  "senses": [
+    {
+      "id": "man",
+      "ru": "мужчина",
+      "stems": [
+        "мужчин"
+      ],
+      "gloss": "мужчина, человек (мужского пола)",
+      "evidence": [
+        "Gen.2.23",
+        "Gen.2.24"
+      ]
+    },
+    {
+      "id": "husband",
+      "ru": "муж",
+      "stems": [
+        "муж"
+      ],
+      "gloss": "муж",
+      "evidence": [
+        "Gen.3.6",
+        "Gen.3.16"
+      ]
+    },
+    {
+      "id": "each",
+      "ru": "каждый",
+      "stems": [
+        "кажд"
+      ],
+      "gloss": "каждый",
+      "evidence": [
+        "Gen.15.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

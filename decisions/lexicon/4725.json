@@ -1,0 +1,28 @@
+{
+  "key": "4725",
+  "kind": "word",
+  "display": "maqom",
+  "senses": [
+    {
+      "id": "place",
+      "ru": "место",
+      "stems": [
+        "мест"
+      ],
+      "gloss": "место",
+      "evidence": [
+        "Gen.1.9",
+        "Gen.12.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

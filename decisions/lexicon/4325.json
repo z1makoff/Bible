@@ -1,0 +1,28 @@
+{
+  "key": "4325",
+  "kind": "word",
+  "display": "mayim",
+  "senses": [
+    {
+      "id": "water",
+      "ru": "вода",
+      "stems": [
+        "вод"
+      ],
+      "gloss": "вода, воды",
+      "evidence": [
+        "Gen.1.2",
+        "Exod.7.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

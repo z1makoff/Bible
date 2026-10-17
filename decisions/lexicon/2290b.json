@@ -1,0 +1,29 @@
+{
+  "key": "2290b",
+  "kind": "word",
+  "display": "chagorah",
+  "senses": [
+    {
+      "id": "belt",
+      "ru": "пояс",
+      "stems": [
+        "пояс",
+        "опояс"
+      ],
+      "gloss": "пояс, повязка на бёдра",
+      "evidence": [
+        "Gen.3.7",
+        "2Sam.18.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

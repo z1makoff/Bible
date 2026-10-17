@@ -1,0 +1,28 @@
+{
+  "key": "5800a",
+  "kind": "word",
+  "display": "azav",
+  "senses": [
+    {
+      "id": "leave",
+      "ru": "оставить",
+      "stems": [
+        "остав"
+      ],
+      "gloss": "оставлять, покидать",
+      "evidence": [
+        "Gen.2.24",
+        "Gen.39.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

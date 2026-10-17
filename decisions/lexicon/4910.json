@@ -1,0 +1,29 @@
+{
+  "key": "4910",
+  "kind": "word",
+  "display": "mashal",
+  "senses": [
+    {
+      "id": "rule",
+      "ru": "править",
+      "stems": [
+        "прав"
+      ],
+      "gloss": "править, господствовать",
+      "evidence": [
+        "Gen.1.18",
+        "Gen.3.16",
+        "Gen.24.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

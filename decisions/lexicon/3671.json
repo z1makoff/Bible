@@ -1,0 +1,39 @@
+{
+  "key": "3671",
+  "kind": "word",
+  "display": "kanaf",
+  "senses": [
+    {
+      "id": "wing",
+      "ru": "крыло",
+      "stems": [
+        "крыл"
+      ],
+      "gloss": "крыло; «of kanaf» — летающее крылатое",
+      "evidence": [
+        "Gen.1.21",
+        "Exod.19.4"
+      ]
+    },
+    {
+      "id": "edge",
+      "ru": "край",
+      "stems": [
+        "кра"
+      ],
+      "gloss": "край, угол одежды",
+      "evidence": [
+        "Ruth.3.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

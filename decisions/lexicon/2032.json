@@ -1,0 +1,28 @@
+{
+  "key": "2032",
+  "kind": "word",
+  "display": "herayon",
+  "senses": [
+    {
+      "id": "pregnancy",
+      "ru": "беременность",
+      "stems": [
+        "беремен"
+      ],
+      "gloss": "беременность, зачатие",
+      "evidence": [
+        "Gen.3.16",
+        "Ruth.4.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "8432",
+  "kind": "word",
+  "display": "tavekh",
+  "senses": [
+    {
+      "id": "middle",
+      "ru": "середина",
+      "stems": [
+        "серед",
+        "сред"
+      ],
+      "gloss": "середина; «be-tokh» — посреди, среди",
+      "evidence": [
+        "Gen.1.6",
+        "Gen.2.9",
+        "Gen.3.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

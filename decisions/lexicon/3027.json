@@ -1,0 +1,29 @@
+{
+  "key": "3027",
+  "kind": "word",
+  "display": "yad",
+  "senses": [
+    {
+      "id": "hand",
+      "ru": "рука",
+      "stems": [
+        "рук",
+        "руч"
+      ],
+      "gloss": "рука; также власть, сторона",
+      "evidence": [
+        "Gen.3.22",
+        "Gen.22.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

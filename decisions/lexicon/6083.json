@@ -1,0 +1,29 @@
+{
+  "key": "6083",
+  "kind": "word",
+  "display": "afar",
+  "senses": [
+    {
+      "id": "dust",
+      "ru": "пыль",
+      "stems": [
+        "пыл"
+      ],
+      "gloss": "пыль, сухая земля, прах",
+      "evidence": [
+        "Gen.2.7",
+        "Gen.3.14",
+        "Gen.3.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

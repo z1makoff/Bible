@@ -1,0 +1,28 @@
+{
+  "key": "5347",
+  "kind": "word",
+  "display": "neqevah",
+  "senses": [
+    {
+      "id": "female",
+      "ru": "женский",
+      "stems": [
+        "женск"
+      ],
+      "gloss": "женского пола (о людях и животных)",
+      "evidence": [
+        "Gen.1.27",
+        "Gen.6.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

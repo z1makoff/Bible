@@ -1,0 +1,29 @@
+{
+  "key": "8317",
+  "kind": "word",
+  "display": "sharats",
+  "senses": [
+    {
+      "id": "swarm",
+      "ru": "кишеть",
+      "stems": [
+        "киш"
+      ],
+      "gloss": "кишеть, роиться, размножаться во множестве",
+      "evidence": [
+        "Gen.1.20",
+        "Gen.1.21",
+        "Exod.7.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

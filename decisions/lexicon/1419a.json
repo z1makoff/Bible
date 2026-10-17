@@ -1,0 +1,29 @@
+{
+  "key": "1419a",
+  "kind": "word",
+  "display": "gadol",
+  "senses": [
+    {
+      "id": "big",
+      "ru": "большой",
+      "stems": [
+        "больш",
+        "велик"
+      ],
+      "gloss": "большой, великий",
+      "evidence": [
+        "Gen.1.16",
+        "Gen.1.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

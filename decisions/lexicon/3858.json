@@ -1,0 +1,27 @@
+{
+  "key": "3858",
+  "kind": "word",
+  "display": "lahat",
+  "senses": [
+    {
+      "id": "flame",
+      "ru": "пламя",
+      "stems": [
+        "плам"
+      ],
+      "gloss": "пламя (корень «пылать» — Пс 104:4)",
+      "evidence": [
+        "Gen.3.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

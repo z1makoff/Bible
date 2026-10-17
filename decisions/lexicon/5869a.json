@@ -1,0 +1,30 @@
+{
+  "key": "5869a",
+  "kind": "word",
+  "display": "ayin",
+  "senses": [
+    {
+      "id": "eye",
+      "ru": "глаз",
+      "stems": [
+        "глаз",
+        "оч"
+      ],
+      "gloss": "глаз",
+      "evidence": [
+        "Gen.3.5",
+        "Gen.3.6",
+        "Gen.3.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6119",
+  "kind": "word",
+  "display": "aqev",
+  "senses": [
+    {
+      "id": "heel",
+      "ru": "пята",
+      "stems": [
+        "пят"
+      ],
+      "gloss": "пята, пятка",
+      "evidence": [
+        "Gen.3.15",
+        "Gen.25.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

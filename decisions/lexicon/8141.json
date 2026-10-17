@@ -1,0 +1,29 @@
+{
+  "key": "8141",
+  "kind": "word",
+  "display": "shanah",
+  "senses": [
+    {
+      "id": "year",
+      "ru": "год",
+      "stems": [
+        "год",
+        "лет"
+      ],
+      "gloss": "год",
+      "evidence": [
+        "Gen.1.14",
+        "Gen.5.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

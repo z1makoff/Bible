@@ -1,0 +1,28 @@
+{
+  "key": "954",
+  "kind": "word",
+  "display": "bosh",
+  "senses": [
+    {
+      "id": "ashamed",
+      "ru": "стыдиться",
+      "stems": [
+        "стыд"
+      ],
+      "gloss": "стыдиться",
+      "evidence": [
+        "Gen.2.25",
+        "Jer.6.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

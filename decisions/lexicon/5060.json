@@ -1,0 +1,30 @@
+{
+  "key": "5060",
+  "kind": "word",
+  "display": "naga",
+  "senses": [
+    {
+      "id": "touch",
+      "ru": "касаться",
+      "stems": [
+        "каса",
+        "косну",
+        "трога"
+      ],
+      "gloss": "касаться, прикасаться",
+      "evidence": [
+        "Gen.3.3",
+        "Exod.19.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "7243",
+  "kind": "word",
+  "display": "revii",
+  "senses": [
+    {
+      "id": "fourth",
+      "ru": "четвёртый",
+      "stems": [
+        "четвёрт",
+        "четверт"
+      ],
+      "gloss": "четвёртый",
+      "evidence": [
+        "Gen.1.19",
+        "Gen.2.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

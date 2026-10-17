@@ -1,0 +1,28 @@
+{
+  "key": "3533",
+  "kind": "word",
+  "display": "kavash",
+  "senses": [
+    {
+      "id": "subdue",
+      "ru": "подчинить",
+      "stems": [
+        "подчин"
+      ],
+      "gloss": "подчинить, покорить",
+      "evidence": [
+        "Gen.1.28",
+        "Num.32.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

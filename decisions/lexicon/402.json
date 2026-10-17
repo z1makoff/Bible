@@ -1,0 +1,28 @@
+{
+  "key": "402",
+  "kind": "word",
+  "display": "okhlah",
+  "senses": [
+    {
+      "id": "food",
+      "ru": "пища",
+      "stems": [
+        "пищ"
+      ],
+      "gloss": "пища, то, что едят",
+      "evidence": [
+        "Gen.1.29",
+        "Gen.1.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "8145",
+  "kind": "word",
+  "display": "sheni",
+  "senses": [
+    {
+      "id": "second",
+      "ru": "второй",
+      "stems": [
+        "втор"
+      ],
+      "gloss": "второй",
+      "evidence": [
+        "Gen.1.8",
+        "Gen.2.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "1588",
+  "kind": "word",
+  "display": "gan",
+  "senses": [
+    {
+      "id": "garden",
+      "ru": "сад",
+      "stems": [
+        "сад"
+      ],
+      "gloss": "сад, огороженный участок",
+      "evidence": [
+        "Gen.2.8",
+        "Gen.2.15",
+        "Gen.3.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "1877",
+  "kind": "word",
+  "display": "deshe",
+  "senses": [
+    {
+      "id": "growth",
+      "ru": "поросль",
+      "stems": [
+        "поросл"
+      ],
+      "gloss": "молодая зелень, свежая трава",
+      "evidence": [
+        "Gen.1.11",
+        "Gen.1.12",
+        "Deut.32.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

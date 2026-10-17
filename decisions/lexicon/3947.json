@@ -1,0 +1,32 @@
+{
+  "key": "3947",
+  "kind": "word",
+  "display": "laqach",
+  "senses": [
+    {
+      "id": "take",
+      "ru": "взять",
+      "stems": [
+        "взя",
+        "взят",
+        "бер",
+        "бра"
+      ],
+      "gloss": "брать, взять",
+      "evidence": [
+        "Gen.2.15",
+        "Gen.2.21",
+        "Gen.3.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

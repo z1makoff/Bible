@@ -1,0 +1,27 @@
+{
+  "key": "6153",
+  "kind": "word",
+  "display": "erev",
+  "senses": [
+    {
+      "id": "evening",
+      "ru": "вечер",
+      "stems": [
+        "вечер"
+      ],
+      "gloss": "вечер",
+      "evidence": [
+        "Gen.1.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "3372",
+  "kind": "word",
+  "display": "yare",
+  "senses": [
+    {
+      "id": "fear",
+      "ru": "бояться",
+      "stems": [
+        "бо",
+        "испуг",
+        "страш"
+      ],
+      "gloss": "бояться",
+      "evidence": [
+        "Gen.3.10",
+        "Gen.15.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

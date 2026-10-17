@@ -1,0 +1,29 @@
+{
+  "key": "7704b",
+  "kind": "word",
+  "display": "sadeh",
+  "senses": [
+    {
+      "id": "field",
+      "ru": "поле",
+      "stems": [
+        "пол"
+      ],
+      "gloss": "поле, открытая местность, область",
+      "evidence": [
+        "Gen.2.5",
+        "Gen.3.1",
+        "Gen.32.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "7287a",
+  "kind": "word",
+  "display": "radah",
+  "senses": [
+    {
+      "id": "dominate",
+      "ru": "владычествовать",
+      "stems": [
+        "владыч"
+      ],
+      "gloss": "владычествовать, властвовать",
+      "evidence": [
+        "Gen.1.26",
+        "Gen.1.28",
+        "Lev.25.43"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

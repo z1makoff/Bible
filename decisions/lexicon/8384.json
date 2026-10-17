@@ -1,0 +1,29 @@
+{
+  "key": "8384",
+  "kind": "word",
+  "display": "teenah",
+  "senses": [
+    {
+      "id": "fig",
+      "ru": "смоковница",
+      "stems": [
+        "смоков",
+        "смокв"
+      ],
+      "gloss": "смоковница, смоква",
+      "evidence": [
+        "Gen.3.7",
+        "Judg.9.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

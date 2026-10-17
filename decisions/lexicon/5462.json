@@ -1,0 +1,29 @@
+{
+  "key": "5462",
+  "kind": "word",
+  "display": "sagar",
+  "senses": [
+    {
+      "id": "close",
+      "ru": "закрыть",
+      "stems": [
+        "закры",
+        "запер"
+      ],
+      "gloss": "закрывать, запирать",
+      "evidence": [
+        "Gen.2.21",
+        "Gen.7.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

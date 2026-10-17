@@ -1,0 +1,40 @@
+{
+  "key": "6471",
+  "kind": "word",
+  "display": "paam",
+  "senses": [
+    {
+      "id": "time",
+      "ru": "раз",
+      "stems": [
+        "раз"
+      ],
+      "gloss": "раз (на этот раз)",
+      "evidence": [
+        "Gen.2.23",
+        "Gen.18.32"
+      ]
+    },
+    {
+      "id": "step",
+      "ru": "шаг",
+      "stems": [
+        "шаг",
+        "стоп"
+      ],
+      "gloss": "стопа, шаг",
+      "evidence": [
+        "Ps.85.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

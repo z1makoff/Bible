@@ -1,0 +1,28 @@
+{
+  "key": "342",
+  "kind": "word",
+  "display": "eivah",
+  "senses": [
+    {
+      "id": "enmity",
+      "ru": "вражда",
+      "stems": [
+        "враж"
+      ],
+      "gloss": "вражда",
+      "evidence": [
+        "Gen.3.15",
+        "Num.35.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

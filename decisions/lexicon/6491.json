@@ -1,0 +1,30 @@
+{
+  "key": "6491",
+  "kind": "word",
+  "display": "paqach",
+  "senses": [
+    {
+      "id": "open",
+      "ru": "открыть",
+      "stems": [
+        "откр",
+        "отверз"
+      ],
+      "gloss": "открывать (глаза)",
+      "evidence": [
+        "Gen.3.5",
+        "Gen.3.7",
+        "Gen.21.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

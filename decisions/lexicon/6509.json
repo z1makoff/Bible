@@ -1,0 +1,28 @@
+{
+  "key": "6509",
+  "kind": "word",
+  "display": "parah",
+  "senses": [
+    {
+      "id": "fruitful",
+      "ru": "плодиться",
+      "stems": [
+        "плод"
+      ],
+      "gloss": "быть плодовитым, плодиться",
+      "evidence": [
+        "Gen.1.22",
+        "Gen.1.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

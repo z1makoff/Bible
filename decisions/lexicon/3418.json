@@ -1,0 +1,28 @@
+{
+  "key": "3418",
+  "kind": "word",
+  "display": "yereq",
+  "senses": [
+    {
+      "id": "green",
+      "ru": "зелень",
+      "stems": [
+        "зелень"
+      ],
+      "gloss": "зелень, зелёные растения",
+      "evidence": [
+        "Gen.1.30",
+        "Num.22.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

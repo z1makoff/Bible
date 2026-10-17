@@ -1,0 +1,31 @@
+{
+  "key": "2244",
+  "kind": "word",
+  "display": "chava",
+  "senses": [
+    {
+      "id": "hide",
+      "ru": "спрятаться",
+      "stems": [
+        "пряч",
+        "прят",
+        "скры"
+      ],
+      "gloss": "прятаться, скрываться",
+      "evidence": [
+        "Gen.3.8",
+        "Gen.3.10",
+        "Josh.10.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

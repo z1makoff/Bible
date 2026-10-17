@@ -1,0 +1,29 @@
+{
+  "key": "3045",
+  "kind": "word",
+  "display": "yada",
+  "senses": [
+    {
+      "id": "know",
+      "ru": "знать",
+      "stems": [
+        "зна"
+      ],
+      "gloss": "знать, узнать, познать",
+      "evidence": [
+        "Gen.3.5",
+        "Gen.3.7",
+        "Gen.3.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5377",
+  "kind": "word",
+  "display": "nasha",
+  "senses": [
+    {
+      "id": "deceive",
+      "ru": "обмануть",
+      "stems": [
+        "обман"
+      ],
+      "gloss": "обманывать (hiphil)",
+      "evidence": [
+        "Gen.3.13",
+        "Jer.4.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

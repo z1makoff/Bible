@@ -1,0 +1,29 @@
+{
+  "key": "4399",
+  "kind": "word",
+  "display": "melakhah",
+  "senses": [
+    {
+      "id": "work",
+      "ru": "работа",
+      "stems": [
+        "работ"
+      ],
+      "gloss": "работа, дело, изделие",
+      "evidence": [
+        "Gen.2.2",
+        "Gen.2.3",
+        "Exod.20.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

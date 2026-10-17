@@ -1,0 +1,50 @@
+{
+  "key": "7225",
+  "kind": "word",
+  "display": "reshit",
+  "senses": [
+    {
+      "id": "beginning",
+      "ru": "начало",
+      "stems": [
+        "начал"
+      ],
+      "gloss": "начало (во времени)",
+      "evidence": [
+        "Gen.1.1",
+        "Jer.26.1"
+      ]
+    },
+    {
+      "id": "firstfruits",
+      "ru": "первое",
+      "stems": [
+        "перв"
+      ],
+      "gloss": "первое, первина (лучшая часть урожая)",
+      "evidence": [
+        "Exod.23.19"
+      ]
+    },
+    {
+      "id": "best",
+      "ru": "лучшее",
+      "stems": [
+        "лучш"
+      ],
+      "gloss": "лучшее, отборное",
+      "evidence": [
+        "Amos.6.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

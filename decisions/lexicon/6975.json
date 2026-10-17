@@ -1,0 +1,30 @@
+{
+  "key": "6975",
+  "kind": "word",
+  "display": "qots",
+  "senses": [
+    {
+      "id": "thorn",
+      "ru": "колючка",
+      "stems": [
+        "колюч",
+        "терн",
+        "тёрн"
+      ],
+      "gloss": "колючка, терновник",
+      "evidence": [
+        "Gen.3.18",
+        "Judg.8.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

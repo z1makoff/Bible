@@ -1,0 +1,29 @@
+{
+  "key": "7431",
+  "kind": "word",
+  "display": "remes",
+  "senses": [
+    {
+      "id": "moving",
+      "ru": "движущееся",
+      "stems": [
+        "движущ"
+      ],
+      "gloss": "движущиеся существа, мелкая живность",
+      "evidence": [
+        "Gen.1.24",
+        "Gen.1.25",
+        "Ps.104.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

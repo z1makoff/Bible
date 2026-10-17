@@ -1,0 +1,29 @@
+{
+  "key": "1512",
+  "kind": "word",
+  "display": "gachon",
+  "senses": [
+    {
+      "id": "belly",
+      "ru": "брюхо",
+      "stems": [
+        "брюх",
+        "чрев"
+      ],
+      "gloss": "брюхо",
+      "evidence": [
+        "Gen.3.14",
+        "Lev.11.42"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

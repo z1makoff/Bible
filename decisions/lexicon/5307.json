@@ -1,0 +1,41 @@
+{
+  "key": "5307",
+  "kind": "word",
+  "display": "nafal",
+  "senses": [
+    {
+      "id": "fall",
+      "ru": "упасть",
+      "stems": [
+        "пал",
+        "пад"
+      ],
+      "gloss": "падать",
+      "evidence": [
+        "Gen.14.10"
+      ]
+    },
+    {
+      "id": "cause-fall",
+      "ru": "навести",
+      "stems": [
+        "навёл",
+        "навод",
+        "навед"
+      ],
+      "gloss": "заставить упасть, навести (hiphil)",
+      "evidence": [
+        "Gen.2.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "3462",
+  "kind": "word",
+  "display": "yashen",
+  "senses": [
+    {
+      "id": "sleep",
+      "ru": "уснуть",
+      "stems": [
+        "усн",
+        "спа",
+        "спи"
+      ],
+      "gloss": "спать, уснуть",
+      "evidence": [
+        "Gen.2.21",
+        "Gen.41.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

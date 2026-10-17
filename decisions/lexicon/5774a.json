@@ -1,0 +1,28 @@
+{
+  "key": "5774a",
+  "kind": "word",
+  "display": "uf",
+  "senses": [
+    {
+      "id": "fly",
+      "ru": "летать",
+      "stems": [
+        "лета"
+      ],
+      "gloss": "летать",
+      "evidence": [
+        "Gen.1.20",
+        "Isa.6.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

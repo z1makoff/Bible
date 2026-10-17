@@ -1,0 +1,32 @@
+{
+  "key": "5301",
+  "kind": "word",
+  "display": "nafach",
+  "senses": [
+    {
+      "id": "blow",
+      "ru": "дунуть",
+      "stems": [
+        "дунул",
+        "дуть",
+        "дует",
+        "дуют",
+        "вдунул"
+      ],
+      "gloss": "дуть, вдуть",
+      "evidence": [
+        "Gen.2.7",
+        "Ezek.37.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}

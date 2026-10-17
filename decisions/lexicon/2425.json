@@ -1,0 +1,28 @@
+{
+  "key": "2425",
+  "kind": "word",
+  "display": "chayay",
+  "senses": [
+    {
+      "id": "live",
+      "ru": "жить",
+      "stems": [
+        "жи"
+      ],
+      "gloss": "жить",
+      "evidence": [
+        "Gen.3.22",
+        "Exod.33.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано в пилоте Быт 1–3"
+    }
+  ]
+}
