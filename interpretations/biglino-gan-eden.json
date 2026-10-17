@@ -1,0 +1,66 @@
+{
+ "id": "biglino-gan-eden",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "1588",
+  "5731b"
+ ],
+ "places": [
+  "Gen.2.8",
+  "Gen.2.15"
+ ],
+ "claim": "gan — от корня «огораживать»: gan be-Eden — огороженный и охраняемый участок в области Эдем, к востоку. Это реальная местность, а не «рай» в позднем смысле. Адама сделали в другом месте и поместили туда (2:8, 2:15). Бильино считает участок опытным хозяйством, лабораторией Elohim.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-bibbia-non-parla",
+  "chapter": "VII. Paradiso terrestre o laboratorio sperimentale?",
+  "quote": "consenta di ipotizzare l'impianto di un laboratorio sperimentale",
+  "quoteRu": "позволяет предположить устройство опытной лаборатории",
+  "checked": "2026-10-17",
+  "page": "135"
+ },
+ "support": [
+  {
+   "claim": "gan — огороженное место.",
+   "grade": "supported",
+   "for": [
+    "Song.4.12"
+   ],
+   "against": [],
+   "note": "BDB в проекте: «enclosure, garden»; Strong: «a garden (as fenced)». Песн 4:12 — «сад запертый»."
+  },
+  {
+   "claim": "Эдем — географическая область; текст называет реки, среди них Тигр и Евфрат.",
+   "grade": "entailed",
+   "for": [
+    "Gen.2.10",
+    "Gen.2.14",
+    "Gen.4.16"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Адама сделали вне сада и затем поместили в него.",
+   "grade": "strong",
+   "for": [
+    "Gen.2.7",
+    "Gen.2.8",
+    "Gen.2.15"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Сад — опытная лаборатория Elohim.",
+   "grade": "speculative",
+   "for": [],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано по книге, отрывок проверен по файлу"
+  }
+ ]
+}

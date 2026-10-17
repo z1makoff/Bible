@@ -10,6 +10,8 @@ import sys
 from functools import lru_cache
 from pathlib import Path
 
+import books
+
 ROOT = Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
 LEXICON = ROOT / "decisions" / "lexicon"
@@ -242,7 +244,43 @@ def check_chapter(path, lex, rep, version):
                 rep.error(where, f"разбор места {all_words[wid]['tr']}: не объяснено решение")
 
 
+def check_source(src, where, rep):
+    """Источник трактовки (правила, раздел 6): книга из каталога и дословный отрывок, найденный в ней."""
+    if not src.get("checked"):
+        rep.error(where, "нет проверенного источника (дата проверки) — такую трактовку вносить нельзя")
+    kind = src.get("kind")
+    if kind == "book":
+        b = books.book(src.get("book", ""))
+        if not b:
+            rep.error(where, f"книги «{src.get('book')}» нет в каталоге library/books.json")
+            return
+        quote = src.get("quote", "")
+        if not quote:
+            rep.error(where, "нет отрывка цитаты из книги")
+            return
+        if books.quote_words(quote) > books.MAX_QUOTE_WORDS:
+            rep.error(where, f"отрывок длиннее {books.MAX_QUOTE_WORDS} слов")
+        if not src.get("quoteRu"):
+            rep.error(where, "нет русского перевода отрывка (quoteRu)")
+        if src.get("page") and not b.get("pages"):
+            rep.error(where, "в этом издании нет печатных страниц — страницу не указывают")
+        found = books.find_quote(b["id"], quote)
+        if found is False:
+            rep.error(where, f"отрывок не найден в книге «{b['title']}»")
+        elif found is None:
+            rep.warn(where, f"отрывок не проверен: книги «{b['title']}» нет на диске или PDF нечем прочитать")
+    elif kind == "video":
+        if not (src.get("title") and src.get("url") and src.get("time")):
+            rep.error(where, "у видео нужны название, ссылка и минута")
+    elif kind == "web":
+        if not (src.get("title") and src.get("url")):
+            rep.error(where, "у страницы нужны название и ссылка")
+    else:
+        rep.error(where, f"неизвестный вид источника «{kind}» (book, video, web)")
+
+
 def check_interpretations(rep):
+    used_books = set()
     for path in sorted(INTERPRETATIONS.glob("*.json")):
         where = f"трактовка/{path.name}"
         try:
@@ -256,10 +294,9 @@ def check_interpretations(rep):
             if not it.get(field):
                 rep.error(where, f"не заполнено поле {field}")
         src = it.get("source") or {}
-        if not src.get("title") or not src.get("checked"):
-            rep.error(where, "нет проверенного источника (название и дата проверки) — такую трактовку вносить нельзя")
-        if not (src.get("page") or src.get("time") or src.get("url")):
-            rep.error(where, "в источнике не указано место: страница, минута или ссылка")
+        check_source(src, where, rep)
+        if src.get("kind") == "book" and books.book(src.get("book", "")):
+            used_books.add(src["book"])
         for c in it.get("lemmas", []):
             if c not in lexemes():
                 rep.error(where, f"слова {c} нет в корпусе")
@@ -274,6 +311,9 @@ def check_interpretations(rep):
             for ref in s.get("for", []) + s.get("against", []):
                 if not ref_exists(ref):
                     rep.error(where, f"места {ref} нет в корпусе")
+    for book_id in sorted(used_books):
+        if books.file_matches(books.book(book_id)) is False:
+            rep.warn(f"книга/{book_id}", "файл на диске не совпадает с каталогом (SHA-256): другое издание или копия")
 
 
 def main():

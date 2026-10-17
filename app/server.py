@@ -54,6 +54,7 @@ class Data:
         self.book_ids = {b["id"] for b in self.books}
         self.lexemes = read_json(CORPUS / "lexemes.json")
         self.occurrences = read_json(CORPUS / "occurrences.json")
+        self.library = {b["id"]: b for b in read_json(ROOT / "library" / "books.json", {"books": []})["books"]}
         self.syn_only = {}
         for s in read_json(CORPUS / "ot" / "synodal-only.json", []):
             self.syn_only.setdefault(s["after"], []).append(s)
@@ -86,6 +87,11 @@ class Data:
             if it and (key in it.get("lemmas", []) or (not it.get("lemmas") and ref in it.get("places", []))):
                 for s in it.get("support", []):
                     s["gradeRu"] = RULE_GRADES.get(s.get("grade"), s.get("grade"))
+                src = it.get("source") or {}
+                book = self.library.get(src.get("book"))
+                if book:
+                    src["title"] = book["title"]
+                    src["edition"] = ", ".join(str(x) for x in (book.get("publisher"), book.get("year")) if x)
                 out.append(it)
         return out
 

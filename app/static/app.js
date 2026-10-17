@@ -277,13 +277,15 @@ function interpretationsBlock(lex) {
   if (!lex.interpretations.length) return "";
   return `<h3>Трактовки</h3>` + lex.interpretations.map((it) => {
     const src = it.source || {};
-    const where = [src.page && `с. ${src.page}`, src.time, src.url && `<a href="${esc(src.url)}" target="_blank" rel="noopener">ссылка</a>`].filter(Boolean).join(", ");
+    const where = [src.chapter && `глава «${esc(src.chapter)}»`, src.page && `с. ${esc(src.page)}`, src.time && esc(src.time),
+      src.url && `<a href="${esc(src.url)}" target="_blank" rel="noopener">ссылка</a>`].filter(Boolean).join(", ");
+    const quote = src.quote ? `<blockquote class="quote">«${esc(src.quote)}»${src.quoteRu ? `<br><small>${esc(src.quoteRu)}</small>` : ""}</blockquote>` : "";
     return `<div class="interp"><p><b>${esc(it.tradition)}:</b> ${esc(it.claim)}</p>
       <ul>${(it.support || []).map((s) => `<li><span class="grade">${esc(s.gradeRu)}</span> — ${esc(s.claim)}
         ${s.for?.length ? `<br><small>за: ${s.for.map(refLink).join(", ")}</small>` : ""}
         ${s.against?.length ? `<br><small>против: ${s.against.map(refLink).join(", ")}</small>` : ""}
         ${s.note ? `<br><small>${esc(s.note)}</small>` : ""}</li>`).join("")}</ul>
-      <p class="src">Источник: ${esc(src.title)}${src.edition ? `, ${esc(src.edition)}` : ""}${where ? `, ${where}` : ""}</p></div>`;
+      <p class="src">Источник: <i>${esc(src.title)}</i>${src.edition ? `, ${esc(src.edition)}` : ""}${where ? `, ${where}` : ""}</p>${quote}</div>`;
   }).join("");
 }
 

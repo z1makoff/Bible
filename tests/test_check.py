@@ -119,13 +119,62 @@ class CheckGen11(unittest.TestCase):
         rep = self.run_check(v)
         self.assertError(rep, "служебным может быть только приставка, окончание")
 
+    def interpretation(self, **source):
+        return {"id": "test-claim", "tradition": "Автор", "claim": "утверждение", "lemmas": ["430"],
+                "places": ["Gen.1.1"], "source": source,
+                "support": [{"claim": "часть", "grade": "compatible", "for": ["Gen.1.1"], "against": []}]}
+
+    def book_source(self, **changes):
+        src = {"kind": "book", "book": "test-book", "quote": "короткий отрывок из книги",
+               "quoteRu": "короткий отрывок из книги", "checked": "2026-10-17"}
+        src.update(changes)
+        return src
+
+    def with_book(self, found, pages=False):
+        """Подменяет каталог книг: одна книга test-book, цитата находится или нет."""
+        orig = check.books.book, check.books.find_quote, check.books.file_matches
+        check.books.book = lambda i: {"id": i, "title": "Тест", "pages": pages} if i == "test-book" else None
+        check.books.find_quote = lambda i, q: found
+        check.books.file_matches = lambda b: True
+        self.addCleanup(lambda: setattr(check.books, "book", orig[0]))
+        self.addCleanup(lambda: setattr(check.books, "find_quote", orig[1]))
+        self.addCleanup(lambda: setattr(check.books, "file_matches", orig[2]))
+
     def test_interpretation_needs_checked_source(self):
-        it = {"id": "test-claim", "tradition": "Автор", "claim": "утверждение", "lemmas": ["430"],
-              "places": ["Gen.1.1"], "source": {"title": "Книга"},
-              "support": [{"claim": "часть", "grade": "compatible", "for": ["Gen.1.1"], "against": []}]}
-        rep = self.run_check(interpretation=it)
+        rep = self.run_check(interpretation=self.interpretation(title="Книга"))
         self.assertError(rep, "нет проверенного источника")
-        self.assertError(rep, "не указано место")
+        self.assertError(rep, "неизвестный вид источника")
+
+    def test_book_quote_found_passes(self):
+        self.with_book(found=True)
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source()))
+        self.assertEqual(rep.errors, [])
+        self.assertFalse(any("трактовка" in w for w in rep.warnings))
+
+    def test_book_quote_not_found(self):
+        self.with_book(found=False)
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source()))
+        self.assertError(rep, "отрывок не найден")
+
+    def test_book_unavailable_is_warning(self):
+        self.with_book(found=None)
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source()))
+        self.assertEqual(rep.errors, [])
+        self.assertTrue(any("не проверен" in w for w in rep.warnings))
+
+    def test_book_source_rules(self):
+        self.with_book(found=True)
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source(book="other")))
+        self.assertError(rep, "нет в каталоге")
+        long_quote = " ".join(["слово"] * 16)
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source(quote=long_quote, quoteRu="")))
+        self.assertError(rep, "длиннее 15 слов")
+        self.assertError(rep, "нет русского перевода")
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source(page="12")))
+        self.assertError(rep, "нет печатных страниц")
+
+    def test_letters_ignore_hyphenation_and_quotes(self):
+        self.assertEqual(check.books.letters("dell’ac-\nqua «là-acque»"), check.books.letters("dell'acqua \"là acque\""))
 
 
 if __name__ == "__main__":

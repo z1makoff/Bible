@@ -11,6 +11,8 @@
 | `decisions/lexicon/` | Словарь решений: один файл на словарное слово | Claude, с подтверждения пользователя |
 | `translations/ot/<Книга>/<ггг>.json` | Перевод главы, по словам | Claude |
 | `interpretations/` | Трактовки: один файл на трактовку | Claude, только с проверенным источником |
+| `library/books.json` | Каталог книг-источников трактовок (сами файлы — вне репозитория, в `../Книги Бильино`) | Claude |
+| `.cache/` | Извлечённый текст книг для поиска цитат. Не хранится в git | только `tools/books.py` |
 | `user/` | Решения и заметки пользователя из читалки | читалка |
 | `tools/` | Скрипты: загрузка, сборка, проверка | — |
 
@@ -88,13 +90,18 @@
   "lemmas": ["430"],
   "places": ["Gen.1.1"],
   "claim": "Пересказ утверждения без усиления",
-  "source": {"kind": "book", "title": "…", "edition": "…", "page": "…", "checked": "2026-10-17"},
+  "source": {"kind": "book", "book": "biglino-non-ce-creazione", "chapter": "Concludendo",
+             "quote": "дословный отрывок на языке книги, до 15 слов", "quoteRu": "его перевод", "checked": "2026-10-17"},
   "support": [
     {"claim": "Отдельное ключевое утверждение", "grade": "compatible",
      "for": ["Gen.1.26"], "against": ["Deut.4.35"], "note": "…"}
   ]
 }
 ```
+
+Источник (`source`): `kind` — `book`, `video` или `web`. Для книги: `book` — id из `library/books.json`, `quote` — дословный отрывок (проверка ищет его в файле книги, не обращая внимания на переносы, пробелы и кавычки), `quoteRu`, `chapter` (необязательно), `page` — только если у издания `pages: true`. Для видео: `title`, `url`, `time`. Для страницы: `title`, `url`.
+
+Каталог книг: `folder` — папка с файлами (от корня проекта); у книги `id`, `title`, `author`, `publisher`, `year`, `isbn`, `lang`, `pages` (есть ли печатные номера страниц), `file`, `sha256`.
 
 `grade` — шкала из правил, раздел 6: `entailed`, `strong`, `supported`, `plausible`, `compatible`, `speculative`, `contradicted`. В интерфейсе показываются только русские названия.
 

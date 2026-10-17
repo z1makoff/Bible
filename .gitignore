@@ -3,3 +3,4 @@ __pycache__/
 *.part
 user/*.tmp
 user/server.log
+.cache/

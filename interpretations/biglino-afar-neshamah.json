@@ -1,0 +1,69 @@
+{
+ "id": "biglino-afar-neshamah",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3335",
+  "6083",
+  "5397",
+  "5315"
+ ],
+ "places": [
+  "Gen.2.7"
+ ],
+ "claim": "Быт 2:7 рассказывает о том же действии, что 1:26–27, другими словами. yatsar — «придать форму»; afar — не просто пыль, а «земное вещество». Вдувание nishmat chayim — не вложение души: новое существо начинает дышать само. Бильино сопоставляет это с шумерскими рассказами и предполагает смешение генетического материала Elohim и земного существа.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "7. La tecnologia degli Elohim e l’[adam]",
+  "quote": "il nuovo essere inizia a respirare autonomamente e diviene così un individuo dotato di vita",
+  "quoteRu": "новое существо начинает дышать самостоятельно и так становится живым индивидом",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "yatsar — придавать форму, как гончар.",
+   "grade": "supported",
+   "for": [
+    "Isa.29.16",
+    "Isa.45.9",
+    "Jer.18.4"
+   ],
+   "against": []
+  },
+  {
+   "claim": "neshamah — дыхание.",
+   "grade": "supported",
+   "for": [
+    "Gen.7.22",
+    "1Kgs.17.17",
+    "Isa.2.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Выражение nefesh chayah «живое существо» в 2:7 то же, что о животных.",
+   "grade": "entailed",
+   "for": [
+    "Gen.1.20",
+    "Gen.1.24",
+    "Gen.2.19"
+   ],
+   "against": [],
+   "note": "Текст не выделяет человека особой «душой»: то же выражение стоит о животных."
+  },
+  {
+   "claim": "Это смешение генетического материала Elohim и земного существа.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Шумерских текстов (TEEMA, TIIT) в источниках проекта нет; сам библейский текст о смешении не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано по книге, отрывок проверен по файлу"
+  }
+ ]
+}

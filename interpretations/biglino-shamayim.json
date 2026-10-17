@@ -1,0 +1,55 @@
+{
+ "id": "biglino-shamayim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "8064"
+ ],
+ "places": [
+  "Gen.1.1",
+  "Gen.1.8"
+ ],
+ "claim": "Слово shamayim буквально значит «там — воды» (sham + mayim): место, где есть вода, по-видимому высоко. В Быт 1 это вода, удержанная над raqia. Значение «небо» Бильино считает переносом: так стали называть место, откуда идёт дождь.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "9. … ingegneria idraulica?",
+  "quote": "significa letteralmente «là-acque», indica cioè un luogo in cui si trova dell’acqua",
+  "quoteRu": "значит буквально «там — воды», то есть обозначает место, где находится вода",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "shamayim — сложение sham «там» и mayim «воды».",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Это разбор по созвучию. Словари проекта такого происхождения не дают: BDB этимологии не приводит, Strong связывает слово с идеей высоты. Словари — подсказка, а не доказательство (правила, раздел 1)."
+  },
+  {
+   "claim": "В Быт 1:8 shamayim — имя, которое дано raqia, разделяющей воды.",
+   "grade": "entailed",
+   "for": [
+    "Gen.1.7",
+    "Gen.1.8"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Над shamayim находится вода, откуда идёт дождь.",
+   "grade": "supported",
+   "for": [
+    "Gen.7.11",
+    "Gen.8.2",
+    "Ps.148.4"
+   ],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано по книге, отрывок проверен по файлу"
+  }
+ ]
+}

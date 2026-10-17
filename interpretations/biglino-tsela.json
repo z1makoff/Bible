@@ -1,0 +1,68 @@
+{
+ "id": "biglino-tsela",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "6763",
+  "8639",
+  "1129"
+ ],
+ "places": [
+  "Gen.2.21",
+  "Gen.2.22"
+ ],
+ "claim": "tsela — не «ребро», а «боковая часть». Женщину сделали операцией: глубокий сон как наркоз, взятие чего-то из боковой части тела, закрытие плоти. banah — «строить, перестраивать». Бильино предполагает взятие клеток (например, стволовых) и выращивание из них женщины.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "7. La tecnologia degli Elohim e l’[adam]",
+  "quote": "possiamo pensare che [tzela] indichi la parte laterale e curva del corpo umano",
+  "quoteRu": "можно думать, что tsela обозначает боковую изогнутую часть человеческого тела",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "В других местах tsela — бок, сторона (ковчега, скинии, храма).",
+   "grade": "supported",
+   "for": [
+    "Exod.25.12",
+    "Exod.26.20",
+    "1Kgs.6.5"
+   ],
+   "against": [],
+   "note": "Словарь решений проекта: бок, боковая комната, доска. BDB даёт «rib, side»."
+  },
+  {
+   "claim": "Текст описывает глубокий сон, взятие одной из tsela и закрытие плоти.",
+   "grade": "entailed",
+   "for": [
+    "Gen.2.21"
+   ],
+   "against": []
+  },
+  {
+   "claim": "banah — «строить».",
+   "grade": "supported",
+   "for": [
+    "Gen.2.22",
+    "Gen.4.17",
+    "Gen.8.20"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это хирургическое взятие клеток и выращивание из них женщины.",
+   "grade": "speculative",
+   "for": [
+    "Gen.2.21"
+   ],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано по книге, отрывок проверен по файлу"
+  }
+ ]
+}
