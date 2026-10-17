@@ -1,0 +1,28 @@
+{
+  "key": "7918",
+  "kind": "word",
+  "display": "shakhakh",
+  "senses": [
+    {
+      "id": "subside",
+      "ru": "утихнуть",
+      "stems": [
+        "утих"
+      ],
+      "gloss": "утихнуть, спасть",
+      "evidence": [
+        "Gen.8.1",
+        "Esth.2.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

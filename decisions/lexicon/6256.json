@@ -1,0 +1,28 @@
+{
+  "key": "6256",
+  "kind": "word",
+  "display": "et",
+  "senses": [
+    {
+      "id": "time",
+      "ru": "время",
+      "stems": [
+        "врем"
+      ],
+      "gloss": "время, пора",
+      "evidence": [
+        "Gen.8.11",
+        "Gen.18.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

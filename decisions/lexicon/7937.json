@@ -1,0 +1,28 @@
+{
+  "key": "7937",
+  "kind": "word",
+  "display": "shakhar",
+  "senses": [
+    {
+      "id": "drunk",
+      "ru": "опьянеть",
+      "stems": [
+        "пьян"
+      ],
+      "gloss": "опьянеть, напиться допьяна",
+      "evidence": [
+        "Gen.9.21",
+        "Gen.43.34"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

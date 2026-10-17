@@ -1,0 +1,28 @@
+{
+  "key": "1696",
+  "kind": "word",
+  "display": "davar",
+  "senses": [
+    {
+      "id": "speak",
+      "ru": "говорить",
+      "stems": [
+        "говор"
+      ],
+      "gloss": "говорить (другой глагол, чем amar — «сказать»)",
+      "evidence": [
+        "Gen.8.15",
+        "Gen.12.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

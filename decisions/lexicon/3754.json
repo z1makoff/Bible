@@ -1,0 +1,28 @@
+{
+  "key": "3754",
+  "kind": "word",
+  "display": "kerem",
+  "senses": [
+    {
+      "id": "vineyard",
+      "ru": "виноградник",
+      "stems": [
+        "виноградник"
+      ],
+      "gloss": "виноградник",
+      "evidence": [
+        "Gen.9.20",
+        "Exod.22.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "3709",
+  "kind": "word",
+  "display": "kaf",
+  "senses": [
+    {
+      "id": "palm",
+      "ru": "ладонь",
+      "stems": [
+        "ладон"
+      ],
+      "gloss": "ладонь, горсть",
+      "evidence": [
+        "Gen.20.5",
+        "Gen.40.11"
+      ]
+    },
+    {
+      "id": "sole",
+      "ru": "подошва",
+      "stems": [
+        "подошв"
+      ],
+      "gloss": "подошва ноги («kaf ноги»)",
+      "evidence": [
+        "Gen.8.9",
+        "Deut.2.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

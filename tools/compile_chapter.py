@@ -10,6 +10,7 @@ Spec format (one verse per block):
   x 01JoL причина исключения
   o 01JoL причина пропуска
   p 01JoL fit1,fit2 | почему
+  n 01JoL пояснение к слову (идиома, игра слов, разночтение) — в «Почему здесь так», без значка ◇
 Tokens: текст/ид[+ид]:вид — вид: fn, lat или id значения (для нескольких слов: s1+s2).
 [текст] — вставка (серым). Токен без «/» — знак препинания. «_» в тексте — пробел.
 Неупомянутые слова с меткой et (853) пропускаются автоматически с причиной «et».
@@ -35,9 +36,16 @@ for raw in spec_path.read_text("utf-8").splitlines():
         cur = {"n": int(line[1:]), "spans": []}
         verses.append(cur)
         continue
-    m = re.match(r"^([gxop]) (\w+) (.*)$", line)
+    m = re.match(r"^([gxopn]) (\w+) (.*)$", line)
     if m and not re.match(r"^\S+/", line):
         kind, wid, rest = m.groups()
+        if kind == "n":
+            cands = [s for s in cur["spans"] if wid in s.get("w", [])]
+            content = next((s for s in cands if s.get("k") is None and "s" in s), None)
+            sense = content and (content["s"].get(wid) if isinstance(content["s"], dict) else content["s"])
+            place = cur.setdefault("places", {}).setdefault(wid, {"fits": [sense] if sense else [], "why": ""})
+            place["why"] = (place["why"] + " " + rest).strip()
+            continue
         if kind == "o":
             cur.setdefault("omit", {})[wid] = rest
         elif kind == "p":
@@ -64,6 +72,8 @@ for raw in spec_path.read_text("utf-8").splitlines():
             cur["spans"].append({"t": tok, "k": "p"})
         else:
             text, rest = tok.split("/", 1)
+            if ":" not in rest:
+                sys.exit(f"{cur['n']}: «{tok}» — нужно текст/номер:значение")
             ids, tag = rest.split(":", 1)
             ids = ids.split("+")
             sp = {"t": text.replace("_", " "), "w": ids}

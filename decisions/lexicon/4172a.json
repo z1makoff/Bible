@@ -1,0 +1,28 @@
+{
+  "key": "4172a",
+  "kind": "word",
+  "display": "mora",
+  "senses": [
+    {
+      "id": "fear",
+      "ru": "страх",
+      "stems": [
+        "страх"
+      ],
+      "gloss": "страх",
+      "evidence": [
+        "Gen.9.2",
+        "Deut.4.34"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

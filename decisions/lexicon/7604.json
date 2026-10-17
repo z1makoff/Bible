@@ -1,0 +1,28 @@
+{
+  "key": "7604",
+  "kind": "word",
+  "display": "shaar",
+  "senses": [
+    {
+      "id": "remain",
+      "ru": "остаться",
+      "stems": [
+        "оста"
+      ],
+      "gloss": "остаться",
+      "evidence": [
+        "Gen.7.23",
+        "Gen.14.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

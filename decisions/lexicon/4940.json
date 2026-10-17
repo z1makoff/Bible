@@ -1,0 +1,28 @@
+{
+  "key": "4940",
+  "kind": "word",
+  "display": "mishpachah",
+  "senses": [
+    {
+      "id": "clan",
+      "ru": "семейство",
+      "stems": [
+        "семейств"
+      ],
+      "gloss": "семейство, род-клан",
+      "evidence": [
+        "Gen.8.19",
+        "Gen.10.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

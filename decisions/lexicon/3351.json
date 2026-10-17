@@ -1,0 +1,29 @@
+{
+  "key": "3351",
+  "kind": "word",
+  "display": "yequm",
+  "senses": [
+    {
+      "id": "existing",
+      "ru": "сущее",
+      "stems": [
+        "сущ"
+      ],
+      "gloss": "всё, что существует, стоит (от qum); только Быт 7:4, 23 и Втор 11:6",
+      "evidence": [
+        "Gen.7.4",
+        "Gen.7.23",
+        "Deut.11.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

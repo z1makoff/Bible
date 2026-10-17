@@ -1,0 +1,28 @@
+{
+  "key": "3123",
+  "kind": "word",
+  "display": "yonah",
+  "senses": [
+    {
+      "id": "dove",
+      "ru": "голубка",
+      "stems": [
+        "голуб"
+      ],
+      "gloss": "голубка, голубь",
+      "evidence": [
+        "Gen.8.8",
+        "Gen.8.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

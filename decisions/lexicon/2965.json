@@ -1,0 +1,27 @@
+{
+  "key": "2965",
+  "kind": "word",
+  "display": "taraf",
+  "senses": [
+    {
+      "id": "freshly-plucked",
+      "ru": "свежесорванный",
+      "stems": [
+        "сорван"
+      ],
+      "gloss": "только что сорванный",
+      "evidence": [
+        "Gen.8.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

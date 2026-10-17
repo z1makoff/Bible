@@ -1,0 +1,29 @@
+{
+  "key": "6605a",
+  "kind": "word",
+  "display": "patach",
+  "senses": [
+    {
+      "id": "open",
+      "ru": "открыть",
+      "stems": [
+        "откр",
+        "отвор"
+      ],
+      "gloss": "открыть, отворить",
+      "evidence": [
+        "Gen.7.11",
+        "Gen.8.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

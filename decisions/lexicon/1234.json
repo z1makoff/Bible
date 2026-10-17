@@ -1,0 +1,28 @@
+{
+  "key": "1234",
+  "kind": "word",
+  "display": "baqa",
+  "senses": [
+    {
+      "id": "split",
+      "ru": "расколоть",
+      "stems": [
+        "раскол"
+      ],
+      "gloss": "расколоть, рассечь; niphal — раскалываться, прорываться",
+      "evidence": [
+        "Gen.7.11",
+        "Exod.14.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2320",
+  "kind": "word",
+  "display": "chodesh",
+  "senses": [
+    {
+      "id": "month",
+      "ru": "месяц",
+      "stems": [
+        "месяц"
+      ],
+      "gloss": "месяц; также новолуние (1 Цар 20:5)",
+      "evidence": [
+        "Gen.7.11",
+        "Gen.8.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

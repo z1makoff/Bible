@@ -1,0 +1,28 @@
+{
+  "key": "2527",
+  "kind": "word",
+  "display": "chom",
+  "senses": [
+    {
+      "id": "heat",
+      "ru": "зной",
+      "stems": [
+        "зно"
+      ],
+      "gloss": "жара, зной",
+      "evidence": [
+        "Gen.8.22",
+        "Gen.18.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

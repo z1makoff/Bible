@@ -1,0 +1,28 @@
+{
+  "key": "2022",
+  "kind": "word",
+  "display": "har",
+  "senses": [
+    {
+      "id": "mountain",
+      "ru": "гора",
+      "stems": [
+        "гор"
+      ],
+      "gloss": "гора, нагорье",
+      "evidence": [
+        "Gen.7.19",
+        "Gen.8.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

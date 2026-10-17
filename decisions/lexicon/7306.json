@@ -1,0 +1,30 @@
+{
+  "key": "7306",
+  "kind": "word",
+  "display": "riach",
+  "senses": [
+    {
+      "id": "smell",
+      "ru": "обонять",
+      "stems": [
+        "обоня",
+        "чуя",
+        "чуял"
+      ],
+      "gloss": "обонять, учуять запах",
+      "evidence": [
+        "Gen.8.21",
+        "Gen.27.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

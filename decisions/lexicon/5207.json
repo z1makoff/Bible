@@ -1,0 +1,28 @@
+{
+  "key": "5207",
+  "kind": "word",
+  "display": "nichoach",
+  "senses": [
+    {
+      "id": "soothing",
+      "ru": "успокоение",
+      "stems": [
+        "успоко"
+      ],
+      "gloss": "успокаивающий, умиротворяющий (о запахе приношения; от nuach)",
+      "evidence": [
+        "Gen.8.21",
+        "Lev.1.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

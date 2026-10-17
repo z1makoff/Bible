@@ -1,0 +1,28 @@
+{
+  "key": "6158",
+  "kind": "word",
+  "display": "orev",
+  "senses": [
+    {
+      "id": "raven",
+      "ru": "ворон",
+      "stems": [
+        "ворон"
+      ],
+      "gloss": "ворон",
+      "evidence": [
+        "Gen.8.7",
+        "1Kgs.17.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

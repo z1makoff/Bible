@@ -1,0 +1,28 @@
+{
+  "key": "1396",
+  "kind": "word",
+  "display": "gavar",
+  "senses": [
+    {
+      "id": "prevail",
+      "ru": "одолевать",
+      "stems": [
+        "одол"
+      ],
+      "gloss": "быть сильным, одолевать, брать верх (тот же корень, что gibbor)",
+      "evidence": [
+        "Gen.7.18",
+        "Exod.17.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

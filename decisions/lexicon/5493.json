@@ -1,0 +1,43 @@
+{
+  "key": "5493",
+  "kind": "word",
+  "display": "sur",
+  "senses": [
+    {
+      "id": "turn-aside",
+      "ru": "свернуть",
+      "stems": [
+        "сверн",
+        "свора"
+      ],
+      "gloss": "свернуть, отойти",
+      "evidence": [
+        "Gen.19.2"
+      ]
+    },
+    {
+      "id": "remove",
+      "ru": "снять",
+      "stems": [
+        "снял",
+        "сним",
+        "снят",
+        "сня"
+      ],
+      "gloss": "hiphil: снять, убрать",
+      "evidence": [
+        "Gen.8.13",
+        "Gen.35.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

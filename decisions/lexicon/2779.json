@@ -1,0 +1,28 @@
+{
+  "key": "2779",
+  "kind": "word",
+  "display": "choref",
+  "senses": [
+    {
+      "id": "winter",
+      "ru": "зима",
+      "stems": [
+        "зим"
+      ],
+      "gloss": "зима, холодное время года",
+      "evidence": [
+        "Gen.8.22",
+        "Amos.3.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

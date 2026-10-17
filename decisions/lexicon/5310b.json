@@ -1,0 +1,28 @@
+{
+  "key": "5310b",
+  "kind": "word",
+  "display": "napats",
+  "senses": [
+    {
+      "id": "spread",
+      "ru": "рассеяться",
+      "stems": [
+        "рассе"
+      ],
+      "gloss": "рассеяться, разойтись по местам",
+      "evidence": [
+        "Gen.9.19",
+        "1Sam.13.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

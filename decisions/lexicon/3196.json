@@ -1,0 +1,28 @@
+{
+  "key": "3196",
+  "kind": "word",
+  "display": "yayin",
+  "senses": [
+    {
+      "id": "wine",
+      "ru": "вино",
+      "stems": [
+        "вин"
+      ],
+      "gloss": "вино",
+      "evidence": [
+        "Gen.9.21",
+        "Gen.14.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

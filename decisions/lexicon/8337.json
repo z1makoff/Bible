@@ -1,0 +1,27 @@
+{
+  "key": "8337",
+  "kind": "word",
+  "display": "shesh",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "шесть",
+      "stems": [
+        "шест"
+      ],
+      "gloss": "числительное «шесть»",
+      "evidence": [
+        "Gen.7.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

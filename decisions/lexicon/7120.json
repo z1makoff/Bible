@@ -1,0 +1,27 @@
+{
+  "key": "7120",
+  "kind": "word",
+  "display": "qor",
+  "senses": [
+    {
+      "id": "cold",
+      "ru": "холод",
+      "stems": [
+        "холод"
+      ],
+      "gloss": "холод",
+      "evidence": [
+        "Gen.8.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

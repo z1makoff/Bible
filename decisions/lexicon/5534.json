@@ -1,0 +1,29 @@
+{
+  "key": "5534",
+  "kind": "word",
+  "display": "sakhar",
+  "senses": [
+    {
+      "id": "stop-up",
+      "ru": "заткнуть",
+      "stems": [
+        "заткн",
+        "затык"
+      ],
+      "gloss": "закрыть, заткнуть (источник)",
+      "evidence": [
+        "Gen.8.2",
+        "Ps.63.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

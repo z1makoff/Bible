@@ -1,0 +1,28 @@
+{
+  "key": "4494",
+  "kind": "word",
+  "display": "manoach",
+  "senses": [
+    {
+      "id": "rest-place",
+      "ru": "место покоя",
+      "stems": [
+        "поко"
+      ],
+      "gloss": "место покоя, пристанище (от nuach)",
+      "evidence": [
+        "Gen.8.9",
+        "Deut.28.65"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

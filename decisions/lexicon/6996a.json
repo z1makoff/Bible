@@ -1,0 +1,31 @@
+{
+  "key": "6996a",
+  "kind": "word",
+  "display": "qatan",
+  "senses": [
+    {
+      "id": "small",
+      "ru": "малый",
+      "stems": [
+        "мал",
+        "меньш",
+        "младш"
+      ],
+      "gloss": "малый; младший",
+      "evidence": [
+        "Gen.9.24",
+        "Gen.29.16",
+        "Deut.25.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

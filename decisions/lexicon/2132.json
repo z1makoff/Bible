@@ -1,0 +1,29 @@
+{
+  "key": "2132",
+  "kind": "word",
+  "display": "zayit",
+  "senses": [
+    {
+      "id": "olive",
+      "ru": "маслина",
+      "stems": [
+        "маслин",
+        "маслич"
+      ],
+      "gloss": "маслина (дерево и плод)",
+      "evidence": [
+        "Gen.8.11",
+        "Exod.27.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

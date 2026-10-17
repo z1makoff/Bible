@@ -1,0 +1,29 @@
+{
+  "key": "7097a",
+  "kind": "word",
+  "display": "qatseh",
+  "senses": [
+    {
+      "id": "edge",
+      "ru": "исход",
+      "stems": [
+        "исход",
+        "кра"
+      ],
+      "gloss": "край, конец, окраина; mi-qtseh — «по исходе»",
+      "evidence": [
+        "Gen.8.3",
+        "Gen.19.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

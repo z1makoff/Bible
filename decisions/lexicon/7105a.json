@@ -1,0 +1,28 @@
+{
+  "key": "7105a",
+  "kind": "word",
+  "display": "qatsir",
+  "senses": [
+    {
+      "id": "harvest",
+      "ru": "жатва",
+      "stems": [
+        "жатв"
+      ],
+      "gloss": "жатва",
+      "evidence": [
+        "Gen.8.22",
+        "Gen.30.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

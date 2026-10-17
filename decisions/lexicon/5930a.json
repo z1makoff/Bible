@@ -1,0 +1,28 @@
+{
+  "key": "5930a",
+  "kind": "word",
+  "display": "olah",
+  "senses": [
+    {
+      "id": "burnt-offering",
+      "ru": "всесожжение",
+      "stems": [
+        "всесожж"
+      ],
+      "gloss": "приношение, сжигаемое целиком (от alah — «подниматься»)",
+      "evidence": [
+        "Gen.8.20",
+        "Gen.22.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

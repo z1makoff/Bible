@@ -1,0 +1,28 @@
+{
+  "key": "7381",
+  "kind": "word",
+  "display": "reach",
+  "senses": [
+    {
+      "id": "scent",
+      "ru": "запах",
+      "stems": [
+        "запах"
+      ],
+      "gloss": "запах",
+      "evidence": [
+        "Gen.8.21",
+        "Gen.27.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

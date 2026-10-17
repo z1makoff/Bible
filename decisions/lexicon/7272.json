@@ -1,0 +1,28 @@
+{
+  "key": "7272",
+  "kind": "word",
+  "display": "regel",
+  "senses": [
+    {
+      "id": "foot",
+      "ru": "нога",
+      "stems": [
+        "ног"
+      ],
+      "gloss": "нога, ступня",
+      "evidence": [
+        "Gen.8.9",
+        "Gen.18.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

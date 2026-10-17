@@ -1,0 +1,28 @@
+{
+  "key": "3176",
+  "kind": "word",
+  "display": "yachal",
+  "senses": [
+    {
+      "id": "wait",
+      "ru": "ожидать",
+      "stems": [
+        "ожид"
+      ],
+      "gloss": "ожидать, надеяться",
+      "evidence": [
+        "Gen.8.12",
+        "Ps.31.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

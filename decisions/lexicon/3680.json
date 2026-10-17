@@ -1,0 +1,28 @@
+{
+  "key": "3680",
+  "kind": "word",
+  "display": "kasah",
+  "senses": [
+    {
+      "id": "cover",
+      "ru": "покрыть",
+      "stems": [
+        "покр"
+      ],
+      "gloss": "покрыть, укрыть",
+      "evidence": [
+        "Gen.7.19",
+        "Gen.9.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

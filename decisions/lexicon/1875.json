@@ -1,0 +1,41 @@
+{
+  "key": "1875",
+  "kind": "word",
+  "display": "darash",
+  "senses": [
+    {
+      "id": "seek",
+      "ru": "искать",
+      "stems": [
+        "иск"
+      ],
+      "gloss": "искать, вопрошать",
+      "evidence": [
+        "Gen.25.22",
+        "Deut.4.29"
+      ]
+    },
+    {
+      "id": "require",
+      "ru": "взыскать",
+      "stems": [
+        "взыск",
+        "взыщ"
+      ],
+      "gloss": "требовать, взыскивать",
+      "evidence": [
+        "Gen.9.5",
+        "Gen.42.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "4372",
+  "kind": "word",
+  "display": "mikhseh",
+  "senses": [
+    {
+      "id": "covering",
+      "ru": "покров",
+      "stems": [
+        "покров",
+        "покрыш"
+      ],
+      "gloss": "покрышка, покров (от kasah — «покрыть»)",
+      "evidence": [
+        "Gen.8.13",
+        "Exod.26.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

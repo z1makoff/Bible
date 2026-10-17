@@ -1,0 +1,28 @@
+{
+  "key": "6051",
+  "kind": "word",
+  "display": "anan",
+  "senses": [
+    {
+      "id": "cloud",
+      "ru": "облако",
+      "stems": [
+        "облак"
+      ],
+      "gloss": "облако, туча",
+      "evidence": [
+        "Gen.9.13",
+        "Exod.13.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

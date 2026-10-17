@@ -1,0 +1,29 @@
+{
+  "key": "1653",
+  "kind": "word",
+  "display": "geshem",
+  "senses": [
+    {
+      "id": "downpour",
+      "ru": "ливень",
+      "stems": [
+        "ливн",
+        "ливен"
+      ],
+      "gloss": "ливень, сильный дождь",
+      "evidence": [
+        "Gen.7.12",
+        "Gen.8.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем matar — «дождь».",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "7223",
+  "kind": "word",
+  "display": "rishon",
+  "senses": [
+    {
+      "id": "first",
+      "ru": "первый",
+      "stems": [
+        "перв"
+      ],
+      "gloss": "первый; прежний",
+      "evidence": [
+        "Gen.8.13",
+        "Gen.13.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "2142",
+  "kind": "word",
+  "display": "zakhar",
+  "senses": [
+    {
+      "id": "remember",
+      "ru": "вспомнить",
+      "stems": [
+        "помн",
+        "помин"
+      ],
+      "gloss": "помнить, вспомнить, иметь в виду",
+      "evidence": [
+        "Gen.8.1",
+        "Gen.9.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

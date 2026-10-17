@@ -1,0 +1,28 @@
+{
+  "key": "4599",
+  "kind": "word",
+  "display": "mayan",
+  "senses": [
+    {
+      "id": "spring",
+      "ru": "источник",
+      "stems": [
+        "источник"
+      ],
+      "gloss": "источник, родник",
+      "evidence": [
+        "Gen.7.11",
+        "Gen.8.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

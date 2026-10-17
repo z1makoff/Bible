@@ -1,0 +1,28 @@
+{
+  "key": "1709",
+  "kind": "word",
+  "display": "dag",
+  "senses": [
+    {
+      "id": "fish",
+      "ru": "рыба",
+      "stems": [
+        "рыб"
+      ],
+      "gloss": "рыба (ср. dagah, 1:26)",
+      "evidence": [
+        "Gen.9.2",
+        "Num.11.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

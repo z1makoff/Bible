@@ -1,0 +1,31 @@
+{
+  "key": "2637",
+  "kind": "word",
+  "display": "chaser",
+  "senses": [
+    {
+      "id": "decrease",
+      "ru": "убывать",
+      "stems": [
+        "убыв",
+        "убыл",
+        "убав"
+      ],
+      "gloss": "убывать; недоставать",
+      "evidence": [
+        "Gen.8.3",
+        "Gen.8.5",
+        "Gen.18.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "322",
+  "kind": "word",
+  "display": "achorannit",
+  "senses": [
+    {
+      "id": "backwards",
+      "ru": "задом",
+      "stems": [
+        "задом",
+        "назад"
+      ],
+      "gloss": "назад, задом наперёд",
+      "evidence": [
+        "Gen.9.23",
+        "1Sam.4.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

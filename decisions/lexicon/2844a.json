@@ -1,0 +1,27 @@
+{
+  "key": "2844a",
+  "kind": "word",
+  "display": "chat",
+  "senses": [
+    {
+      "id": "dread",
+      "ru": "ужас",
+      "stems": [
+        "ужас"
+      ],
+      "gloss": "ужас, потрясение",
+      "evidence": [
+        "Gen.9.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

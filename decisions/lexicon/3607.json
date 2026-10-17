@@ -1,0 +1,28 @@
+{
+  "key": "3607",
+  "kind": "word",
+  "display": "kala",
+  "senses": [
+    {
+      "id": "restrain",
+      "ru": "удержать",
+      "stems": [
+        "удерж"
+      ],
+      "gloss": "удержать, остановить, запереть",
+      "evidence": [
+        "Gen.8.2",
+        "Gen.23.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

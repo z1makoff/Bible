@@ -1,0 +1,28 @@
+{
+  "key": "2724",
+  "kind": "word",
+  "display": "charavah",
+  "senses": [
+    {
+      "id": "dry-land",
+      "ru": "суша",
+      "stems": [
+        "суш"
+      ],
+      "gloss": "суша, сухая земля",
+      "evidence": [
+        "Gen.7.22",
+        "Exod.14.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

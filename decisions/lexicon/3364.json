@@ -1,0 +1,29 @@
+{
+  "key": "3364",
+  "kind": "word",
+  "display": "yaqats",
+  "senses": [
+    {
+      "id": "awake",
+      "ru": "проснуться",
+      "stems": [
+        "просну",
+        "пробуд"
+      ],
+      "gloss": "проснуться, пробудиться",
+      "evidence": [
+        "Gen.9.24",
+        "Gen.28.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

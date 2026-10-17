@@ -1,0 +1,29 @@
+{
+  "key": "8354",
+  "kind": "word",
+  "display": "shatah",
+  "senses": [
+    {
+      "id": "drink",
+      "ru": "пить",
+      "stems": [
+        "пи",
+        "пь"
+      ],
+      "gloss": "пить",
+      "evidence": [
+        "Gen.9.21",
+        "Gen.24.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

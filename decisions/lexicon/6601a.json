@@ -1,0 +1,27 @@
+{
+  "key": "6601a",
+  "kind": "word",
+  "display": "patah",
+  "senses": [
+    {
+      "id": "enlarge",
+      "ru": "расширить",
+      "stems": [
+        "расшир"
+      ],
+      "gloss": "сделать просторным, расширить (созвучно имени Yefet)",
+      "evidence": [
+        "Gen.9.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

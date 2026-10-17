@@ -1,0 +1,31 @@
+{
+  "key": "8210",
+  "kind": "word",
+  "display": "shafakh",
+  "senses": [
+    {
+      "id": "pour",
+      "ru": "пролить",
+      "stems": [
+        "прол",
+        "лить",
+        "льёт",
+        "лье"
+      ],
+      "gloss": "лить, проливать",
+      "evidence": [
+        "Gen.9.6",
+        "Gen.37.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}

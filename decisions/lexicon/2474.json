@@ -1,0 +1,29 @@
+{
+  "key": "2474",
+  "kind": "word",
+  "display": "challon",
+  "senses": [
+    {
+      "id": "window",
+      "ru": "окно",
+      "stems": [
+        "окн",
+        "окон"
+      ],
+      "gloss": "окно",
+      "evidence": [
+        "Gen.8.6",
+        "Gen.26.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 7–9"
+    }
+  ]
+}
