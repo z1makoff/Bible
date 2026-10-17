@@ -1,0 +1,28 @@
+{
+  "key": "5209",
+  "kind": "word",
+  "display": "nin",
+  "senses": [
+    {
+      "id": "offspring",
+      "ru": "отпрыск",
+      "stems": [
+        "отпрыск"
+      ],
+      "gloss": "отпрыск, потомок (всегда в паре с neked)",
+      "evidence": [
+        "Gen.21.23",
+        "Job.18.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

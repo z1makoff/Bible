@@ -1,0 +1,28 @@
+{
+  "key": "4682",
+  "kind": "word",
+  "display": "matstsah",
+  "senses": [
+    {
+      "id": "unleavened",
+      "ru": "опреснок",
+      "stems": [
+        "опресн"
+      ],
+      "gloss": "опреснок — пресный, не заквашенный хлеб",
+      "evidence": [
+        "Gen.19.3",
+        "Exod.12.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

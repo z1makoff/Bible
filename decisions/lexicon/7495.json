@@ -1,0 +1,28 @@
+{
+  "key": "7495",
+  "kind": "word",
+  "display": "rafa",
+  "senses": [
+    {
+      "id": "heal",
+      "ru": "исцелить",
+      "stems": [
+        "исцел"
+      ],
+      "gloss": "исцелить, вылечить",
+      "evidence": [
+        "Gen.20.17",
+        "Exod.15.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "4705",
+  "kind": "word",
+  "display": "mitsar",
+  "senses": [
+    {
+      "id": "trifle",
+      "ru": "малость",
+      "stems": [
+        "малост"
+      ],
+      "gloss": "малость, немногое (созвучно Tsoar — 19:22)",
+      "evidence": [
+        "Gen.19.20",
+        "Job.8.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

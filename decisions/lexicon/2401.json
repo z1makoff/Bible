@@ -1,0 +1,28 @@
+{
+  "key": "2401",
+  "kind": "word",
+  "display": "chataah",
+  "senses": [
+    {
+      "id": "great-sin",
+      "ru": "прегрешение",
+      "stems": [
+        "прегреш"
+      ],
+      "gloss": "прегрешение, тяжкий грех (другое слово, чем chattat — «грех»)",
+      "evidence": [
+        "Gen.20.9",
+        "Exod.32.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

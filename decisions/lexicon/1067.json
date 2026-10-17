@@ -1,0 +1,28 @@
+{
+  "key": "1067",
+  "kind": "word",
+  "display": "bekhirah",
+  "senses": [
+    {
+      "id": "firstborn-f",
+      "ru": "первородная",
+      "stems": [
+        "первород"
+      ],
+      "gloss": "первородная, старшая дочь",
+      "evidence": [
+        "Gen.19.31",
+        "Gen.29.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

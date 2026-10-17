@@ -1,0 +1,39 @@
+{
+  "key": "2860",
+  "kind": "word",
+  "display": "chatan",
+  "senses": [
+    {
+      "id": "son-in-law",
+      "ru": "зять",
+      "stems": [
+        "зят"
+      ],
+      "gloss": "зять — муж дочери",
+      "evidence": [
+        "Gen.19.12",
+        "Gen.19.14"
+      ]
+    },
+    {
+      "id": "bridegroom",
+      "ru": "жених",
+      "stems": [
+        "жених"
+      ],
+      "gloss": "жених",
+      "evidence": [
+        "Exod.4.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

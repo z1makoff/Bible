@@ -1,0 +1,29 @@
+{
+  "key": "241",
+  "kind": "word",
+  "display": "ozen",
+  "senses": [
+    {
+      "id": "ear",
+      "ru": "ухо",
+      "stems": [
+        "уш",
+        "ух"
+      ],
+      "gloss": "ухо",
+      "evidence": [
+        "Gen.20.8",
+        "Gen.23.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

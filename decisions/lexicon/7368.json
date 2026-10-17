@@ -1,0 +1,29 @@
+{
+  "key": "7368",
+  "kind": "word",
+  "display": "rachaq",
+  "senses": [
+    {
+      "id": "be-far",
+      "ru": "удалиться",
+      "stems": [
+        "удал",
+        "отдал"
+      ],
+      "gloss": "удалиться, быть далеко",
+      "evidence": [
+        "Gen.21.16",
+        "Gen.44.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

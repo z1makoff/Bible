@@ -1,0 +1,28 @@
+{
+  "key": "2472",
+  "kind": "word",
+  "display": "chalom",
+  "senses": [
+    {
+      "id": "dream",
+      "ru": "сновидение",
+      "stems": [
+        "сновид"
+      ],
+      "gloss": "сновидение (другое слово, чем tardemah — «глубокий сон»)",
+      "evidence": [
+        "Gen.20.3",
+        "Gen.37.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "7650",
+  "kind": "word",
+  "display": "shava",
+  "senses": [
+    {
+      "id": "swear",
+      "ru": "поклясться",
+      "stems": [
+        "кляс",
+        "клян",
+        "клял"
+      ],
+      "gloss": "поклясться (niphal); hiphil — взять клятву",
+      "evidence": [
+        "Gen.21.23",
+        "Gen.21.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

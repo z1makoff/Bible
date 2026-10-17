@@ -1,0 +1,30 @@
+{
+  "key": "644",
+  "kind": "word",
+  "display": "afah",
+  "senses": [
+    {
+      "id": "bake",
+      "ru": "испечь",
+      "stems": [
+        "пек",
+        "пёк",
+        "печ"
+      ],
+      "gloss": "печь, испечь (хлеб)",
+      "evidence": [
+        "Gen.19.3",
+        "Gen.40.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

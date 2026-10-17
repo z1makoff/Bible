@@ -1,0 +1,28 @@
+{
+  "key": "3243",
+  "kind": "word",
+  "display": "yanaq",
+  "senses": [
+    {
+      "id": "nurse",
+      "ru": "кормить грудью",
+      "stems": [
+        "груд"
+      ],
+      "gloss": "сосать; hiphil — кормить грудью",
+      "evidence": [
+        "Gen.21.7",
+        "Gen.24.59"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

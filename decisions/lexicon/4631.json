@@ -1,0 +1,28 @@
+{
+  "key": "4631",
+  "kind": "word",
+  "display": "mearah",
+  "senses": [
+    {
+      "id": "cave",
+      "ru": "пещера",
+      "stems": [
+        "пещер"
+      ],
+      "gloss": "пещера",
+      "evidence": [
+        "Gen.19.30",
+        "Gen.23.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

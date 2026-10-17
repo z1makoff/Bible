@@ -1,0 +1,28 @@
+{
+  "key": "1614",
+  "kind": "word",
+  "display": "gofrit",
+  "senses": [
+    {
+      "id": "sulfur",
+      "ru": "сера",
+      "stems": [
+        "сер"
+      ],
+      "gloss": "сера",
+      "evidence": [
+        "Gen.19.24",
+        "Deut.29.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

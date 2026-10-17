@@ -1,0 +1,28 @@
+{
+  "key": "3535",
+  "kind": "word",
+  "display": "kivsah",
+  "senses": [
+    {
+      "id": "ewe-lamb",
+      "ru": "овечка",
+      "stems": [
+        "овеч"
+      ],
+      "gloss": "овечка, ярочка",
+      "evidence": [
+        "Gen.21.28",
+        "2Sam.12.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5220",
+  "kind": "word",
+  "display": "neked",
+  "senses": [
+    {
+      "id": "descendant",
+      "ru": "потомок",
+      "stems": [
+        "потом"
+      ],
+      "gloss": "потомок (всегда в паре с nin)",
+      "evidence": [
+        "Gen.21.23",
+        "Job.18.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

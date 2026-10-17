@@ -1,0 +1,28 @@
+{
+  "key": "6712",
+  "kind": "word",
+  "display": "tsechoq",
+  "senses": [
+    {
+      "id": "laughter",
+      "ru": "смех",
+      "stems": [
+        "смех"
+      ],
+      "gloss": "смех (тот же корень, что tsachaq и Yitschaq)",
+      "evidence": [
+        "Gen.21.6",
+        "Ezek.23.32"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

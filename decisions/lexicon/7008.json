@@ -1,0 +1,28 @@
+{
+  "key": "7008",
+  "kind": "word",
+  "display": "qitor",
+  "senses": [
+    {
+      "id": "thick-smoke",
+      "ru": "чад",
+      "stems": [
+        "чад"
+      ],
+      "gloss": "чад, густой дым; мгла (Пс 148:8) — другое слово, чем ashan «дым»",
+      "evidence": [
+        "Gen.19.28",
+        "Ps.148.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

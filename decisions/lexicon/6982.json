@@ -1,0 +1,28 @@
+{
+  "key": "6982",
+  "kind": "word",
+  "display": "qorah",
+  "senses": [
+    {
+      "id": "beam",
+      "ru": "балка",
+      "stems": [
+        "балк"
+      ],
+      "gloss": "балка, бревно кровли",
+      "evidence": [
+        "Gen.19.8",
+        "2Kgs.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "505",
+  "kind": "word",
+  "display": "elef",
+  "senses": [
+    {
+      "id": "thousand",
+      "ru": "тысяча",
+      "stems": [
+        "тысяч"
+      ],
+      "gloss": "тысяча",
+      "evidence": [
+        "Gen.20.16",
+        "Gen.24.60"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

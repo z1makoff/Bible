@@ -1,0 +1,28 @@
+{
+  "key": "2909",
+  "kind": "word",
+  "display": "tachah",
+  "senses": [
+    {
+      "id": "shoot",
+      "ru": "метать",
+      "stems": [
+        "мета",
+        "метн"
+      ],
+      "gloss": "метать (стрелы); только здесь",
+      "evidence": [
+        "Gen.21.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

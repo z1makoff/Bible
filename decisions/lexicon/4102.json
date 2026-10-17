@@ -1,0 +1,29 @@
+{
+  "key": "4102",
+  "kind": "word",
+  "display": "mahah",
+  "senses": [
+    {
+      "id": "linger",
+      "ru": "медлить",
+      "stems": [
+        "медл",
+        "мешк"
+      ],
+      "gloss": "медлить, мешкать",
+      "evidence": [
+        "Gen.19.16",
+        "Gen.43.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

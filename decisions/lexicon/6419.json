@@ -1,0 +1,30 @@
+{
+  "key": "6419",
+  "kind": "word",
+  "display": "palal",
+  "senses": [
+    {
+      "id": "pray",
+      "ru": "помолиться",
+      "stems": [
+        "моли",
+        "молю",
+        "мольб"
+      ],
+      "gloss": "помолиться, ходатайствовать (hitpael)",
+      "evidence": [
+        "Gen.20.7",
+        "Gen.20.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

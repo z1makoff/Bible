@@ -1,0 +1,28 @@
+{
+  "key": "5356a",
+  "kind": "word",
+  "display": "niqqayon",
+  "senses": [
+    {
+      "id": "innocence",
+      "ru": "невинность",
+      "stems": [
+        "невин"
+      ],
+      "gloss": "невинность, чистота (рук)",
+      "evidence": [
+        "Gen.20.5",
+        "Ps.26.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

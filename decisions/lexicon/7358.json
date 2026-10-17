@@ -1,0 +1,28 @@
+{
+  "key": "7358",
+  "kind": "word",
+  "display": "rechem",
+  "senses": [
+    {
+      "id": "womb",
+      "ru": "чрево",
+      "stems": [
+        "чрев"
+      ],
+      "gloss": "чрево, утроба матери (другое слово, чем meeh — «утроба»)",
+      "evidence": [
+        "Gen.20.18",
+        "Gen.29.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

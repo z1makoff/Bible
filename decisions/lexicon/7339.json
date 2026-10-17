@@ -1,0 +1,28 @@
+{
+  "key": "7339",
+  "kind": "word",
+  "display": "rechov",
+  "senses": [
+    {
+      "id": "square",
+      "ru": "площадь",
+      "stems": [
+        "площад"
+      ],
+      "gloss": "площадь, открытое место в городе",
+      "evidence": [
+        "Gen.19.2",
+        "Judg.19.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

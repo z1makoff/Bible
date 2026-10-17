@@ -1,0 +1,28 @@
+{
+  "key": "3536",
+  "kind": "word",
+  "display": "kivshan",
+  "senses": [
+    {
+      "id": "kiln",
+      "ru": "горн",
+      "stems": [
+        "горн"
+      ],
+      "gloss": "горн, обжигательная печь (другое слово, чем tannur — «печь»)",
+      "evidence": [
+        "Gen.19.28",
+        "Exod.9.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

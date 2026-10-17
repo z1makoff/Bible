@@ -1,0 +1,28 @@
+{
+  "key": "2573",
+  "kind": "word",
+  "display": "chemet",
+  "senses": [
+    {
+      "id": "skin",
+      "ru": "мех",
+      "stems": [
+        "мех"
+      ],
+      "gloss": "мех — кожаный сосуд для воды",
+      "evidence": [
+        "Gen.21.14",
+        "Gen.21.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

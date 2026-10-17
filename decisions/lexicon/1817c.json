@@ -1,0 +1,28 @@
+{
+  "key": "1817c",
+  "kind": "word",
+  "display": "delet",
+  "senses": [
+    {
+      "id": "door",
+      "ru": "дверь",
+      "stems": [
+        "двер"
+      ],
+      "gloss": "дверь, створка (другое слово, чем petach — «вход»)",
+      "evidence": [
+        "Gen.19.6",
+        "Gen.19.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

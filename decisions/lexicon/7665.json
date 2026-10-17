@@ -1,0 +1,30 @@
+{
+  "key": "7665",
+  "kind": "word",
+  "display": "shavar",
+  "senses": [
+    {
+      "id": "break",
+      "ru": "сломать",
+      "stems": [
+        "слом",
+        "лом",
+        "взлом"
+      ],
+      "gloss": "сломать, разбить",
+      "evidence": [
+        "Gen.19.9",
+        "Exod.9.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

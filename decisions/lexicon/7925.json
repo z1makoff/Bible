@@ -1,0 +1,28 @@
+{
+  "key": "7925",
+  "kind": "word",
+  "display": "shakham",
+  "senses": [
+    {
+      "id": "rise-early",
+      "ru": "встать рано",
+      "stems": [
+        "рано"
+      ],
+      "gloss": "встать рано (hiphil)",
+      "evidence": [
+        "Gen.19.2",
+        "Gen.19.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

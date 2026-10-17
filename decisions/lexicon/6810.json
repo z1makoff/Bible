@@ -1,0 +1,28 @@
+{
+  "key": "6810",
+  "kind": "word",
+  "display": "tsair",
+  "senses": [
+    {
+      "id": "younger",
+      "ru": "младшая",
+      "stems": [
+        "младш"
+      ],
+      "gloss": "младший, меньший",
+      "evidence": [
+        "Gen.19.31",
+        "Gen.25.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

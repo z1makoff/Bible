@@ -1,0 +1,28 @@
+{
+  "key": "3682",
+  "kind": "word",
+  "display": "kesut",
+  "senses": [
+    {
+      "id": "covering",
+      "ru": "покрывало",
+      "stems": [
+        "покрывал"
+      ],
+      "gloss": "покрывало, одежда",
+      "evidence": [
+        "Gen.20.16",
+        "Exod.22.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5713a",
+  "kind": "word",
+  "display": "edah",
+  "senses": [
+    {
+      "id": "witness",
+      "ru": "свидетельство",
+      "stems": [
+        "свидетел"
+      ],
+      "gloss": "свидетельство",
+      "evidence": [
+        "Gen.21.30",
+        "Gen.31.52"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

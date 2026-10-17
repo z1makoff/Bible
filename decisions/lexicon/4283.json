@@ -1,0 +1,28 @@
+{
+  "key": "4283",
+  "kind": "word",
+  "display": "mochorat",
+  "senses": [
+    {
+      "id": "next-day",
+      "ru": "назавтра",
+      "stems": [
+        "завтр"
+      ],
+      "gloss": "следующий день; «mi-mmochorat» — назавтра",
+      "evidence": [
+        "Gen.19.34",
+        "Exod.9.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

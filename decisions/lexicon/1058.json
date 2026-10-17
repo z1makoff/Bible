@@ -1,0 +1,29 @@
+{
+  "key": "1058",
+  "kind": "word",
+  "display": "bakhah",
+  "senses": [
+    {
+      "id": "weep",
+      "ru": "плакать",
+      "stems": [
+        "плак",
+        "плач"
+      ],
+      "gloss": "плакать",
+      "evidence": [
+        "Gen.21.16",
+        "Gen.23.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

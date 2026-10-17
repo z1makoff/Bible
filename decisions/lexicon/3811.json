@@ -1,0 +1,29 @@
+{
+  "key": "3811",
+  "kind": "word",
+  "display": "laah",
+  "senses": [
+    {
+      "id": "weary",
+      "ru": "утомиться",
+      "stems": [
+        "утоми",
+        "утомл"
+      ],
+      "gloss": "утомиться, изнемочь",
+      "evidence": [
+        "Gen.19.11",
+        "Exod.7.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

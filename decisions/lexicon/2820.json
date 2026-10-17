@@ -1,0 +1,28 @@
+{
+  "key": "2820",
+  "kind": "word",
+  "display": "chasakh",
+  "senses": [
+    {
+      "id": "withhold",
+      "ru": "сдержать",
+      "stems": [
+        "сдерж"
+      ],
+      "gloss": "сдержать, удержать; не отдать, пожалеть (22:12)",
+      "evidence": [
+        "Gen.20.6",
+        "Gen.22.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "7138",
+  "kind": "word",
+  "display": "qarov",
+  "senses": [
+    {
+      "id": "near",
+      "ru": "близкий",
+      "stems": [
+        "близ"
+      ],
+      "gloss": "близкий, ближний",
+      "evidence": [
+        "Gen.19.20",
+        "Gen.45.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

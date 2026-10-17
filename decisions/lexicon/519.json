@@ -1,0 +1,28 @@
+{
+  "key": "519",
+  "kind": "word",
+  "display": "amah",
+  "senses": [
+    {
+      "id": "slave-woman",
+      "ru": "рабыня",
+      "stems": [
+        "рабын"
+      ],
+      "gloss": "рабыня (другое слово, чем shifchah — «служанка»)",
+      "evidence": [
+        "Gen.20.17",
+        "Gen.21.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

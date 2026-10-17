@@ -1,0 +1,28 @@
+{
+  "key": "2208",
+  "kind": "word",
+  "display": "zequnim",
+  "senses": [
+    {
+      "id": "old-age",
+      "ru": "старость",
+      "stems": [
+        "старост"
+      ],
+      "gloss": "старость",
+      "evidence": [
+        "Gen.21.2",
+        "Gen.21.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

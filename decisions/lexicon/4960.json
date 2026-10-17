@@ -1,0 +1,28 @@
+{
+  "key": "4960",
+  "kind": "word",
+  "display": "mishteh",
+  "senses": [
+    {
+      "id": "feast",
+      "ru": "пир",
+      "stems": [
+        "пир"
+      ],
+      "gloss": "пир, застолье (от shatah — «пить»)",
+      "evidence": [
+        "Gen.19.3",
+        "Gen.21.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}

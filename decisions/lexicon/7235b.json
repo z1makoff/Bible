@@ -1,0 +1,27 @@
+{
+  "key": "7235b",
+  "kind": "word",
+  "display": "ravah",
+  "senses": [
+    {
+      "id": "shoot",
+      "ru": "стрелять",
+      "stems": [
+        "стрел"
+      ],
+      "gloss": "стрелять (из лука); только здесь",
+      "evidence": [
+        "Gen.21.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 19–21"
+    }
+  ]
+}
