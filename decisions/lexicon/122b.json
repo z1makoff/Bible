@@ -1,0 +1,27 @@
+{
+  "key": "122b",
+  "kind": "word",
+  "display": "adom",
+  "senses": [
+    {
+      "id": "red",
+      "ru": "красное",
+      "stems": [
+        "красн"
+      ],
+      "gloss": "красное (о похлёбке; созвучно Edom)",
+      "evidence": [
+        "Gen.25.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

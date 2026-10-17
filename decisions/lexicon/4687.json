@@ -1,0 +1,28 @@
+{
+  "key": "4687",
+  "kind": "word",
+  "display": "mitsvah",
+  "senses": [
+    {
+      "id": "commandment",
+      "ru": "заповедь",
+      "stems": [
+        "заповед"
+      ],
+      "gloss": "заповедь, приказание (тот же корень, что tsavah — «приказать»)",
+      "evidence": [
+        "Gen.26.5",
+        "Exod.20.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "6561",
+  "kind": "word",
+  "display": "paraq",
+  "senses": [
+    {
+      "id": "tear-off",
+      "ru": "сорвать",
+      "stems": [
+        "сорв",
+        "сброс",
+        "сбрас"
+      ],
+      "gloss": "сорвать, сбросить",
+      "evidence": [
+        "Gen.27.40",
+        "Exod.32.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "553",
+  "kind": "word",
+  "display": "amats",
+  "senses": [
+    {
+      "id": "be-stronger",
+      "ru": "быть сильнее",
+      "stems": [
+        "сильн"
+      ],
+      "gloss": "быть сильным, крепким; превосходить силой",
+      "evidence": [
+        "Gen.25.23",
+        "Deut.31.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

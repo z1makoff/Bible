@@ -1,0 +1,29 @@
+{
+  "key": "4751",
+  "kind": "word",
+  "display": "mar",
+  "senses": [
+    {
+      "id": "bitter",
+      "ru": "горький",
+      "stems": [
+        "горьк",
+        "горек"
+      ],
+      "gloss": "горький",
+      "evidence": [
+        "Gen.27.34",
+        "Exod.15.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

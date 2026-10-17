@@ -1,0 +1,28 @@
+{
+  "key": "5640a",
+  "kind": "word",
+  "display": "satam",
+  "senses": [
+    {
+      "id": "stop-up",
+      "ru": "засыпать",
+      "stems": [
+        "засып"
+      ],
+      "gloss": "засыпать, закупорить (колодцы)",
+      "evidence": [
+        "Gen.26.15",
+        "2Kgs.3.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

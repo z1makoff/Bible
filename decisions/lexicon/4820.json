@@ -1,0 +1,28 @@
+{
+  "key": "4820",
+  "kind": "word",
+  "display": "mirmah",
+  "senses": [
+    {
+      "id": "deceit",
+      "ru": "хитрость",
+      "stems": [
+        "хитр"
+      ],
+      "gloss": "хитрость, обман (другое слово, чем nasha — «обмануть»)",
+      "evidence": [
+        "Gen.27.35",
+        "Gen.34.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

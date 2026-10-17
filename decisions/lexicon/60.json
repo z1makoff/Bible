@@ -1,0 +1,28 @@
+{
+  "key": "60",
+  "kind": "word",
+  "display": "evel",
+  "senses": [
+    {
+      "id": "mourning",
+      "ru": "траур",
+      "stems": [
+        "траур"
+      ],
+      "gloss": "траур, плач по умершему",
+      "evidence": [
+        "Gen.27.41",
+        "Gen.50.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

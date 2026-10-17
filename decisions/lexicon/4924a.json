@@ -1,0 +1,28 @@
+{
+  "key": "4924a",
+  "kind": "word",
+  "display": "shaman",
+  "senses": [
+    {
+      "id": "fatness",
+      "ru": "тучность",
+      "stems": [
+        "тучн"
+      ],
+      "gloss": "тучность, плодородие (только 27:28, 27:39)",
+      "evidence": [
+        "Gen.27.28",
+        "Gen.27.39"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2509",
+  "kind": "word",
+  "display": "chalaq",
+  "senses": [
+    {
+      "id": "smooth",
+      "ru": "гладкий",
+      "stems": [
+        "глад"
+      ],
+      "gloss": "гладкий",
+      "evidence": [
+        "Gen.27.11",
+        "Prov.5.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

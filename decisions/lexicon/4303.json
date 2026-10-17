@@ -1,0 +1,28 @@
+{
+  "key": "4303",
+  "kind": "word",
+  "display": "matam",
+  "senses": [
+    {
+      "id": "delicacy",
+      "ru": "лакомство",
+      "stems": [
+        "лаком"
+      ],
+      "gloss": "лакомство, вкусное блюдо",
+      "evidence": [
+        "Gen.27.4",
+        "Gen.27.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

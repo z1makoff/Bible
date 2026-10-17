@@ -1,0 +1,28 @@
+{
+  "key": "8535",
+  "kind": "word",
+  "display": "tam",
+  "senses": [
+    {
+      "id": "blameless",
+      "ru": "безупречный",
+      "stems": [
+        "безупреч"
+      ],
+      "gloss": "безупречный, цельный (Иов 1:1)",
+      "evidence": [
+        "Gen.25.27",
+        "Job.1.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

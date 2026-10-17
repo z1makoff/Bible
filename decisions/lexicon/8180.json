@@ -1,0 +1,27 @@
+{
+  "key": "8180",
+  "kind": "word",
+  "display": "shaar",
+  "senses": [
+    {
+      "id": "measure",
+      "ru": "крат",
+      "stems": [
+        "крат"
+      ],
+      "gloss": "мера; «сто shearim» — во сто крат (только здесь)",
+      "evidence": [
+        "Gen.26.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5657",
+  "kind": "word",
+  "display": "avuddah",
+  "senses": [
+    {
+      "id": "servants",
+      "ru": "челядь",
+      "stems": [
+        "челяд"
+      ],
+      "gloss": "челядь, домашние слуги",
+      "evidence": [
+        "Gen.26.14",
+        "Job.1.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "7911",
+  "kind": "word",
+  "display": "shakhach",
+  "senses": [
+    {
+      "id": "forget",
+      "ru": "забыть",
+      "stems": [
+        "забы",
+        "забуд"
+      ],
+      "gloss": "забыть",
+      "evidence": [
+        "Gen.27.45",
+        "Gen.40.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

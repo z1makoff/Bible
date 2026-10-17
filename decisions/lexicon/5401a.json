@@ -1,0 +1,29 @@
+{
+  "key": "5401a",
+  "kind": "word",
+  "display": "nashaq",
+  "senses": [
+    {
+      "id": "kiss",
+      "ru": "поцеловать",
+      "stems": [
+        "целов",
+        "целуй"
+      ],
+      "gloss": "поцеловать",
+      "evidence": [
+        "Gen.27.26",
+        "Gen.29.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

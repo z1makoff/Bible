@@ -1,0 +1,28 @@
+{
+  "key": "2729",
+  "kind": "word",
+  "display": "charad",
+  "senses": [
+    {
+      "id": "tremble",
+      "ru": "задрожать",
+      "stems": [
+        "дрож"
+      ],
+      "gloss": "задрожать, трепетать",
+      "evidence": [
+        "Gen.27.33",
+        "Exod.19.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

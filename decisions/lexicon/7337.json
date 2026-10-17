@@ -1,0 +1,29 @@
+{
+  "key": "7337",
+  "kind": "word",
+  "display": "rachav",
+  "senses": [
+    {
+      "id": "make-room",
+      "ru": "дать простор",
+      "stems": [
+        "простор",
+        "расшир"
+      ],
+      "gloss": "расширить, дать простор (отсюда Rechovot)",
+      "evidence": [
+        "Gen.26.22",
+        "Deut.12.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

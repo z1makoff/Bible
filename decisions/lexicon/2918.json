@@ -1,0 +1,28 @@
+{
+  "key": "2918",
+  "kind": "word",
+  "display": "tirah",
+  "senses": [
+    {
+      "id": "encampment",
+      "ru": "стоянка",
+      "stems": [
+        "стоянк"
+      ],
+      "gloss": "стоянка, кочевой лагерь, огороженное становище",
+      "evidence": [
+        "Gen.25.16",
+        "Num.31.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

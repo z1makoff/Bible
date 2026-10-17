@@ -1,0 +1,28 @@
+{
+  "key": "2691b",
+  "kind": "word",
+  "display": "chatser",
+  "senses": [
+    {
+      "id": "settlement",
+      "ru": "селение",
+      "stems": [
+        "селени"
+      ],
+      "gloss": "селение, неукреплённое поселение",
+      "evidence": [
+        "Gen.25.16",
+        "Josh.13.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

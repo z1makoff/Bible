@@ -1,0 +1,27 @@
+{
+  "key": "6229",
+  "kind": "word",
+  "display": "asaq",
+  "senses": [
+    {
+      "id": "contend",
+      "ru": "препираться",
+      "stems": [
+        "препир"
+      ],
+      "gloss": "препираться (только здесь; отсюда Eseq)",
+      "evidence": [
+        "Gen.26.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

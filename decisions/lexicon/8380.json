@@ -1,0 +1,28 @@
+{
+  "key": "8380",
+  "kind": "word",
+  "display": "toam",
+  "senses": [
+    {
+      "id": "twins",
+      "ru": "близнецы",
+      "stems": [
+        "близнец"
+      ],
+      "gloss": "близнецы",
+      "evidence": [
+        "Gen.25.24",
+        "Gen.38.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

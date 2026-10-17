@@ -1,0 +1,28 @@
+{
+  "key": "8163a",
+  "kind": "word",
+  "display": "sair",
+  "senses": [
+    {
+      "id": "hairy",
+      "ru": "волосатый",
+      "stems": [
+        "волосат"
+      ],
+      "gloss": "волосатый",
+      "evidence": [
+        "Gen.27.11",
+        "Gen.27.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

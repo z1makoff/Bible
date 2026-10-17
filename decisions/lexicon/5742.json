@@ -1,0 +1,28 @@
+{
+  "key": "5742",
+  "kind": "word",
+  "display": "adashah",
+  "senses": [
+    {
+      "id": "lentil",
+      "ru": "чечевица",
+      "stems": [
+        "чечевиц"
+      ],
+      "gloss": "чечевица",
+      "evidence": [
+        "Gen.25.34",
+        "2Sam.17.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

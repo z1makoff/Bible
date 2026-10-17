@@ -1,0 +1,28 @@
+{
+  "key": "1432",
+  "kind": "word",
+  "display": "gadel",
+  "senses": [
+    {
+      "id": "growing",
+      "ru": "растущий",
+      "stems": [
+        "раст"
+      ],
+      "gloss": "растущий, становящийся великим",
+      "evidence": [
+        "Gen.26.13",
+        "1Sam.2.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

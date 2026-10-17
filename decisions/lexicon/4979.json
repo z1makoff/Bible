@@ -1,0 +1,28 @@
+{
+  "key": "4979",
+  "kind": "word",
+  "display": "mattanah",
+  "senses": [
+    {
+      "id": "gift",
+      "ru": "подарок",
+      "stems": [
+        "подар"
+      ],
+      "gloss": "подарок, дар (другое слово, чем minchah)",
+      "evidence": [
+        "Gen.25.6",
+        "Exod.28.38"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

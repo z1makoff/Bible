@@ -1,0 +1,28 @@
+{
+  "key": "6720",
+  "kind": "word",
+  "display": "tseidah",
+  "senses": [
+    {
+      "id": "provision",
+      "ru": "припас",
+      "stems": [
+        "припас"
+      ],
+      "gloss": "съестной припас, провизия (42:25); в 27:3 читается tsayid — «дичь»",
+      "evidence": [
+        "Gen.27.3",
+        "Gen.42.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

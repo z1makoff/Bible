@@ -1,0 +1,28 @@
+{
+  "key": "6105a",
+  "kind": "word",
+  "display": "atsam",
+  "senses": [
+    {
+      "id": "be-mightier",
+      "ru": "стать мощнее",
+      "stems": [
+        "мощн"
+      ],
+      "gloss": "стать мощнее, многочисленнее (тот же корень, что atsum — «мощный»)",
+      "evidence": [
+        "Gen.26.16",
+        "Exod.1.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

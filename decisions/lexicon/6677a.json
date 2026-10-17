@@ -1,0 +1,31 @@
+{
+  "key": "6677a",
+  "kind": "word",
+  "display": "tsavvar",
+  "senses": [
+    {
+      "id": "neck",
+      "ru": "шея",
+      "stems": [
+        "шею",
+        "шеи",
+        "шея",
+        "шее"
+      ],
+      "gloss": "шея",
+      "evidence": [
+        "Gen.27.16",
+        "Gen.27.40"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

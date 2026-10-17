@@ -1,0 +1,29 @@
+{
+  "key": "5889",
+  "kind": "word",
+  "display": "ayef",
+  "senses": [
+    {
+      "id": "exhausted",
+      "ru": "изнурённый",
+      "stems": [
+        "изнур",
+        "устал"
+      ],
+      "gloss": "изнурённый, усталый",
+      "evidence": [
+        "Gen.25.29",
+        "Deut.25.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

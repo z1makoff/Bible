@@ -1,0 +1,28 @@
+{
+  "key": "4184",
+  "kind": "word",
+  "display": "mush",
+  "senses": [
+    {
+      "id": "touch",
+      "ru": "пощупать",
+      "stems": [
+        "пощуп"
+      ],
+      "gloss": "пощупать (другое написание того же слова, что mashash)",
+      "evidence": [
+        "Gen.27.21",
+        "Ps.115.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

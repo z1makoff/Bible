@@ -1,0 +1,29 @@
+{
+  "key": "3543a",
+  "kind": "word",
+  "display": "kahah",
+  "senses": [
+    {
+      "id": "grow-dim",
+      "ru": "потускнеть",
+      "stems": [
+        "потускн",
+        "ослаб"
+      ],
+      "gloss": "потускнеть, ослабеть (о глазах)",
+      "evidence": [
+        "Gen.27.1",
+        "Deut.34.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

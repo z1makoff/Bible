@@ -1,0 +1,29 @@
+{
+  "key": "959",
+  "kind": "word",
+  "display": "bazah",
+  "senses": [
+    {
+      "id": "despise",
+      "ru": "пренебречь",
+      "stems": [
+        "пренебр",
+        "презр"
+      ],
+      "gloss": "пренебречь, презреть",
+      "evidence": [
+        "Gen.25.34",
+        "1Sam.2.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

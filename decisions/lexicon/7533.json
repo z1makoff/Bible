@@ -1,0 +1,29 @@
+{
+  "key": "7533",
+  "kind": "word",
+  "display": "ratsats",
+  "senses": [
+    {
+      "id": "crush",
+      "ru": "давить",
+      "stems": [
+        "дав",
+        "толк"
+      ],
+      "gloss": "давить, сокрушать; hitpolel — толкаться",
+      "evidence": [
+        "Gen.25.22",
+        "Judg.9.53"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "8181",
+  "kind": "word",
+  "display": "sear",
+  "senses": [
+    {
+      "id": "hair",
+      "ru": "волосы",
+      "stems": [
+        "волос"
+      ],
+      "gloss": "волосы, шерсть",
+      "evidence": [
+        "Gen.25.25",
+        "Lev.13.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

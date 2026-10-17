@@ -1,0 +1,40 @@
+{
+  "key": "817",
+  "kind": "word",
+  "display": "asham",
+  "senses": [
+    {
+      "id": "guilt",
+      "ru": "провинность",
+      "stems": [
+        "провин"
+      ],
+      "gloss": "провинность, вина (другое слово, чем avon)",
+      "evidence": [
+        "Gen.26.10",
+        "Lev.5.19"
+      ]
+    },
+    {
+      "id": "guilt-offering",
+      "ru": "жертва повинности",
+      "stems": [
+        "повинн"
+      ],
+      "gloss": "жертва повинности",
+      "evidence": [
+        "Lev.5.6",
+        "Lev.5.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

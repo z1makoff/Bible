@@ -1,0 +1,29 @@
+{
+  "key": "4376",
+  "kind": "word",
+  "display": "makhar",
+  "senses": [
+    {
+      "id": "sell",
+      "ru": "продать",
+      "stems": [
+        "прода",
+        "продав"
+      ],
+      "gloss": "продать",
+      "evidence": [
+        "Gen.25.31",
+        "Gen.37.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

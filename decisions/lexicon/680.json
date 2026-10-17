@@ -1,0 +1,28 @@
+{
+  "key": "680",
+  "kind": "word",
+  "display": "atsal",
+  "senses": [
+    {
+      "id": "reserve",
+      "ru": "отложить",
+      "stems": [
+        "отлож"
+      ],
+      "gloss": "отложить, оставить (для кого-то)",
+      "evidence": [
+        "Gen.27.36",
+        "Num.11.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

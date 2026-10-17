@@ -1,0 +1,28 @@
+{
+  "key": "990",
+  "kind": "word",
+  "display": "beten",
+  "senses": [
+    {
+      "id": "belly",
+      "ru": "живот",
+      "stems": [
+        "живот"
+      ],
+      "gloss": "живот; утроба матери (другое слово, чем rechem — «чрево»)",
+      "evidence": [
+        "Gen.25.23",
+        "Gen.25.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

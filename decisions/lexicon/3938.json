@@ -1,0 +1,27 @@
+{
+  "key": "3938",
+  "kind": "word",
+  "display": "laat",
+  "senses": [
+    {
+      "id": "gulp",
+      "ru": "заглотить",
+      "stems": [
+        "заглот"
+      ],
+      "gloss": "жадно заглотить (только здесь)",
+      "evidence": [
+        "Gen.25.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

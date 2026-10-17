@@ -1,0 +1,40 @@
+{
+  "key": "7065",
+  "kind": "word",
+  "display": "qana",
+  "senses": [
+    {
+      "id": "envy",
+      "ru": "завидовать",
+      "stems": [
+        "завид"
+      ],
+      "gloss": "завидовать",
+      "evidence": [
+        "Gen.26.14",
+        "Gen.30.1"
+      ]
+    },
+    {
+      "id": "be-jealous",
+      "ru": "ревновать",
+      "stems": [
+        "ревн",
+        "ревов"
+      ],
+      "gloss": "ревновать",
+      "evidence": [
+        "Num.5.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

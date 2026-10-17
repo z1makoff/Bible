@@ -1,0 +1,29 @@
+{
+  "key": "748",
+  "kind": "word",
+  "display": "arakh",
+  "senses": [
+    {
+      "id": "be-long",
+      "ru": "продлиться",
+      "stems": [
+        "продл",
+        "долг"
+      ],
+      "gloss": "продлиться, быть долгим",
+      "evidence": [
+        "Gen.26.8",
+        "Exod.20.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

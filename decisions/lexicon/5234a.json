@@ -1,0 +1,28 @@
+{
+  "key": "5234a",
+  "kind": "word",
+  "display": "nakar",
+  "senses": [
+    {
+      "id": "recognize",
+      "ru": "распознать",
+      "stems": [
+        "распозн"
+      ],
+      "gloss": "распознать, признать",
+      "evidence": [
+        "Gen.27.23",
+        "Gen.37.33"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

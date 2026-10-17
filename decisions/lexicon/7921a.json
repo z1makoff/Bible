@@ -1,0 +1,28 @@
+{
+  "key": "7921a",
+  "kind": "word",
+  "display": "shakhol",
+  "senses": [
+    {
+      "id": "be-bereaved",
+      "ru": "лишиться",
+      "stems": [
+        "лиш"
+      ],
+      "gloss": "лишиться (детей, близких)",
+      "evidence": [
+        "Gen.27.45",
+        "Gen.43.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

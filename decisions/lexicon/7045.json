@@ -1,0 +1,28 @@
+{
+  "key": "7045",
+  "kind": "word",
+  "display": "qelalah",
+  "senses": [
+    {
+      "id": "curse",
+      "ru": "проклятие",
+      "stems": [
+        "проклят"
+      ],
+      "gloss": "проклятие (от qalal — «умалять»; другое слово, чем arar)",
+      "evidence": [
+        "Gen.27.12",
+        "Deut.11.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}

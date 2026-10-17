@@ -1,0 +1,28 @@
+{
+  "key": "1715",
+  "kind": "word",
+  "display": "dagan",
+  "senses": [
+    {
+      "id": "grain",
+      "ru": "зерно",
+      "stems": [
+        "зерн"
+      ],
+      "gloss": "зерно, хлеб на корню",
+      "evidence": [
+        "Gen.27.28",
+        "Deut.7.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 25–27"
+    }
+  ]
+}
