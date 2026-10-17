@@ -1,0 +1,28 @@
+{
+  "key": "3999",
+  "kind": "word",
+  "display": "mabbul",
+  "senses": [
+    {
+      "id": "flood",
+      "ru": "потоп",
+      "stems": [
+        "потоп"
+      ],
+      "gloss": "потоп (о потопе при Ное; Пс 29:10)",
+      "evidence": [
+        "Gen.6.17",
+        "Gen.9.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

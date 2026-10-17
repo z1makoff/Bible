@@ -1,0 +1,29 @@
+{
+  "key": "520a",
+  "kind": "word",
+  "display": "ammah",
+  "senses": [
+    {
+      "id": "cubit",
+      "ru": "локоть",
+      "stems": [
+        "локт",
+        "локот"
+      ],
+      "gloss": "локоть — мера длины",
+      "evidence": [
+        "Gen.6.15",
+        "Gen.6.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

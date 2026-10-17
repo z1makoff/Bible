@@ -1,0 +1,28 @@
+{
+  "key": "6475",
+  "kind": "word",
+  "display": "patsah",
+  "senses": [
+    {
+      "id": "open",
+      "ru": "раскрыть",
+      "stems": [
+        "раскр"
+      ],
+      "gloss": "раскрыть, разинуть (рот)",
+      "evidence": [
+        "Gen.4.11",
+        "Num.16.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

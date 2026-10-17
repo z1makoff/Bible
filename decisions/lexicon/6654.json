@@ -1,0 +1,28 @@
+{
+  "key": "6654",
+  "kind": "word",
+  "display": "tsad",
+  "senses": [
+    {
+      "id": "side",
+      "ru": "сторона",
+      "stems": [
+        "сторон"
+      ],
+      "gloss": "сторона, бок",
+      "evidence": [
+        "Gen.6.16",
+        "Num.33.55"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

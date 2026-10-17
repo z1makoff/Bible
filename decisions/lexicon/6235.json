@@ -1,0 +1,27 @@
+{
+  "key": "6235",
+  "kind": "word",
+  "display": "eser",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "десять",
+      "stems": [
+        "десят"
+      ],
+      "gloss": "числительное «десять»",
+      "evidence": [
+        "Gen.5.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

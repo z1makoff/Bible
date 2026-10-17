@@ -1,0 +1,29 @@
+{
+  "key": "7969",
+  "kind": "word",
+  "display": "shalosh",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "три",
+      "stems": [
+        "три",
+        "трёх",
+        "трех"
+      ],
+      "gloss": "числительное «три»",
+      "evidence": [
+        "Gen.5.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

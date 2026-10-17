@@ -1,0 +1,28 @@
+{
+  "key": "1270",
+  "kind": "word",
+  "display": "barzel",
+  "senses": [
+    {
+      "id": "iron",
+      "ru": "железо",
+      "stems": [
+        "желез"
+      ],
+      "gloss": "железо",
+      "evidence": [
+        "Gen.4.22",
+        "Deut.3.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "8482",
+  "kind": "word",
+  "display": "tachti",
+  "senses": [
+    {
+      "id": "lower",
+      "ru": "нижний",
+      "stems": [
+        "нижн"
+      ],
+      "gloss": "нижний",
+      "evidence": [
+        "Gen.6.16",
+        "Deut.32.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

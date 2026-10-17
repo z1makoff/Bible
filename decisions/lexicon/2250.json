@@ -1,0 +1,28 @@
+{
+  "key": "2250",
+  "kind": "word",
+  "display": "chabburah",
+  "senses": [
+    {
+      "id": "bruise",
+      "ru": "ушиб",
+      "stems": [
+        "ушиб"
+      ],
+      "gloss": "ушиб, рубец от удара («ушиб за ушиб» — Исх 21:25)",
+      "evidence": [
+        "Exod.21.25",
+        "Isa.53.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

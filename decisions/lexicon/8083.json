@@ -1,0 +1,28 @@
+{
+  "key": "8083",
+  "kind": "word",
+  "display": "shmoneh",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "восемь",
+      "stems": [
+        "восем",
+        "восьм"
+      ],
+      "gloss": "числительное «восемь»",
+      "evidence": [
+        "Gen.5.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

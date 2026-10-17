@@ -1,0 +1,30 @@
+{
+  "key": "168",
+  "kind": "word",
+  "display": "ohel",
+  "senses": [
+    {
+      "id": "tent",
+      "ru": "шатёр",
+      "stems": [
+        "шатр",
+        "шатёр",
+        "шатер"
+      ],
+      "gloss": "шатёр",
+      "evidence": [
+        "Gen.4.20",
+        "Gen.9.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

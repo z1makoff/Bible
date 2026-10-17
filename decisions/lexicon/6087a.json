@@ -1,0 +1,28 @@
+{
+  "key": "6087a",
+  "kind": "word",
+  "display": "atsav",
+  "senses": [
+    {
+      "id": "grieve",
+      "ru": "огорчиться",
+      "stems": [
+        "огорч"
+      ],
+      "gloss": "огорчаться, скорбеть",
+      "evidence": [
+        "Gen.6.6",
+        "Gen.34.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

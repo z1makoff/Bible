@@ -1,0 +1,27 @@
+{
+  "key": "3724b",
+  "kind": "word",
+  "display": "kofer",
+  "senses": [
+    {
+      "id": "pitch",
+      "ru": "смола",
+      "stems": [
+        "смол"
+      ],
+      "gloss": "смола, битум",
+      "evidence": [
+        "Gen.6.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

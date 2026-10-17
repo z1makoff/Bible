@@ -1,0 +1,41 @@
+{
+  "key": "5162",
+  "kind": "word",
+  "display": "nacham",
+  "senses": [
+    {
+      "id": "comfort",
+      "ru": "утешить",
+      "stems": [
+        "утеш"
+      ],
+      "gloss": "piel: утешать",
+      "evidence": [
+        "Gen.5.29",
+        "Gen.37.35"
+      ]
+    },
+    {
+      "id": "regret",
+      "ru": "пожалеть",
+      "stems": [
+        "жале"
+      ],
+      "gloss": "niphal: пожалеть о сделанном, передумать",
+      "evidence": [
+        "Gen.6.6",
+        "Gen.6.7",
+        "Exod.32.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "312",
+  "kind": "word",
+  "display": "acher",
+  "senses": [
+    {
+      "id": "other",
+      "ru": "другой",
+      "stems": [
+        "друг"
+      ],
+      "gloss": "другой, иной",
+      "evidence": [
+        "Gen.4.25",
+        "Gen.8.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

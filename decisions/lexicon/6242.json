@@ -1,0 +1,27 @@
+{
+  "key": "6242",
+  "kind": "word",
+  "display": "esrim",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "двадцать",
+      "stems": [
+        "двадцат"
+      ],
+      "gloss": "числительное «двадцать»",
+      "evidence": [
+        "Gen.6.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

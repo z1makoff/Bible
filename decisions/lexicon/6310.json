@@ -1,0 +1,29 @@
+{
+  "key": "6310",
+  "kind": "word",
+  "display": "peh",
+  "senses": [
+    {
+      "id": "mouth",
+      "ru": "рот",
+      "stems": [
+        "рот",
+        "рт"
+      ],
+      "gloss": "рот, уста; отверстие",
+      "evidence": [
+        "Gen.4.11",
+        "Gen.8.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

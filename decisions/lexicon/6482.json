@@ -1,0 +1,28 @@
+{
+  "key": "6482",
+  "kind": "word",
+  "display": "petsa",
+  "senses": [
+    {
+      "id": "wound",
+      "ru": "рана",
+      "stems": [
+        "ран"
+      ],
+      "gloss": "рана",
+      "evidence": [
+        "Gen.4.23",
+        "Exod.21.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

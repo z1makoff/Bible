@@ -1,0 +1,28 @@
+{
+  "key": "565a",
+  "kind": "word",
+  "display": "imrah",
+  "senses": [
+    {
+      "id": "utterance",
+      "ru": "речь",
+      "stems": [
+        "реч"
+      ],
+      "gloss": "речь, изречение",
+      "evidence": [
+        "Gen.4.23",
+        "Deut.32.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

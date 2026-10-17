@@ -1,0 +1,39 @@
+{
+  "key": "1062",
+  "kind": "word",
+  "display": "bekhorah",
+  "senses": [
+    {
+      "id": "firstling",
+      "ru": "первенец",
+      "stems": [
+        "первен"
+      ],
+      "gloss": "первенец, первые детёныши стада",
+      "evidence": [
+        "Gen.4.4",
+        "Deut.12.17"
+      ]
+    },
+    {
+      "id": "birthright",
+      "ru": "первородство",
+      "stems": [
+        "первородств"
+      ],
+      "gloss": "право первородства",
+      "evidence": [
+        "Gen.25.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

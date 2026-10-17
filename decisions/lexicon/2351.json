@@ -1,0 +1,29 @@
+{
+  "key": "2351",
+  "kind": "word",
+  "display": "chuts",
+  "senses": [
+    {
+      "id": "outside",
+      "ru": "снаружи",
+      "stems": [
+        "снаруж",
+        "наруж"
+      ],
+      "gloss": "наружная сторона; mi-chuts — «снаружи»",
+      "evidence": [
+        "Gen.6.14",
+        "Gen.9.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

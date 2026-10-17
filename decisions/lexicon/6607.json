@@ -1,0 +1,29 @@
+{
+  "key": "6607",
+  "kind": "word",
+  "display": "petach",
+  "senses": [
+    {
+      "id": "entrance",
+      "ru": "вход",
+      "stems": [
+        "вход"
+      ],
+      "gloss": "вход, проход, дверной проём",
+      "evidence": [
+        "Gen.4.7",
+        "Gen.18.1",
+        "Gen.6.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

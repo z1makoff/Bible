@@ -1,0 +1,29 @@
+{
+  "key": "2029",
+  "kind": "word",
+  "display": "harah",
+  "senses": [
+    {
+      "id": "conceive",
+      "ru": "зачать",
+      "stems": [
+        "зача",
+        "зачн"
+      ],
+      "gloss": "зачать, забеременеть",
+      "evidence": [
+        "Gen.4.1",
+        "Gen.21.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

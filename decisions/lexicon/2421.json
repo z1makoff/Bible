@@ -1,0 +1,40 @@
+{
+  "key": "2421",
+  "kind": "word",
+  "display": "chayah",
+  "senses": [
+    {
+      "id": "live",
+      "ru": "жить",
+      "stems": [
+        "жи"
+      ],
+      "gloss": "жить (тот же глагол, что chayay)",
+      "evidence": [
+        "Gen.5.3",
+        "Gen.5.6"
+      ]
+    },
+    {
+      "id": "keep-alive",
+      "ru": "сохранить в живых",
+      "stems": [
+        "в живых"
+      ],
+      "gloss": "hiphil: сохранить в живых",
+      "evidence": [
+        "Gen.6.19",
+        "Gen.6.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

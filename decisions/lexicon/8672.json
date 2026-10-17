@@ -1,0 +1,27 @@
+{
+  "key": "8672",
+  "kind": "word",
+  "display": "tesha",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "девять",
+      "stems": [
+        "девят"
+      ],
+      "gloss": "числительное «девять»",
+      "evidence": [
+        "Gen.5.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

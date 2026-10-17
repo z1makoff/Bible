@@ -1,0 +1,28 @@
+{
+  "key": "251",
+  "kind": "word",
+  "display": "ach",
+  "senses": [
+    {
+      "id": "brother",
+      "ru": "брат",
+      "stems": [
+        "брат"
+      ],
+      "gloss": "брат; также сородич, соплеменник",
+      "evidence": [
+        "Gen.4.2",
+        "Gen.4.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

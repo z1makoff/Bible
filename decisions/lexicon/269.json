@@ -1,0 +1,28 @@
+{
+  "key": "269",
+  "kind": "word",
+  "display": "achot",
+  "senses": [
+    {
+      "id": "sister",
+      "ru": "сестра",
+      "stems": [
+        "сестр"
+      ],
+      "gloss": "сестра",
+      "evidence": [
+        "Gen.4.22",
+        "Gen.12.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

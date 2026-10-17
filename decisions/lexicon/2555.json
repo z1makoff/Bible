@@ -1,0 +1,28 @@
+{
+  "key": "2555",
+  "kind": "word",
+  "display": "chamas",
+  "senses": [
+    {
+      "id": "violence",
+      "ru": "насилие",
+      "stems": [
+        "насил"
+      ],
+      "gloss": "насилие, беззаконное принуждение",
+      "evidence": [
+        "Gen.6.11",
+        "Gen.49.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

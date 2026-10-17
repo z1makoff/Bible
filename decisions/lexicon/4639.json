@@ -1,0 +1,28 @@
+{
+  "key": "4639",
+  "kind": "word",
+  "display": "maaseh",
+  "senses": [
+    {
+      "id": "deed",
+      "ru": "дело",
+      "stems": [
+        "дел"
+      ],
+      "gloss": "дело, работа, изделие (тот же корень, что asah)",
+      "evidence": [
+        "Gen.5.29",
+        "Gen.44.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

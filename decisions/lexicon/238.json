@@ -1,0 +1,28 @@
+{
+  "key": "238",
+  "kind": "word",
+  "display": "azan",
+  "senses": [
+    {
+      "id": "give-ear",
+      "ru": "внимать",
+      "stems": [
+        "вним"
+      ],
+      "gloss": "слушать внимательно, «приклонять ухо» (от ozen — ухо)",
+      "evidence": [
+        "Gen.4.23",
+        "Deut.32.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

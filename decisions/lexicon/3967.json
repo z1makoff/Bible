@@ -1,0 +1,28 @@
+{
+  "key": "3967",
+  "kind": "word",
+  "display": "meah",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "сто",
+      "stems": [
+        "сто",
+        "сот"
+      ],
+      "gloss": "числительное «сто»",
+      "evidence": [
+        "Gen.5.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

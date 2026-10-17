@@ -1,0 +1,27 @@
+{
+  "key": "2568",
+  "kind": "word",
+  "display": "chamesh",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "пять",
+      "stems": [
+        "пят"
+      ],
+      "gloss": "числительное «пять»",
+      "evidence": [
+        "Gen.5.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

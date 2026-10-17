@@ -1,0 +1,28 @@
+{
+  "key": "5612a",
+  "kind": "word",
+  "display": "sefer",
+  "senses": [
+    {
+      "id": "document",
+      "ru": "запись",
+      "stems": [
+        "запис"
+      ],
+      "gloss": "написанный документ: книга, свиток, письмо, грамота",
+      "evidence": [
+        "Gen.5.1",
+        "Exod.17.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

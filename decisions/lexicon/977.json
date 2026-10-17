@@ -1,0 +1,30 @@
+{
+  "key": "977",
+  "kind": "word",
+  "display": "bachar",
+  "senses": [
+    {
+      "id": "choose",
+      "ru": "выбрать",
+      "stems": [
+        "выбр",
+        "избр",
+        "выбир"
+      ],
+      "gloss": "выбрать, избрать",
+      "evidence": [
+        "Gen.6.2",
+        "Gen.13.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

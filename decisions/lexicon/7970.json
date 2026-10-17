@@ -1,0 +1,27 @@
+{
+  "key": "7970",
+  "kind": "word",
+  "display": "shloshim",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "тридцать",
+      "stems": [
+        "тридцат"
+      ],
+      "gloss": "числительное «тридцать»",
+      "evidence": [
+        "Gen.5.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

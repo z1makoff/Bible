@@ -1,0 +1,28 @@
+{
+  "key": "1755",
+  "kind": "word",
+  "display": "dor",
+  "senses": [
+    {
+      "id": "generation",
+      "ru": "поколение",
+      "stems": [
+        "поколен"
+      ],
+      "gloss": "поколение, род людей одного времени",
+      "evidence": [
+        "Gen.6.9",
+        "Gen.7.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

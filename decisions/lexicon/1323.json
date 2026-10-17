@@ -1,0 +1,28 @@
+{
+  "key": "1323",
+  "kind": "word",
+  "display": "bat",
+  "senses": [
+    {
+      "id": "daughter",
+      "ru": "дочь",
+      "stems": [
+        "доч"
+      ],
+      "gloss": "дочь; также девушка, жительница",
+      "evidence": [
+        "Gen.5.4",
+        "Gen.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

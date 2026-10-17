@@ -14,6 +14,8 @@ python -m unittest discover -s tests
 python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — ярлык «Читалка» в папке Bible → app/launch.vbs)
 python tools/audit_synodal.py    # проверка сопоставления с Синодальным по именам
 python tools/books.py <книга> "<отрывок>"   # найти отрывок в книге вручную
+python tools/dump_chapter.py Gen 4 [1,2]       # разбор главы по словам: морфемы, решения словаря, Синодальный
+python tools/compile_chapter.py Gen 4 spec.txt  # собрать перевод главы из краткой записи (формат — в начале файла)
 ```
 
 Только стандартная библиотека Python 3, без pip. Исключение — чтение PDF-книг для проверки цитат: PyMuPDF или pdftotext, если есть; без них цитата из PDF даёт предупреждение «не проверено».

@@ -1,0 +1,41 @@
+{
+  "key": "1004b",
+  "kind": "word",
+  "display": "bayit",
+  "senses": [
+    {
+      "id": "house",
+      "ru": "дом",
+      "stems": [
+        "дом"
+      ],
+      "gloss": "дом; также семья, род",
+      "evidence": [
+        "Gen.7.1",
+        "Gen.12.15"
+      ]
+    },
+    {
+      "id": "inside",
+      "ru": "внутри",
+      "stems": [
+        "внутр",
+        "нутр"
+      ],
+      "gloss": "mi-bayit, ba-bayit — «изнутри, внутри»",
+      "evidence": [
+        "Gen.6.14",
+        "Exod.25.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

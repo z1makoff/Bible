@@ -1,0 +1,40 @@
+{
+  "key": "7451c",
+  "kind": "word",
+  "display": "raah",
+  "senses": [
+    {
+      "id": "badness",
+      "ru": "плохое",
+      "stems": [
+        "плох"
+      ],
+      "gloss": "плохое, зло (существительное от ra)",
+      "evidence": [
+        "Gen.6.5",
+        "Gen.50.15"
+      ]
+    },
+    {
+      "id": "calamity",
+      "ru": "беда",
+      "stems": [
+        "бед"
+      ],
+      "gloss": "беда, несчастье",
+      "evidence": [
+        "Gen.19.19",
+        "Gen.44.29"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

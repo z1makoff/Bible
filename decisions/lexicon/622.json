@@ -1,0 +1,30 @@
+{
+  "key": "622",
+  "kind": "word",
+  "display": "asaf",
+  "senses": [
+    {
+      "id": "gather",
+      "ru": "собрать",
+      "stems": [
+        "собер",
+        "собра",
+        "собир"
+      ],
+      "gloss": "собирать",
+      "evidence": [
+        "Gen.6.21",
+        "Gen.29.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "key": "8084",
+  "kind": "word",
+  "display": "shmonim",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "восемьдесят",
+      "stems": [
+        "восемьдесят"
+      ],
+      "gloss": "числительное «восемьдесят»",
+      "evidence": [
+        "Gen.5.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

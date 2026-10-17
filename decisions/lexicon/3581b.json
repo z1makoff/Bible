@@ -1,0 +1,28 @@
+{
+  "key": "3581b",
+  "kind": "word",
+  "display": "koach",
+  "senses": [
+    {
+      "id": "strength",
+      "ru": "сила",
+      "stems": [
+        "сил"
+      ],
+      "gloss": "сила, мощь; у земли — плодородие",
+      "evidence": [
+        "Gen.4.12",
+        "Gen.31.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

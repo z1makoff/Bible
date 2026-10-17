@@ -1,0 +1,29 @@
+{
+  "key": "5358",
+  "kind": "word",
+  "display": "naqam",
+  "senses": [
+    {
+      "id": "avenge",
+      "ru": "отомстить",
+      "stems": [
+        "мст",
+        "мщ"
+      ],
+      "gloss": "мстить, быть отомщённым",
+      "evidence": [
+        "Gen.4.15",
+        "Gen.4.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

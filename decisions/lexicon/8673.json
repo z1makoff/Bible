@@ -1,0 +1,27 @@
+{
+  "key": "8673",
+  "kind": "word",
+  "display": "tishim",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "девяносто",
+      "stems": [
+        "девяност"
+      ],
+      "gloss": "числительное «девяносто»",
+      "evidence": [
+        "Gen.5.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

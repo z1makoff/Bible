@@ -1,0 +1,29 @@
+{
+  "key": "7093",
+  "kind": "word",
+  "display": "qets",
+  "senses": [
+    {
+      "id": "end",
+      "ru": "конец",
+      "stems": [
+        "конц",
+        "конец"
+      ],
+      "gloss": "конец, предел",
+      "evidence": [
+        "Gen.4.3",
+        "Gen.6.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

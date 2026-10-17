@@ -1,0 +1,28 @@
+{
+  "key": "7257",
+  "kind": "word",
+  "display": "ravats",
+  "senses": [
+    {
+      "id": "lie",
+      "ru": "лежать",
+      "stems": [
+        "леж"
+      ],
+      "gloss": "лежать, разлечься (о животном)",
+      "evidence": [
+        "Gen.4.7",
+        "Gen.29.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

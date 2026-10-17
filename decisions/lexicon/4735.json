@@ -1,0 +1,28 @@
+{
+  "key": "4735",
+  "kind": "word",
+  "display": "miqneh",
+  "senses": [
+    {
+      "id": "herds",
+      "ru": "стада",
+      "stems": [
+        "стад"
+      ],
+      "gloss": "скот как имущество, стада (от qanah — приобретать)",
+      "evidence": [
+        "Gen.4.20",
+        "Gen.13.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}

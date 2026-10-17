@@ -1,0 +1,27 @@
+{
+  "key": "6240",
+  "kind": "word",
+  "display": "asar",
+  "senses": [
+    {
+      "id": "num",
+      "ru": "-надцать",
+      "stems": [
+        "надцат"
+      ],
+      "gloss": "числительное «-надцать»",
+      "evidence": [
+        "Gen.5.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 4–6"
+    }
+  ]
+}
