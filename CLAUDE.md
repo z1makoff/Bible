@@ -11,7 +11,7 @@ python tools/fetch_sources.py    # исходники зафиксированн
 python tools/build_corpus.py     # собрать corpus/ (не хранится в git)
 python tools/check.py            # проверить всё; python tools/check.py Gen 1 — одна глава
 python -m unittest discover -s tests
-python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — «Открыть читалку.vbs» в папке Bible)
+python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — ярлык «Читалка» в папке Bible → app/launch.vbs)
 python tools/audit_synodal.py    # проверка сопоставления с Синодальным по именам
 ```
 
