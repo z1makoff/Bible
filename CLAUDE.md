@@ -11,7 +11,7 @@ python tools/fetch_sources.py    # исходники зафиксированн
 python tools/build_corpus.py     # собрать corpus/ (не хранится в git)
 python tools/check.py            # проверить всё; python tools/check.py Gen 1 — одна глава
 python -m unittest discover -s tests
-python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — ярлык «Читалка» в папке Bible → app/launch.vbs)
+python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — ярлык «Читалка» в папке Bible → app/launch.vbs; на Linux — app/launch.sh, ярлык создаёт app/install_linux.sh)
 python tools/audit_synodal.py    # проверка сопоставления с Синодальным по именам
 python tools/books.py <книга> "<отрывок>"   # найти отрывок в книге вручную
 python tools/dump_chapter.py Gen 4 [1,2]       # разбор главы по словам: морфемы, решения словаря, Синодальный
