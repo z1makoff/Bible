@@ -1,0 +1,43 @@
+{
+ "id": "biglino-longevity",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.5.5",
+  "Gen.5.27"
+ ],
+ "claim": "Долгая жизнь Адама и допотопных патриархов — наследство от их создателей: в них был генетический материал Elohim, а вместе с ним и долголетие.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-from-space",
+  "chapter": "3. The Giants?",
+  "quote": "there was also the feature of longevity handed down by his creators",
+  "quoteRu": "в нём было и долголетие, переданное его создателями",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Допотопные патриархи живут по многу сотен лет.",
+   "grade": "entailed",
+   "for": [
+    "Gen.5.5",
+    "Gen.5.27"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Долголетие передано генами создателей.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст причину долголетия не называет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  }
+ ]
+}

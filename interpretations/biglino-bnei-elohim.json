@@ -1,0 +1,57 @@
+{
+ "id": "biglino-bnei-elohim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.6.2",
+  "Gen.6.4"
+ ],
+ "claim": "«Сыновья Elohim» — по еврейскому словоупотреблению сама группа Elohim («сыны Израиля» — это израильтяне). Они нашли земных женщин tovot — «пригодными» для союзов и потомства — и брали их; дети от этих союзов были смешанной крови.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "7. La tecnologia degli Elohim e l’[adam]",
+  "quote": "“figli degli Elohim” indica in realtà il gruppo degli Elohim nel suo complesso",
+  "quoteRu": "«сыновья Elohim» на самом деле обозначает группу Elohim в целом",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "«Bnei X» часто значит «принадлежащие к группе X».",
+   "grade": "supported",
+   "for": [
+    "2Kgs.2.3",
+    "Gen.32.33"
+   ],
+   "against": [],
+   "note": "Bnei ha-neviim — сами пророки; bnei Yisrael — израильтяне."
+  },
+  {
+   "claim": "Bnei ha-Elohim — небесные, не человеческие существа.",
+   "grade": "plausible",
+   "for": [
+    "Job.1.6",
+    "Job.2.1",
+    "Job.38.7"
+   ],
+   "against": [],
+   "note": "В еврейской Библии это выражение больше нигде не обозначает людей; в Иов 38:7 оно в параллель со звёздами. Что это существа из плоти, текст не говорит."
+  },
+  {
+   "claim": "Tovot — «пригодные» для потомства, а не «красивые».",
+   "grade": "compatible",
+   "for": [
+    "Gen.6.2"
+   ],
+   "against": [],
+   "note": "Tov — оценка вообще (хорошие, пригодные, красивые); какая именно — текст не уточняет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  }
+ ]
+}

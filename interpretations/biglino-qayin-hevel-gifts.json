@@ -1,0 +1,50 @@
+{
+ "id": "biglino-qayin-hevel-gifts",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.4.3",
+  "Gen.4.4",
+  "Gen.4.5"
+ ],
+ "claim": "Elohim по имени YHWH «взглянул» на дар Hevel и не взглянул на дар Qayin не из-за намерений приносивших: ему был нужен запах сжигаемого мяса, который, по Бильино, действовал на Elohim успокаивающе. Глагол shaah значит «присмотреться, обратить внимание», а не «принять».",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "8. Gli Elohìm e la carne bruciata",
+  "quote": "Ora noi sappiamo bene che ciò che quel particolare Elohìm gradiva era la carne",
+  "quoteRu": "Мы хорошо знаем, что этот конкретный Elohim любил мясо",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Текст говорит только «взглянул» и «не взглянул» — без «принял» и «отверг».",
+   "grade": "entailed",
+   "for": [
+    "Gen.4.4",
+    "Gen.4.5"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Только запах мяса давал Elohim нужное действие; сожжённое растительное — нет.",
+   "grade": "contradicted",
+   "for": [
+    "Gen.8.21",
+    "Lev.1.9"
+   ],
+   "against": [
+    "Lev.2.2",
+    "Lev.2.9"
+   ],
+   "note": "Хлебное приношение (minchah) тоже названо «приятным запахом для YHWH» (Лев 2:2, 9). В Быт 4 о сжигании вообще не сказано."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  }
+ ]
+}

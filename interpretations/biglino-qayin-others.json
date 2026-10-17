@@ -1,0 +1,55 @@
+{
+ "id": "biglino-qayin-others",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.4.14",
+  "Gen.4.16",
+  "Gen.4.17"
+ ],
+ "claim": "Бильино ставит вопрос: если Qayin боится, что его убьёт «всякий находящий», и строит город, то кроме семьи Адама были другие люди. Тогда Адам и Ева — не прародители всего человечества, а родоначальники особой группы, которую Elohim создали для своих целей.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "5. La duplice creazione dell’uomo",
+  "quote": "i capostipiti di una specifica popolazione che gli Elohìm hanno formato per i loro scopi",
+  "quoteRu": "это родоначальники особой группы людей, которую Elohim создали для своих целей",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Qayin боится «всякого находящего» и затем строит город.",
+   "grade": "entailed",
+   "for": [
+    "Gen.4.14",
+    "Gen.4.17"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Кроме семьи Адама на земле были другие люди.",
+   "grade": "compatible",
+   "for": [
+    "Gen.4.14",
+    "Gen.4.17"
+   ],
+   "against": [
+    "Gen.3.20"
+   ],
+   "note": "Текст других людей не называет, но и не исключает. Против: Chavvah названа «матерью всех живых» (3:20)."
+  },
+  {
+   "claim": "Адам и Ева — родоначальники особой группы, созданной Elohim для своих целей.",
+   "grade": "speculative",
+   "for": [],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": "biglino-gibborim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.6.4"
+ ],
+ "claim": "Gibborim — дети от союзов Elohim с земными женщинами: люди смешанной крови, «сильные, могучие». Бильино предполагает, что такие люди правили от имени Elohim (с этим он связывает и имя Гавриил — «могучий El»).",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "7. La tecnologia degli Elohim e l’[adam]",
+  "quote": "cioè individui di sangue misto conosciuti come uomini “forti, potenti”",
+  "quoteRu": "то есть люди смешанной крови, известные как «сильные, могучие»",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Gibborim — дети, рождённые от союзов bnei ha-Elohim с дочерьми человека.",
+   "grade": "plausible",
+   "for": [
+    "Gen.6.4"
+   ],
+   "against": [],
+   "note": "«Они — могучие» может относиться к рождённым детям или к nefilim (см. ◇ в переводе)."
+  },
+  {
+   "claim": "Они смешанной крови: от Elohim и людей.",
+   "grade": "compatible",
+   "for": [
+    "Gen.6.4"
+   ],
+   "against": [],
+   "note": "Зависит от того, кто такие bnei ha-Elohim (см. трактовки к 6:2)."
+  },
+  {
+   "claim": "Они правили от имени Elohim; Гавриил — один из них.",
+   "grade": "speculative",
+   "for": [],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  }
+ ]
+}
