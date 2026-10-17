@@ -130,10 +130,10 @@ class CheckGen11(unittest.TestCase):
         src.update(changes)
         return src
 
-    def with_book(self, found, pages=False):
+    def with_book(self, found, pages=False, lang="it"):
         """Подменяет каталог книг: одна книга test-book, цитата находится или нет."""
         orig = check.books.book, check.books.find_quote, check.books.file_matches
-        check.books.book = lambda i: {"id": i, "title": "Тест", "pages": pages} if i == "test-book" else None
+        check.books.book = lambda i: {"id": i, "title": "Тест", "pages": pages, "lang": lang} if i == "test-book" else None
         check.books.find_quote = lambda i, q: found
         check.books.file_matches = lambda b: True
         self.addCleanup(lambda: setattr(check.books, "book", orig[0]))
@@ -172,6 +172,11 @@ class CheckGen11(unittest.TestCase):
         self.assertError(rep, "нет русского перевода")
         rep = self.run_check(interpretation=self.interpretation(**self.book_source(page="12")))
         self.assertError(rep, "нет печатных страниц")
+
+    def test_russian_book_needs_no_translation(self):
+        self.with_book(found=True, lang="ru")
+        rep = self.run_check(interpretation=self.interpretation(**self.book_source(quoteRu="")))
+        self.assertEqual(rep.errors, [])
 
     def test_letters_ignore_hyphenation_and_quotes(self):
         self.assertEqual(check.books.letters("dell’ac-\nqua «là-acque»"), check.books.letters("dell'acqua \"là acque\""))

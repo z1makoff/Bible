@@ -4,7 +4,9 @@
 и кэшируется в .cache/books/ в виде одних букв и цифр: так цитата находится, даже если в книге
 перенос слова, лишний пробел, другие кавычки или разрыв строки посреди фразы.
 
-EPUB читается стандартной библиотекой. Для PDF нужен PyMuPDF (pymupdf) или программа pdftotext;
+Тексты в общественном достоянии хранятся прямо в проекте (library/texts/, поле path в каталоге).
+
+EPUB и TXT читаются стандартной библиотекой. Для PDF нужен PyMuPDF (pymupdf) или программа pdftotext;
 если ни того ни другого нет, цитата из PDF считается непроверенной (не ошибкой).
 
 Запуск: python tools/books.py <id книги> "<цитата>"   — проверить цитату вручную
@@ -39,6 +41,9 @@ def book(book_id):
 
 
 def book_path(b):
+    """Книга в общей папке (folder + file) или файл внутри проекта (path, от корня проекта)."""
+    if b.get("path"):
+        return (ROOT / b["path"]).resolve()
     return (ROOT / catalog()["folder"] / b["file"]).resolve()
 
 
@@ -96,7 +101,13 @@ def book_letters(b):
     digest = f"{st.st_size}:{st.st_mtime_ns}"
     if cached.exists() and stamp.exists() and stamp.read_text().strip() == digest:
         return cached.read_text("utf-8")
-    text = epub_text(path) if path.suffix.lower() == ".epub" else pdf_text(path)
+    suffix = path.suffix.lower()
+    if suffix == ".epub":
+        text = epub_text(path)
+    elif suffix == ".txt":
+        text = path.read_text("utf-8")
+    else:
+        text = pdf_text(path)
     if text is None:
         return None
     norm = letters(text)

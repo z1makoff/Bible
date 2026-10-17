@@ -260,7 +260,7 @@ def check_source(src, where, rep):
             return
         if books.quote_words(quote) > books.MAX_QUOTE_WORDS:
             rep.error(where, f"отрывок длиннее {books.MAX_QUOTE_WORDS} слов")
-        if not src.get("quoteRu"):
+        if b.get("lang") != "ru" and not src.get("quoteRu"):
             rep.error(where, "нет русского перевода отрывка (quoteRu)")
         if src.get("page") and not b.get("pages"):
             rep.error(where, "в этом издании нет печатных страниц — страницу не указывают")

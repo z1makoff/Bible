@@ -277,7 +277,7 @@ function interpretationsBlock(lex) {
   if (!lex.interpretations.length) return "";
   return `<h3>Трактовки</h3>` + lex.interpretations.map((it) => {
     const src = it.source || {};
-    const where = [src.chapter && `глава «${esc(src.chapter)}»`, src.page && `с. ${esc(src.page)}`, src.time && esc(src.time),
+    const where = [src.chapter && `глава «${esc(src.chapter)}»`, src.section && esc(src.section), src.page && `с. ${esc(src.page)}`, src.time && esc(src.time),
       src.url && `<a href="${esc(src.url)}" target="_blank" rel="noopener">ссылка</a>`].filter(Boolean).join(", ");
     const quote = src.quote ? `<blockquote class="quote">«${esc(src.quote)}»${src.quoteRu ? `<br><small>${esc(src.quoteRu)}</small>` : ""}</blockquote>` : "";
     return `<div class="interp"><p><b>${esc(it.tradition)}:</b> ${esc(it.claim)}</p>
