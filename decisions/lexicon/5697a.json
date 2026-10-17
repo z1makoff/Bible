@@ -1,0 +1,29 @@
+{
+  "key": "5697a",
+  "kind": "word",
+  "display": "eglah",
+  "senses": [
+    {
+      "id": "heifer",
+      "ru": "тёлка",
+      "stems": [
+        "тёлк",
+        "телк"
+      ],
+      "gloss": "тёлка, молодая корова",
+      "evidence": [
+        "Gen.15.9",
+        "Deut.21.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

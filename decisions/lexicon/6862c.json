@@ -1,0 +1,28 @@
+{
+  "key": "6862c",
+  "kind": "word",
+  "display": "tsar",
+  "senses": [
+    {
+      "id": "adversary",
+      "ru": "противник",
+      "stems": [
+        "противник"
+      ],
+      "gloss": "противник, враг",
+      "evidence": [
+        "Gen.14.20",
+        "Num.10.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

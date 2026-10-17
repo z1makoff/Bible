@@ -1,0 +1,28 @@
+{
+  "key": "6828",
+  "kind": "word",
+  "display": "tsafon",
+  "senses": [
+    {
+      "id": "north",
+      "ru": "север",
+      "stems": [
+        "север"
+      ],
+      "gloss": "север",
+      "evidence": [
+        "Gen.13.14",
+        "Gen.28.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

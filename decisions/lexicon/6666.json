@@ -1,0 +1,28 @@
+{
+  "key": "6666",
+  "kind": "word",
+  "display": "tsedaqah",
+  "senses": [
+    {
+      "id": "righteousness",
+      "ru": "праведность",
+      "stems": [
+        "правед"
+      ],
+      "gloss": "праведность, правота; справедливость (тот же корень, что tsaddiq — «праведный»)",
+      "evidence": [
+        "Gen.15.6",
+        "Gen.18.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

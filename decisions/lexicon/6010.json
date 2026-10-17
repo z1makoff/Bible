@@ -1,0 +1,28 @@
+{
+  "key": "6010",
+  "kind": "word",
+  "display": "emeq",
+  "senses": [
+    {
+      "id": "lowland",
+      "ru": "низина",
+      "stems": [
+        "низин"
+      ],
+      "gloss": "низина, долина (другое слово, чем biqah — «долина»)",
+      "evidence": [
+        "Gen.14.3",
+        "Gen.14.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

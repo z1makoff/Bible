@@ -1,0 +1,42 @@
+{
+  "key": "5380",
+  "kind": "word",
+  "display": "nashav",
+  "senses": [
+    {
+      "id": "drive-away",
+      "ru": "отогнать",
+      "stems": [
+        "отгон",
+        "отогн"
+      ],
+      "gloss": "отогнать (hiphil)",
+      "evidence": [
+        "Gen.15.11"
+      ]
+    },
+    {
+      "id": "blow",
+      "ru": "подуть",
+      "stems": [
+        "подул",
+        "дуе",
+        "подует"
+      ],
+      "gloss": "подуть (о ветре)",
+      "evidence": [
+        "Isa.40.7",
+        "Ps.147.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "8041",
+  "kind": "word",
+  "display": "simel",
+  "senses": [
+    {
+      "id": "go-left",
+      "ru": "пойти налево",
+      "stems": [
+        "налево",
+        "влево"
+      ],
+      "gloss": "пойти налево",
+      "evidence": [
+        "Gen.13.9",
+        "2Sam.14.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

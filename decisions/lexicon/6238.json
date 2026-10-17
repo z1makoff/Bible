@@ -1,0 +1,28 @@
+{
+  "key": "6238",
+  "kind": "word",
+  "display": "ashar",
+  "senses": [
+    {
+      "id": "enrich",
+      "ru": "обогатить",
+      "stems": [
+        "богат"
+      ],
+      "gloss": "разбогатеть; обогатить",
+      "evidence": [
+        "Gen.14.23",
+        "1Sam.2.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

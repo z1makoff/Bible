@@ -1,0 +1,28 @@
+{
+  "key": "1469",
+  "kind": "word",
+  "display": "gozal",
+  "senses": [
+    {
+      "id": "nestling",
+      "ru": "птенец",
+      "stems": [
+        "птен"
+      ],
+      "gloss": "птенец (Втор 32:11 — птенцы орла)",
+      "evidence": [
+        "Gen.15.9",
+        "Deut.32.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

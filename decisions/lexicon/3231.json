@@ -1,0 +1,29 @@
+{
+  "key": "3231",
+  "kind": "word",
+  "display": "yaman",
+  "senses": [
+    {
+      "id": "go-right",
+      "ru": "пойти направо",
+      "stems": [
+        "направо",
+        "вправо"
+      ],
+      "gloss": "пойти направо",
+      "evidence": [
+        "Gen.13.9",
+        "2Sam.14.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

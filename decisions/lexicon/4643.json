@@ -1,0 +1,28 @@
+{
+  "key": "4643",
+  "kind": "word",
+  "display": "maaser",
+  "senses": [
+    {
+      "id": "tenth",
+      "ru": "десятая часть",
+      "stems": [
+        "десят"
+      ],
+      "gloss": "десятая часть, десятина",
+      "evidence": [
+        "Gen.14.20",
+        "Lev.27.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

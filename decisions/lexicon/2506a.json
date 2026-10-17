@@ -1,0 +1,28 @@
+{
+  "key": "2506a",
+  "kind": "word",
+  "display": "cheleq",
+  "senses": [
+    {
+      "id": "portion",
+      "ru": "доля",
+      "stems": [
+        "дол"
+      ],
+      "gloss": "доля, часть",
+      "evidence": [
+        "Gen.14.24",
+        "Gen.31.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

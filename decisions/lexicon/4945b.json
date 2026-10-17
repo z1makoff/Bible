@@ -1,0 +1,41 @@
+{
+  "key": "4945b",
+  "kind": "word",
+  "display": "mashqeh",
+  "senses": [
+    {
+      "id": "watering",
+      "ru": "орошение",
+      "stems": [
+        "орош"
+      ],
+      "gloss": "орошение; орошаемая земля",
+      "evidence": [
+        "Gen.13.10",
+        "Ezek.45.15"
+      ]
+    },
+    {
+      "id": "drink",
+      "ru": "питьё",
+      "stems": [
+        "пить",
+        "питьё"
+      ],
+      "gloss": "питьё",
+      "evidence": [
+        "Lev.11.34",
+        "Isa.32.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

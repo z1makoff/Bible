@@ -1,0 +1,28 @@
+{
+  "key": "2400",
+  "kind": "word",
+  "display": "chatta",
+  "senses": [
+    {
+      "id": "sinful",
+      "ru": "грешный",
+      "stems": [
+        "греш"
+      ],
+      "gloss": "грешный, грешник (тот же корень, что chattat — «грех»)",
+      "evidence": [
+        "Gen.13.13",
+        "Num.32.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

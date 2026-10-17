@@ -1,0 +1,29 @@
+{
+  "key": "7473",
+  "kind": "word",
+  "display": "roeh",
+  "senses": [
+    {
+      "id": "shepherd",
+      "ru": "пастух",
+      "stems": [
+        "пастух",
+        "пасту"
+      ],
+      "gloss": "пастух (тот, кто пасёт)",
+      "evidence": [
+        "Gen.13.7",
+        "Gen.13.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

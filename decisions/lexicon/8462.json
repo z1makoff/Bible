@@ -1,0 +1,29 @@
+{
+  "key": "8462",
+  "kind": "word",
+  "display": "techillah",
+  "senses": [
+    {
+      "id": "beginning",
+      "ru": "сначала",
+      "stems": [
+        "сначал",
+        "первоначал"
+      ],
+      "gloss": "начало; «ba-techillah» — сначала, прежде (другое слово, чем reshit)",
+      "evidence": [
+        "Gen.13.3",
+        "Gen.41.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

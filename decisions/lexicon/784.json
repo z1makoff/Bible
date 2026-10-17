@@ -1,0 +1,30 @@
+{
+  "key": "784",
+  "kind": "word",
+  "display": "esh",
+  "senses": [
+    {
+      "id": "fire",
+      "ru": "огонь",
+      "stems": [
+        "огон",
+        "огн",
+        "огнен"
+      ],
+      "gloss": "огонь",
+      "evidence": [
+        "Gen.15.17",
+        "Gen.19.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

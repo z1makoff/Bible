@@ -1,0 +1,28 @@
+{
+  "key": "4421",
+  "kind": "word",
+  "display": "milchamah",
+  "senses": [
+    {
+      "id": "war",
+      "ru": "война",
+      "stems": [
+        "войн"
+      ],
+      "gloss": "война, битва",
+      "evidence": [
+        "Gen.14.2",
+        "Exod.1.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

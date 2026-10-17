@@ -1,0 +1,28 @@
+{
+  "key": "3225",
+  "kind": "word",
+  "display": "yamin",
+  "senses": [
+    {
+      "id": "right",
+      "ru": "правая сторона",
+      "stems": [
+        "прав"
+      ],
+      "gloss": "правая сторона, правая рука",
+      "evidence": [
+        "Gen.13.9",
+        "Gen.48.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

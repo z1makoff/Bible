@@ -1,0 +1,28 @@
+{
+  "key": "6227",
+  "kind": "word",
+  "display": "ashan",
+  "senses": [
+    {
+      "id": "smoke",
+      "ru": "дым",
+      "stems": [
+        "дым"
+      ],
+      "gloss": "дым",
+      "evidence": [
+        "Gen.15.17",
+        "Exod.19.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

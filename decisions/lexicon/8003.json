@@ -1,0 +1,28 @@
+{
+  "key": "8003",
+  "kind": "word",
+  "display": "shalem",
+  "senses": [
+    {
+      "id": "complete",
+      "ru": "полный",
+      "stems": [
+        "полн"
+      ],
+      "gloss": "полный, целый, завершённый",
+      "evidence": [
+        "Gen.15.16",
+        "Deut.25.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

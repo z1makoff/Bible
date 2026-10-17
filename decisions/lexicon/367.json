@@ -1,0 +1,28 @@
+{
+  "key": "367",
+  "kind": "word",
+  "display": "eimah",
+  "senses": [
+    {
+      "id": "terror",
+      "ru": "жуть",
+      "stems": [
+        "жут"
+      ],
+      "gloss": "сильный страх, жуть (другое слово, чем chat — «ужас», и mora — «страх»)",
+      "evidence": [
+        "Gen.15.12",
+        "Exod.15.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

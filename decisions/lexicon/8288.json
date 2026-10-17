@@ -1,0 +1,28 @@
+{
+  "key": "8288",
+  "kind": "word",
+  "display": "serokh",
+  "senses": [
+    {
+      "id": "thong",
+      "ru": "ремень",
+      "stems": [
+        "рем"
+      ],
+      "gloss": "ремень (сандалии)",
+      "evidence": [
+        "Gen.14.23",
+        "Isa.5.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

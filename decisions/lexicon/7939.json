@@ -1,0 +1,28 @@
+{
+  "key": "7939",
+  "kind": "word",
+  "display": "sakhar",
+  "senses": [
+    {
+      "id": "wage",
+      "ru": "плата",
+      "stems": [
+        "плат"
+      ],
+      "gloss": "плата, вознаграждение (за работу — 30:28)",
+      "evidence": [
+        "Gen.15.1",
+        "Gen.30.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

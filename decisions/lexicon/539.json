@@ -1,0 +1,40 @@
+{
+  "key": "539",
+  "kind": "word",
+  "display": "aman",
+  "senses": [
+    {
+      "id": "believe",
+      "ru": "поверить",
+      "stems": [
+        "вер"
+      ],
+      "gloss": "поверить, довериться (hiphil; тот же корень, что amen)",
+      "evidence": [
+        "Gen.15.6",
+        "Gen.45.26",
+        "Exod.4.1"
+      ]
+    },
+    {
+      "id": "be-firm",
+      "ru": "подтвердиться",
+      "stems": [
+        "подтвер"
+      ],
+      "gloss": "быть верным, подтвердиться (niphal)",
+      "evidence": [
+        "Gen.42.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

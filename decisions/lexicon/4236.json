@@ -1,0 +1,28 @@
+{
+  "key": "4236",
+  "kind": "word",
+  "display": "machazeh",
+  "senses": [
+    {
+      "id": "vision",
+      "ru": "видение",
+      "stems": [
+        "видени"
+      ],
+      "gloss": "видение (от chazah — «созерцать»)",
+      "evidence": [
+        "Gen.15.1",
+        "Num.24.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

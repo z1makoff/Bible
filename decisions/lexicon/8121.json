@@ -1,0 +1,28 @@
+{
+  "key": "8121",
+  "kind": "word",
+  "display": "shemesh",
+  "senses": [
+    {
+      "id": "sun",
+      "ru": "солнце",
+      "stems": [
+        "солнц"
+      ],
+      "gloss": "солнце",
+      "evidence": [
+        "Gen.15.12",
+        "Gen.15.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

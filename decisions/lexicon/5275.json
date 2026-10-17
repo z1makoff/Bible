@@ -1,0 +1,28 @@
+{
+  "key": "5275",
+  "kind": "word",
+  "display": "naal",
+  "senses": [
+    {
+      "id": "sandal",
+      "ru": "сандалия",
+      "stems": [
+        "сандал"
+      ],
+      "gloss": "сандалия",
+      "evidence": [
+        "Gen.14.23",
+        "Exod.3.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

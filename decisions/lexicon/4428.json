@@ -1,0 +1,28 @@
+{
+  "key": "4428",
+  "kind": "word",
+  "display": "melekh",
+  "senses": [
+    {
+      "id": "king",
+      "ru": "царь",
+      "stems": [
+        "цар"
+      ],
+      "gloss": "царь",
+      "evidence": [
+        "Gen.14.1",
+        "Gen.14.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6297",
+  "kind": "word",
+  "display": "peger",
+  "senses": [
+    {
+      "id": "carcass",
+      "ru": "труп",
+      "stems": [
+        "труп"
+      ],
+      "gloss": "труп, туша",
+      "evidence": [
+        "Gen.15.11",
+        "Lev.26.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

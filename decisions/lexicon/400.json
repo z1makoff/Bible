@@ -1,0 +1,28 @@
+{
+  "key": "400",
+  "kind": "word",
+  "display": "okhel",
+  "senses": [
+    {
+      "id": "food",
+      "ru": "съестное",
+      "stems": [
+        "съестн"
+      ],
+      "gloss": "съестное, запас пищи (другое слово, чем okhlah — «пища»)",
+      "evidence": [
+        "Gen.14.11",
+        "Gen.41.35"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

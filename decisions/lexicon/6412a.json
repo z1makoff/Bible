@@ -1,0 +1,28 @@
+{
+  "key": "6412a",
+  "kind": "word",
+  "display": "palit",
+  "senses": [
+    {
+      "id": "survivor",
+      "ru": "уцелевший",
+      "stems": [
+        "уцел"
+      ],
+      "gloss": "уцелевший, беглец",
+      "evidence": [
+        "Gen.14.13",
+        "Josh.8.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

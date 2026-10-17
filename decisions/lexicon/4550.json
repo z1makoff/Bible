@@ -1,0 +1,28 @@
+{
+  "key": "4550",
+  "kind": "word",
+  "display": "massa",
+  "senses": [
+    {
+      "id": "stage",
+      "ru": "переход",
+      "stems": [
+        "переход"
+      ],
+      "gloss": "переход, стоянка в пути (от nasa — «сняться с места»)",
+      "evidence": [
+        "Gen.13.3",
+        "Exod.17.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "biglino-qoneh",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.14.19",
+  "Gen.14.22"
+ ],
+ "claim": "Qoneh — причастие от qanah, а qanah значит «приобретать, завладевать, владеть», а не «создавать», как его часто переводят. Malki-Tsedeq говорит, что El Elyon владел небом и землёй, потому что «приобрёл» их, завладел ими, — а не потому, что создал их.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "9. … ingegneria idraulica?",
+  "quote": "significa «acquistare, acquisire, possedere», non certo “creare” come invece viene spesso tradotto",
+  "quoteRu": "значит «приобретать, получать, владеть», а вовсе не «создавать», как его часто переводят",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Qanah обычно значит «приобрести, купить».",
+   "grade": "supported",
+   "for": [
+    "Gen.25.10",
+    "Gen.47.20"
+   ],
+   "against": []
+  },
+  {
+   "claim": "В 14:19 qoneh значит только «приобретший», не «произведший».",
+   "grade": "plausible",
+   "for": [],
+   "against": [
+    "Deut.32.6",
+    "Prov.8.22"
+   ],
+   "note": "Во Втор 32:6 qanekha стоит рядом с «сделал тебя и утвердил тебя» — там значение «произвёл» вероятно; в Притч 8:22 спорно. Поэтому в нашем тексте qoneh оставлено без перевода."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 13–15, отрывок проверен по тексту"
+  }
+ ]
+}

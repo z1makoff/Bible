@@ -1,0 +1,28 @@
+{
+  "key": "3940",
+  "kind": "word",
+  "display": "lappid",
+  "senses": [
+    {
+      "id": "torch",
+      "ru": "факел",
+      "stems": [
+        "факел"
+      ],
+      "gloss": "факел",
+      "evidence": [
+        "Gen.15.17",
+        "Judg.7.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

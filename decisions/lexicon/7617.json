@@ -1,0 +1,28 @@
+{
+  "key": "7617",
+  "kind": "word",
+  "display": "shavah",
+  "senses": [
+    {
+      "id": "capture",
+      "ru": "взять в плен",
+      "stems": [
+        "плен"
+      ],
+      "gloss": "взять в плен, угнать",
+      "evidence": [
+        "Gen.14.14",
+        "Gen.31.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

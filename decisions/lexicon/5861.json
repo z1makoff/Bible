@@ -1,0 +1,28 @@
+{
+  "key": "5861",
+  "kind": "word",
+  "display": "ayit",
+  "senses": [
+    {
+      "id": "bird-of-prey",
+      "ru": "хищная птица",
+      "stems": [
+        "хищн"
+      ],
+      "gloss": "хищная птица",
+      "evidence": [
+        "Gen.15.11",
+        "Isa.18.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

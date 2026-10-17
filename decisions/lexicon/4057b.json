@@ -1,0 +1,28 @@
+{
+  "key": "4057b",
+  "kind": "word",
+  "display": "midbar",
+  "senses": [
+    {
+      "id": "wilderness",
+      "ru": "пустыня",
+      "stems": [
+        "пустын"
+      ],
+      "gloss": "пустыня — незаселённая степь, пастбищная земля",
+      "evidence": [
+        "Gen.14.6",
+        "Gen.16.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "7872",
+  "kind": "word",
+  "display": "sevah",
+  "senses": [
+    {
+      "id": "gray-hair",
+      "ru": "седина",
+      "stems": [
+        "седин"
+      ],
+      "gloss": "седина, старость",
+      "evidence": [
+        "Gen.15.15",
+        "Gen.25.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

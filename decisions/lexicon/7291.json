@@ -1,0 +1,28 @@
+{
+  "key": "7291",
+  "kind": "word",
+  "display": "radaf",
+  "senses": [
+    {
+      "id": "pursue",
+      "ru": "преследовать",
+      "stems": [
+        "преслед"
+      ],
+      "gloss": "преследовать, гнаться",
+      "evidence": [
+        "Gen.14.14",
+        "Gen.31.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

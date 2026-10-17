@@ -1,0 +1,54 @@
+{
+ "id": "biglino-abram-warlord",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.14.13",
+  "Gen.14.14",
+  "Gen.14.15"
+ ],
+ "claim": "Глава 14 рассказывает о войнах за господство на землях, где были распределены народы (по Бильино — распределены Elyon, см. Втор 32:8). Avram — военачальник с собственным войском, участник одного из союзов; когда в плен попадает Lot, живший в Sedom, Avram вынужден вмешаться.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-bibbia-non-parla",
+  "chapter": "II. La contraddizione insanabile",
+  "quote": "Abramo, condottiero dotato di una propria forza armata, apparteneva a una delle alleanze",
+  "quoteRu": "Авраам, военачальник с собственной вооружённой силой, принадлежал к одному из союзов",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "У Avram своё войско — 318 рождённых в его доме.",
+   "grade": "entailed",
+   "for": [
+    "Gen.14.14"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Avram — участник союза.",
+   "grade": "entailed",
+   "for": [
+    "Gen.14.13"
+   ],
+   "against": [],
+   "note": "Aner, Eshkol и Mamre — «хозяева договора Avram»."
+  },
+  {
+   "claim": "Войны шли за господство над землями, распределёнными Elyon.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Gen.14.4"
+   ],
+   "note": "Причину войны текст называет сам: пять царей взбунтовались после двенадцати лет службы Kedorlaomer (14:4). О распределении земель в Быт 14 не сказано."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 13–15, отрывок проверен по тексту"
+  }
+ ]
+}

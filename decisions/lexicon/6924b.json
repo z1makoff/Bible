@@ -1,0 +1,28 @@
+{
+  "key": "6924b",
+  "kind": "word",
+  "display": "qedmah",
+  "senses": [
+    {
+      "id": "eastward",
+      "ru": "на восток",
+      "stems": [
+        "восток"
+      ],
+      "gloss": "на восток, к востоку",
+      "evidence": [
+        "Gen.13.14",
+        "Gen.28.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

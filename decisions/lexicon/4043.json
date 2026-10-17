@@ -1,0 +1,28 @@
+{
+  "key": "4043",
+  "kind": "word",
+  "display": "magen",
+  "senses": [
+    {
+      "id": "shield",
+      "ru": "щит",
+      "stems": [
+        "щит"
+      ],
+      "gloss": "щит",
+      "evidence": [
+        "Gen.15.1",
+        "Judg.5.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "key": "3603",
+  "kind": "word",
+  "display": "kikkar",
+  "senses": [
+    {
+      "id": "region",
+      "ru": "округа",
+      "stems": [
+        "округ"
+      ],
+      "gloss": "округа, круглая область («kikkar ha-Yarden»)",
+      "evidence": [
+        "Gen.13.10",
+        "Gen.19.17"
+      ]
+    },
+    {
+      "id": "loaf",
+      "ru": "круглый хлеб",
+      "stems": [
+        "хлеб",
+        "лепёш",
+        "лепеш"
+      ],
+      "gloss": "круглый хлеб, лепёшка",
+      "evidence": [
+        "Exod.29.23"
+      ]
+    },
+    {
+      "id": "talent",
+      "ru": "талант",
+      "stems": [
+        "талант"
+      ],
+      "gloss": "талант — мера веса",
+      "evidence": [
+        "Exod.25.39"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

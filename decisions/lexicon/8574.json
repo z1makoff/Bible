@@ -1,0 +1,28 @@
+{
+  "key": "8574",
+  "kind": "word",
+  "display": "tannur",
+  "senses": [
+    {
+      "id": "oven",
+      "ru": "печь",
+      "stems": [
+        "печ"
+      ],
+      "gloss": "печь (для хлеба)",
+      "evidence": [
+        "Gen.15.17",
+        "Exod.7.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}

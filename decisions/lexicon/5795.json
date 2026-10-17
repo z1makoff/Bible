@@ -1,0 +1,28 @@
+{
+  "key": "5795",
+  "kind": "word",
+  "display": "ez",
+  "senses": [
+    {
+      "id": "goat",
+      "ru": "коза",
+      "stems": [
+        "коз"
+      ],
+      "gloss": "коза",
+      "evidence": [
+        "Gen.15.9",
+        "Gen.27.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 13–15"
+    }
+  ]
+}
