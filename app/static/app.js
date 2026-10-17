@@ -12,7 +12,7 @@ const KIND = { word: "слово", name: "имя собственное", divine
 const NO_SPACE_BEFORE = new Set([".", ",", ";", ":", "!", "?", "»", ")", "…"]);
 const NO_SPACE_AFTER = new Set(["«", "("]);
 
-const state = { books: [], byId: {}, prepared: {}, settings: {}, chapter: null, selected: null };
+const state = { books: [], byId: {}, prepared: {}, progress: {}, settings: {}, chapter: null, selected: null, returnTo: null };
 const $ = (sel) => document.querySelector(sel);
 
 function esc(s) {
@@ -61,8 +61,10 @@ function renderLibrary() {
     for (const id of ids) {
       const b = state.byId[id];
       const done = Object.keys(state.prepared[id] || {}).length;
+      const read = readCount(id);
+      const info = [done ? `подготовлено ${done} из ${b.chapters}` : `${b.chapters} гл.`, read ? `прочитано ${read}` : ""];
       html += `<a class="book${done ? " has" : ""}" href="#/${id}">${esc(b.name)}
-        <small>${done ? `подготовлено ${done} из ${b.chapters}` : `${b.chapters} гл.`}</small></a>`;
+        <small>${info.filter(Boolean).join(" · ")}</small></a>`;
     }
     html += `</div>`;
   }
@@ -78,15 +80,17 @@ function renderBook(id) {
   let html = `<section class="library"><h1>${esc(b.name)}</h1><div class="chapters">`;
   for (let c = 1; c <= b.chapters; c++) {
     const st = (state.prepared[id] || {})[c];
-    html += `<a class="ch${st ? " has" : ""}" href="#/${id}/${c}" title="${st ? STATUS[st] : "не подготовлена"}">${c}</a>`;
+    const rd = state.progress[`${id}.${c}`];
+    const title = [st ? STATUS[st] : "не подготовлена", rd ? `прочитана ${dateRu(rd.date)}` : ""].filter(Boolean).join(", ");
+    html += `<a class="ch${st ? " has" : ""}${rd ? " read" : ""}" href="#/${id}/${c}" title="${title}">${c}</a>`;
   }
-  $("#main").innerHTML = html + `</div><p class="hint">Выделены подготовленные главы.</p></section>`;
+  $("#main").innerHTML = html + `</div><p class="hint">Выделены подготовленные главы; ✓ — прочитанные вами.</p></section>`;
   document.title = b.name;
 }
 
 // ---------- глава ----------
 
-async function openChapter(book, chapter, verse) {
+async function openChapter(book, chapter, verse, lookup = false) {
   const b = state.byId[book];
   if (!b || chapter < 1 || chapter > b.chapters) return renderLibrary();
   const data = await api(`/api/chapter/${book}/${chapter}`);
@@ -105,7 +109,8 @@ async function openChapter(book, chapter, verse) {
   } else {
     window.scrollTo(0, 0);
   }
-  saveState({ last: `${book}.${chapter}${verse ? "." + verse : ""}` });
+  if (!lookup) saveState({ last: `${book}.${chapter}${verse ? "." + verse : ""}` });
+  reopenPendingCard();
 }
 
 function translatedVerses() {
@@ -184,6 +189,7 @@ function renderChapter() {
   } else {
     html += `<p class="status">${esc(STATUS[tr.status] || tr.status)} · правила ${esc(tr.rules)}</p>`;
   }
+  html += readButton(ch);
   for (const v of ch.verses) {
     const tv = tvs[v.n];
     html += `<section class="verse${v.break ? " brk-" + v.break : ""}" id="v${v.n}">`;
@@ -196,10 +202,35 @@ function renderChapter() {
     html += renderSynOnly(v) + `</div></section>`;
   }
   const n = ch.chapter;
+  html += `<div class="read-end">${readButton(ch)}</div>`;
   html += `<nav class="bottom">${n > 1 ? `<a href="#/${ch.book}/${n - 1}">‹ Глава ${n - 1}</a>` : "<span></span>"}`;
   html += n < b.chapters ? `<a href="#/${ch.book}/${n + 1}">Глава ${n + 1} ›</a>` : "<span></span>";
   $("#main").innerHTML = html + `</nav></article>`;
   if (state.selected) highlight(state.selected.wid);
+}
+
+function dateRu(iso) {
+  const [y, m, d] = iso.slice(0, 10).split("-");
+  return `${d}.${m}.${y}`;
+}
+
+function readCount(book) {
+  return Object.keys(state.progress).filter((k) => k.startsWith(book + ".")).length;
+}
+
+function readButton(ch) {
+  const rd = state.progress[`${ch.book}.${ch.chapter}`];
+  return rd
+    ? `<button class="readmark done" title="Снять отметку">✓ Прочитано ${dateRu(rd.date)}</button>`
+    : `<button class="readmark" title="Отметить главу прочитанной">Отметить главу прочитанной</button>`;
+}
+
+async function toggleRead() {
+  const ch = state.chapter;
+  const key = `${ch.book}.${ch.chapter}`;
+  const res = await api("/api/progress", { chapter: key, read: !state.progress[key] });
+  if (res.progress) state.progress[key] = res.progress; else delete state.progress[key];
+  document.querySelectorAll(".readmark").forEach((b) => { b.outerHTML = readButton(ch); });
 }
 
 // ---------- карточка слова ----------
@@ -371,7 +402,44 @@ function saveState(patch) {
   api("/api/state", patch).catch(() => {});
 }
 
+// Переход по ссылке из карточки — это справка, а не чтение: место чтения не меняется,
+// а в шапке появляется кнопка возврата к слову, с которого начались переходы.
+function rememberReturn() {
+  if (!state.returnTo && state.selected) {
+    state.returnTo = { ref: state.selected.ref, wid: state.selected.wid };
+    saveState({ returnTo: state.returnTo });
+  }
+  state.lookup = true;
+  renderReturnButton();
+}
+
+function renderReturnButton() {
+  const btn = $("#backToReading");
+  btn.hidden = !state.returnTo;
+  if (state.returnTo) btn.textContent = `← Вернуться: ${refLabel(state.returnTo.ref)}`;
+}
+
+function goBack() {
+  const r = state.returnTo;
+  if (!r) return;
+  state.returnTo = null;
+  saveState({ returnTo: null });
+  state.pendingCard = r.wid;
+  renderReturnButton();
+  const [b, c, v] = r.ref.split(".");
+  const target = `#/${b}/${c}/${v}`;
+  if (location.hash === target) route(); else location.hash = target;
+}
+
+function reopenPendingCard() {
+  const wid = state.pendingCard;
+  state.pendingCard = null;
+  if (wid) openCard(wid);
+}
+
 function route() {
+  const lookup = state.lookup;
+  state.lookup = false;
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (!parts.length) return renderLibrary();
   const [book, ch, v] = parts;
@@ -381,10 +449,11 @@ function route() {
   if (sameChapter && v) {
     const el = document.getElementById(`v${v}`);
     if (el) { el.scrollIntoView({ block: "center" }); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
-    saveState({ last: `${book}.${ch}.${v}` });
+    if (!lookup) saveState({ last: `${book}.${ch}.${v}` });
+    reopenPendingCard();
     return;
   }
-  openChapter(book, +ch, v ? +v : null).catch((e) => { $("#main").innerHTML = `<p class="error">${esc(e.message)}</p>`; });
+  openChapter(book, +ch, v ? +v : null, lookup).catch((e) => { $("#main").innerHTML = `<p class="error">${esc(e.message)}</p>`; });
 }
 
 function step(delta) {
@@ -395,16 +464,22 @@ function step(delta) {
 }
 
 document.addEventListener("click", (e) => {
+  const link = e.target.closest('#card a[href^="#/"]');
+  if (link && link.getAttribute("href") !== location.hash) rememberReturn();
+  if (e.target.closest(".readmark")) toggleRead();
   const w = e.target.closest("[data-w]");
   if (w && $("#main").contains(w)) openCard(w.dataset.w.split(" ")[0]);
 });
 document.addEventListener("keydown", (e) => {
   if (e.target.matches("input, textarea, select")) return;
+  if (e.altKey || e.ctrlKey || e.metaKey) return;  // Alt+← — «назад» браузера, не листание глав
+  if (e.key === "Backspace" && state.returnTo) { e.preventDefault(); goBack(); }
   if (e.key === "Escape") closeCard();
   if (e.key === "ArrowLeft") step(-1);
   if (e.key === "ArrowRight") step(1);
   if (e.key === "Enter" && e.target.dataset?.w) openCard(e.target.dataset.w.split(" ")[0]);
 });
+$("#backToReading").onclick = goBack;
 $("#prev").onclick = () => step(-1);
 $("#next").onclick = () => step(1);
 $("#chapterSelect").onchange = (e) => { location.hash = `#/${state.chapter.book}/${e.target.value}`; };
@@ -418,5 +493,8 @@ window.addEventListener("hashchange", route);
   state.byId = Object.fromEntries(data.books.map((b) => [b.id, b]));
   state.prepared = data.prepared;
   state.settings = data.state || {};
+  state.progress = data.progress || {};
+  state.returnTo = state.settings.returnTo || null;
+  renderReturnButton();
   route();
 })();

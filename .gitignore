@@ -4,3 +4,4 @@ __pycache__/
 user/*.tmp
 user/server.log
 .cache/
+user/backups/

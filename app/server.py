@@ -7,6 +7,7 @@
 import json
 import os
 import re
+import shutil
 import socket
 import subprocess
 import sys
@@ -20,7 +21,7 @@ from urllib.parse import parse_qs, unquote, urlparse
 ROOT = Path(__file__).resolve().parent.parent
 STATIC = ROOT / "app" / "static"
 CORPUS = ROOT / "corpus"
-USER = ROOT / "user"
+USER = Path(os.environ.get("READER_USER_DIR") or ROOT / "user")  # другая папка — только для проверок
 HOST, PORT = "127.0.0.1", int(os.environ.get("PORT", 8795))
 LOCK = threading.Lock()
 
@@ -123,6 +124,17 @@ def log_change(kind, target, before, after):
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
+def backup_user_data():
+    """Раз в день при запуске копирует файлы пользователя в user/backups/<дата>/ (ничего не удаляет)."""
+    files = [p for p in USER.glob("*") if p.suffix in (".json", ".jsonl")]
+    target = USER / "backups" / datetime.now().strftime("%Y-%m-%d")
+    if not files or target.exists():
+        return
+    target.mkdir(parents=True)
+    for p in files:
+        shutil.copy2(p, target / p.name)
+
+
 class Handler(SimpleHTTPRequestHandler):
     data: Data = None
 
@@ -155,7 +167,8 @@ class Handler(SimpleHTTPRequestHandler):
                 tr = read_json(p, {})
                 done.setdefault(p.parent.name, {})[int(p.stem)] = tr.get("status", "draft")
             state = read_json(USER / "state.json", {})
-            return self.send_json({"books": d.books, "prepared": done, "state": state})
+            progress = read_json(USER / "progress.json", {})
+            return self.send_json({"books": d.books, "prepared": done, "state": state, "progress": progress})
         m = re.fullmatch(r"/api/chapter/([1-3]?[A-Za-z]+)/(\d+)", path)
         if m and m.group(1) in d.book_ids:
             ch = d.chapter(m.group(1), int(m.group(2)))
@@ -214,8 +227,29 @@ class Handler(SimpleHTTPRequestHandler):
                 for k in ("showHebrew", "showSynodal"):
                     if isinstance(body.get(k), bool):
                         state[k] = body[k]
+                if "returnTo" in body:
+                    r = body["returnTo"]
+                    if r is None:
+                        state.pop("returnTo", None)
+                    elif (isinstance(r, dict) and re.fullmatch(r"[1-3]?[A-Za-z]+\.\d+\.\d+", str(r.get("ref", "")))
+                          and re.fullmatch(r"\w+", str(r.get("wid", "")))):
+                        state["returnTo"] = {"ref": r["ref"], "wid": r["wid"]}
                 write_json(USER / "state.json", state)
                 return self.send_json({"ok": True})
+            if path == "/api/progress":
+                chapter = str(body.get("chapter", ""))
+                if not re.fullmatch(r"[1-3]?[A-Za-z]+\.\d+", chapter) or not isinstance(body.get("read"), bool):
+                    return self.send_json({"error": "неверная глава"}, 400)
+                progress = read_json(USER / "progress.json", {})
+                before = progress.get(chapter)
+                if body["read"]:
+                    progress[chapter] = before or {"date": now}
+                else:
+                    progress.pop(chapter, None)
+                write_json(USER / "progress.json", progress)
+                if before != progress.get(chapter):
+                    log_change("progress", chapter, before, progress.get(chapter))
+                return self.send_json({"ok": True, "progress": progress.get(chapter)})
         return self.send_json({"error": "неизвестный запрос"}, 404)
 
 
@@ -239,6 +273,7 @@ def main():
         if open_browser:
             webbrowser.open(url)
         return
+    backup_user_data()
     Handler.data = Data()
     server = ThreadingHTTPServer((HOST, PORT), Handler)
     if open_browser:

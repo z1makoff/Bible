@@ -44,6 +44,8 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .where select { padding: 2px 4px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); }
 .nav { border: 1px solid var(--line); background: var(--paper); border-radius: 6px; width: 32px; height: 30px; cursor: pointer; font-size: 18px; line-height: 1; }
 .nav:hover { border-color: var(--accent); }
+.back { border: 1px solid var(--accent); color: var(--accent); background: var(--paper); border-radius: 6px; padding: 3px 10px; cursor: pointer; font: inherit; font-size: 14px; white-space: nowrap; }
+.back:hover { background: var(--bg); }
 .toggles { display: flex; gap: 14px; color: var(--muted); font-size: 14px; }
 .toggles label { cursor: pointer; user-select: none; }
 
@@ -65,12 +67,18 @@ main { flex: 1; min-width: 0; padding: 24px 16px 80px; }
 .book.has, .ch.has { border-color: var(--accent); box-shadow: inset 3px 0 0 var(--accent); }
 .chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); gap: 6px; }
 .ch { text-align: center; padding: 8px 0; }
+.ch.read::after { content: " ✓"; color: var(--accent); }
 .hint { color: var(--muted); font-size: 14px; }
 
 /* глава */
 .chapter { max-width: 720px; margin: 0 auto; }
 .chapter h1 { font-family: var(--serif); font-weight: normal; font-size: 30px; margin: 4px 0 2px; }
-.status { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+.status { color: var(--muted); font-size: 14px; margin: 0 0 10px; }
+.readmark { border: 1px solid var(--line); background: var(--paper); color: var(--muted); border-radius: 6px; padding: 4px 10px; cursor: pointer; font: inherit; font-size: 14px; margin-bottom: 24px; }
+.readmark:hover { border-color: var(--accent); color: var(--accent); }
+.readmark.done { border-color: var(--accent); color: var(--accent); }
+.read-end { margin-top: 32px; }
+.read-end .readmark { margin-bottom: 0; }
 .verse { display: flex; gap: 12px; margin: 0 0 14px; scroll-margin-top: 80px; }
 .verse.brk-pe { margin-bottom: 34px; }
 .verse.brk-samekh { margin-bottom: 24px; }
