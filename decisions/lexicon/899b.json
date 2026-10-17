@@ -1,0 +1,28 @@
+{
+  "key": "899b",
+  "kind": "word",
+  "display": "beged",
+  "senses": [
+    {
+      "id": "garment",
+      "ru": "одежда",
+      "stems": [
+        "одежд"
+      ],
+      "gloss": "одежда",
+      "evidence": [
+        "Gen.24.53",
+        "Gen.27.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

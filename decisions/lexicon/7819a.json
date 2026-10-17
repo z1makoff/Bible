@@ -1,0 +1,29 @@
+{
+  "key": "7819a",
+  "kind": "word",
+  "display": "shachat",
+  "senses": [
+    {
+      "id": "slaughter",
+      "ru": "заколоть",
+      "stems": [
+        "закол",
+        "колот"
+      ],
+      "gloss": "заколоть (жертвенное животное)",
+      "evidence": [
+        "Gen.22.10",
+        "Exod.12.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

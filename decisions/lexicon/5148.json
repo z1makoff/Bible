@@ -1,0 +1,30 @@
+{
+  "key": "5148",
+  "kind": "word",
+  "display": "nachah",
+  "senses": [
+    {
+      "id": "lead",
+      "ru": "вести",
+      "stems": [
+        "вёл",
+        "вел",
+        "вед"
+      ],
+      "gloss": "вести, направлять",
+      "evidence": [
+        "Gen.24.27",
+        "Exod.13.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "biglino-moriah",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.22.2"
+ ],
+ "claim": "Moriah, по глоссарию Бильино, — «гора, которая указывает направление»; в Библии название встречается в рассказе о жертвоприношении Isaac, остановленном богом.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "Glossario: Moriah",
+  "quote": "“Monte che indica la direzione”",
+  "quoteRu": "«Гора, которая указывает направление»",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Название связывают с yarah — «указывать, наставлять».",
+   "grade": "plausible",
+   "for": [
+    "Gen.12.6"
+   ],
+   "against": [],
+   "note": "От того же корня moreh — «наставник» (ср. elon Moreh, 12:6). Но сам текст связывает место с raah — «видеть» (22:8, 22:14)."
+  },
+  {
+   "claim": "Moriah — именно «гора», а не «земля».",
+   "grade": "compatible",
+   "for": [
+    "Gen.22.2"
+   ],
+   "against": [],
+   "note": "В 22:2 сказано «земля Moriyyah» и «одна из гор»; «гора Moriyyah» — во 2 Пар 3:1."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 22–24, отрывок проверен по тексту"
+  }
+ ]
+}

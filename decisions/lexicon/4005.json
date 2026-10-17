@@ -1,0 +1,28 @@
+{
+  "key": "4005",
+  "kind": "word",
+  "display": "mivchar",
+  "senses": [
+    {
+      "id": "choice",
+      "ru": "отборное",
+      "stems": [
+        "отбор"
+      ],
+      "gloss": "отборное, лучшее",
+      "evidence": [
+        "Gen.23.6",
+        "Exod.15.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

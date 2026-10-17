@@ -1,0 +1,28 @@
+{
+  "key": "423",
+  "kind": "word",
+  "display": "alah",
+  "senses": [
+    {
+      "id": "curse-oath",
+      "ru": "заклятие",
+      "stems": [
+        "заклят"
+      ],
+      "gloss": "заклятие — клятва с проклятием на нарушителя",
+      "evidence": [
+        "Gen.24.41",
+        "Num.5.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

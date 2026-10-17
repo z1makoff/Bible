@@ -1,0 +1,28 @@
+{
+  "key": "6781a",
+  "kind": "word",
+  "display": "tsamid",
+  "senses": [
+    {
+      "id": "bracelet",
+      "ru": "браслет",
+      "stems": [
+        "браслет"
+      ],
+      "gloss": "браслет",
+      "evidence": [
+        "Gen.24.22",
+        "Num.31.50"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

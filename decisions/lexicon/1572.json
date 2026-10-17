@@ -1,0 +1,28 @@
+{
+  "key": "1572",
+  "kind": "word",
+  "display": "gama",
+  "senses": [
+    {
+      "id": "sip",
+      "ru": "дать глотнуть",
+      "stems": [
+        "глот"
+      ],
+      "gloss": "глотать; hiphil — дать глотнуть",
+      "evidence": [
+        "Gen.24.17",
+        "Job.39.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

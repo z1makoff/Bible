@@ -1,0 +1,29 @@
+{
+  "key": "2790b",
+  "kind": "word",
+  "display": "charash",
+  "senses": [
+    {
+      "id": "be-silent",
+      "ru": "молчать",
+      "stems": [
+        "молч",
+        "молча"
+      ],
+      "gloss": "молчать",
+      "evidence": [
+        "Gen.24.21",
+        "Gen.34.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

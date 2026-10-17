@@ -1,0 +1,29 @@
+{
+  "key": "14",
+  "kind": "word",
+  "display": "avah",
+  "senses": [
+    {
+      "id": "be-willing",
+      "ru": "захотеть",
+      "stems": [
+        "хот",
+        "хоч"
+      ],
+      "gloss": "захотеть, согласиться",
+      "evidence": [
+        "Gen.24.5",
+        "Exod.10.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5442",
+  "kind": "word",
+  "display": "sevakh",
+  "senses": [
+    {
+      "id": "thicket",
+      "ru": "чаща",
+      "stems": [
+        "чащ"
+      ],
+      "gloss": "чаща, заросли",
+      "evidence": [
+        "Gen.22.13",
+        "Isa.9.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

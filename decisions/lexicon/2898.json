@@ -1,0 +1,28 @@
+{
+  "key": "2898",
+  "kind": "word",
+  "display": "tuv",
+  "senses": [
+    {
+      "id": "goods",
+      "ru": "добро",
+      "stems": [
+        "добр"
+      ],
+      "gloss": "добро, блага, ценности",
+      "evidence": [
+        "Gen.24.10",
+        "Gen.45.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

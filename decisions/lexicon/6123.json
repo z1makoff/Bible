@@ -1,0 +1,27 @@
+{
+  "key": "6123",
+  "kind": "word",
+  "display": "aqad",
+  "senses": [
+    {
+      "id": "bind",
+      "ru": "связать",
+      "stems": [
+        "связ"
+      ],
+      "gloss": "связать (по рукам и ногам); только здесь — отсюда «akedah»",
+      "evidence": [
+        "Gen.22.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

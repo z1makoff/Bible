@@ -1,0 +1,28 @@
+{
+  "key": "5254",
+  "kind": "word",
+  "display": "nasah",
+  "senses": [
+    {
+      "id": "test",
+      "ru": "испытать",
+      "stems": [
+        "испыт"
+      ],
+      "gloss": "испытать, проверить",
+      "evidence": [
+        "Gen.22.1",
+        "Exod.20.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

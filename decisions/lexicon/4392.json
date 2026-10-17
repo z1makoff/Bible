@@ -1,0 +1,29 @@
+{
+  "key": "4392",
+  "kind": "word",
+  "display": "male",
+  "senses": [
+    {
+      "id": "full",
+      "ru": "сполна",
+      "stems": [
+        "сполн",
+        "полн"
+      ],
+      "gloss": "полный; «be-khesef male» — за полное серебро, сполна (другое слово, чем shalem)",
+      "evidence": [
+        "Gen.23.9",
+        "Gen.41.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

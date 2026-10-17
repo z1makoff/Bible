@@ -1,0 +1,28 @@
+{
+  "key": "309",
+  "kind": "word",
+  "display": "achar",
+  "senses": [
+    {
+      "id": "delay",
+      "ru": "задерживать",
+      "stems": [
+        "задерж"
+      ],
+      "gloss": "задерживать, медлить (piel)",
+      "evidence": [
+        "Gen.24.56",
+        "Gen.32.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

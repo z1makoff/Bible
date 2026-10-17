@@ -1,0 +1,28 @@
+{
+  "key": "8268",
+  "kind": "word",
+  "display": "shoqet",
+  "senses": [
+    {
+      "id": "trough",
+      "ru": "поилка",
+      "stems": [
+        "поил"
+      ],
+      "gloss": "поилка, водопойное корыто",
+      "evidence": [
+        "Gen.24.20",
+        "Gen.30.38"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

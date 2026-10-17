@@ -1,0 +1,29 @@
+{
+  "key": "341",
+  "kind": "word",
+  "display": "oyev",
+  "senses": [
+    {
+      "id": "enemy",
+      "ru": "враг",
+      "stems": [
+        "враг",
+        "враж"
+      ],
+      "gloss": "враг (другое слово, чем tsar — «противник»)",
+      "evidence": [
+        "Gen.22.17",
+        "Exod.15.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

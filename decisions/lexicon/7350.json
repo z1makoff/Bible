@@ -1,0 +1,28 @@
+{
+  "key": "7350",
+  "kind": "word",
+  "display": "rachoq",
+  "senses": [
+    {
+      "id": "far",
+      "ru": "далёкий",
+      "stems": [
+        "дал"
+      ],
+      "gloss": "далёкий; «me-rachoq» — издали",
+      "evidence": [
+        "Gen.22.4",
+        "Gen.37.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

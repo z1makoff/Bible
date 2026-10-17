@@ -1,0 +1,28 @@
+{
+  "key": "7579",
+  "kind": "word",
+  "display": "shaav",
+  "senses": [
+    {
+      "id": "draw",
+      "ru": "черпать",
+      "stems": [
+        "черп"
+      ],
+      "gloss": "черпать (воду)",
+      "evidence": [
+        "Gen.24.11",
+        "Gen.24.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "157",
+  "kind": "word",
+  "display": "ahev",
+  "senses": [
+    {
+      "id": "love",
+      "ru": "любить",
+      "stems": [
+        "люб"
+      ],
+      "gloss": "любить",
+      "evidence": [
+        "Gen.22.2",
+        "Gen.24.67"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

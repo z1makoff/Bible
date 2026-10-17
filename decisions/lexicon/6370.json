@@ -1,0 +1,28 @@
+{
+  "key": "6370",
+  "kind": "word",
+  "display": "pilegesh",
+  "senses": [
+    {
+      "id": "concubine",
+      "ru": "наложница",
+      "stems": [
+        "наложниц"
+      ],
+      "gloss": "наложница — младшая жена",
+      "evidence": [
+        "Gen.22.24",
+        "Gen.25.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

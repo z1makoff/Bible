@@ -1,0 +1,28 @@
+{
+  "key": "5141",
+  "kind": "word",
+  "display": "nezem",
+  "senses": [
+    {
+      "id": "ring",
+      "ru": "кольцо",
+      "stems": [
+        "кольц"
+      ],
+      "gloss": "кольцо (в нос или в ухо)",
+      "evidence": [
+        "Gen.24.22",
+        "Exod.32.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

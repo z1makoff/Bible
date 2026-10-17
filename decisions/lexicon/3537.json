@@ -1,0 +1,28 @@
+{
+  "key": "3537",
+  "kind": "word",
+  "display": "kad",
+  "senses": [
+    {
+      "id": "jar",
+      "ru": "кувшин",
+      "stems": [
+        "кувшин"
+      ],
+      "gloss": "кувшин",
+      "evidence": [
+        "Gen.24.14",
+        "Gen.24.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

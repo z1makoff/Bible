@@ -1,0 +1,28 @@
+{
+  "key": "4554",
+  "kind": "word",
+  "display": "mispo",
+  "senses": [
+    {
+      "id": "fodder",
+      "ru": "корм",
+      "stems": [
+        "корм"
+      ],
+      "gloss": "корм для скота",
+      "evidence": [
+        "Gen.24.25",
+        "Gen.42.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

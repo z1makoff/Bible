@@ -1,0 +1,28 @@
+{
+  "key": "8401",
+  "kind": "word",
+  "display": "teven",
+  "senses": [
+    {
+      "id": "straw",
+      "ru": "солома",
+      "stems": [
+        "солом"
+      ],
+      "gloss": "солома",
+      "evidence": [
+        "Gen.24.25",
+        "Exod.5.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

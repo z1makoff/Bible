@@ -1,0 +1,29 @@
+{
+  "key": "3373",
+  "kind": "word",
+  "display": "yare",
+  "senses": [
+    {
+      "id": "fearing",
+      "ru": "боящийся",
+      "stems": [
+        "боящ",
+        "бои"
+      ],
+      "gloss": "боящийся",
+      "evidence": [
+        "Gen.22.12",
+        "Exod.18.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

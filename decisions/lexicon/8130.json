@@ -1,0 +1,28 @@
+{
+  "key": "8130",
+  "kind": "word",
+  "display": "sane",
+  "senses": [
+    {
+      "id": "hate",
+      "ru": "ненавидеть",
+      "stems": [
+        "ненави"
+      ],
+      "gloss": "ненавидеть",
+      "evidence": [
+        "Gen.24.60",
+        "Gen.26.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

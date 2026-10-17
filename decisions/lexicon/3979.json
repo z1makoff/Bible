@@ -1,0 +1,28 @@
+{
+  "key": "3979",
+  "kind": "word",
+  "display": "maakhelet",
+  "senses": [
+    {
+      "id": "knife",
+      "ru": "нож",
+      "stems": [
+        "нож"
+      ],
+      "gloss": "нож (от akhal — «есть»)",
+      "evidence": [
+        "Gen.22.6",
+        "Judg.19.29"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

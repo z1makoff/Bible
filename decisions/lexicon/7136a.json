@@ -1,0 +1,28 @@
+{
+  "key": "7136a",
+  "kind": "word",
+  "display": "qarah",
+  "senses": [
+    {
+      "id": "happen",
+      "ru": "случиться",
+      "stems": [
+        "случ"
+      ],
+      "gloss": "случиться, встретиться; hiphil — дать случиться",
+      "evidence": [
+        "Gen.24.12",
+        "Gen.27.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

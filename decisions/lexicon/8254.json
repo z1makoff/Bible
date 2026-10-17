@@ -1,0 +1,29 @@
+{
+  "key": "8254",
+  "kind": "word",
+  "display": "shaqal",
+  "senses": [
+    {
+      "id": "weigh",
+      "ru": "отвесить",
+      "stems": [
+        "отвес",
+        "отвеш"
+      ],
+      "gloss": "отвесить (серебро на весах)",
+      "evidence": [
+        "Gen.23.16",
+        "Exod.22.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

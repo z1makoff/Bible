@@ -1,0 +1,28 @@
+{
+  "key": "4030",
+  "kind": "word",
+  "display": "migdanah",
+  "senses": [
+    {
+      "id": "precious",
+      "ru": "драгоценность",
+      "stems": [
+        "драгоцен"
+      ],
+      "gloss": "драгоценность, дорогой подарок",
+      "evidence": [
+        "Gen.24.53",
+        "Ezra.1.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

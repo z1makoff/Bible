@@ -1,0 +1,28 @@
+{
+  "key": "5002",
+  "kind": "word",
+  "display": "neum",
+  "senses": [
+    {
+      "id": "utterance",
+      "ru": "речение",
+      "stems": [
+        "речен"
+      ],
+      "gloss": "речение; «neum YHWH» — «речение YHWH», так говорит YHWH",
+      "evidence": [
+        "Gen.22.16",
+        "Num.14.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 22–24"
+    }
+  ]
+}

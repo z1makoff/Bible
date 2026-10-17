@@ -1,0 +1,55 @@
+{
+ "id": "biglino-kin-marriage",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.24.3",
+  "Gen.24.4"
+ ],
+ "claim": "Выбор в пользу «чистоты крови» продолжается у потомков: Avraham женит Isaac внутри своей родни (24:3–4); Esav, взявший хананеянок, исключён из официальной линии, а Jacob берёт жён из семьи отца. По Бильино, так поддерживалась генетическая линия семьи, как у шумерских правителей.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "7. Popolo di proprietà",
+  "quote": "La scelta di mantenere la purezza di sangue prosegue con i discendenti",
+  "quoteRu": "Выбор в пользу сохранения чистоты крови продолжается у потомков",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Avraham запрещает брать жену из Kenaani и велит взять из родни.",
+   "grade": "entailed",
+   "for": [
+    "Gen.24.3",
+    "Gen.24.4"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Rivqah — из родни Avraham.",
+   "grade": "entailed",
+   "for": [
+    "Gen.22.23",
+    "Gen.24.15"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Причина — сохранение чистоты крови.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Gen.15.16",
+    "Gen.26.35"
+   ],
+   "note": "Текст причины не называет. Рядом стоят другие мотивы: «вина Emori» (15:16) и горечь от хананейских жён Esav (26:35)."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 22–24, отрывок проверен по тексту"
+  }
+ ]
+}
