@@ -1,0 +1,28 @@
+{
+  "key": "7298a",
+  "kind": "word",
+  "display": "rahat",
+  "senses": [
+    {
+      "id": "trough",
+      "ru": "корыто",
+      "stems": [
+        "корыт"
+      ],
+      "gloss": "корыто, жёлоб для водопоя",
+      "evidence": [
+        "Gen.30.38",
+        "Exod.2.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

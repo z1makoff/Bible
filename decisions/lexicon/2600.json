@@ -1,0 +1,40 @@
+{
+  "key": "2600",
+  "kind": "word",
+  "display": "chinnam",
+  "senses": [
+    {
+      "id": "free",
+      "ru": "даром",
+      "stems": [
+        "даром"
+      ],
+      "gloss": "даром, без платы",
+      "evidence": [
+        "Gen.29.15",
+        "Exod.21.2"
+      ]
+    },
+    {
+      "id": "causeless",
+      "ru": "без причины",
+      "stems": [
+        "без причин"
+      ],
+      "gloss": "без причины, понапрасну",
+      "evidence": [
+        "1Sam.19.5",
+        "Ps.35.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

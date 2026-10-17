@@ -1,0 +1,28 @@
+{
+  "key": "4763",
+  "kind": "word",
+  "display": "meraashot",
+  "senses": [
+    {
+      "id": "head-place",
+      "ru": "изголовье",
+      "stems": [
+        "изголов"
+      ],
+      "gloss": "место у головы спящего",
+      "evidence": [
+        "Gen.28.11",
+        "1Sam.26.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

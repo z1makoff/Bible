@@ -1,0 +1,29 @@
+{
+  "key": "8142",
+  "kind": "word",
+  "display": "shenah",
+  "senses": [
+    {
+      "id": "sleep",
+      "ru": "сон",
+      "stems": [
+        "сон",
+        "сн"
+      ],
+      "gloss": "сон (состояние спящего)",
+      "evidence": [
+        "Gen.28.16",
+        "Gen.31.40"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

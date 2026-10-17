@@ -1,0 +1,28 @@
+{
+  "key": "8088b",
+  "kind": "word",
+  "display": "shema",
+  "senses": [
+    {
+      "id": "report",
+      "ru": "слух",
+      "stems": [
+        "слух"
+      ],
+      "gloss": "слух, известие, молва",
+      "evidence": [
+        "Gen.29.13",
+        "1Kgs.10.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

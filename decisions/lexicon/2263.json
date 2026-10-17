@@ -1,0 +1,29 @@
+{
+  "key": "2263",
+  "kind": "word",
+  "display": "chavaq",
+  "senses": [
+    {
+      "id": "embrace",
+      "ru": "обнять",
+      "stems": [
+        "обня",
+        "обним"
+      ],
+      "gloss": "обнять, обнимать",
+      "evidence": [
+        "Gen.29.13",
+        "Gen.33.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "8495",
+  "kind": "word",
+  "display": "tayish",
+  "senses": [
+    {
+      "id": "he-goat",
+      "ru": "козёл",
+      "stems": [
+        "козл",
+        "козёл"
+      ],
+      "gloss": "козёл",
+      "evidence": [
+        "Gen.30.35",
+        "Prov.30.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

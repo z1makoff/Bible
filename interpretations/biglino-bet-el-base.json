@@ -1,0 +1,59 @@
+{
+ "id": "biglino-bet-el-base",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "1008"
+ ],
+ "places": [
+  "Gen.28.17",
+  "Gen.28.19"
+ ],
+ "claim": "Разбирая рассказ о том, как Илию забирают в небо (4 Цар 2), Бильино спрашивает: случайно ли место называется Bet-El, «дом El»? Не было ли там базы Elohim? То, что у Elohim были базы, по его мнению, подтверждает Machanaim — «двойной лагерь» (Быт 32:2–3). Сам рассказ Быт 28 он при этом не разбирает: название Beit-El появляется именно там.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "2. L’El di nome Yahweh e il mezzo di trasporto",
+  "quote": "Era forse una base degli Elohim?",
+  "quoteRu": "Не была ли это база Elohim?",
+  "checked": "2026-10-18"
+ },
+ "support": [
+  {
+   "claim": "Beit-El значит «дом El».",
+   "grade": "entailed",
+   "for": [
+    "Gen.28.17",
+    "Gen.28.19"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Yaaqov называет место так после сновидения, а не после встречи с чем-то видимым наяву.",
+   "grade": "entailed",
+   "for": [
+    "Gen.28.16",
+    "Gen.28.19"
+   ],
+   "against": []
+  },
+  {
+   "claim": "В Beit-El была база Elohim.",
+   "grade": "speculative",
+   "for": [
+    "2Kgs.2.2",
+    "2Kgs.2.3"
+   ],
+   "against": [
+    "Gen.28.16"
+   ],
+   "note": "Бильино ставит это как вопрос. В Быт 28 всё, что связывает место с Elohim, Yaaqov видит во сне. Позже Beit-El — святилище (3 Цар 12:29)."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано при подготовке Быт 28–30, отрывок проверен по тексту"
+  }
+ ]
+}

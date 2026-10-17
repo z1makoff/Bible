@@ -1,0 +1,28 @@
+{
+  "key": "2406",
+  "kind": "word",
+  "display": "chittah",
+  "senses": [
+    {
+      "id": "wheat",
+      "ru": "пшеница",
+      "stems": [
+        "пшениц"
+      ],
+      "gloss": "пшеница",
+      "evidence": [
+        "Gen.30.14",
+        "Exod.9.32"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

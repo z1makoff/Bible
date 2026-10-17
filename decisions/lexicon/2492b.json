@@ -1,0 +1,28 @@
+{
+  "key": "2492b",
+  "kind": "word",
+  "display": "chalam",
+  "senses": [
+    {
+      "id": "dream",
+      "ru": "видеть сновидение",
+      "stems": [
+        "сновид"
+      ],
+      "gloss": "видеть сон (того же корня, что chalom — «сновидение»)",
+      "evidence": [
+        "Gen.28.12",
+        "Gen.37.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}

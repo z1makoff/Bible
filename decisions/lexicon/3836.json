@@ -1,0 +1,28 @@
+{
+  "key": "3836",
+  "kind": "word",
+  "display": "lavan",
+  "senses": [
+    {
+      "id": "white",
+      "ru": "белый",
+      "stems": [
+        "бел"
+      ],
+      "gloss": "белый",
+      "evidence": [
+        "Gen.30.35",
+        "Gen.49.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Те же согласные, что имя Lavan: в 30:35–37 игра слов (белое, livneh, Lavan).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 28–30"
+    }
+  ]
+}
