@@ -54,6 +54,12 @@ SYNODAL_CORRECTIONS = [
     "Lev.14.55=Lev.14.55-Lev.14.56",   # синодальный 14:55 содержит текст 14:55–56 еврейского и KJV
     "Lev.14.56=Lev.14.57",
     "Ps.114.8=Ps.116.8-Ps.116.9",      # в модуле стих 114:9 слит с 114:8
+    # Даниил 3 в модуле: 3:24–90 — молитва Азарии и песнь трёх отроков (нет в еврейском тексте),
+    # 3:91–97 = еврейский 3:24–30, 3:98–100 = еврейский 3:31–33 (KJV 4:1–3). Таблица JSword
+    # предполагает другое расположение; ошибку нашла tools/audit_synodal.py.
+    "Dan.3.24-Dan.3.90=?SongOfThreeChildren",
+    "Dan.3.91-Dan.3.97=Dan.3.24-Dan.3.30",
+    "Dan.3.98-Dan.3.100=Dan.4.1-Dan.4.3",
 ]
 
 
@@ -70,6 +76,9 @@ def load_rules(path, lengths, errors, corrections=()):
         left, right = (x.strip() for x in line.split("="))
         if right.startswith("?"):
             for b, c, v, _ in expand(left, lengths):
+                if is_fix:
+                    rules[(b, c, v)] = set()
+                    fixed.add((b, c, v))
                 rules[(b, c, v)]  # стиха нет в KJV: явно пустое соответствие
             continue
         try:

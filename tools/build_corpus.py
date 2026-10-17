@@ -196,7 +196,18 @@ def main():
                         for s, exact in mapping[(chapter["book"], chapter["chapter"], v["n"])]]
         path = OUT / "ot" / chapter["book"] / f"{chapter['chapter']:03d}.json"
         path.write_text(json.dumps(chapter, ensure_ascii=False, separators=(",", ":")) + "\n", "utf-8")
-    synodal_only = [{"book": s[0], "c": s[1], "v": s[2], "text": syn_texts[s]} for s in syn_only]
+    # Стихи, которых нет в еврейском тексте, ставятся после еврейского стиха,
+    # соответствующего ближайшему предыдущему синодальному стиху.
+    heb_of_syn = {}
+    for chapter in all_chapters:
+        for v in chapter["verses"]:
+            for s in v["syn"]:
+                heb_of_syn.setdefault((chapter["book"], s["c"], s["v"]), v["ref"])
+    synodal_only = []
+    for s in syn_only:
+        before = [k for k in heb_of_syn if k[0] == s[0] and k[1:] < s[1:]]
+        after = heb_of_syn[max(before)] if before else None
+        synodal_only.append({"book": s[0], "c": s[1], "v": s[2], "text": syn_texts[s], "after": after})
 
     aug, li, bdb, strong, tbesh = lexicon_tables()
     lexemes, missing = {}, []

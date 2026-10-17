@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Читалка</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <a class="home" href="#/" title="Библиотека">Библиотека</a>
+  <nav class="where" id="where" hidden>
+    <button class="nav" id="prev" title="Предыдущая глава (←)" aria-label="Предыдущая глава">‹</button>
+    <span id="bookName"></span>
+    <select id="chapterSelect" aria-label="Глава"></select>
+    <button class="nav" id="next" title="Следующая глава (→)" aria-label="Следующая глава">›</button>
+  </nav>
+  <div class="toggles" id="toggles" hidden>
+    <label><input type="checkbox" id="showHebrew"> Еврейский</label>
+    <label><input type="checkbox" id="showSynodal"> Синодальный</label>
+  </div>
+</header>
+<div class="layout">
+  <main id="main"></main>
+  <aside id="card" hidden></aside>
+</div>
+<script src="morph.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

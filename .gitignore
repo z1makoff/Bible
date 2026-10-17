@@ -2,3 +2,4 @@ corpus/
 __pycache__/
 *.part
 user/*.tmp
+user/server.log
