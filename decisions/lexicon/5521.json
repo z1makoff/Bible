@@ -1,0 +1,28 @@
+{
+  "key": "5521",
+  "kind": "word",
+  "display": "sukkah",
+  "senses": [
+    {
+      "id": "hut",
+      "ru": "шалаш",
+      "stems": [
+        "шалаш"
+      ],
+      "gloss": "шалаш, навес (из ветвей)",
+      "evidence": [
+        "Gen.33.17",
+        "Lev.23.42"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

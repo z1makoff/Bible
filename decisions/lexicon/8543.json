@@ -1,0 +1,28 @@
+{
+  "key": "8543",
+  "kind": "word",
+  "display": "temol",
+  "senses": [
+    {
+      "id": "yesterday",
+      "ru": "вчера",
+      "stems": [
+        "вчера"
+      ],
+      "gloss": "вчера; ki-temol shilshom — «как вчера и позавчера», то есть как прежде",
+      "evidence": [
+        "Gen.31.2",
+        "1Sam.20.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

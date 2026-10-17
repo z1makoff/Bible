@@ -1,0 +1,28 @@
+{
+  "key": "7387",
+  "kind": "word",
+  "display": "reqam",
+  "senses": [
+    {
+      "id": "empty",
+      "ru": "ни с чем",
+      "stems": [
+        "ни с чем"
+      ],
+      "gloss": "ни с чем, с пустыми руками",
+      "evidence": [
+        "Gen.31.42",
+        "Exod.3.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

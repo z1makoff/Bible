@@ -1,0 +1,29 @@
+{
+  "key": "7892a",
+  "kind": "word",
+  "display": "shir",
+  "senses": [
+    {
+      "id": "song",
+      "ru": "песня",
+      "stems": [
+        "песн",
+        "песен"
+      ],
+      "gloss": "песня",
+      "evidence": [
+        "Gen.31.27",
+        "1Kgs.5.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

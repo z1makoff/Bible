@@ -1,0 +1,28 @@
+{
+  "key": "3018",
+  "kind": "word",
+  "display": "yegia",
+  "senses": [
+    {
+      "id": "toil",
+      "ru": "труд",
+      "stems": [
+        "труд"
+      ],
+      "gloss": "труд и то, что им нажито",
+      "evidence": [
+        "Gen.31.42",
+        "Ps.128.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

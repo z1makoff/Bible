@@ -1,0 +1,28 @@
+{
+  "key": "5528",
+  "kind": "word",
+  "display": "sakhal",
+  "senses": [
+    {
+      "id": "act-foolishly",
+      "ru": "поступить глупо",
+      "stems": [
+        "глуп"
+      ],
+      "gloss": "поступить глупо, сделать глупость",
+      "evidence": [
+        "Gen.31.28",
+        "1Sam.13.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

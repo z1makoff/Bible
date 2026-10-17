@@ -1,0 +1,31 @@
+{
+  "key": "6343",
+  "kind": "word",
+  "display": "pachad",
+  "senses": [
+    {
+      "id": "dread",
+      "ru": "трепет",
+      "stems": [
+        "трепет"
+      ],
+      "gloss": "трепет, ужас (перед кем-то)",
+      "evidence": [
+        "Deut.2.25",
+        "Exod.15.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "В 31:42, 53 — Pachad Yitschaq, наименование божества: как титул не переводится (правила, раздел 2).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ],
+  "displayForms": [
+    "Pachad"
+  ]
+}

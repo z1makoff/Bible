@@ -1,0 +1,29 @@
+{
+  "key": "8596",
+  "kind": "word",
+  "display": "tof",
+  "senses": [
+    {
+      "id": "drum",
+      "ru": "бубен",
+      "stems": [
+        "бубн",
+        "бубен"
+      ],
+      "gloss": "бубен, ручной барабан",
+      "evidence": [
+        "Gen.31.27",
+        "Exod.15.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

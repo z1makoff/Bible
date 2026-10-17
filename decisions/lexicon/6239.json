@@ -1,0 +1,28 @@
+{
+  "key": "6239",
+  "kind": "word",
+  "display": "osher",
+  "senses": [
+    {
+      "id": "riches",
+      "ru": "богатство",
+      "stems": [
+        "богат"
+      ],
+      "gloss": "богатство (того же корня, что ashar — «обогатить»)",
+      "evidence": [
+        "Gen.31.16",
+        "1Kgs.3.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

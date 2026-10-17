@@ -1,0 +1,28 @@
+{
+  "key": "5159",
+  "kind": "word",
+  "display": "nachalah",
+  "senses": [
+    {
+      "id": "allotment",
+      "ru": "удел",
+      "stems": [
+        "удел"
+      ],
+      "gloss": "удел, наследственное владение",
+      "evidence": [
+        "Gen.31.14",
+        "Num.26.53"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

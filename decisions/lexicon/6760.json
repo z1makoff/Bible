@@ -1,0 +1,28 @@
+{
+  "key": "6760",
+  "kind": "word",
+  "display": "tsala",
+  "senses": [
+    {
+      "id": "limp",
+      "ru": "хромать",
+      "stems": [
+        "хром"
+      ],
+      "gloss": "хромать",
+      "evidence": [
+        "Gen.32.32",
+        "Mic.4.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

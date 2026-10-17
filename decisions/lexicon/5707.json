@@ -1,0 +1,28 @@
+{
+  "key": "5707",
+  "kind": "word",
+  "display": "ed",
+  "senses": [
+    {
+      "id": "witness",
+      "ru": "свидетель",
+      "stems": [
+        "свидетел"
+      ],
+      "gloss": "свидетель (человек или предмет)",
+      "evidence": [
+        "Gen.31.44",
+        "Deut.17.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

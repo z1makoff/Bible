@@ -1,0 +1,28 @@
+{
+  "key": "5237",
+  "kind": "word",
+  "display": "nokhri",
+  "senses": [
+    {
+      "id": "foreign",
+      "ru": "чужой",
+      "stems": [
+        "чуж"
+      ],
+      "gloss": "чужой, чужеземный (того же корня, что nekhar — «чужбина»)",
+      "evidence": [
+        "Gen.31.15",
+        "Deut.17.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

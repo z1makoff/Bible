@@ -1,0 +1,28 @@
+{
+  "key": "5763",
+  "kind": "word",
+  "display": "ul",
+  "senses": [
+    {
+      "id": "nursing",
+      "ru": "дойный",
+      "stems": [
+        "дойн"
+      ],
+      "gloss": "кормящая, дойная (о скоте)",
+      "evidence": [
+        "Gen.33.13",
+        "Isa.40.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

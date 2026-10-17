@@ -1,0 +1,28 @@
+{
+  "key": "1494",
+  "kind": "word",
+  "display": "gazaz",
+  "senses": [
+    {
+      "id": "shear",
+      "ru": "стричь",
+      "stems": [
+        "стри"
+      ],
+      "gloss": "стричь (овец)",
+      "evidence": [
+        "Gen.31.19",
+        "1Sam.25.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

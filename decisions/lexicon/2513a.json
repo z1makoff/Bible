@@ -1,0 +1,28 @@
+{
+  "key": "2513a",
+  "kind": "word",
+  "display": "chelqah",
+  "senses": [
+    {
+      "id": "plot",
+      "ru": "участок",
+      "stems": [
+        "участ"
+      ],
+      "gloss": "участок (поля, земли)",
+      "evidence": [
+        "Gen.33.19",
+        "Ruth.2.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

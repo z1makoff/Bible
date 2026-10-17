@@ -1,0 +1,29 @@
+{
+  "key": "5895",
+  "kind": "word",
+  "display": "ayir",
+  "senses": [
+    {
+      "id": "young-donkey",
+      "ru": "ослёнок",
+      "stems": [
+        "ослён",
+        "ослят"
+      ],
+      "gloss": "молодой осёл, ослёнок",
+      "evidence": [
+        "Gen.32.16",
+        "Zech.9.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем chamor («осёл»).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

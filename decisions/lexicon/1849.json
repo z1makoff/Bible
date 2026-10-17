@@ -1,0 +1,40 @@
+{
+  "key": "1849",
+  "kind": "word",
+  "display": "dafaq",
+  "senses": [
+    {
+      "id": "overdrive",
+      "ru": "загнать",
+      "stems": [
+        "загна",
+        "загон"
+      ],
+      "gloss": "загнать, гнать сверх сил",
+      "evidence": [
+        "Gen.33.13"
+      ]
+    },
+    {
+      "id": "knock",
+      "ru": "стучать",
+      "stems": [
+        "стуч"
+      ],
+      "gloss": "стучать, колотить (в дверь)",
+      "evidence": [
+        "Judg.19.22",
+        "Song.5.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2721a",
+  "kind": "word",
+  "display": "chorev",
+  "senses": [
+    {
+      "id": "drought",
+      "ru": "сушь",
+      "stems": [
+        "суш"
+      ],
+      "gloss": "сушь, зной, засуха",
+      "evidence": [
+        "Gen.31.40",
+        "Judg.6.37"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Сушь» — чтобы не совпадать с chom («зной»).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

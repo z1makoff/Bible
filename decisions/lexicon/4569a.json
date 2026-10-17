@@ -1,0 +1,28 @@
+{
+  "key": "4569a",
+  "kind": "word",
+  "display": "maavar",
+  "senses": [
+    {
+      "id": "ford",
+      "ru": "брод",
+      "stems": [
+        "брод"
+      ],
+      "gloss": "брод, переправа",
+      "evidence": [
+        "Gen.32.23",
+        "1Sam.13.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

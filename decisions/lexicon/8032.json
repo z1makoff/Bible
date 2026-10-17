@@ -1,0 +1,28 @@
+{
+  "key": "8032",
+  "kind": "word",
+  "display": "shilshom",
+  "senses": [
+    {
+      "id": "day-before",
+      "ru": "позавчера",
+      "stems": [
+        "позавчера"
+      ],
+      "gloss": "третьего дня, позавчера; в паре с temol — «прежде»",
+      "evidence": [
+        "Gen.31.2",
+        "Exod.4.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

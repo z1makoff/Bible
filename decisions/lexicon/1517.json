@@ -1,0 +1,28 @@
+{
+  "key": "1517",
+  "kind": "word",
+  "display": "gid",
+  "senses": [
+    {
+      "id": "sinew",
+      "ru": "сухожилие",
+      "stems": [
+        "сухожил"
+      ],
+      "gloss": "сухожилие, жила",
+      "evidence": [
+        "Gen.32.33",
+        "Ezek.37.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

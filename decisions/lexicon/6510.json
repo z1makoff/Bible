@@ -1,0 +1,28 @@
+{
+  "key": "6510",
+  "kind": "word",
+  "display": "parah",
+  "senses": [
+    {
+      "id": "cow",
+      "ru": "корова",
+      "stems": [
+        "коров"
+      ],
+      "gloss": "корова, тёлка",
+      "evidence": [
+        "Gen.32.16",
+        "Gen.41.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

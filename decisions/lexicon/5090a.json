@@ -1,0 +1,29 @@
+{
+  "key": "5090a",
+  "kind": "word",
+  "display": "nahag",
+  "senses": [
+    {
+      "id": "drive",
+      "ru": "гнать",
+      "stems": [
+        "гна",
+        "гон"
+      ],
+      "gloss": "гнать (скот), вести, уводить",
+      "evidence": [
+        "Gen.31.18",
+        "1Sam.30.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

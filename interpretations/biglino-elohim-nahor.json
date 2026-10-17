@@ -1,0 +1,72 @@
+{
+ "id": "biglino-elohim-nahor",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "430"
+ ],
+ "places": [
+  "Gen.31.53",
+  "Gen.31.29",
+  "Gen.31.30"
+ ],
+ "claim": "В клятве у груды камней (31:53) Lavan призывает в судьи «Elohim Avraham и Elohim Nachor». По Бильино, это прямо показывает, что семья Terach была разделена между несколькими Elohim: Elohim Nachor правили в Месопотамии, где осталась его семья, а Elohim, за которыми Avraham ушёл в Kenaan, — там. Гаранты клятвы равны между собой: нет различия между «истинным Богом» и другими. Если Elohim — всегда один Бог, непонятно, как другие Elohim той же силы могут быть гарантами, а родня Avraham за десятилетия так и не заметила разницы.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "chapter": "4. E se il termine Elohim fosse singolare?",
+  "quote": "la famiglia di Abramo era stata divisa tra più Elohim",
+  "quoteRu": "семья Авраама была разделена между несколькими Elohim",
+  "checked": "2026-10-18"
+ },
+ "support": [
+  {
+   "claim": "Lavan называет два Elohim — Avraham и Nachor.",
+   "grade": "entailed",
+   "for": [
+    "Gen.31.53"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Глагол «пусть судят» стоит во множественном числе.",
+   "grade": "entailed",
+   "for": [
+    "Gen.31.53"
+   ],
+   "against": [],
+   "note": "Но с Elohim глагол во множественном числе бывает и там, где речь об одном (20:13; 35:7), поэтому само по себе это не решает."
+  },
+  {
+   "claim": "У каждой ветви семьи — свои Elohim.",
+   "grade": "supported",
+   "for": [
+    "Gen.31.53",
+    "Gen.31.30",
+    "Josh.24.2"
+   ],
+   "against": [
+    "Gen.31.29",
+    "Gen.31.24"
+   ],
+   "note": "Elohim Nachor у Lavan есть (31:30 — его terafim он называет «мои Elohim»), но Elohim отца Yaaqov является самому Lavan в его краю и запрещает ему вредить Yaaqov (31:24, 29). Строгого разделения по землям текст не показывает."
+  },
+  {
+   "claim": "Гаранты клятвы равны.",
+   "grade": "compatible",
+   "for": [
+    "Gen.31.53"
+   ],
+   "against": [
+    "Gen.31.53"
+   ],
+   "note": "Yaaqov клянётся не обоими, а только «Pachad отца своего Yitschaq» (31:53)."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано при подготовке Быт 31–33, отрывок проверен по тексту"
+  }
+ ]
+}

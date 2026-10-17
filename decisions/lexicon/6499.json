@@ -1,0 +1,28 @@
+{
+  "key": "6499",
+  "kind": "word",
+  "display": "par",
+  "senses": [
+    {
+      "id": "bull",
+      "ru": "бык",
+      "stems": [
+        "бык"
+      ],
+      "gloss": "бык, телец",
+      "evidence": [
+        "Gen.32.16",
+        "Exod.29.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6588",
+  "kind": "word",
+  "display": "pesha",
+  "senses": [
+    {
+      "id": "transgression",
+      "ru": "преступление",
+      "stems": [
+        "преступ"
+      ],
+      "gloss": "преступление, нарушение, бунт против кого-то",
+      "evidence": [
+        "Gen.31.36",
+        "Amos.1.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем chattat («грех»).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

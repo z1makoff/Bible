@@ -1,0 +1,41 @@
+{
+  "key": "7140",
+  "kind": "word",
+  "display": "qerach",
+  "senses": [
+    {
+      "id": "frost",
+      "ru": "мороз",
+      "stems": [
+        "мороз"
+      ],
+      "gloss": "мороз, стужа",
+      "evidence": [
+        "Gen.31.40",
+        "Job.37.10"
+      ]
+    },
+    {
+      "id": "ice",
+      "ru": "лёд",
+      "stems": [
+        "лёд",
+        "льд"
+      ],
+      "gloss": "лёд; кристалл (Иез 1:22)",
+      "evidence": [
+        "Ps.147.17",
+        "Ezek.1.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

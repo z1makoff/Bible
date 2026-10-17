@@ -1,0 +1,28 @@
+{
+  "key": "6413",
+  "kind": "word",
+  "display": "peletah",
+  "senses": [
+    {
+      "id": "escape",
+      "ru": "уцеление",
+      "stems": [
+        "уцел"
+      ],
+      "gloss": "уцеление; уцелевшие (того же корня, что palit — «уцелевший»)",
+      "evidence": [
+        "Gen.32.9",
+        "2Kgs.19.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

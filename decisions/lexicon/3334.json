@@ -1,0 +1,28 @@
+{
+  "key": "3334",
+  "kind": "word",
+  "display": "yatsar",
+  "senses": [
+    {
+      "id": "be-distressed",
+      "ru": "стеснить",
+      "stems": [
+        "тесн"
+      ],
+      "gloss": "стесниться, быть в тесноте, в беде",
+      "evidence": [
+        "Gen.32.8",
+        "Judg.2.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

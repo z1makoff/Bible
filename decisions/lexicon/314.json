@@ -1,0 +1,28 @@
+{
+  "key": "314",
+  "kind": "word",
+  "display": "acharon",
+  "senses": [
+    {
+      "id": "last",
+      "ru": "последний",
+      "stems": [
+        "последн"
+      ],
+      "gloss": "последний, задний, позднейший",
+      "evidence": [
+        "Gen.33.2",
+        "Exod.4.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "1261",
+  "kind": "word",
+  "display": "barod",
+  "senses": [
+    {
+      "id": "dappled",
+      "ru": "рябой",
+      "stems": [
+        "ряб"
+      ],
+      "gloss": "рябой, в светлых пятнах (о скоте и конях)",
+      "evidence": [
+        "Gen.31.10",
+        "Zech.6.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

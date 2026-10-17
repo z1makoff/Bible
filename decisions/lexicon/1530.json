@@ -1,0 +1,40 @@
+{
+  "key": "1530",
+  "kind": "word",
+  "display": "gal",
+  "senses": [
+    {
+      "id": "heap",
+      "ru": "груда",
+      "stems": [
+        "груд"
+      ],
+      "gloss": "груда (камней), развалины",
+      "evidence": [
+        "Gen.31.46",
+        "2Sam.18.17"
+      ]
+    },
+    {
+      "id": "wave",
+      "ru": "волна",
+      "stems": [
+        "волн"
+      ],
+      "gloss": "волна",
+      "evidence": [
+        "Isa.48.18",
+        "Isa.51.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

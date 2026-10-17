@@ -1,0 +1,28 @@
+{
+  "key": "7794",
+  "kind": "word",
+  "display": "shor",
+  "senses": [
+    {
+      "id": "ox",
+      "ru": "вол",
+      "stems": [
+        "вол"
+      ],
+      "gloss": "вол, бык (одна голова крупного скота)",
+      "evidence": [
+        "Gen.32.6",
+        "Exod.21.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}

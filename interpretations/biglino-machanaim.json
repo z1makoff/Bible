@@ -1,0 +1,66 @@
+{
+ "id": "biglino-machanaim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "4264",
+  "4397"
+ ],
+ "places": [
+  "Gen.32.2",
+  "Gen.32.3"
+ ],
+ "claim": "Yaaqov встречает посланников (malakhim): они ничего не говорят и не делают, но, увидев их, он сразу понимает, что наткнулся на «стан Elohim». Название Machanayim («два стана») может значить, что его люди расположились рядом с Elohim, или что стан был устроен как военный лагерь — с отдельными помещениями для командиров (Elohim) и для войска (malakhim). Бильино приводит и Раши: два отряда, охранявшие две стороны границы. Вывод: у Elohim были войска и базы.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "2. L’El di nome Yahweh e il mezzo di trasporto",
+  "quote": "gli Elohim avevano delle schiere e delle basi",
+  "quoteRu": "у Elohim были войска и базы",
+  "checked": "2026-10-18"
+ },
+ "support": [
+  {
+   "claim": "Yaaqov называет увиденное «стан Elohim».",
+   "grade": "entailed",
+   "for": [
+    "Gen.32.3"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Machaneh — военный лагерь, войско.",
+   "grade": "supported",
+   "for": [
+    "Exod.14.24",
+    "1Sam.17.1"
+   ],
+   "against": [],
+   "note": "Но так же названы и мирный стан Yaaqov (32:8, 11; 33:8)."
+  },
+  {
+   "claim": "«Два стана» — стан Elohim и стан malakhim, командиров и войска.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Gen.32.8",
+    "Gen.32.11"
+   ],
+   "note": "Сразу после этого Yaaqov сам делит своих людей на «два стана» (32:8) и говорит, что «стал двумя станами» (32:11): двойственное число может относиться к его собственным станам."
+  },
+  {
+   "claim": "У Elohim были постоянные базы.",
+   "grade": "speculative",
+   "for": [
+    "Gen.32.3"
+   ],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано при подготовке Быт 31–33, отрывок проверен по тексту"
+  }
+ ]
+}

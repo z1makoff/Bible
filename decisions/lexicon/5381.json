@@ -1,0 +1,29 @@
+{
+  "key": "5381",
+  "kind": "word",
+  "display": "nasag",
+  "senses": [
+    {
+      "id": "overtake",
+      "ru": "догнать",
+      "stems": [
+        "догна",
+        "догон"
+      ],
+      "gloss": "догнать, настичь; достать",
+      "evidence": [
+        "Gen.31.25",
+        "Exod.14.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 31–33"
+    }
+  ]
+}
