@@ -1,0 +1,28 @@
+{
+  "key": "5387a",
+  "kind": "word",
+  "display": "nasi",
+  "senses": [
+    {
+      "id": "chief",
+      "ru": "вождь",
+      "stems": [
+        "вожд"
+      ],
+      "gloss": "вождь, князь (буквально «поднятый»)",
+      "evidence": [
+        "Gen.17.20",
+        "Gen.23.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

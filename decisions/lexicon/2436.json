@@ -1,0 +1,28 @@
+{
+  "key": "2436",
+  "kind": "word",
+  "display": "cheq",
+  "senses": [
+    {
+      "id": "bosom",
+      "ru": "лоно",
+      "stems": [
+        "лон"
+      ],
+      "gloss": "лоно, пазуха, объятия",
+      "evidence": [
+        "Gen.16.5",
+        "Exod.4.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

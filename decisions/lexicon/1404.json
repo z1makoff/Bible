@@ -1,0 +1,28 @@
+{
+  "key": "1404",
+  "kind": "word",
+  "display": "gevered",
+  "senses": [
+    {
+      "id": "mistress",
+      "ru": "госпожа",
+      "stems": [
+        "госпож"
+      ],
+      "gloss": "госпожа, хозяйка (над служанкой)",
+      "evidence": [
+        "Gen.16.4",
+        "Gen.16.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6040",
+  "kind": "word",
+  "display": "oni",
+  "senses": [
+    {
+      "id": "affliction",
+      "ru": "угнетение",
+      "stems": [
+        "угнетен"
+      ],
+      "gloss": "угнетение, бедствие (тот же корень, что anah — «угнетать»)",
+      "evidence": [
+        "Gen.16.11",
+        "Exod.3.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

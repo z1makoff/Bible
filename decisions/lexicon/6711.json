@@ -1,0 +1,40 @@
+{
+  "key": "6711",
+  "kind": "word",
+  "display": "tsachaq",
+  "senses": [
+    {
+      "id": "laugh",
+      "ru": "смеяться",
+      "stems": [
+        "сме"
+      ],
+      "gloss": "смеяться",
+      "evidence": [
+        "Gen.17.17",
+        "Gen.18.12"
+      ]
+    },
+    {
+      "id": "play",
+      "ru": "забавляться",
+      "stems": [
+        "забав"
+      ],
+      "gloss": "забавляться, играть (piel)",
+      "evidence": [
+        "Gen.21.9",
+        "Gen.26.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

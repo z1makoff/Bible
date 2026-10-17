@@ -1,0 +1,27 @@
+{
+  "key": "5730b",
+  "kind": "word",
+  "display": "ednah",
+  "senses": [
+    {
+      "id": "delight",
+      "ru": "нега",
+      "stems": [
+        "нег"
+      ],
+      "gloss": "нега, наслаждение (тот же корень, что Eden)",
+      "evidence": [
+        "Gen.18.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

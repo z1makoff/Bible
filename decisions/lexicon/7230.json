@@ -1,0 +1,28 @@
+{
+  "key": "7230",
+  "kind": "word",
+  "display": "rov",
+  "senses": [
+    {
+      "id": "abundance",
+      "ru": "обилие",
+      "stems": [
+        "обили"
+      ],
+      "gloss": "обилие, множество (другое слово, чем hamon — «множество»)",
+      "evidence": [
+        "Gen.16.10",
+        "Gen.27.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

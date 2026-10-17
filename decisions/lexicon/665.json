@@ -1,0 +1,29 @@
+{
+  "key": "665",
+  "kind": "word",
+  "display": "efer",
+  "senses": [
+    {
+      "id": "ashes",
+      "ru": "пепел",
+      "stems": [
+        "пепел",
+        "пепл"
+      ],
+      "gloss": "пепел, зола",
+      "evidence": [
+        "Gen.18.27",
+        "Num.19.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

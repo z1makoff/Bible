@@ -1,0 +1,29 @@
+{
+  "key": "6595a",
+  "kind": "word",
+  "display": "pat",
+  "senses": [
+    {
+      "id": "morsel",
+      "ru": "ломоть",
+      "stems": [
+        "ломт",
+        "ломот"
+      ],
+      "gloss": "ломоть, кусочек (хлеба)",
+      "evidence": [
+        "Gen.18.5",
+        "Ruth.2.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

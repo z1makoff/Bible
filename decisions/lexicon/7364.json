@@ -1,0 +1,29 @@
+{
+  "key": "7364",
+  "kind": "word",
+  "display": "rachats",
+  "senses": [
+    {
+      "id": "wash",
+      "ru": "омыть",
+      "stems": [
+        "омо",
+        "омы"
+      ],
+      "gloss": "омыть, вымыть",
+      "evidence": [
+        "Gen.18.4",
+        "Gen.19.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

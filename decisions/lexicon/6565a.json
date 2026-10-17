@@ -1,0 +1,28 @@
+{
+  "key": "6565a",
+  "kind": "word",
+  "display": "parar",
+  "senses": [
+    {
+      "id": "break",
+      "ru": "нарушить",
+      "stems": [
+        "наруш"
+      ],
+      "gloss": "нарушить, расторгнуть",
+      "evidence": [
+        "Gen.17.14",
+        "Lev.26.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

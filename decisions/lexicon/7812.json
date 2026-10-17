@@ -1,0 +1,28 @@
+{
+  "key": "7812",
+  "kind": "word",
+  "display": "shachah",
+  "senses": [
+    {
+      "id": "bow-down",
+      "ru": "поклониться",
+      "stems": [
+        "поклон"
+      ],
+      "gloss": "поклониться (до земли); простереться",
+      "evidence": [
+        "Gen.18.2",
+        "Gen.19.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

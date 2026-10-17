@@ -1,0 +1,39 @@
+{
+  "key": "1995a",
+  "kind": "word",
+  "display": "hamon",
+  "senses": [
+    {
+      "id": "multitude",
+      "ru": "множество",
+      "stems": [
+        "множеств"
+      ],
+      "gloss": "множество, толпа",
+      "evidence": [
+        "Gen.17.4",
+        "Gen.17.5"
+      ]
+    },
+    {
+      "id": "tumult",
+      "ru": "гул",
+      "stems": [
+        "гул"
+      ],
+      "gloss": "гул, шум (толпы)",
+      "evidence": [
+        "1Sam.4.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "2201",
+  "kind": "word",
+  "display": "zeaqah",
+  "senses": [
+    {
+      "id": "outcry",
+      "ru": "вопль",
+      "stems": [
+        "вопл",
+        "вопи"
+      ],
+      "gloss": "вопль, крик о помощи",
+      "evidence": [
+        "Gen.18.20",
+        "Neh.5.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

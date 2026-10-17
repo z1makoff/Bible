@@ -1,0 +1,28 @@
+{
+  "key": "6501",
+  "kind": "word",
+  "display": "pere",
+  "senses": [
+    {
+      "id": "onager",
+      "ru": "онагр",
+      "stems": [
+        "онагр"
+      ],
+      "gloss": "онагр — дикий осёл степей",
+      "evidence": [
+        "Gen.16.12",
+        "Job.39.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

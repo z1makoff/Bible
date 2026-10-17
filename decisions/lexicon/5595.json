@@ -1,0 +1,30 @@
+{
+  "key": "5595",
+  "kind": "word",
+  "display": "safah",
+  "senses": [
+    {
+      "id": "sweep-away",
+      "ru": "смести",
+      "stems": [
+        "смет",
+        "смёт",
+        "смест"
+      ],
+      "gloss": "смести, истребить",
+      "evidence": [
+        "Gen.18.23",
+        "Gen.19.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

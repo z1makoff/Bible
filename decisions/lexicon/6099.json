@@ -1,0 +1,28 @@
+{
+  "key": "6099",
+  "kind": "word",
+  "display": "atsum",
+  "senses": [
+    {
+      "id": "mighty",
+      "ru": "мощный",
+      "stems": [
+        "мощн"
+      ],
+      "gloss": "мощный; многочисленный (другое слово, чем gibbor — «могучий»)",
+      "evidence": [
+        "Gen.18.18",
+        "Exod.1.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

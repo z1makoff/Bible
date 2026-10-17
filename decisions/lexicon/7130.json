@@ -1,0 +1,28 @@
+{
+  "key": "7130",
+  "kind": "word",
+  "display": "qerev",
+  "senses": [
+    {
+      "id": "inner",
+      "ru": "нутро",
+      "stems": [
+        "нутр"
+      ],
+      "gloss": "нутро, внутренность; «be-qerev» — внутри, среди",
+      "evidence": [
+        "Gen.18.12",
+        "Gen.18.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "4592",
+  "kind": "word",
+  "display": "meat",
+  "senses": [
+    {
+      "id": "little",
+      "ru": "немного",
+      "stems": [
+        "немн",
+        "мал"
+      ],
+      "gloss": "немного, мало",
+      "evidence": [
+        "Gen.18.4",
+        "Gen.24.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

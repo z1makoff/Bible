@@ -1,0 +1,53 @@
+{
+ "id": "biglino-shaddai",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.17.1"
+ ],
+ "claim": "Shaddai традиционно переводят «Всемогущий», но это неточно: значение слова не установлено. Оно может отсылать к горе или степи, а то и к мощи и насилию (от корня shadad). El Shaddai — это имя, под которым один из Elohim представляется Avraham.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "chapter": "3. Non confondiamo il termine Elohim con…",
+  "quote": "il significato di quel termine è incerto e potrebbe rimandare al concetto di montagna",
+  "quoteRu": "значение этого слова неясно и может отсылать к понятию горы",
+  "checked": "2026-10-17"
+ },
+ "support": [
+  {
+   "claim": "Значение Shaddai не установлено.",
+   "grade": "supported",
+   "for": [
+    "Gen.17.1"
+   ],
+   "against": [],
+   "note": "Предлагают «горный» (аккадское šadû — «гора»), «степной» (sadeh — «поле»), «опустошающий» (shadad), «питающий» (shad — «грудь»). Поэтому в нашем тексте слово не переводится."
+  },
+  {
+   "claim": "«Всемогущий» — неточный перевод.",
+   "grade": "plausible",
+   "for": [
+    "Gen.17.1"
+   ],
+   "against": [],
+   "note": "Этот перевод идёт от латинского omnipotens и греческого pantokrator (в Иове); корнем он не подтверждается."
+  },
+  {
+   "claim": "El Shaddai — один из Elohim, а не единый Бог.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Exod.6.3"
+   ],
+   "note": "Исх 6:3 прямо отождествляет El Shaddai с YHWH: «являлся… как El Shaddai, а именем YHWH не был им известен»."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-17",
+   "by": "claude",
+   "change": "создано при подготовке Быт 16–18, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "4135a",
+  "kind": "word",
+  "display": "mul",
+  "senses": [
+    {
+      "id": "circumcise",
+      "ru": "обрезать",
+      "stems": [
+        "обрез",
+        "обреж"
+      ],
+      "gloss": "обрезать (крайнюю плоть)",
+      "evidence": [
+        "Gen.17.10",
+        "Gen.17.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

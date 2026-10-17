@@ -1,0 +1,28 @@
+{
+  "key": "5236",
+  "kind": "word",
+  "display": "nekhar",
+  "senses": [
+    {
+      "id": "foreign",
+      "ru": "чужбина",
+      "stems": [
+        "чуж"
+      ],
+      "gloss": "чужое, чужбина; ben nekhar — «сын чужбины», чужеземец",
+      "evidence": [
+        "Gen.17.12",
+        "Gen.35.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

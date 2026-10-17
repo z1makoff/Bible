@@ -1,0 +1,28 @@
+{
+  "key": "2030a",
+  "kind": "word",
+  "display": "harah",
+  "senses": [
+    {
+      "id": "pregnant",
+      "ru": "беременная",
+      "stems": [
+        "беремен"
+      ],
+      "gloss": "беременная",
+      "evidence": [
+        "Gen.16.11",
+        "Gen.38.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

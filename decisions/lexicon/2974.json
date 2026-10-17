@@ -1,0 +1,28 @@
+{
+  "key": "2974",
+  "kind": "word",
+  "display": "yaal",
+  "senses": [
+    {
+      "id": "venture",
+      "ru": "осмелиться",
+      "stems": [
+        "осмел"
+      ],
+      "gloss": "осмелиться, решиться",
+      "evidence": [
+        "Gen.18.27",
+        "Gen.18.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

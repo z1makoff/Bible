@@ -1,0 +1,28 @@
+{
+  "key": "6818",
+  "kind": "word",
+  "display": "tseaqah",
+  "senses": [
+    {
+      "id": "cry",
+      "ru": "крик",
+      "stems": [
+        "крик"
+      ],
+      "gloss": "крик о помощи (другое написание того же слова, что zeaqah — «вопль»)",
+      "evidence": [
+        "Gen.18.21",
+        "Exod.3.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

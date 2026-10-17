@@ -1,0 +1,39 @@
+{
+  "key": "2205",
+  "kind": "word",
+  "display": "zaqen",
+  "senses": [
+    {
+      "id": "old",
+      "ru": "старый",
+      "stems": [
+        "стар"
+      ],
+      "gloss": "старый",
+      "evidence": [
+        "Gen.18.11",
+        "Gen.19.4"
+      ]
+    },
+    {
+      "id": "elder",
+      "ru": "старейшина",
+      "stems": [
+        "старейш"
+      ],
+      "gloss": "старейшина",
+      "evidence": [
+        "Exod.3.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

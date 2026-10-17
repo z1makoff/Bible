@@ -1,0 +1,28 @@
+{
+  "key": "5243b",
+  "kind": "word",
+  "display": "namal",
+  "senses": [
+    {
+      "id": "circumcise",
+      "ru": "обрезать",
+      "stems": [
+        "обрез",
+        "обреж"
+      ],
+      "gloss": "обрезать; форма того же корня, что mul (только 17:11)",
+      "evidence": [
+        "Gen.17.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

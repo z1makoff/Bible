@@ -1,0 +1,28 @@
+{
+  "key": "5582",
+  "kind": "word",
+  "display": "saad",
+  "senses": [
+    {
+      "id": "sustain",
+      "ru": "подкрепить",
+      "stems": [
+        "подкреп"
+      ],
+      "gloss": "подкрепить, поддержать",
+      "evidence": [
+        "Gen.18.5",
+        "Judg.19.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}

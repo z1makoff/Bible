@@ -1,0 +1,28 @@
+{
+  "key": "2204",
+  "kind": "word",
+  "display": "zaqen",
+  "senses": [
+    {
+      "id": "grow-old",
+      "ru": "состариться",
+      "stems": [
+        "стар"
+      ],
+      "gloss": "состариться",
+      "evidence": [
+        "Gen.18.12",
+        "Gen.18.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-17",
+      "by": "claude",
+      "change": "создано при подготовке Быт 16–18"
+    }
+  ]
+}
