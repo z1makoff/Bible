@@ -1,0 +1,25 @@
+{
+  "id": "jsword-versification",
+  "title": "CrossWire JSword — таблицы соответствия нумерации стихов (Ленинградский кодекс, Синодальный → KJV)",
+  "role": "Сопоставление еврейских стихов с синодальными через общую нумерацию KJV",
+  "language": "—",
+  "witness": "Справочные таблицы CrossWire Bible Society (2013–2016), по XulSword и правкам TyndaleSTEP",
+  "license": "LGPL 2.1 или новее",
+  "attribution": "CrossWire Bible Society, https://github.com/crosswire/jsword",
+  "origin": "https://github.com/crosswire/jsword/tree/c0b3b52aaaee5a2b88e84d57537cf153917ff1b8/src/main/resources/org/crosswire/jsword/versification",
+  "version": "c0b3b52aaaee5a2b88e84d57537cf153917ff1b8",
+  "files": [
+    {
+      "name": "Leningrad.properties",
+      "url": "https://raw.githubusercontent.com/crosswire/jsword/c0b3b52aaaee5a2b88e84d57537cf153917ff1b8/src/main/resources/org/crosswire/jsword/versification/Leningrad.properties",
+      "bytes": 6446,
+      "sha256": "9ae15279ce7456666ad5c5af1215e2b767028215ed30853914d029403b24424b"
+    },
+    {
+      "name": "Synodal.properties",
+      "url": "https://raw.githubusercontent.com/crosswire/jsword/c0b3b52aaaee5a2b88e84d57537cf153917ff1b8/src/main/resources/org/crosswire/jsword/versification/Synodal.properties",
+      "bytes": 8733,
+      "sha256": "76385bbd47834482c651e509e898d704cf27b5d4037ecff26ec7baf45f1edba6"
+    }
+  ]
+}

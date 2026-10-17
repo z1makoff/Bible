@@ -1,0 +1,19 @@
+{
+  "id": "synodal",
+  "title": "Синодальный перевод (1876), модуль CrossWire 1.9.1 в формате getBible v2",
+  "role": "Контрольный традиционный перевод; не доказательство",
+  "language": "ru",
+  "witness": "Русский перевод XIX в. с собственной (синодальной) нумерацией стихов",
+  "license": "Общественное достояние (по паспорту модуля CrossWire)",
+  "attribution": "CrossWire Bible Society; getBible.net",
+  "origin": "https://api.getbible.net/v2/synodal.json",
+  "version": "getBible v2, файл от 12.09.2026, checksum 3c969cf9943fa9c199fedc7c33ab479008df0693",
+  "files": [
+    {
+      "name": "synodal.json",
+      "url": "https://api.getbible.net/v2/synodal.json",
+      "bytes": 27127350,
+      "sha256": "a5ef208701f6ddee669de45b27141e457436ec806e68a38c2251d089e4a6eced"
+    }
+  ]
+}

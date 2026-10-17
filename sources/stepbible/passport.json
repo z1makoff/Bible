@@ -1,0 +1,31 @@
+{
+  "id": "stepbible",
+  "title": "STEPBible Data — краткий еврейский словарь (TBESH) и таблица версификаций (TVTMS)",
+  "role": "Словарные значения с различением омонимов; соответствие нумерации стихов",
+  "language": "en",
+  "witness": "Современная справочная разметка Tyndale House / STEPBible",
+  "license": "CC BY 4.0 (авторы просят не распространять данные дальше самостоятельно, а ссылаться на github.com/STEPBible)",
+  "attribution": "STEPBible.org, Tyndale House Cambridge — https://github.com/STEPBible/STEPBible-Data",
+  "origin": "https://github.com/STEPBible/STEPBible-Data/tree/94802ced31e63882ab42a86d79eb0017df4545e3",
+  "version": "94802ced31e63882ab42a86d79eb0017df4545e3",
+  "files": [
+    {
+      "name": "TBESH.txt",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/94802ced31e63882ab42a86d79eb0017df4545e3/Lexicons/TBESH%20-%20Translators%20Brief%20lexicon%20of%20Extended%20Strongs%20for%20Hebrew%20-%20STEPBible.org%20CC%20BY.txt",
+      "bytes": 3288045,
+      "sha256": "464dccadd95fd8620dd05fa0d7a4caba58ec3c4d5db3ebf38e43d046ca25b591"
+    },
+    {
+      "name": "TVTMS.txt",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/94802ced31e63882ab42a86d79eb0017df4545e3/Versification/TVTMS%20-%20Translators%20Versification%20Traditions%20with%20Methodology%20for%20Standardisation%20for%20Eng%2BHeb%2BLat%2BGrk%2BOthers%20-%20STEPBible.org%20CC%20BY.txt",
+      "bytes": 5790928,
+      "sha256": "63058e0f20201af4bdaa7d830da5be8f493455d947c5f147d84840b33db9ddf8"
+    },
+    {
+      "name": "README.md",
+      "url": "https://raw.githubusercontent.com/STEPBible/STEPBible-Data/94802ced31e63882ab42a86d79eb0017df4545e3/README.md",
+      "bytes": 14495,
+      "sha256": "261d5157c0ffeadeedad3f734db945a4c3642e3e4ce5fa28002985b6c52437b1"
+    }
+  ]
+}

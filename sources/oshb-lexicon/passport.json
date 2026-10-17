@@ -1,0 +1,43 @@
+{
+  "id": "oshb-lexicon",
+  "title": "OSHB Hebrew Lexicon — BDB, Strong, лексический индекс",
+  "role": "Словарные значения (аннотации, не доказательство сами по себе)",
+  "language": "en",
+  "witness": "Словари XIX — начала XX в. (Brown–Driver–Briggs 1906, Strong 1890) в цифровой разметке",
+  "license": "Тексты BDB и Strong — общественное достояние; разметка — CC BY 4.0",
+  "attribution": "Open Scriptures Hebrew Bible Project, https://github.com/openscriptures/HebrewLexicon",
+  "origin": "https://github.com/openscriptures/HebrewLexicon/tree/21c9add13bc727d3a951361778e97e3ff7afd1ce",
+  "version": "21c9add13bc727d3a951361778e97e3ff7afd1ce",
+  "files": [
+    {
+      "name": "BrownDriverBriggs.xml",
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/BrownDriverBriggs.xml",
+      "bytes": 2911253,
+      "sha256": "2b52658a4323d91674cda4090ab8b3ebddfff640f4f18143c28300e80b2c38f8"
+    },
+    {
+      "name": "HebrewStrong.xml",
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/HebrewStrong.xml",
+      "bytes": 2749042,
+      "sha256": "a628f4f89f8bdaf2483fd3faf1abc8653cc6717758dfc9f24beb7571d9bdd0c4"
+    },
+    {
+      "name": "LexicalIndex.xml",
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/LexicalIndex.xml",
+      "bytes": 1782592,
+      "sha256": "8f7a605c58899d2f44430149c143c00903976e1e91232476677972a69e5bc85f"
+    },
+    {
+      "name": "AugIndex.xml",
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/AugIndex.xml",
+      "bytes": 213975,
+      "sha256": "e7217ca8ff8ff3f21f9cf1bbe87411adf55f6aa88bcf5ed9ddc886cc6b160c5d"
+    },
+    {
+      "name": "readme.md",
+      "url": "https://raw.githubusercontent.com/openscriptures/HebrewLexicon/21c9add13bc727d3a951361778e97e3ff7afd1ce/readme.md",
+      "bytes": 2503,
+      "sha256": "9a129c25674387c494571c3828aa3a8eb78459c165e275c313ae26994ce8ff22"
+    }
+  ]
+}
