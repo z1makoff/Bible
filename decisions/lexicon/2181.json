@@ -1,0 +1,28 @@
+{
+  "key": "2181",
+  "kind": "word",
+  "display": "zanah",
+  "senses": [
+    {
+      "id": "prostitute",
+      "ru": "блудить",
+      "stems": [
+        "блуд"
+      ],
+      "gloss": "блудить, распутничать; zonah — блудница",
+      "evidence": [
+        "Gen.34.31",
+        "Gen.38.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

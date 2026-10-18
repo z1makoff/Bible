@@ -1,0 +1,28 @@
+{
+  "key": "962",
+  "kind": "word",
+  "display": "bazaz",
+  "senses": [
+    {
+      "id": "plunder",
+      "ru": "разграбить",
+      "stems": [
+        "граб"
+      ],
+      "gloss": "разграбить, взять добычей",
+      "evidence": [
+        "Gen.34.27",
+        "Num.31.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

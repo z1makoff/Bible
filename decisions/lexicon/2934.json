@@ -1,0 +1,29 @@
+{
+  "key": "2934",
+  "kind": "word",
+  "display": "taman",
+  "senses": [
+    {
+      "id": "bury-hide",
+      "ru": "зарыть",
+      "stems": [
+        "зары",
+        "зарыв"
+      ],
+      "gloss": "зарыть, спрятать (в землю, под покров)",
+      "evidence": [
+        "Gen.35.4",
+        "Exod.2.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

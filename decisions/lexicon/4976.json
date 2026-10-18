@@ -1,0 +1,28 @@
+{
+  "key": "4976",
+  "kind": "word",
+  "display": "mattan",
+  "senses": [
+    {
+      "id": "gift",
+      "ru": "подношение",
+      "stems": [
+        "подношен"
+      ],
+      "gloss": "подношение, дар (того же корня, что natan — «дать»)",
+      "evidence": [
+        "Gen.34.12",
+        "Prov.18.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем minchah («дар») и mattanah («подарок»).",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

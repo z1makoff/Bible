@@ -1,0 +1,28 @@
+{
+  "key": "4119",
+  "kind": "word",
+  "display": "mohar",
+  "senses": [
+    {
+      "id": "bride-price",
+      "ru": "вено",
+      "stems": [
+        "вен"
+      ],
+      "gloss": "вено — плата семье невесты",
+      "evidence": [
+        "Gen.34.12",
+        "Exod.22.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

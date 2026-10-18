@@ -1,0 +1,73 @@
+{
+ "id": "biglino-esav-qos",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "123"
+ ],
+ "places": [
+  "Gen.36.2",
+  "Gen.36.1",
+  "Gen.36.8"
+ ],
+ "claim": "Esav не соблюл требования «чистоты крови» и взял жён из дочерей Kenaan (36:2) — вопреки запрету брать жён из жителей земли (Исх 34:16). По Бильино, Esav и его народ Edom следовали другому Elohim — Qos, потому что Yahweh ими не занимался. Так одна семья Terach оказалась разделена по меньшей мере между четырьмя Elohim: Yahweh, Kemosh (Moav), Milkom (Ammon) и Qos (Edom). О Qos Бильино ссылается на «Jewish Virtual Library».",
+ "source": {
+  "kind": "book",
+  "book": "biglino-bibbia-non-parla",
+  "chapter": "VI. Un'ipotesi assurda?",
+  "quote": "Ma lui seguiva Qos, un altro Elohim",
+  "quoteRu": "Но он следовал за Qos, другим Elohim",
+  "checked": "2026-10-18",
+  "page": "130"
+ },
+ "support": [
+  {
+   "claim": "Esav взял жён из дочерей Kenaan.",
+   "grade": "entailed",
+   "for": [
+    "Gen.36.2",
+    "Gen.26.34"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Esav нарушил запрет на браки с жителями земли.",
+   "grade": "compatible",
+   "for": [
+    "Gen.26.35",
+    "Gen.28.8"
+   ],
+   "against": [],
+   "note": "Сам запрет (Исх 34:16; Втор 7:3) дан позже, при Моисее; в Бытии родители лишь недовольны жёнами Esav (26:35; 28:8)."
+  },
+  {
+   "claim": "Богом Edom был Qos.",
+   "grade": "compatible",
+   "for": [
+    "2Chr.25.14",
+    "2Chr.25.20"
+   ],
+   "against": [],
+   "note": "Бытие бога Edom не называет. По 2 Пар 25:14–20 у «сыновей Seir» были свои Elohim. Имя Qos известно из эдомских надписей и имён (ср. Barqos, Езд 2:53) — это внешнее свидетельство."
+  },
+  {
+   "claim": "Yahweh Esav не занимался.",
+   "grade": "contradicted",
+   "for": [
+    "Deut.32.8",
+    "Deut.32.9"
+   ],
+   "against": [
+    "Deut.2.5",
+    "Josh.24.4"
+   ],
+   "note": "По Втор 2:5 и Нав 24:4 YHWH сам дал Esav гору Seir во владение. В пользу Бильино можно привести Втор 32:8–9: народы разделены, а доля YHWH — Yaaqov."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано при подготовке Быт 34–36, отрывок проверен по тексту"
+  }
+ ]
+}

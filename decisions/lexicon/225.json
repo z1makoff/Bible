@@ -1,0 +1,28 @@
+{
+  "key": "225",
+  "kind": "word",
+  "display": "ut",
+  "senses": [
+    {
+      "id": "consent",
+      "ru": "согласиться",
+      "stems": [
+        "согла"
+      ],
+      "gloss": "согласиться, уступить",
+      "evidence": [
+        "Gen.34.15",
+        "2Kgs.12.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "4557",
+  "kind": "word",
+  "display": "mispar",
+  "senses": [
+    {
+      "id": "number",
+      "ru": "число",
+      "stems": [
+        "числ"
+      ],
+      "gloss": "число, счёт",
+      "evidence": [
+        "Gen.34.30",
+        "Gen.41.49"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}

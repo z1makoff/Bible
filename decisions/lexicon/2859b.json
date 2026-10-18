@@ -1,0 +1,28 @@
+{
+  "key": "2859b",
+  "kind": "word",
+  "display": "hitchatten",
+  "senses": [
+    {
+      "id": "intermarry",
+      "ru": "породниться",
+      "stems": [
+        "породн"
+      ],
+      "gloss": "породниться браками (того же корня, что chatan — «зять, жених»)",
+      "evidence": [
+        "Gen.34.9",
+        "Deut.7.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-18",
+      "by": "claude",
+      "change": "создано при подготовке Быт 34–36"
+    }
+  ]
+}
