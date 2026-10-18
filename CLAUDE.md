@@ -12,6 +12,7 @@ python tools/build_corpus.py     # собрать corpus/ (не хранится
 python tools/check.py            # проверить всё; python tools/check.py Gen 1 — одна глава
 python -m unittest discover -s tests
 python app/server.py             # читалка на http://127.0.0.1:8795 (у пользователя — ярлык «Читалка» в папке Bible → app/launch.vbs; на Linux — app/launch.sh, ярлык создаёт app/install_linux.sh)
+python tools/build_site.py       # сайт для телефона в site/ (GitHub Pages собирает его сам: .github/workflows/site.yml)
 python tools/audit_synodal.py    # проверка сопоставления с Синодальным по именам
 python tools/books.py <книга> "<отрывок>"   # найти отрывок в книге вручную
 python tools/dump_chapter.py Gen 4 [1,2]       # разбор главы по словам: морфемы, решения словаря, Синодальный
@@ -19,6 +20,8 @@ python tools/compile_chapter.py Gen 4 spec.txt  # собрать перевод 
 ```
 
 Только стандартная библиотека Python 3, без pip. Исключение — чтение PDF-книг для проверки цитат: PyMuPDF или pdftotext, если есть; без них цитата из PDF даёт предупреждение «не проверено».
+
+Сайт для телефона (https://z1makoff.github.io/Bible/) — та же читалка из `app/static/`, но без сервера: `app/static/local.js` отвечает на те же запросы `/api/...` из готовых файлов `site/data/` и памяти браузера. Меняя запросы в `app/server.py`, меняй и `local.js`, и `tools/build_site.py`. Данные пользователя с телефона попадают в `user/` только через импорт файла (раздел «Ваши данные» в библиотеке); импортированные решения приходят с `seenByClaude: false`.
 
 ## Как готовить главу
 

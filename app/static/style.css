@@ -69,6 +69,9 @@ main { flex: 1; min-width: 0; padding: 24px 16px 80px; }
 .ch { text-align: center; padding: 8px 0; }
 .ch.read::after { content: " ✓"; color: var(--accent); }
 .hint { color: var(--muted); font-size: 14px; }
+.data-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.data-actions button { padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--paper); cursor: pointer; }
+.data-actions button:hover { border-color: var(--accent); color: var(--accent); }
 
 /* глава */
 .chapter { max-width: 720px; margin: 0 auto; }
@@ -148,4 +151,21 @@ form small { color: var(--muted); }
 @media (max-width: 900px) {
   #card { position: fixed; right: 0; top: 47px; width: min(420px, 100vw); z-index: 6; box-shadow: -4px 0 16px rgba(0,0,0,.15); }
   .toggles { font-size: 13px; gap: 8px; }
+}
+
+/* телефон: шапка в две строки, карточка слова — панель снизу */
+@media (max-width: 600px) {
+  .bar { flex-wrap: wrap; gap: 6px 12px; padding: 6px 12px; }
+  .where { margin: 0 0 0 auto; }
+  .toggles { flex-basis: 100%; justify-content: flex-end; gap: 16px; }
+  .back { order: 5; }
+  main { padding: 16px 12px 80px; }
+  .verse { gap: 8px; }
+  .vn { flex-basis: 20px; }
+  #card {
+    top: auto; bottom: 0; left: 0; width: 100%; height: 72vh;
+    border-left: none; border-top: 1px solid var(--line); border-radius: 14px 14px 0 0;
+    box-shadow: 0 -4px 16px rgba(0,0,0,.18); padding: 12px 16px 40px;
+  }
+  body.with-card main { padding-bottom: 75vh; }
 }

@@ -135,6 +135,58 @@ def backup_user_data():
         shutil.copy2(p, target / p.name)
 
 
+def read_history():
+    try:
+        lines = (USER / "history.jsonl").read_text("utf-8").splitlines()
+    except FileNotFoundError:
+        return []
+    return [json.loads(line) for line in lines if line.strip()]
+
+
+def export_user_data():
+    """Файл для переноса на телефон (сайт) и обратно; формат тот же, что в app/static/local.js."""
+    return {"format": "chitalka-user", "version": 1, "exported": datetime.now().isoformat(timespec="seconds"),
+            **{name: read_json(USER / f"{name}.json", {}) for name in ("notes", "decisions", "progress", "state")},
+            "history": read_history()}
+
+
+def import_user_data(data):
+    """Сливает файл с телефона: ничего не удаляет, из двух версий записи оставляет более новую по дате.
+    Перед слиянием копирует текущие данные в user/backups/import-<время>/."""
+    USER.mkdir(exist_ok=True)
+    files = [p for p in USER.glob("*") if p.suffix in (".json", ".jsonl")]
+    if files:
+        target = USER / "backups" / ("import-" + datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
+        target.mkdir(parents=True, exist_ok=True)
+        for p in files:
+            shutil.copy2(p, target / p.name)
+    counts = {}
+    for name in ("notes", "decisions", "progress"):
+        mine = read_json(USER / f"{name}.json", {})
+        n = 0
+        for k, v in (data.get(name) or {}).items():
+            if not isinstance(v, dict) or not isinstance(v.get("date"), str):
+                continue
+            if k not in mine or v["date"] > mine[k].get("date", ""):
+                mine[k] = v
+                n += 1
+        if n:
+            write_json(USER / f"{name}.json", mine)
+        counts[name] = n
+    state = read_json(USER / "state.json", {})
+    new_state = {k: v for k, v in (data.get("state") or {}).items() if k not in state}
+    if new_state:
+        write_json(USER / "state.json", {**state, **new_state})
+    seen = {json.dumps(h, ensure_ascii=False, sort_keys=True) for h in read_history()}
+    with open(USER / "history.jsonl", "a", encoding="utf-8") as f:
+        for h in data.get("history") or []:
+            s = json.dumps(h, ensure_ascii=False, sort_keys=True)
+            if isinstance(h, dict) and s not in seen:
+                seen.add(s)
+                f.write(json.dumps(h, ensure_ascii=False) + "\n")
+    return counts
+
+
 class Handler(SimpleHTTPRequestHandler):
     data: Data = None
 
@@ -178,6 +230,8 @@ class Handler(SimpleHTTPRequestHandler):
             ref = parse_qs(urlparse(self.path).query).get("ref", [""])[0]
             lx = d.lexeme(m.group(1), ref)
             return self.send_json(lx) if lx else self.send_json({"error": "нет такого слова"}, 404)
+        if path == "/api/export":
+            return self.send_json(export_user_data())
         if path.startswith("/api/"):
             return self.send_json({"error": "неизвестный запрос"}, 404)
         return super().do_GET()
@@ -185,7 +239,7 @@ class Handler(SimpleHTTPRequestHandler):
     def do_POST(self):
         path = urlparse(self.path).path
         length = int(self.headers.get("Content-Length", 0))
-        if length > 100_000:
+        if length > (20_000_000 if path == "/api/import" else 100_000):
             return self.send_json({"error": "слишком большой запрос"}, 413)
         try:
             body = json.loads(self.rfile.read(length) or b"{}")
@@ -250,6 +304,10 @@ class Handler(SimpleHTTPRequestHandler):
                 if before != progress.get(chapter):
                     log_change("progress", chapter, before, progress.get(chapter))
                 return self.send_json({"ok": True, "progress": progress.get(chapter)})
+            if path == "/api/import":
+                if not isinstance(body, dict) or body.get("format") != "chitalka-user":
+                    return self.send_json({"error": "это не файл с данными читалки"}, 400)
+                return self.send_json({"ok": True, "counts": import_user_data(body)})
         return self.send_json({"error": "неизвестный запрос"}, 404)
 
 

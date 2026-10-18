@@ -19,7 +19,11 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
+// На сайте без сервера (телефон) те же запросы обслуживает local.js.
+const LOCAL = typeof LocalApi !== "undefined";
+
 async function api(path, body) {
+  if (LOCAL) return LocalApi.call(path, body);
   const res = await fetch(path, body ? {
     method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
   } : undefined);
@@ -68,8 +72,49 @@ function renderLibrary() {
     }
     html += `</div>`;
   }
+  html += `<h2>Ваши данные</h2><p class="hint">${LOCAL
+    ? "Заметки, решения, место чтения и отметки хранятся только в этом браузере. Чтобы перенести их на компьютер или на другой телефон, сохраните файл и загрузите его там."
+    : "Чтобы перенести заметки, решения, место чтения и отметки на телефон (или вернуть их оттуда), сохраните файл и загрузите его на другом устройстве."}
+    При загрузке ничего не стирается: из двух версий одной записи остаётся более новая.</p>
+    <p class="data-actions"><button id="exportData">Сохранить в файл</button>
+    <button id="importData">Загрузить из файла</button><input type="file" id="importFile" accept=".json,application/json" hidden></p>
+    <p class="hint" id="dataResult"></p>`;
   $("#main").innerHTML = html + `</section>`;
+  $("#exportData").onclick = exportData;
+  $("#importData").onclick = () => $("#importFile").click();
+  $("#importFile").onchange = (e) => importData(e.target.files[0]);
   document.title = "Читалка";
+}
+
+async function exportData() {
+  const data = await api("/api/export");
+  const blob = new Blob([JSON.stringify(data, null, 1)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `chitalka-${data.exported.slice(0, 10)}.json`;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+  $("#dataResult").textContent = `Файл ${a.download} сохранён в загрузки.`;
+}
+
+async function importData(f) {
+  if (!f) return;
+  let msg;
+  try {
+    const c = (await api("/api/import", JSON.parse(await f.text()))).counts;
+    msg = `Загружено: заметок ${c.notes}, решений ${c.decisions}, отметок о прочтении ${c.progress}.`;
+    const fresh = await api("/api/books");
+    state.settings = fresh.state || {};
+    state.progress = fresh.progress || {};
+    state.returnTo = state.settings.returnTo || null;
+    renderReturnButton();
+    renderLibrary();
+  } catch (e) {
+    msg = `Не получилось: ${e instanceof SyntaxError ? "файл повреждён" : e.message}.`;
+  }
+  $("#dataResult").textContent = msg;
 }
 
 function renderBook(id) {
@@ -345,6 +390,10 @@ async function openCard(wid) {
   const card = $("#card");
   card.hidden = false;
   document.body.classList.add("with-card");
+  const sel = document.querySelector("#main .sel");
+  if (sel && matchMedia("(max-width: 600px)").matches) {  // на телефоне карточка снизу: слово — над ней
+    window.scrollBy(0, sel.getBoundingClientRect().top - $(".bar").offsetHeight - 16);
+  }
   const grammar = w.segs.map((s) => `<li><span class="he-inline" lang="he">${esc(s.t.replace(/[֑-֯]/g, ""))}</span> — ${esc(MORPH.segment(s.morph, w.lang))}</li>`).join("");
   const keys = contentLemmas(w);
   const lexes = await Promise.all(keys.map((k) => api(`/api/lexeme/${k}?ref=${encodeURIComponent(v.ref)}`).catch(() => null)));

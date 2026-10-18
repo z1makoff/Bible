@@ -5,3 +5,5 @@ user/*.tmp
 user/server.log
 .cache/
 user/backups/
+site/
+*.lnk
