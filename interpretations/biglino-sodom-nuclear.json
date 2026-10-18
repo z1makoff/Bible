@@ -10,11 +10,11 @@
  "claim": "Гибель Sedom и Amorah ясно напоминает ядерный взрыв, описанный очевидцем; его энергия поразила и жену Lot. Перевод «соль» может быть неточен: melach, по Бильино, происходит от корня mlch — «растворяться», так что жена Lot, возможно, буквально «растворилась» от жара взрыва.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "8. Prophets And The Alien Machines",
-  "quote": "The destruction of Sodom and Gomorrah recalls quite clearly a nuclear",
-  "quoteRu": "Разрушение Содома и Гоморры весьма ясно напоминает ядерный",
-  "checked": "2026-10-17"
+  "book": "biglino-libro-cambiera",
+  "chapter": "8. I profeti e le macchine aliene",
+  "quote": "La distruzione di Sodoma e Gomorra richiama abbastanza chiaramente un’esplosione nucleare",
+  "quoteRu": "Разрушение Содома и Гоморры довольно ясно напоминает ядерный взрыв",
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -58,6 +58,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 19–21, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

@@ -10,11 +10,11 @@
  "claim": "В приложении «History» — по словам Бильино, вольной реконструкции того, какой была бы история, если бы предположения книги оказались верны, — Amrafel, возможно, Амар-Син, царь Ура. Avram по приказу «бога» послан в Ханаан с отрядом в интересах владыки Ура (бога Сина); союз восточных царей во главе с эламитом Kedorlaomer нападает на Ханаан и пытается вторгнуться на Синай, а Avram их останавливает.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "Appendix 1. History",
-  "quote": "AMARSIN (the biblical Amraphel?) becomes king of Ur in 2047",
+  "book": "biglino-libro-cambiera",
+  "chapter": "Appendice 1. Cronologia",
+  "quote": "AMARSIN (il biblico Amraphel?) diventa re di Ur nel 2047",
   "quoteRu": "Амар-Син (библейский Амрафел?) становится царём Ура в 2047 году",
-  "checked": "2026-10-17"
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -61,6 +61,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 13–15, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

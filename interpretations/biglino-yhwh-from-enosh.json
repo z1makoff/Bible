@@ -1,0 +1,61 @@
+{
+ "id": "biglino-yhwh-from-enosh",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3068"
+ ],
+ "places": [
+  "Gen.4.26",
+  "Gen.4.1",
+  "Gen.4.3"
+ ],
+ "claim": "По 4:26, только при Enosh «начали звать именем YHWH» — через 235 лет после того, как Elohim сделали Адама (5:3, 6). Значит, Адам, Ева, Qayin, Hevel и Shet обращались не к YHWH, а к другим Elohim; YHWH не участвовал в создании Адама и Евы и появился в истории этой группы позже — вероятно, получив её в удел от Elyon при разделе земли (10:25; Втор 32:8). Бильино сам замечает, что Ева называет YHWH уже в 4:1, а в 4:3–4 Qayin и Hevel приносят ему дары; это он считает поздними вставками жрецов, превращавших YHWH в единого Бога, или ошибкой переписчиков.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-e-sacro",
+  "chapter": "Ancora su Yahweh, il presunto Dio",
+  "quote": "Adamo, Eva, Caino, Abele e Set non si rivolgevano a lui ma ad altri Elohim",
+  "quoteRu": "Адам, Ева, Каин, Авель и Сиф обращались не к нему, а к другим Elohim",
+  "checked": "2026-10-18"
+ },
+ "support": [
+  {
+   "claim": "Звать именем YHWH начали при Enosh.",
+   "grade": "entailed",
+   "for": [
+    "Gen.4.26"
+   ],
+   "against": [],
+   "note": "Сказано «тогда начали звать именем YHWH», а не «тогда узнали имя»; Лопухин понимает это как начало общего богослужения."
+  },
+  {
+   "claim": "До Enosh YHWH не знали.",
+   "grade": "contradicted",
+   "for": [
+    "Exod.6.3"
+   ],
+   "against": [
+    "Gen.4.1",
+    "Gen.4.3",
+    "Gen.4.4",
+    "Gen.4.6",
+    "Gen.4.9"
+   ],
+   "note": "В той же главе Chavvah называет YHWH (4:1), Qayin и Hevel приносят дары YHWH, и YHWH говорит с Qayin (4:3–15). Бильино признаёт это и считает такие места вставками; рукописей без них нет. По Исх 6:3 имени YHWH не знали даже Avraham, Yitschaq и Yaaqov — это расходится и с 4:26."
+  },
+  {
+   "claim": "Они обращались к другим Elohim.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "О других Elohim в 4–5 главах текст не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано по новым книгам каталога (La Bibbia non è un libro sacro; Il libro che cambierà…), отрывок проверен по тексту"
+  }
+ ]
+}

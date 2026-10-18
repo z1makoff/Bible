@@ -10,11 +10,11 @@
  "claim": "В приложении «History» — по словам самого Бильино, вольной реконструкции того, какой была бы история, если бы предположения книги оказались верны, — башня связана с войнами богов за космодром в Вавилоне («по альтернативной гипотезе»). О смешении языков, пишет он, есть шумерский текст: когда-то люди славили Энлиля на одном языке, а потом «господин богов» изменил их речь, вложив им в уста смешанный язык.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "Appendix 1. History",
-  "quote": "the gods' master changed their words, putting in their mouths a confused language",
-  "quoteRu": "господин богов изменил их слова, вложив им в уста смешанный язык",
-  "checked": "2026-10-17"
+  "book": "biglino-libro-cambiera",
+  "chapter": "Appendice 1. Cronologia",
+  "quote": "il capo degli dèi ha cambiato le parole della loro bocca",
+  "quoteRu": "глава богов изменил слова их уст",
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -43,6 +43,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 10–12, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

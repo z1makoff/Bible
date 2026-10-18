@@ -1,0 +1,66 @@
+{
+ "id": "biglino-malakhim-role",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "4397",
+  "376"
+ ],
+ "places": [
+  "Gen.19.1",
+  "Gen.18.2",
+  "Gen.18.16"
+ ],
+ "claim": "У шатра Avraham гости названы anashim — «мужчины». Двое из них оставляют YHWH и Avraham и отправляются предупредить Lot; в этот самый момент текст точно называет их malakhim (19:1) — «посланники, доставляющие приказ». Слово обозначает поручение, а «ангелы» как духовные существа — изобретение толкователей.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-e-sacro",
+  "chapter": "Altre ipotetiche entità spirituali: angeli, giganti, Satana e macchine volanti",
+  "quote": "in quel preciso momento, la Bibbia li definisce correttamente Malakim",
+  "quoteRu": "в этот самый момент Библия точно называет их malakhim",
+  "checked": "2026-10-18"
+ },
+ "support": [
+  {
+   "claim": "В главе 18 они — anashim, в 19:1 — malakhim.",
+   "grade": "entailed",
+   "for": [
+    "Gen.18.2",
+    "Gen.18.16",
+    "Gen.19.1"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Malakh — тот, кого посылают с поручением.",
+   "grade": "supported",
+   "for": [
+    "Gen.32.4",
+    "Num.20.14"
+   ],
+   "against": [],
+   "note": "Тем же словом названы люди, которых посылают Yaaqov (32:4) и Моисей (Чис 20:14)."
+  },
+  {
+   "claim": "Название меняется вместе с ролью.",
+   "grade": "compatible",
+   "for": [
+    "Gen.19.1",
+    "Gen.19.15"
+   ],
+   "against": [
+    "Gen.19.5",
+    "Gen.19.10",
+    "Gen.19.12",
+    "Gen.19.16"
+   ],
+   "note": "Уже в Sedom, выполняя поручение, они снова названы anashim (19:5, 10, 12, 16), а malakhim — в 19:1 и 19:15: слова чередуются."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "создано по новым книгам каталога (La Bibbia non è un libro sacro; Il libro che cambierà…), отрывок проверен по тексту"
+  }
+ ]
+}

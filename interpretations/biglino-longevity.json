@@ -9,11 +9,11 @@
  "claim": "Долгая жизнь Адама и допотопных патриархов — наследство от их создателей: в них был генетический материал Elohim, а вместе с ним и долголетие.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "3. The Giants?",
-  "quote": "there was also the feature of longevity handed down by his creators",
-  "quoteRu": "в нём было и долголетие, переданное его создателями",
-  "checked": "2026-10-17"
+  "book": "biglino-libro-cambiera",
+  "chapter": "3. I giganti?",
+  "quote": "ci fosse anche la caratteristica della longevità mutuata dai creatori",
+  "quoteRu": "в нём было и долголетие, перенятое от создателей",
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -38,6 +38,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

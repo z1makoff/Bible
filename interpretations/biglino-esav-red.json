@@ -9,10 +9,10 @@
  "claim": "Библия специально отмечает, что Esav был рыжим (admoni) и волосатым. Рыжие волосы как нечто необычное встречаются и позже (David). Бильино напоминает, что шумеры называли людей «черноголовыми», и осторожно допускает, что рыжий цвет мог быть признаком господствующей расы «создателей». Сам он оговаривает, что надёжных доказательств нет.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "7 - The “Blessing”",
-  "quote": "the identification of hair color was definitely of significant importance",
-  "quoteRu": "указание цвета волос, безусловно, имело большое значение",
+  "book": "biglino-libro-cambiera",
+  "chapter": "7. La “benedizione”",
+  "quote": "l’identificazione del colore dei capelli era certamente un fattore di non secondaria importanza",
+  "quoteRu": "указание цвета волос, безусловно, было делом немаловажным",
   "checked": "2026-10-18"
  },
  "support": [
@@ -55,6 +55,11 @@
    "date": "2026-10-18",
    "by": "claude",
    "change": "создано при подготовке Быт 25–27, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

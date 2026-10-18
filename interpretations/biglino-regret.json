@@ -9,11 +9,11 @@
  "claim": "Всеведущий Бог не мог бы пожалеть о сделанном и не предвидеть последствий. Значит, Elohim, создавшие людей, — технически развитые существа, но не всеведущие и не всемогущие; пожалевший, по Бильино, — вероятно, Энлиль.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "3. The Giants?",
-  "quote": "certainly not equipped with omniscience and omnipotence",
-  "quoteRu": "конечно, не наделённые всеведением и всемогуществом",
-  "checked": "2026-10-17"
+  "book": "biglino-libro-cambiera",
+  "chapter": "3. I giganti?",
+  "quote": "ma certo non dotati di onniscienza e onnipotenza",
+  "quoteRu": "но, конечно, не наделённые всеведением и всемогуществом",
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -51,6 +51,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 4–6, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }

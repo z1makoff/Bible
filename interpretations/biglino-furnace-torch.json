@@ -8,11 +8,11 @@
  "claim": "Бильино спрашивает: что за объекты — «печь дымящаяся и факел огня», которые Avram видит ночью летящими (15:17)? Он ставит их в один ряд со столпом облака и огня в пустыне и с видениями пророков, в которых видит летательные аппараты Elohim.",
  "source": {
   "kind": "book",
-  "book": "biglino-gods-from-space",
-  "chapter": "8. Prophets And The Alien Machines",
-  "quote": "What are the objects described as “a smoking furnace and the flaming torch”",
-  "quoteRu": "Что это за объекты, описанные как «печь дымящаяся и факел пылающий»",
-  "checked": "2026-10-17"
+  "book": "biglino-libro-cambiera",
+  "chapter": "8. I profeti e le macchine aliene",
+  "quote": "che cosa sono poi «il forno fumante e la fiaccola ardente»",
+  "quoteRu": "что же такое «печь дымящаяся и факел пылающий»",
+  "checked": "2026-10-18"
  },
  "support": [
   {
@@ -45,6 +45,11 @@
    "date": "2026-10-17",
    "by": "claude",
    "change": "создано при подготовке Быт 13–15, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-18",
+   "by": "claude",
+   "change": "источник заменён итальянским оригиналом (Il libro che cambierà…) вместо английского издания; отрывок проверен"
   }
  ]
 }
