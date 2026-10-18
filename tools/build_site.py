@@ -35,7 +35,8 @@ def main():
     index = (SITE / "index.html").read_text("utf-8")
     head = ('<link rel="manifest" href="manifest.webmanifest">\n'
             '<meta name="theme-color" content="#8a4b1f">\n'
-            '<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">\n')
+            '<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">\n'
+            '<link rel="icon" href="icons/icon-192.png">\n')
     index = index.replace("</head>", head + "</head>")
     index = index.replace("<!-- static-site -->", '<script src="local.js"></script>')
     (SITE / "index.html").write_text(index, "utf-8")
