@@ -1,0 +1,28 @@
+{
+  "key": "5276",
+  "kind": "word",
+  "display": "naem",
+  "senses": [
+    {
+      "id": "pleasant",
+      "ru": "быть приятным",
+      "stems": [
+        "прият"
+      ],
+      "gloss": "быть приятным, милым (2 Цар 1:26; Притч 2:10)",
+      "evidence": [
+        "2Sam.1.26",
+        "Prov.2.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "3444",
+  "kind": "word",
+  "display": "yeshuah",
+  "senses": [
+    {
+      "id": "salvation",
+      "ru": "спасение",
+      "stems": [
+        "спасени"
+      ],
+      "gloss": "спасение, избавление (Исх 14:13; 15:2)",
+      "evidence": [
+        "Exod.14.13",
+        "Exod.15.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "3326a",
+  "kind": "word",
+  "display": "yatsua",
+  "senses": [
+    {
+      "id": "couch",
+      "ru": "одр",
+      "stems": [
+        "одр"
+      ],
+      "gloss": "ложе, одр (1 Пар 5:1; Пс 63:7)",
+      "evidence": [
+        "1Chr.5.1",
+        "Ps.63.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Ложе» уже передаёт mishkav.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

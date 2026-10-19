@@ -1,0 +1,28 @@
+{
+  "key": "7699a",
+  "kind": "word",
+  "display": "shad",
+  "senses": [
+    {
+      "id": "breast",
+      "ru": "грудь",
+      "stems": [
+        "груд"
+      ],
+      "gloss": "женская грудь (Иов 3:12; Песн 4:5)",
+      "evidence": [
+        "Job.3.12",
+        "Song.4.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

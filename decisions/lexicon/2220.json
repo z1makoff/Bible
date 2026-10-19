@@ -1,0 +1,28 @@
+{
+  "key": "2220",
+  "kind": "word",
+  "display": "zeroa",
+  "senses": [
+    {
+      "id": "arm",
+      "ru": "мышца",
+      "stems": [
+        "мышц"
+      ],
+      "gloss": "рука от плеча, мышца; сила (Исх 6:6; 15:16)",
+      "evidence": [
+        "Exod.6.6",
+        "Exod.15.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Рука» уже передаёт yad, «плечо» — shekhem.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

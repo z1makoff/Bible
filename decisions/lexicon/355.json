@@ -1,0 +1,30 @@
+{
+  "key": "355",
+  "kind": "word",
+  "display": "ayyalah",
+  "senses": [
+    {
+      "id": "hind",
+      "ru": "лань",
+      "stems": [
+        "лань",
+        "лани",
+        "ланью"
+      ],
+      "gloss": "лань (2 Цар 22:34; Иов 39:1)",
+      "evidence": [
+        "2Sam.22.34",
+        "Job.39.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

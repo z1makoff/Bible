@@ -1,0 +1,28 @@
+{
+  "key": "6960a",
+  "kind": "word",
+  "display": "qavah",
+  "senses": [
+    {
+      "id": "wait",
+      "ru": "уповать",
+      "stems": [
+        "упова"
+      ],
+      "gloss": "ждать, уповать (Иов 3:9; 7:2)",
+      "evidence": [
+        "Job.3.9",
+        "Job.7.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

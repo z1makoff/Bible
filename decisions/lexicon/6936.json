@@ -1,0 +1,29 @@
+{
+  "key": "6936",
+  "kind": "word",
+  "display": "qodqod",
+  "senses": [
+    {
+      "id": "crown",
+      "ru": "темя",
+      "stems": [
+        "темя",
+        "темен"
+      ],
+      "gloss": "темя, макушка (Втор 28:35; 33:16)",
+      "evidence": [
+        "Deut.28.35",
+        "Deut.33.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

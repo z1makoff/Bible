@@ -1,0 +1,28 @@
+{
+  "key": "2061",
+  "kind": "word",
+  "display": "zeev",
+  "senses": [
+    {
+      "id": "wolf",
+      "ru": "волк",
+      "stems": [
+        "волк"
+      ],
+      "gloss": "волк (Ис 11:6; Иер 5:6)",
+      "evidence": [
+        "Isa.11.6",
+        "Jer.5.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "1416",
+  "kind": "word",
+  "display": "gedud",
+  "senses": [
+    {
+      "id": "raiders",
+      "ru": "отряд",
+      "stems": [
+        "отряд"
+      ],
+      "gloss": "отряд, набег (1 Цар 30:8; 2 Цар 3:22)",
+      "evidence": [
+        "1Sam.30.8",
+        "2Sam.3.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "738b",
+  "kind": "word",
+  "display": "aryeh",
+  "senses": [
+    {
+      "id": "lion",
+      "ru": "лев",
+      "stems": [
+        "лев",
+        "льв"
+      ],
+      "gloss": "лев (Втор 33:22; Суд 14:8)",
+      "evidence": [
+        "Deut.33.22",
+        "Judg.14.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

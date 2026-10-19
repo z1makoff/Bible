@@ -1,0 +1,68 @@
+{
+ "id": "biglino-simeon-levi-tribes",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.49.5",
+  "Gen.49.7"
+ ],
+ "claim": "Списки колен в Библии расходятся: в Песни Деворы (Суд 5), возможно древнейшем тексте Библии, нет Shimon и Levi. Не жертвы ли они проклятия из Быт 49:5–7, где Elohim обрушивается на их жестокость и предсказывает их рассеяние? Число двенадцать — скорее желание израильского национализма, чем история.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "7. Popolo di proprietà",
+  "quote": "ne predice la dispersione all’interno di Israele",
+  "quoteRu": "и предсказывает их рассеяние внутри Израиля",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "Shimon и Levi нет в Песни Деворы.",
+   "grade": "entailed",
+   "for": [
+    "Judg.5.14",
+    "Judg.5.15",
+    "Judg.5.17",
+    "Judg.5.18"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Их отсутствие — следствие 49:5–7.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Judg.1.3"
+   ],
+   "note": "В Песни Деворы нет и Yehudah. Shimon действует вместе с Yehudah в Суд 1:3."
+  },
+  {
+   "claim": "Проклятие произносит Elohim.",
+   "grade": "contradicted",
+   "for": [
+    "Gen.49.1",
+    "Gen.49.2",
+    "Gen.49.28"
+   ],
+   "against": [],
+   "note": "В тексте говорит Yaaqov, отец колен."
+  },
+  {
+   "claim": "Число колен в списках непостоянно.",
+   "grade": "supported",
+   "for": [
+    "Deut.33.6",
+    "Judg.5.14"
+   ],
+   "against": [],
+   "note": "Во Втор 33 нет Shimon; в Суд 5 вместо Menasheh и Gad — Makhir и Gilad."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Быт 49, отрывок проверен по тексту"
+  }
+ ]
+}

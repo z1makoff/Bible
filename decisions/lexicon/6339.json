@@ -1,0 +1,27 @@
+{
+  "key": "6339",
+  "kind": "word",
+  "display": "pazaz",
+  "senses": [
+    {
+      "id": "agile",
+      "ru": "быть проворным",
+      "stems": [
+        "провор"
+      ],
+      "gloss": "быть проворным, скакать (2 Цар 6:16)",
+      "evidence": [
+        "2Sam.6.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

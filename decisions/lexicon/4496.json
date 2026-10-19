@@ -1,0 +1,28 @@
+{
+  "key": "4496",
+  "kind": "word",
+  "display": "menuchah",
+  "senses": [
+    {
+      "id": "rest",
+      "ru": "покой",
+      "stems": [
+        "поко"
+      ],
+      "gloss": "покой, место отдыха (Чис 10:33; Втор 12:9)",
+      "evidence": [
+        "Num.10.33",
+        "Deut.12.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

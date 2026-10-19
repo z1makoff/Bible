@@ -1,0 +1,28 @@
+{
+  "key": "8127",
+  "kind": "word",
+  "display": "shen",
+  "senses": [
+    {
+      "id": "tooth",
+      "ru": "зуб",
+      "stems": [
+        "зуб"
+      ],
+      "gloss": "зуб (Исх 21:24, 27)",
+      "evidence": [
+        "Exod.21.24",
+        "Exod.21.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

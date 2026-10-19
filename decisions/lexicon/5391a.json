@@ -1,0 +1,28 @@
+{
+  "key": "5391a",
+  "kind": "word",
+  "display": "nashakh",
+  "senses": [
+    {
+      "id": "bite",
+      "ru": "ужалить",
+      "stems": [
+        "жал"
+      ],
+      "gloss": "укусить, ужалить (змеи — Чис 21:6, 9)",
+      "evidence": [
+        "Num.21.6",
+        "Num.21.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

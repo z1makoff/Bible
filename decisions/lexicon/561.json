@@ -1,0 +1,28 @@
+{
+  "key": "561",
+  "kind": "word",
+  "display": "emer",
+  "senses": [
+    {
+      "id": "saying",
+      "ru": "изречение",
+      "stems": [
+        "изречени"
+      ],
+      "gloss": "слово, изречение (Чис 24:4; Втор 32:1)",
+      "evidence": [
+        "Num.24.4",
+        "Deut.32.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Речение» уже передаёт neum, «речь» — imrah и safah.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

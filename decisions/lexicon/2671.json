@@ -1,0 +1,28 @@
+{
+  "key": "2671",
+  "kind": "word",
+  "display": "chets",
+  "senses": [
+    {
+      "id": "arrow",
+      "ru": "стрела",
+      "stems": [
+        "стрел"
+      ],
+      "gloss": "стрела (Чис 24:8; Втор 32:23)",
+      "evidence": [
+        "Num.24.8",
+        "Deut.32.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}

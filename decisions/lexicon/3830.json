@@ -1,0 +1,28 @@
+{
+  "key": "3830",
+  "kind": "word",
+  "display": "levush",
+  "senses": [
+    {
+      "id": "garment",
+      "ru": "одеяние",
+      "stems": [
+        "одеяни"
+      ],
+      "gloss": "одеяние (2 Цар 1:24; Есф 6:8)",
+      "evidence": [
+        "2Sam.1.24",
+        "Esth.6.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Одежда» уже передаёт beged, «платье» — simlah.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 49"
+    }
+  ]
+}
