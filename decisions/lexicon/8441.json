@@ -1,0 +1,29 @@
+{
+  "key": "8441",
+  "kind": "word",
+  "display": "toevah",
+  "senses": [
+    {
+      "id": "abomination",
+      "ru": "мерзость",
+      "stems": [
+        "мерз"
+      ],
+      "gloss": "мерзость, то, что отвращает (Лев 18:22; Втор 7:25)",
+      "evidence": [
+        "Lev.18.22",
+        "Deut.7.25",
+        "Gen.43.32"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 43–45"
+    }
+  ]
+}

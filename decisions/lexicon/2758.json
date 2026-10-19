@@ -1,0 +1,29 @@
+{
+  "key": "2758",
+  "kind": "word",
+  "display": "charish",
+  "senses": [
+    {
+      "id": "plowing",
+      "ru": "пахота",
+      "stems": [
+        "пахот"
+      ],
+      "gloss": "пахота (Быт 45:6; Исх 34:21)",
+      "evidence": [
+        "Exod.34.21",
+        "1Sam.8.12",
+        "Gen.45.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 43–45"
+    }
+  ]
+}

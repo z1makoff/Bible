@@ -1,0 +1,29 @@
+{
+  "key": "1065",
+  "kind": "word",
+  "display": "bekhi",
+  "senses": [
+    {
+      "id": "weeping",
+      "ru": "плач",
+      "stems": [
+        "плач"
+      ],
+      "gloss": "плач (Втор 34:8; Пс 6:9)",
+      "evidence": [
+        "Deut.34.8",
+        "Ps.6.9",
+        "Gen.45.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 43–45"
+    }
+  ]
+}

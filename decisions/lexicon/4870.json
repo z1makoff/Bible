@@ -1,0 +1,27 @@
+{
+  "key": "4870",
+  "kind": "word",
+  "display": "mishgeh",
+  "senses": [
+    {
+      "id": "mistake",
+      "ru": "ошибка",
+      "stems": [
+        "ошиб"
+      ],
+      "gloss": "ошибка; встречается только здесь",
+      "evidence": [
+        "Gen.43.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 43–45"
+    }
+  ]
+}

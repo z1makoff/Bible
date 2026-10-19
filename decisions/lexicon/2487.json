@@ -1,0 +1,29 @@
+{
+  "key": "2487",
+  "kind": "word",
+  "display": "chalifah",
+  "senses": [
+    {
+      "id": "change",
+      "ru": "смена",
+      "stems": [
+        "смен"
+      ],
+      "gloss": "смена (одежд — Быт 45:22; Суд 14:12; 4 Цар 5:5)",
+      "evidence": [
+        "Judg.14.12",
+        "2Kgs.5.5",
+        "Gen.45.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 43–45"
+    }
+  ]
+}
