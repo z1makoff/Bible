@@ -1,0 +1,59 @@
+{
+ "id": "biglino-horeb-residence",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "2722",
+  "5647"
+ ],
+ "places": [
+  "Exod.3.1",
+  "Exod.3.12"
+ ],
+ "claim": "Этот Elohim жил на определённой горе — Chorev, на границе мидианитской земли. Поэтому он и велит: выведя народ, служите мне «на горе этой» — там его жилище.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "chapter": "6. Monoteismo, monolatria o altro?",
+  "quote": "questo Elohìm viveva su una montagna precisa",
+  "quoteRu": "этот Elohim жил на определённой горе",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "Гора названа горой ha-Elohim.",
+   "grade": "entailed",
+   "for": [
+    "Exod.3.1",
+    "Exod.18.5"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Служить надо на этой горе.",
+   "grade": "entailed",
+   "for": [
+    "Exod.3.12"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Гора — жилище YHWH.",
+   "grade": "plausible",
+   "for": [
+    "Deut.33.16",
+    "1Kgs.19.8"
+   ],
+   "against": [
+    "Exod.3.8"
+   ],
+   "note": "«Сошёл я» (3:8) предполагает, что место его пребывания — выше."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Исх 1–3, отрывок проверен по тексту"
+  }
+ ]
+}

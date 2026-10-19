@@ -1,0 +1,28 @@
+{
+  "key": "7934",
+  "kind": "word",
+  "display": "shakhen",
+  "senses": [
+    {
+      "id": "neighbour",
+      "ru": "сосед",
+      "stems": [
+        "сосед"
+      ],
+      "gloss": "сосед, соседка (Исх 12:4; Руфь 4:17)",
+      "evidence": [
+        "Exod.12.4",
+        "Ruth.4.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

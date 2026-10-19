@@ -1,0 +1,28 @@
+{
+  "key": "5450",
+  "kind": "word",
+  "display": "sivlah",
+  "senses": [
+    {
+      "id": "burden",
+      "ru": "тяготы",
+      "stems": [
+        "тягот"
+      ],
+      "gloss": "тяжкие работы, ноши (Исх 1:11; 5:4; 6:6)",
+      "evidence": [
+        "Exod.5.4",
+        "Exod.6.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Нести бремя» уже передаёт saval.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

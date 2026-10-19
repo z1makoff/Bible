@@ -1,0 +1,29 @@
+{
+  "key": "3906",
+  "kind": "word",
+  "display": "lachats",
+  "senses": [
+    {
+      "id": "oppression",
+      "ru": "гнёт",
+      "stems": [
+        "гнёт",
+        "гнет"
+      ],
+      "gloss": "гнёт, теснение (Втор 26:7; 4 Цар 13:4)",
+      "evidence": [
+        "Deut.26.7",
+        "2Kgs.13.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

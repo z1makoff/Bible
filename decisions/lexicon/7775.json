@@ -1,0 +1,28 @@
+{
+  "key": "7775",
+  "kind": "word",
+  "display": "shavah",
+  "senses": [
+    {
+      "id": "cry-for-help",
+      "ru": "клич о помощи",
+      "stems": [
+        "клич"
+      ],
+      "gloss": "призыв о помощи (1 Цар 5:12; 2 Цар 22:7; Пс 18:7)",
+      "evidence": [
+        "1Sam.5.12",
+        "2Sam.22.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

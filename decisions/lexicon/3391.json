@@ -1,0 +1,28 @@
+{
+  "key": "3391",
+  "kind": "word",
+  "display": "yerach",
+  "senses": [
+    {
+      "id": "month",
+      "ru": "лунный месяц",
+      "stems": [
+        "лунн"
+      ],
+      "gloss": "месяц (по луне) (Втор 21:13; 3 Цар 6:37–38)",
+      "evidence": [
+        "Deut.21.13",
+        "1Kgs.6.37"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Месяц» уже передаёт chodesh, «луна» — yareach.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

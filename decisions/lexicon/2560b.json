@@ -1,0 +1,27 @@
+{
+  "key": "2560b",
+  "kind": "word",
+  "display": "chamar",
+  "senses": [
+    {
+      "id": "bitumen",
+      "ru": "покрыть битумом",
+      "stems": [
+        "битум"
+      ],
+      "gloss": "обмазать битумом (chemar); встречается только здесь",
+      "evidence": [
+        "Exod.2.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Обмазать» уже передаёт kafar.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

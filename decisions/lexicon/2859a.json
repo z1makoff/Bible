@@ -1,0 +1,28 @@
+{
+  "key": "2859a",
+  "kind": "word",
+  "display": "choten",
+  "senses": [
+    {
+      "id": "father-in-law",
+      "ru": "тесть",
+      "stems": [
+        "тест"
+      ],
+      "gloss": "тесть — отец жены (Исх 4:18; 18:1)",
+      "evidence": [
+        "Exod.4.18",
+        "Exod.18.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Свёкор» уже передаёт cham.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5009",
+  "kind": "word",
+  "display": "neaqah",
+  "senses": [
+    {
+      "id": "groan",
+      "ru": "стон",
+      "stems": [
+        "стон"
+      ],
+      "gloss": "стон (Исх 6:5; Суд 2:18; Иез 30:24)",
+      "evidence": [
+        "Exod.6.5",
+        "Judg.2.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}

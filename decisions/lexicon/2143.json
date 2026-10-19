@@ -1,0 +1,28 @@
+{
+  "key": "2143",
+  "kind": "word",
+  "display": "zekher",
+  "senses": [
+    {
+      "id": "remembrance",
+      "ru": "память",
+      "stems": [
+        "памят"
+      ],
+      "gloss": "память, упоминание (Исх 17:14; Втор 25:19)",
+      "evidence": [
+        "Exod.17.14",
+        "Deut.25.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 1–3"
+    }
+  ]
+}
