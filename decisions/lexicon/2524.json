@@ -1,0 +1,29 @@
+{
+  "key": "2524",
+  "kind": "word",
+  "display": "cham",
+  "senses": [
+    {
+      "id": "husbands-father",
+      "ru": "свёкор",
+      "stems": [
+        "свёк",
+        "свек"
+      ],
+      "gloss": "отец мужа (1 Цар 4:19, 21)",
+      "evidence": [
+        "1Sam.4.19",
+        "1Sam.4.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

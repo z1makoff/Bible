@@ -1,0 +1,28 @@
+{
+  "key": "490",
+  "kind": "word",
+  "display": "almanah",
+  "senses": [
+    {
+      "id": "widow",
+      "ru": "вдова",
+      "stems": [
+        "вдов"
+      ],
+      "gloss": "вдова",
+      "evidence": [
+        "Exod.22.21",
+        "Deut.10.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

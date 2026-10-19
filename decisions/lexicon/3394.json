@@ -1,0 +1,29 @@
+{
+  "key": "3394",
+  "kind": "word",
+  "display": "yareach",
+  "senses": [
+    {
+      "id": "moon",
+      "ru": "луна",
+      "stems": [
+        "лун"
+      ],
+      "gloss": "луна",
+      "evidence": [
+        "Josh.10.12",
+        "Ps.104.19",
+        "Deut.4.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

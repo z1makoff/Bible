@@ -1,0 +1,29 @@
+{
+  "key": "6162",
+  "kind": "word",
+  "display": "eravon",
+  "senses": [
+    {
+      "id": "pledge",
+      "ru": "залог",
+      "stems": [
+        "залог"
+      ],
+      "gloss": "залог",
+      "evidence": [
+        "Gen.38.17",
+        "Gen.38.18",
+        "Gen.38.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

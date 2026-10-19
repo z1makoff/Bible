@@ -1,0 +1,28 @@
+{
+  "key": "736",
+  "kind": "word",
+  "display": "orechah",
+  "senses": [
+    {
+      "id": "caravan",
+      "ru": "караван",
+      "stems": [
+        "караван"
+      ],
+      "gloss": "караван, путники, идущие вместе",
+      "evidence": [
+        "Gen.37.25",
+        "Isa.21.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

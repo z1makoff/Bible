@@ -1,0 +1,29 @@
+{
+  "key": "6556",
+  "kind": "word",
+  "display": "perets",
+  "senses": [
+    {
+      "id": "breach",
+      "ru": "пролом",
+      "stems": [
+        "пролом"
+      ],
+      "gloss": "пролом, брешь (2 Цар 5:20; Неем 6:1; Ам 4:3)",
+      "evidence": [
+        "2Sam.5.20",
+        "Neh.6.1",
+        "Amos.4.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}

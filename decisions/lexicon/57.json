@@ -1,0 +1,28 @@
+{
+  "key": "57",
+  "kind": "word",
+  "display": "avel",
+  "senses": [
+    {
+      "id": "mourning",
+      "ru": "скорбящий",
+      "stems": [
+        "скорбя"
+      ],
+      "gloss": "скорбящий, в трауре (Пс 35:14; Есф 6:12)",
+      "evidence": [
+        "Ps.35.14",
+        "Esth.6.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 37–39"
+    }
+  ]
+}
