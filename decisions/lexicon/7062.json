@@ -1,0 +1,29 @@
+{
+  "key": "7062",
+  "kind": "word",
+  "display": "qomets",
+  "senses": [
+    {
+      "id": "handful",
+      "ru": "горсть",
+      "stems": [
+        "горст"
+      ],
+      "gloss": "горсть (Лев 2:2; 5:12; 6:8)",
+      "evidence": [
+        "Lev.2.2",
+        "Lev.5.12",
+        "Gen.41.47"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

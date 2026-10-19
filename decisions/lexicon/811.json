@@ -1,0 +1,28 @@
+{
+  "key": "811",
+  "kind": "word",
+  "display": "eshkol",
+  "senses": [
+    {
+      "id": "cluster",
+      "ru": "гроздь",
+      "stems": [
+        "грозд"
+      ],
+      "gloss": "гроздь (винограда — Чис 13:23; хны — Песн 1:14)",
+      "evidence": [
+        "Num.13.23",
+        "Song.1.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

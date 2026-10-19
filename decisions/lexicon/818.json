@@ -1,0 +1,28 @@
+{
+  "key": "818",
+  "kind": "word",
+  "display": "ashem",
+  "senses": [
+    {
+      "id": "guilty",
+      "ru": "виновный",
+      "stems": [
+        "виновн"
+      ],
+      "gloss": "виновный (Быт 42:21; 2 Цар 14:13)",
+      "evidence": [
+        "Gen.42.21",
+        "2Sam.14.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

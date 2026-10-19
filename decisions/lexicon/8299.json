@@ -1,0 +1,29 @@
+{
+  "key": "8299",
+  "kind": "word",
+  "display": "sarig",
+  "senses": [
+    {
+      "id": "branch",
+      "ru": "ветвь",
+      "stems": [
+        "ветв",
+        "ветк"
+      ],
+      "gloss": "ветвь, побег лозы (Быт 40:10; Иоил 1:7)",
+      "evidence": [
+        "Gen.40.10",
+        "Joel.1.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

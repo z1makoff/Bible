@@ -1,0 +1,28 @@
+{
+  "key": "6623",
+  "kind": "word",
+  "display": "pitron",
+  "senses": [
+    {
+      "id": "interpretation",
+      "ru": "истолкование",
+      "stems": [
+        "истолкован"
+      ],
+      "gloss": "истолкование сна (только Быт 40–41)",
+      "evidence": [
+        "Gen.40.8",
+        "Gen.41.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

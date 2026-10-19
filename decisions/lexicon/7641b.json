@@ -1,0 +1,29 @@
+{
+  "key": "7641b",
+  "kind": "word",
+  "display": "shibbolet",
+  "senses": [
+    {
+      "id": "ear",
+      "ru": "колос",
+      "stems": [
+        "колос"
+      ],
+      "gloss": "колос (Руфь 2:2; Ис 17:5)",
+      "evidence": [
+        "Ruth.2.2",
+        "Isa.17.5",
+        "Gen.41.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

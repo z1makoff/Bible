@@ -1,0 +1,28 @@
+{
+  "key": "7534",
+  "kind": "word",
+  "display": "raq",
+  "senses": [
+    {
+      "id": "emaciated",
+      "ru": "исхудалый",
+      "stems": [
+        "исхуд"
+      ],
+      "gloss": "исхудалый (о коровах — только Быт 41)",
+      "evidence": [
+        "Gen.41.19",
+        "Gen.41.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

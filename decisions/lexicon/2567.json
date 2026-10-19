@@ -1,0 +1,27 @@
+{
+  "key": "2567",
+  "kind": "word",
+  "display": "chimmesh",
+  "senses": [
+    {
+      "id": "take-fifth",
+      "ru": "взять пятую часть",
+      "stems": [
+        "пятую част"
+      ],
+      "gloss": "взимать пятую часть (от chamesh «пять»); встречается только здесь",
+      "evidence": [
+        "Gen.41.34"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "7242",
+  "kind": "word",
+  "display": "ravid",
+  "senses": [
+    {
+      "id": "chain",
+      "ru": "цепь",
+      "stems": [
+        "цеп"
+      ],
+      "gloss": "шейная цепь, ожерелье (Быт 41:42; Иез 16:11)",
+      "evidence": [
+        "Gen.41.42",
+        "Ezek.16.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

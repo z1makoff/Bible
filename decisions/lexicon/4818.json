@@ -1,0 +1,29 @@
+{
+  "key": "4818",
+  "kind": "word",
+  "display": "merkavah",
+  "senses": [
+    {
+      "id": "chariot",
+      "ru": "колесница",
+      "stems": [
+        "колесниц"
+      ],
+      "gloss": "колесница (Быт 46:29; Исх 14:25; Нав 11:6)",
+      "evidence": [
+        "Gen.46.29",
+        "Exod.14.25",
+        "Josh.11.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}

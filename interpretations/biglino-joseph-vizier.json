@@ -1,0 +1,47 @@
+{
+ "id": "biglino-joseph-vizier",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3130"
+ ],
+ "places": [
+  "Gen.41.40",
+  "Gen.41.41",
+  "Gen.41.43"
+ ],
+ "claim": "В хронологии Бильино (по «новым хронологиям»): в Египте правит Аменемхет III (XII династия), и его визирем был, возможно, библейский Иосиф, служивший также Сенусерту III.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libro-cambiera",
+  "chapter": "Appendice 1. Cronologia",
+  "quote": "suo visir era forse il Giuseppe biblico che aveva servito anche Senuseret III",
+  "quoteRu": "его визирем был, возможно, библейский Иосиф, служивший также Сенусерту III",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "Yosef — второй после фараона, правитель всей земли.",
+   "grade": "entailed",
+   "for": [
+    "Gen.41.40",
+    "Gen.41.43",
+    "Gen.42.6"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Фараон Yosef — Аменемхет III.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст не называет фараона по имени; сам Бильино пишет «возможно»."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Быт 40–42, отрывок проверен по тексту"
+  }
+ ]
+}

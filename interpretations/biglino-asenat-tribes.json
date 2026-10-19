@@ -1,0 +1,82 @@
+{
+ "id": "biglino-asenat-tribes",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "621",
+  "669",
+  "4519"
+ ],
+ "places": [
+  "Gen.41.45",
+  "Gen.41.50",
+  "Gen.41.51",
+  "Gen.41.52"
+ ],
+ "claim": "Efrayim и Menasheh родились от египтянки Asenat (имя значит «принадлежащая богине Нейт»), дочери жреца бога Ра в On (Гелиополь), — значит, по крайней мере два колена Израиля имели, по свидетельству самой Библии, прямое египетское происхождение. Бильино допускает, что «месопотамское» происхождение народа могло быть реконструкцией времён вавилонского плена. Отца Asenat он называет Potifar.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "chapter": "Giuseppe Flavio e i suoi curiosi riferimenti biblici",
+  "quote": "Dunque almeno due delle tribù di Israele avevano una diretta derivazione egiziana certificata dalla Bibbia",
+  "quoteRu": "Итак, по меньшей мере два колена Израиля имели прямое египетское происхождение, удостоверенное Библией",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "Asenat — египтянка, дочь жреца On.",
+   "grade": "entailed",
+   "for": [
+    "Gen.41.45",
+    "Gen.41.50"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Efrayim и Menasheh — её сыновья.",
+   "grade": "entailed",
+   "for": [
+    "Gen.41.50",
+    "Gen.41.51",
+    "Gen.41.52"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Два колена Израиля происходят по матери от египтянки.",
+   "grade": "supported",
+   "for": [
+    "Gen.41.50",
+    "Num.26.28"
+   ],
+   "against": [],
+   "note": "Колена Efrayim и Menasheh ведутся от сыновей Yosef (Чис 26:28); их мать — Asenat."
+  },
+  {
+   "claim": "Отец Asenat — Potifar.",
+   "grade": "contradicted",
+   "for": [],
+   "against": [
+    "Gen.41.45",
+    "Gen.37.36"
+   ],
+   "note": "В тексте разные имена и должности: Poti-Fera — жрец On, Potifar — вельможа tabbachim."
+  },
+  {
+   "claim": "Месопотамское происхождение — позднейшая реконструкция.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Gen.11.31",
+    "Gen.24.4"
+   ],
+   "note": "Связь с Месопотамией проходит через весь рассказ о патриархах; что это поздняя переработка, — предположение."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Быт 40–42, отрывок проверен по тексту"
+  }
+ ]
+}

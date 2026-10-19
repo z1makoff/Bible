@@ -1,0 +1,29 @@
+{
+  "key": "1612",
+  "kind": "word",
+  "display": "gefen",
+  "senses": [
+    {
+      "id": "vine",
+      "ru": "лоза",
+      "stems": [
+        "лоз"
+      ],
+      "gloss": "виноградная лоза (Быт 49:11; Чис 6:4)",
+      "evidence": [
+        "Gen.40.9",
+        "Num.6.4",
+        "Gen.49.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 40–42"
+    }
+  ]
+}
