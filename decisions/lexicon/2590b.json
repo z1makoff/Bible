@@ -1,0 +1,27 @@
+{
+  "key": "2590b",
+  "kind": "word",
+  "display": "chanutim",
+  "senses": [
+    {
+      "id": "embalming",
+      "ru": "бальзамирование",
+      "stems": [
+        "бальзамирован"
+      ],
+      "gloss": "бальзамирование; встречается только здесь",
+      "evidence": [
+        "Gen.50.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 50"
+    }
+  ]
+}

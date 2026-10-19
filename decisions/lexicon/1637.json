@@ -1,0 +1,28 @@
+{
+  "key": "1637",
+  "kind": "word",
+  "display": "goren",
+  "senses": [
+    {
+      "id": "threshing-floor",
+      "ru": "гумно",
+      "stems": [
+        "гумн"
+      ],
+      "gloss": "гумно, ток (Чис 15:20; 18:27; Втор 16:13)",
+      "evidence": [
+        "Num.15.20",
+        "Deut.16.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 50"
+    }
+  ]
+}

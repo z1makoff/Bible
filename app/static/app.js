@@ -9,8 +9,8 @@ const SECTIONS = [
 const STATUS = { draft: "черновик", ready: "подготовлена", reviewed: "проверена вами" };
 const KIND = { word: "слово", name: "имя собственное", divine: "имя или титул божества", function: "служебное слово",
   keep: "не переводится нигде" };
-const NO_SPACE_BEFORE = new Set([".", ",", ";", ":", "!", "?", "»", "“", ")", "…"]);
-const NO_SPACE_AFTER = new Set(["«", "„", "("]);
+const NO_SPACE_BEFORE = new Set([".", ",", ";", ":", "!", "?", "»", "“", "›", ")", "…"]);
+const NO_SPACE_AFTER = new Set(["«", "„", "‹", "("]);
 
 const state = { books: [], byId: {}, prepared: {}, progress: {}, settings: {}, chapter: null, selected: null, returnTo: null };
 const $ = (sel) => document.querySelector(sel);

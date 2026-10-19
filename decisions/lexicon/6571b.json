@@ -1,0 +1,28 @@
+{
+  "key": "6571b",
+  "kind": "word",
+  "display": "parash",
+  "senses": [
+    {
+      "id": "horseman",
+      "ru": "всадник",
+      "stems": [
+        "всадник"
+      ],
+      "gloss": "всадник (Исх 14:9, 17, 23)",
+      "evidence": [
+        "Exod.14.9",
+        "Exod.14.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 50"
+    }
+  ]
+}
