@@ -1,0 +1,29 @@
+{
+  "key": "4829",
+  "kind": "word",
+  "display": "mireh",
+  "senses": [
+    {
+      "id": "pasture",
+      "ru": "пастбище",
+      "stems": [
+        "пастбищ"
+      ],
+      "gloss": "пастбище (Быт 47:4; Иез 34:14; Иоил 1:18)",
+      "evidence": [
+        "Ezek.34.14",
+        "Joel.1.18",
+        "Gen.47.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 46–48"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "8393",
+  "kind": "word",
+  "display": "tevuah",
+  "senses": [
+    {
+      "id": "produce",
+      "ru": "урожай",
+      "stems": [
+        "урожа"
+      ],
+      "gloss": "урожай, плод земли (Лев 25:3; Втор 14:22)",
+      "evidence": [
+        "Lev.25.3",
+        "Deut.14.22",
+        "Gen.47.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 46–48"
+    }
+  ]
+}

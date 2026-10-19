@@ -1,0 +1,27 @@
+{
+  "key": "2569",
+  "kind": "word",
+  "display": "chomesh",
+  "senses": [
+    {
+      "id": "fifth-part",
+      "ru": "пятина",
+      "stems": [
+        "пятин"
+      ],
+      "gloss": "пятая часть, пятина; встречается только здесь",
+      "evidence": [
+        "Gen.47.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Пятый» уже передаёт chamishi (47:24).",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Быт 46–48"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "trad-adoption-birthright",
+ "tradition": "Традиционная (Толковая Библия Лопухина)",
+ "lemmas": [],
+ "places": [
+  "Gen.48.5",
+  "Gen.48.6"
+ ],
+ "claim": "Усыновив Efrayim и Menasheh наравне с Reuven и Shimon, Yaaqov отдаёт Yosef право первородства с двойной долей наследства (Втор 21:15–17), отнятое у Reuven (49:4). Сыновья Yosef, рождённые позже, отдельных колен не составят, а войдут в колена Efrayim и Menasheh.",
+ "source": {
+  "kind": "book",
+  "book": "lopuhin-genesis",
+  "section": "толкование на Быт 48:5–6",
+  "quote": "Иаков этим признает за Иосифом право первородства с его двойной наследственной частью",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "Efrayim и Menasheh приравнены к сыновьям Yaaqov.",
+   "grade": "entailed",
+   "for": [
+    "Gen.48.5"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это двойная доля первенца, отнятая у Reuven.",
+   "grade": "supported",
+   "for": [
+    "1Chr.5.1",
+    "1Chr.5.2",
+    "Deut.21.17"
+   ],
+   "against": [],
+   "note": "1 Пар 5:1–2 прямо говорит: первородство Reuven отдано сыновьям Yosef."
+  },
+  {
+   "claim": "Позже рождённые войдут в их колена.",
+   "grade": "entailed",
+   "for": [
+    "Gen.48.6"
+   ],
+   "against": []
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Быт 46–48, отрывок проверен по тексту"
+  }
+ ]
+}
