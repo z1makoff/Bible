@@ -1,0 +1,28 @@
+{
+  "key": "6864",
+  "kind": "word",
+  "display": "tsor",
+  "senses": [
+    {
+      "id": "flint",
+      "ru": "кремень",
+      "stems": [
+        "кремен",
+        "кремн"
+      ],
+      "gloss": "кремень, кремнёвый нож (Иез 3:9)",
+      "evidence": [
+        "Ezek.3.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

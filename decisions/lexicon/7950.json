@@ -1,0 +1,29 @@
+{
+  "key": "7950",
+  "kind": "word",
+  "display": "sheleg",
+  "senses": [
+    {
+      "id": "snow",
+      "ru": "снег",
+      "stems": [
+        "снег",
+        "снеж"
+      ],
+      "gloss": "снег (Чис 12:10; 4 Цар 5:27)",
+      "evidence": [
+        "Num.12.10",
+        "2Kgs.5.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "4181",
+  "kind": "word",
+  "display": "morashah",
+  "senses": [
+    {
+      "id": "possession",
+      "ru": "владение",
+      "stems": [
+        "владени"
+      ],
+      "gloss": "владение, наследственное достояние (Втор 33:4; Иез 11:15)",
+      "evidence": [
+        "Deut.33.4",
+        "Ezek.11.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Собственность» уже передаёт achuzzah, «удел» — nachalah.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

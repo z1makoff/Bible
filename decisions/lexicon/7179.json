@@ -1,0 +1,28 @@
+{
+  "key": "7179",
+  "kind": "word",
+  "display": "qash",
+  "senses": [
+    {
+      "id": "stubble",
+      "ru": "жнивьё",
+      "stems": [
+        "жнив"
+      ],
+      "gloss": "жнивьё, солома (Исх 15:7; Иов 13:25)",
+      "evidence": [
+        "Exod.15.7",
+        "Job.13.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Солома» уже передаёт teven.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

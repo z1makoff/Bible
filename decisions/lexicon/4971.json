@@ -1,0 +1,28 @@
+{
+  "key": "4971",
+  "kind": "word",
+  "display": "matkonet",
+  "senses": [
+    {
+      "id": "quota",
+      "ru": "норма",
+      "stems": [
+        "норм"
+      ],
+      "gloss": "мера, норма; состав (Исх 30:32, 37; 2 Пар 24:13)",
+      "evidence": [
+        "Exod.30.32",
+        "2Chr.24.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

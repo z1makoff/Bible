@@ -1,0 +1,56 @@
+{
+ "id": "biglino-exclusive-bond",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.6.7"
+ ],
+ "claim": "Весь свод законов Исхода опирается на слова 6:7: «возьму вас себе в народ и буду вам Elohim». Этот выбор связывает Израиль исключительной связью с YHWH — одним из Elohim, по образцу военных договоров.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-of-the-bible",
+  "chapter": "5. Yahweh speaks of himself",
+  "quote": "This choice binds Israel to Yahweh, a member of the Elohim’s ranks",
+  "quoteRu": "этот выбор связывает Израиль с YHWH, одним из Elohim",
+  "checked": "2026-10-19"
+ },
+ "support": [
+  {
+   "claim": "YHWH берёт народ себе и будет ему Elohim.",
+   "grade": "entailed",
+   "for": [
+    "Exod.6.7"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Связь исключительная.",
+   "grade": "supported",
+   "for": [
+    "Exod.20.3",
+    "Exod.34.14"
+   ],
+   "against": []
+  },
+  {
+   "claim": "YHWH — один из многих Elohim.",
+   "grade": "plausible",
+   "for": [
+    "Exod.15.11",
+    "Exod.18.11"
+   ],
+   "against": [
+    "Deut.4.35",
+    "Deut.4.39"
+   ],
+   "note": "Второзаконие утверждает, что «нет иного, кроме него»; Исход говорит сравнительно: «кто, как ты, среди богов»."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-19",
+   "by": "claude",
+   "change": "создано при подготовке Исх 4–6, отрывок проверен по тексту"
+  }
+ ]
+}

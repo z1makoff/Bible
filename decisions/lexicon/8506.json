@@ -1,0 +1,27 @@
+{
+  "key": "8506",
+  "kind": "word",
+  "display": "tokhen",
+  "senses": [
+    {
+      "id": "amount",
+      "ru": "количество",
+      "stems": [
+        "количеств"
+      ],
+      "gloss": "установленное количество (Иез 45:11)",
+      "evidence": [
+        "Ezek.45.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Норма» уже передаёт matkonet.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

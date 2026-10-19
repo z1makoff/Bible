@@ -1,0 +1,27 @@
+{
+  "key": "3006",
+  "kind": "word",
+  "display": "yabbeshet",
+  "senses": [
+    {
+      "id": "dry-land",
+      "ru": "сухая земля",
+      "stems": [
+        "сух"
+      ],
+      "gloss": "сухая земля (Пс 95:5)",
+      "evidence": [
+        "Ps.95.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Суша» уже передаёт yabbashah.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

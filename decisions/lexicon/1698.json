@@ -1,0 +1,28 @@
+{
+  "key": "1698",
+  "kind": "word",
+  "display": "dever",
+  "senses": [
+    {
+      "id": "pestilence",
+      "ru": "мор",
+      "stems": [
+        "мор"
+      ],
+      "gloss": "мор, повальная болезнь (Исх 9:3, 15; Лев 26:25)",
+      "evidence": [
+        "Exod.9.3",
+        "Lev.26.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

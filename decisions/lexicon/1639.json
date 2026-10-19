@@ -1,0 +1,28 @@
+{
+  "key": "1639",
+  "kind": "word",
+  "display": "gara",
+  "senses": [
+    {
+      "id": "diminish",
+      "ru": "убавить",
+      "stems": [
+        "убав"
+      ],
+      "gloss": "убавить, уменьшить (Исх 21:10; Лев 27:18)",
+      "evidence": [
+        "Exod.21.10",
+        "Lev.27.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

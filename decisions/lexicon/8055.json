@@ -1,0 +1,28 @@
+{
+  "key": "8055",
+  "kind": "word",
+  "display": "samach",
+  "senses": [
+    {
+      "id": "rejoice",
+      "ru": "радоваться",
+      "stems": [
+        "рад"
+      ],
+      "gloss": "радоваться, веселиться (Лев 23:40; Втор 12:7)",
+      "evidence": [
+        "Lev.23.40",
+        "Deut.12.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "8267",
+  "kind": "word",
+  "display": "sheqer",
+  "senses": [
+    {
+      "id": "falsehood",
+      "ru": "ложь",
+      "stems": [
+        "лож",
+        "лжи",
+        "лжив"
+      ],
+      "gloss": "ложь, обман (Исх 20:16; 23:7)",
+      "evidence": [
+        "Exod.20.16",
+        "Exod.23.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

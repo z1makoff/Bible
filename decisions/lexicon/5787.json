@@ -1,0 +1,28 @@
+{
+  "key": "5787",
+  "kind": "word",
+  "display": "ivver",
+  "senses": [
+    {
+      "id": "blind",
+      "ru": "слепой",
+      "stems": [
+        "слеп"
+      ],
+      "gloss": "слепой (Лев 19:14; Втор 27:18)",
+      "evidence": [
+        "Lev.19.14",
+        "Deut.27.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

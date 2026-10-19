@@ -1,0 +1,27 @@
+{
+  "key": "6493",
+  "kind": "word",
+  "display": "piqqeach",
+  "senses": [
+    {
+      "id": "seeing",
+      "ru": "зрячий",
+      "stems": [
+        "зряч"
+      ],
+      "gloss": "зрячий (Исх 23:8)",
+      "evidence": [
+        "Exod.23.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}

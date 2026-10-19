@@ -1,0 +1,28 @@
+{
+  "key": "2180",
+  "kind": "word",
+  "display": "zanav",
+  "senses": [
+    {
+      "id": "tail",
+      "ru": "хвост",
+      "stems": [
+        "хвост"
+      ],
+      "gloss": "хвост (Втор 28:13; Суд 15:4)",
+      "evidence": [
+        "Deut.28.13",
+        "Judg.15.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 4–6"
+    }
+  ]
+}
