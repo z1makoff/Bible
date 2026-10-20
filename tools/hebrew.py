@@ -43,10 +43,12 @@ def clusters(word):
 
 
 def vowel_of(marks):
-    for m in marks:
-        if m in VOWELS:
-            return VOWELS[m]
-    return ""
+    found = [VOWELS[m] for m in sorted(marks) if m in VOWELS]  # sorted: набор значков без порядка
+    if len(found) > 1 and "i" in found:
+        # Только ירושלם: хирек рядом с патахом или камецом — огласовка чтения yərûšālayim
+        # с невписанным йодом.
+        return next(v for v in found if v != "i") + "yi"
+    return found[0] if found else ""
 
 
 def translit(word):
