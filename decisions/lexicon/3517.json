@@ -1,0 +1,27 @@
+{
+  "key": "3517",
+  "kind": "word",
+  "display": "kevedut",
+  "senses": [
+    {
+      "id": "heaviness",
+      "ru": "тяжесть",
+      "stems": [
+        "тяжест"
+      ],
+      "gloss": "тяжесть, трудность (единственное употребление; от kaved — «тяжёлый»)",
+      "evidence": [
+        "Exod.14.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 14"
+    }
+  ]
+}

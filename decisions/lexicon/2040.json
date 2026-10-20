@@ -1,0 +1,28 @@
+{
+  "key": "2040",
+  "kind": "word",
+  "display": "haras",
+  "senses": [
+    {
+      "id": "overthrow",
+      "ru": "низвергнуть",
+      "stems": [
+        "низверг"
+      ],
+      "gloss": "разрушить, низвергнуть (жертвенник — Суд 6:25)",
+      "evidence": [
+        "Judg.6.25",
+        "Exod.23.24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

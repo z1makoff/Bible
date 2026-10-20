@@ -1,0 +1,28 @@
+{
+  "key": "2346",
+  "kind": "word",
+  "display": "chomah",
+  "senses": [
+    {
+      "id": "wall",
+      "ru": "стена",
+      "stems": [
+        "стен"
+      ],
+      "gloss": "стена (обычно — городская, оборонная)",
+      "evidence": [
+        "Josh.2.15",
+        "Deut.3.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 14"
+    }
+  ]
+}

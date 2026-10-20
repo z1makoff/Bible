@@ -1,0 +1,27 @@
+{
+  "key": "7492",
+  "kind": "word",
+  "display": "raats",
+  "senses": [
+    {
+      "id": "shatter",
+      "ru": "сокрушить",
+      "stems": [
+        "сокруш"
+      ],
+      "gloss": "разбить, сокрушить (Суд 10:8)",
+      "evidence": [
+        "Judg.10.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2740",
+  "kind": "word",
+  "display": "charon",
+  "senses": [
+    {
+      "id": "burning",
+      "ru": "жар",
+      "stems": [
+        "жар"
+      ],
+      "gloss": "жар гнева (charon af)",
+      "evidence": [
+        "Exod.32.12",
+        "Num.25.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Тот же корень, что chori («накал»); chemah — «ярость».",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

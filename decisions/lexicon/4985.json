@@ -1,0 +1,28 @@
+{
+  "key": "4985",
+  "kind": "word",
+  "display": "matoq",
+  "senses": [
+    {
+      "id": "become-sweet",
+      "ru": "стать сладким",
+      "stems": [
+        "слад"
+      ],
+      "gloss": "стать сладким, приятным (Иов 20:12)",
+      "evidence": [
+        "Job.20.12",
+        "Prov.9.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

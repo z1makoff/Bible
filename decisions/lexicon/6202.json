@@ -1,0 +1,29 @@
+{
+  "key": "6202",
+  "kind": "word",
+  "display": "araf",
+  "senses": [
+    {
+      "id": "break-neck",
+      "ru": "переломить шею",
+      "stems": [
+        "шею",
+        "шеи"
+      ],
+      "gloss": "сломать шею (животному)",
+      "evidence": [
+        "Deut.21.4",
+        "Exod.34.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 13"
+    }
+  ]
+}

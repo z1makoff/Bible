@@ -1,0 +1,28 @@
+{
+  "key": "5777",
+  "kind": "word",
+  "display": "oferet",
+  "senses": [
+    {
+      "id": "lead",
+      "ru": "свинец",
+      "stems": [
+        "свин"
+      ],
+      "gloss": "свинец",
+      "evidence": [
+        "Num.31.22",
+        "Jer.6.29"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

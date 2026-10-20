@@ -1,0 +1,28 @@
+{
+  "key": "7698",
+  "kind": "word",
+  "display": "sheger",
+  "senses": [
+    {
+      "id": "offspring",
+      "ru": "приплод",
+      "stems": [
+        "припл"
+      ],
+      "gloss": "приплод скота",
+      "evidence": [
+        "Deut.7.13",
+        "Deut.28.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 13"
+    }
+  ]
+}

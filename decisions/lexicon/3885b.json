@@ -1,0 +1,29 @@
+{
+  "key": "3885b",
+  "kind": "word",
+  "display": "lun",
+  "senses": [
+    {
+      "id": "murmur",
+      "ru": "роптать",
+      "stems": [
+        "ропт",
+        "ропщ"
+      ],
+      "gloss": "роптать (на кого-то)",
+      "evidence": [
+        "Exod.16.2",
+        "Num.14.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

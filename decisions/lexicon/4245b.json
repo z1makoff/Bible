@@ -1,0 +1,28 @@
+{
+  "key": "4245b",
+  "kind": "word",
+  "display": "machalah",
+  "senses": [
+    {
+      "id": "sickness",
+      "ru": "болезнь",
+      "stems": [
+        "болезн"
+      ],
+      "gloss": "болезнь (Исх 23:25; 3 Цар 8:37)",
+      "evidence": [
+        "Exod.23.25",
+        "1Kgs.8.37"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

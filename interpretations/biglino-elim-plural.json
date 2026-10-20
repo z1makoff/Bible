@@ -1,0 +1,45 @@
+{
+ "id": "biglino-elim-plural",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.15.11"
+ ],
+ "claim": "Если Elohim — всегда единственный Бог, ликующее «кто как ты среди Elohim?» звучит абсурдно; если Elohim — множество отдельных существ, восклицание понятно без толкований.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-of-the-bible",
+  "chapter": "Exodus 15:11",
+  "quote": "the people’s song of triumph — “who is like you among the Elohim?” — sounds absurd",
+  "quoteRu": "победная песнь народа — «кто как ты среди Elohim?» — звучит абсурдно",
+  "checked": "2026-10-20"
+ },
+ "support": [
+  {
+   "claim": "YHWH сравнивается с другими elim.",
+   "grade": "entailed",
+   "for": [
+    "Exod.15.11"
+   ],
+   "against": [],
+   "note": "В еврейском тексте здесь elim (множественное от El), а не Elohim, как цитирует Бильино."
+  },
+  {
+   "claim": "Elim — реальные существа того же рода.",
+   "grade": "compatible",
+   "for": [
+    "Exod.18.11",
+    "Ps.82.1"
+   ],
+   "against": [],
+   "note": "Текст сравнивает, но не говорит, что это за существа."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-20",
+   "by": "claude",
+   "change": "создано при подготовке Исх 15, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "142",
+  "kind": "word",
+  "display": "adar",
+  "senses": [
+    {
+      "id": "majestic",
+      "ru": "величавый",
+      "stems": [
+        "величав"
+      ],
+      "gloss": "величавый, славный (Ис 42:21)",
+      "evidence": [
+        "Exod.15.11",
+        "Isa.42.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

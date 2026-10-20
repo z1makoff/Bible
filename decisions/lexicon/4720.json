@@ -1,0 +1,28 @@
+{
+  "key": "4720",
+  "kind": "word",
+  "display": "miqdash",
+  "senses": [
+    {
+      "id": "sanctuary",
+      "ru": "святилище",
+      "stems": [
+        "святилищ"
+      ],
+      "gloss": "посвящённое место, святилище (Исх 25:8)",
+      "evidence": [
+        "Exod.25.8",
+        "Lev.19.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

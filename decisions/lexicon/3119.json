@@ -1,0 +1,29 @@
+{
+  "key": "3119",
+  "kind": "word",
+  "display": "yomam",
+  "senses": [
+    {
+      "id": "by-day",
+      "ru": "днём",
+      "stems": [
+        "днём",
+        "днем"
+      ],
+      "gloss": "днём, в дневное время",
+      "evidence": [
+        "Exod.40.38",
+        "Num.9.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 13"
+    }
+  ]
+}

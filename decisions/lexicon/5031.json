@@ -1,0 +1,28 @@
+{
+  "key": "5031",
+  "kind": "word",
+  "display": "neviah",
+  "senses": [
+    {
+      "id": "prophetess",
+      "ru": "пророчица",
+      "stems": [
+        "пророч"
+      ],
+      "gloss": "пророчица (Суд 4:4 — Devorah; 4 Цар 22:14 — Chuldah)",
+      "evidence": [
+        "Judg.4.4",
+        "2Kgs.22.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Женский род к navi («пророк»).",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5982",
+  "kind": "word",
+  "display": "ammud",
+  "senses": [
+    {
+      "id": "pillar",
+      "ru": "столб",
+      "stems": [
+        "столб"
+      ],
+      "gloss": "столб, колонна",
+      "evidence": [
+        "Exod.26.32",
+        "Judg.16.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Столб» — чтобы не совпадать с netsiv («столп»).",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 13"
+    }
+  ]
+}

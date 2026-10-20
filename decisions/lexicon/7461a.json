@@ -1,0 +1,27 @@
+{
+  "key": "7461a",
+  "kind": "word",
+  "display": "raad",
+  "senses": [
+    {
+      "id": "trembling",
+      "ru": "озноб",
+      "stems": [
+        "озноб"
+      ],
+      "gloss": "дрожь, трепет (Пс 55:6)",
+      "evidence": [
+        "Ps.55.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Озноб» — чтобы не совпадать с charadah («дрожь») и pachad («трепет»).",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "8416",
+  "kind": "word",
+  "display": "tehillah",
+  "senses": [
+    {
+      "id": "praise",
+      "ru": "хвала",
+      "stems": [
+        "хвал"
+      ],
+      "gloss": "хвала; то, за что хвалят",
+      "evidence": [
+        "Deut.10.21",
+        "Ps.9.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

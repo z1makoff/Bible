@@ -1,0 +1,28 @@
+{
+  "key": "4246",
+  "kind": "word",
+  "display": "mecholah",
+  "senses": [
+    {
+      "id": "dance",
+      "ru": "пляска",
+      "stems": [
+        "пляс"
+      ],
+      "gloss": "пляска, хоровод (Суд 11:34; 1 Цар 18:6)",
+      "evidence": [
+        "Judg.11.34",
+        "1Sam.18.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

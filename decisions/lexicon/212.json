@@ -1,0 +1,28 @@
+{
+  "key": "212",
+  "kind": "word",
+  "display": "ofan",
+  "senses": [
+    {
+      "id": "wheel",
+      "ru": "колесо",
+      "stems": [
+        "колес"
+      ],
+      "gloss": "колесо",
+      "evidence": [
+        "1Kgs.7.30",
+        "Prov.20.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 14"
+    }
+  ]
+}

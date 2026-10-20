@@ -1,0 +1,28 @@
+{
+  "key": "2000",
+  "kind": "word",
+  "display": "hamam",
+  "senses": [
+    {
+      "id": "confuse",
+      "ru": "привести в смятение",
+      "stems": [
+        "смят"
+      ],
+      "gloss": "привести в смятение, расстроить (войско)",
+      "evidence": [
+        "Josh.10.10",
+        "Judg.4.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 14"
+    }
+  ]
+}

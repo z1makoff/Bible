@@ -1,0 +1,51 @@
+{
+ "id": "biglino-ish-milchamah",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.15.3"
+ ],
+ "claim": "Бильино: Библия сама определяет YHWH недвусмысленно — ish milchamah, «мужчина войны». По Бильино, это воин, военный по профессии: весь Ветхий Завет показывает, что он только и делал, что воевал.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-e-sacro",
+  "quote": "la Bibbia stessa lo definisce con chiarezza inequivocabile: ish milchamah, cioè “uomo di guerra”",
+  "quoteRu": "Библия сама определяет его с недвусмысленной ясностью: ish milchamah, то есть «мужчина войны»",
+  "checked": "2026-10-20"
+ },
+ "support": [
+  {
+   "claim": "В тексте — ish milchamah.",
+   "grade": "entailed",
+   "for": [
+    "Exod.15.3"
+   ],
+   "against": []
+  },
+  {
+   "claim": "YHWH воюет за Yisrael.",
+   "grade": "supported",
+   "for": [
+    "Exod.14.14",
+    "Exod.14.25"
+   ],
+   "against": []
+  },
+  {
+   "claim": "YHWH — военный по профессии, человек из плоти.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Exod.15.11"
+   ],
+   "note": "Слова стоят в песни, рядом с «кто как ты среди elim»; образ не обязательно означает это буквально."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-20",
+   "by": "claude",
+   "change": "создано при подготовке Исх 15, отрывок проверен по тексту"
+  }
+ ]
+}

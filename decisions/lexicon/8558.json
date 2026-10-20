@@ -1,0 +1,28 @@
+{
+  "key": "8558",
+  "kind": "word",
+  "display": "tamar",
+  "senses": [
+    {
+      "id": "palm",
+      "ru": "пальма",
+      "stems": [
+        "пальм"
+      ],
+      "gloss": "финиковая пальма",
+      "evidence": [
+        "Lev.23.40",
+        "Deut.34.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

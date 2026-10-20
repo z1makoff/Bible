@@ -1,0 +1,28 @@
+{
+  "key": "7892b",
+  "kind": "word",
+  "display": "shirah",
+  "senses": [
+    {
+      "id": "song",
+      "ru": "песнь",
+      "stems": [
+        "песн"
+      ],
+      "gloss": "песнь (Втор 31:19, 30)",
+      "evidence": [
+        "Deut.31.19",
+        "Deut.31.30"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Женская форма; shir («песня») — другое слово.",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+ "id": "biglino-firstborn-taken",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.13.2",
+  "Exod.13.12"
+ ],
+ "claim": "Бильино называет повеление посвятить YHWH всех первенцев (Исх 13:1–2, 12; 22:28) отвратительным, «настоящим преступлением», и спрашивает, что YHWH делал с восьмидневными младенцами, которых забирали у матерей.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "quote": "un ordine che non abbiamo alcuna difficoltà a definire un vero e proprio atto criminale",
+  "quoteRu": "приказ, который мы без труда назовём настоящим преступлением",
+  "checked": "2026-10-20"
+ },
+ "support": [
+  {
+   "claim": "Первенцы принадлежат YHWH.",
+   "grade": "entailed",
+   "for": [
+    "Exod.13.2",
+    "Exod.13.12"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Младенцев-первенцев забирали у матерей.",
+   "grade": "contradicted",
+   "for": [],
+   "against": [
+    "Exod.13.13",
+    "Exod.13.15",
+    "Exod.34.20"
+   ],
+   "note": "Текст велит первенцев людей откупать."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-20",
+   "by": "claude",
+   "change": "создано при подготовке Исх 13, отрывок проверен по тексту"
+  }
+ ]
+}

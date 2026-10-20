@@ -1,0 +1,30 @@
+{
+  "key": "7891",
+  "kind": "word",
+  "display": "shir",
+  "senses": [
+    {
+      "id": "sing",
+      "ru": "петь",
+      "stems": [
+        "пе",
+        "пою",
+        "пой"
+      ],
+      "gloss": "петь (песнь)",
+      "evidence": [
+        "Judg.5.3",
+        "1Sam.18.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}

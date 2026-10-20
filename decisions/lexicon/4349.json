@@ -1,0 +1,28 @@
+{
+  "key": "4349",
+  "kind": "word",
+  "display": "makhon",
+  "senses": [
+    {
+      "id": "foundation",
+      "ru": "основание",
+      "stems": [
+        "основан"
+      ],
+      "gloss": "прочное место, основание (3 Цар 8:13; Пс 89:15)",
+      "evidence": [
+        "1Kgs.8.13",
+        "1Kgs.8.39"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 15"
+    }
+  ]
+}
