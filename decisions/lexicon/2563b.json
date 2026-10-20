@@ -1,0 +1,27 @@
+{
+  "key": "2563b",
+  "kind": "word",
+  "display": "chomer",
+  "senses": [
+    {
+      "id": "heap",
+      "ru": "куча",
+      "stems": [
+        "куч"
+      ],
+      "gloss": "куча, груда (Авв 3:15)",
+      "evidence": [
+        "Hab.3.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Груда» уже передаёт gal.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

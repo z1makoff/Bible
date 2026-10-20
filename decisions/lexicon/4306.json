@@ -1,0 +1,28 @@
+{
+  "key": "4306",
+  "kind": "word",
+  "display": "matar",
+  "senses": [
+    {
+      "id": "rain",
+      "ru": "дождь",
+      "stems": [
+        "дожд"
+      ],
+      "gloss": "дождь (Втор 11:11, 14, 17)",
+      "evidence": [
+        "Deut.11.11",
+        "Deut.11.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Глагол «пролить дождь» — matar (4305); «ливень» — geshem.",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

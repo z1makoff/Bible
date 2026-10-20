@@ -1,0 +1,28 @@
+{
+  "key": "2651",
+  "kind": "word",
+  "display": "chofen",
+  "senses": [
+    {
+      "id": "handful",
+      "ru": "пригоршня",
+      "stems": [
+        "пригорш"
+      ],
+      "gloss": "пригоршня (Лев 16:12; Притч 30:4)",
+      "evidence": [
+        "Lev.16.12",
+        "Prov.30.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

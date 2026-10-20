@@ -1,0 +1,28 @@
+{
+  "key": "4863",
+  "kind": "word",
+  "display": "misheret",
+  "senses": [
+    {
+      "id": "trough",
+      "ru": "квашня",
+      "stems": [
+        "квашн"
+      ],
+      "gloss": "квашня, корыто для теста (Исх 12:34; Втор 28:5)",
+      "evidence": [
+        "Exod.12.34",
+        "Deut.28.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

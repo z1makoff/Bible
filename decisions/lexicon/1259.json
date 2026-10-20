@@ -1,0 +1,28 @@
+{
+  "key": "1259",
+  "kind": "word",
+  "display": "barad",
+  "senses": [
+    {
+      "id": "hail",
+      "ru": "град",
+      "stems": [
+        "град"
+      ],
+      "gloss": "град (Исх 9:18–34; Нав 10:11)",
+      "evidence": [
+        "Exod.9.18",
+        "Exod.9.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

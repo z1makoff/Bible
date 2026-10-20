@@ -1,0 +1,28 @@
+{
+  "key": "76",
+  "kind": "word",
+  "display": "avabuot",
+  "senses": [
+    {
+      "id": "blister",
+      "ru": "волдыри",
+      "stems": [
+        "волдыр"
+      ],
+      "gloss": "волдыри, пузыри; встречается только в Исх 9:9–10",
+      "evidence": [
+        "Exod.9.9",
+        "Exod.9.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

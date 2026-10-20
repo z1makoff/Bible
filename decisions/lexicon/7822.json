@@ -1,0 +1,28 @@
+{
+  "key": "7822",
+  "kind": "word",
+  "display": "shechin",
+  "senses": [
+    {
+      "id": "boil",
+      "ru": "нарыв",
+      "stems": [
+        "нарыв"
+      ],
+      "gloss": "нарыв, воспаление кожи (Лев 13:18–19)",
+      "evidence": [
+        "Lev.13.18",
+        "Lev.13.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

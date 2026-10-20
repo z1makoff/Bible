@@ -1,0 +1,29 @@
+{
+  "key": "8184",
+  "kind": "word",
+  "display": "seorah",
+  "senses": [
+    {
+      "id": "barley",
+      "ru": "ячмень",
+      "stems": [
+        "ячмен",
+        "ячмн"
+      ],
+      "gloss": "ячмень (Лев 27:16; Втор 8:8)",
+      "evidence": [
+        "Lev.27.16",
+        "Deut.8.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

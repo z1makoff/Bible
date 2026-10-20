@@ -1,0 +1,42 @@
+{
+  "key": "5549",
+  "kind": "word",
+  "display": "salal",
+  "displayForms": [
+    "mistolel"
+  ],
+  "senses": [
+    {
+      "id": "build-up",
+      "ru": "насыпать",
+      "stems": [
+        "насып"
+      ],
+      "gloss": "насыпать (дорогу, вал — Ис 62:10; Иер 50:26)",
+      "evidence": [
+        "Isa.62.10",
+        "Jer.50.26"
+      ]
+    },
+    {
+      "id": "exalt",
+      "ru": "возносить",
+      "stems": [
+        "вознос"
+      ],
+      "gloss": "превозносить (Притч 4:8)",
+      "evidence": [
+        "Prov.4.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6368",
+  "kind": "word",
+  "display": "piach",
+  "senses": [
+    {
+      "id": "soot",
+      "ru": "сажа",
+      "stems": [
+        "саж"
+      ],
+      "gloss": "сажа, пепел из печи; встречается только в Исх 9:8, 10",
+      "evidence": [
+        "Exod.9.8",
+        "Exod.9.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

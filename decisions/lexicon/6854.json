@@ -1,0 +1,28 @@
+{
+  "key": "6854",
+  "kind": "word",
+  "display": "tsefardea",
+  "senses": [
+    {
+      "id": "frog",
+      "ru": "лягушка",
+      "stems": [
+        "лягуш"
+      ],
+      "gloss": "лягушка (Пс 78:45; 105:30)",
+      "evidence": [
+        "Exod.7.28",
+        "Exod.8.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

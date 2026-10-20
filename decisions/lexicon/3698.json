@@ -1,0 +1,28 @@
+{
+  "key": "3698",
+  "kind": "word",
+  "display": "kussemet",
+  "senses": [
+    {
+      "id": "spelt",
+      "ru": "полба",
+      "stems": [
+        "полб"
+      ],
+      "gloss": "полба (Ис 28:25; Иез 4:9)",
+      "evidence": [
+        "Isa.28.25",
+        "Ezek.4.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "6594",
+  "kind": "word",
+  "display": "pishtah",
+  "senses": [
+    {
+      "id": "flax",
+      "ru": "лён",
+      "stems": [
+        "лён",
+        "льн",
+        "лен"
+      ],
+      "gloss": "лён (Ис 42:3; 43:17)",
+      "evidence": [
+        "Isa.42.3",
+        "Isa.43.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

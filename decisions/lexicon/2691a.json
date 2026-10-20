@@ -1,0 +1,28 @@
+{
+  "key": "2691a",
+  "kind": "word",
+  "display": "chatser",
+  "senses": [
+    {
+      "id": "court",
+      "ru": "двор",
+      "stems": [
+        "двор"
+      ],
+      "gloss": "двор, огороженное место (Исх 27:9, 12)",
+      "evidence": [
+        "Exod.27.9",
+        "Exod.27.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Селение» — другое слово chatser (2691b).",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

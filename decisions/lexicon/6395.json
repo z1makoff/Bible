@@ -1,0 +1,28 @@
+{
+  "key": "6395",
+  "kind": "word",
+  "display": "palah",
+  "senses": [
+    {
+      "id": "distinguish",
+      "ru": "отличить",
+      "stems": [
+        "отлич"
+      ],
+      "gloss": "отличить, выделить (Исх 11:7; 33:16; Пс 4:4)",
+      "evidence": [
+        "Exod.11.7",
+        "Exod.33.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}

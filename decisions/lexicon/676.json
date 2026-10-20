@@ -1,0 +1,29 @@
+{
+  "key": "676",
+  "kind": "word",
+  "display": "etsba",
+  "senses": [
+    {
+      "id": "finger",
+      "ru": "палец",
+      "stems": [
+        "палец",
+        "пальц"
+      ],
+      "gloss": "палец (Исх 29:12; 31:18; Лев 4:6)",
+      "evidence": [
+        "Exod.29.12",
+        "Exod.31.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-19",
+      "by": "claude",
+      "change": "создано при подготовке Исх 7–9"
+    }
+  ]
+}
