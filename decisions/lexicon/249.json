@@ -1,0 +1,28 @@
+{
+  "key": "249",
+  "kind": "word",
+  "display": "ezrach",
+  "senses": [
+    {
+      "id": "native",
+      "ru": "коренной житель",
+      "stems": [
+        "корен"
+      ],
+      "gloss": "уроженец земли — в отличие от пришельца (ger)",
+      "evidence": [
+        "Lev.16.29",
+        "Lev.19.34"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2556a",
+  "kind": "word",
+  "display": "chamats",
+  "senses": [
+    {
+      "id": "leaven",
+      "ru": "вскиснуть",
+      "stems": [
+        "кис"
+      ],
+      "gloss": "закиснуть, заквасится (о тесте)",
+      "evidence": [
+        "Hos.7.4",
+        "Exod.12.39"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "6541",
+  "kind": "word",
+  "display": "parsah",
+  "senses": [
+    {
+      "id": "hoof",
+      "ru": "копыто",
+      "stems": [
+        "копыт"
+      ],
+      "gloss": "копыто (раздвоенное — Лев 11:3)",
+      "evidence": [
+        "Lev.11.3",
+        "Exod.10.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 10"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "4889",
+  "kind": "word",
+  "display": "mashchit",
+  "senses": [
+    {
+      "id": "destruction",
+      "ru": "погибель",
+      "stems": [
+        "погибел"
+      ],
+      "gloss": "гибель, уничтожение; «на погибель»",
+      "evidence": [
+        "Ezek.5.16",
+        "2Chr.20.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

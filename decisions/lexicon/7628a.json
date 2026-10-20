@@ -1,0 +1,28 @@
+{
+  "key": "7628a",
+  "kind": "word",
+  "display": "shevi",
+  "senses": [
+    {
+      "id": "captivity",
+      "ru": "плен",
+      "stems": [
+        "плен"
+      ],
+      "gloss": "плен; пленные",
+      "evidence": [
+        "Num.21.1",
+        "Deut.21.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

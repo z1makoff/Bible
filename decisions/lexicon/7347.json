@@ -1,0 +1,28 @@
+{
+  "key": "7347",
+  "kind": "word",
+  "display": "recheh",
+  "senses": [
+    {
+      "id": "millstones",
+      "ru": "жернова",
+      "stems": [
+        "жернов"
+      ],
+      "gloss": "ручная мельница: пара жерновов (двойственное число)",
+      "evidence": [
+        "Num.11.8",
+        "Deut.24.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 11"
+    }
+  ]
+}

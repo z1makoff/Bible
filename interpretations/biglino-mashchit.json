@@ -1,0 +1,44 @@
+{
+ "id": "biglino-mashchit",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.12.23"
+ ],
+ "claim": "«Губитель» (mashchit) впервые назван в 12:23: он должен поразить первенцев египтян, минуя дома, отмеченные кровью. По Бильино, текст не позволяет точно понять, посланец ли это YHWH или сам YHWH. Бильино относит его к malakhim — фигурам, которые, по его словам, часто приносят смерть и разрушение, а не защиту.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libro-cambiera",
+  "chapter": "L’angelo in Egitto",
+  "quote": "non consente di comprendere con esattezza se questo sterminatore è un inviato di Yahweh",
+  "quoteRu": "не позволяет точно понять, является ли этот истребитель посланцем Yahweh",
+  "checked": "2026-10-20"
+ },
+ "support": [
+  {
+   "claim": "Губитель отличен от YHWH.",
+   "grade": "entailed",
+   "for": [
+    "Exod.12.23"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Неясно, посланец ли это или сам YHWH.",
+   "grade": "supported",
+   "for": [
+    "Exod.12.12",
+    "Exod.12.29"
+   ],
+   "against": [],
+   "note": "В 12:12 и 12:29 поражает сам YHWH, в 12:23 — губитель."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-20",
+   "by": "claude",
+   "change": "создано при подготовке Исх 12, отрывок проверен по тексту"
+  }
+ ]
+}

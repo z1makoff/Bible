@@ -1,0 +1,39 @@
+{
+  "key": "4744",
+  "kind": "word",
+  "display": "miqra",
+  "senses": [
+    {
+      "id": "convocation",
+      "ru": "созыв",
+      "stems": [
+        "созыв"
+      ],
+      "gloss": "созыв, собрание по призыву (Лев 23:2–8)",
+      "evidence": [
+        "Lev.23.2",
+        "Lev.23.7"
+      ]
+    },
+    {
+      "id": "reading",
+      "ru": "чтение",
+      "stems": [
+        "чтени"
+      ],
+      "gloss": "чтение вслух (Неем 8:8)",
+      "evidence": [
+        "Neh.8.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

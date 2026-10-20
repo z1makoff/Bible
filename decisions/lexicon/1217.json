@@ -1,0 +1,28 @@
+{
+  "key": "1217",
+  "kind": "word",
+  "display": "batseq",
+  "senses": [
+    {
+      "id": "dough",
+      "ru": "тесто",
+      "stems": [
+        "тест"
+      ],
+      "gloss": "тесто",
+      "evidence": [
+        "2Sam.13.8",
+        "Jer.7.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

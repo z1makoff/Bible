@@ -1,0 +1,28 @@
+{
+  "key": "3611",
+  "kind": "word",
+  "display": "kelev",
+  "senses": [
+    {
+      "id": "dog",
+      "ru": "собака",
+      "stems": [
+        "собак"
+      ],
+      "gloss": "собака",
+      "evidence": [
+        "Exod.22.30",
+        "Judg.7.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 11"
+    }
+  ]
+}

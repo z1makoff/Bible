@@ -1,0 +1,28 @@
+{
+  "key": "5712",
+  "kind": "word",
+  "display": "edah",
+  "senses": [
+    {
+      "id": "community",
+      "ru": "общество",
+      "stems": [
+        "обществ"
+      ],
+      "gloss": "собрание, община народа",
+      "evidence": [
+        "Exod.12.3",
+        "Exod.16.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем qahal («сонм») и ummah («община»).",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

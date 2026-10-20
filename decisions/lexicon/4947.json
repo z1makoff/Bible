@@ -1,0 +1,28 @@
+{
+  "key": "4947",
+  "kind": "word",
+  "display": "mashqof",
+  "senses": [
+    {
+      "id": "lintel",
+      "ru": "перекладина",
+      "stems": [
+        "перекладин"
+      ],
+      "gloss": "верхняя перекладина двери",
+      "evidence": [
+        "Exod.12.7",
+        "Exod.12.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

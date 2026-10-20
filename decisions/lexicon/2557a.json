@@ -1,0 +1,28 @@
+{
+  "key": "2557a",
+  "kind": "word",
+  "display": "chamets",
+  "senses": [
+    {
+      "id": "leavened",
+      "ru": "квасное",
+      "stems": [
+        "квасн"
+      ],
+      "gloss": "заквашенное (о хлебе) — в отличие от опресноков",
+      "evidence": [
+        "Exod.13.3",
+        "Lev.7.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

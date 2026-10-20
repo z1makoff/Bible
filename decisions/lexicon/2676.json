@@ -1,0 +1,29 @@
+{
+  "key": "2676",
+  "kind": "word",
+  "display": "chatsot",
+  "senses": [
+    {
+      "id": "midnight",
+      "ru": "полночь",
+      "stems": [
+        "полу",
+        "полн"
+      ],
+      "gloss": "середина (ночи); всегда вместе со словом «ночь»",
+      "evidence": [
+        "Job.34.20",
+        "Ps.119.62"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Ka-chatsot ha-laylah — «около середины ночи».",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 11"
+    }
+  ]
+}

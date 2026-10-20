@@ -1,0 +1,29 @@
+{
+  "key": "1311",
+  "kind": "word",
+  "display": "bashel",
+  "senses": [
+    {
+      "id": "boiled",
+      "ru": "варёное",
+      "stems": [
+        "варён",
+        "варен"
+      ],
+      "gloss": "сваренное (Чис 6:19 — варёное плечо)",
+      "evidence": [
+        "Num.6.19",
+        "Exod.12.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

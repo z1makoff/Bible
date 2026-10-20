@@ -1,0 +1,28 @@
+{
+  "key": "2821",
+  "kind": "word",
+  "display": "chashakh",
+  "senses": [
+    {
+      "id": "darken",
+      "ru": "потемнеть",
+      "stems": [
+        "темн"
+      ],
+      "gloss": "темнеть, становиться тёмным",
+      "evidence": [
+        "Job.3.9",
+        "Eccl.12.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 10"
+    }
+  ]
+}

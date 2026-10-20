@@ -1,0 +1,28 @@
+{
+  "key": "4201",
+  "kind": "word",
+  "display": "mezuzah",
+  "senses": [
+    {
+      "id": "doorpost",
+      "ru": "косяк",
+      "stems": [
+        "косяк"
+      ],
+      "gloss": "дверной косяк",
+      "evidence": [
+        "Exod.21.6",
+        "Deut.6.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

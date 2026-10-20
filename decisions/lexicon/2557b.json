@@ -1,0 +1,28 @@
+{
+  "key": "2557b",
+  "kind": "word",
+  "display": "machmetset",
+  "senses": [
+    {
+      "id": "leavened-thing",
+      "ru": "квашеное",
+      "stems": [
+        "кваш"
+      ],
+      "gloss": "то, что заквашено (только Исх 12:19–20)",
+      "evidence": [
+        "Exod.12.19",
+        "Exod.12.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

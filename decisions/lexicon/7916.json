@@ -1,0 +1,29 @@
+{
+  "key": "7916",
+  "kind": "word",
+  "display": "sakhir",
+  "senses": [
+    {
+      "id": "hired",
+      "ru": "наёмник",
+      "stems": [
+        "наём",
+        "наем"
+      ],
+      "gloss": "наёмный работник",
+      "evidence": [
+        "Lev.19.13",
+        "Lev.25.40"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

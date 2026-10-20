@@ -1,0 +1,27 @@
+{
+  "key": "8107",
+  "kind": "word",
+  "display": "shimmur",
+  "senses": [
+    {
+      "id": "vigil",
+      "ru": "бдение",
+      "stems": [
+        "бдени"
+      ],
+      "gloss": "бдение, стражба (только Исх 12:42)",
+      "evidence": [
+        "Exod.12.42"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Корень тот же, что у shamar («хранить»).",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

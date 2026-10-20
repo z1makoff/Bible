@@ -1,0 +1,28 @@
+{
+  "key": "7273",
+  "kind": "word",
+  "display": "ragli",
+  "senses": [
+    {
+      "id": "on-foot",
+      "ru": "пеший",
+      "stems": [
+        "пеш"
+      ],
+      "gloss": "пеший (воин): «столько-то тысяч пеших»",
+      "evidence": [
+        "Num.11.21",
+        "Judg.20.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-20",
+      "by": "claude",
+      "change": "создано при подготовке Исх 12"
+    }
+  ]
+}

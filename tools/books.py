@@ -84,7 +84,9 @@ def pdf_text(path):
         with pymupdf.open(path) as doc:
             return "\n".join(page.get_text() for page in doc)
     if shutil.which("pdftotext"):
-        out = subprocess.run(["pdftotext", "-enc", "UTF-8", str(path), "-"], capture_output=True, check=True)
+        # Имя файла без папки: pdftotext под Windows не открывает путь с кириллицей («Книги Бильино»).
+        out = subprocess.run(["pdftotext", "-enc", "UTF-8", path.name, "-"], cwd=path.parent,
+                             capture_output=True, check=True)
         return out.stdout.decode("utf-8", "replace")
     return None
 
