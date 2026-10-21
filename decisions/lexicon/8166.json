@@ -1,0 +1,28 @@
+{
+  "key": "8166",
+  "kind": "word",
+  "display": "seirah",
+  "senses": [
+    {
+      "id": "she-goat",
+      "ru": "самка",
+      "stems": [
+        "самк"
+      ],
+      "gloss": "самка (se'irat izzim — «самка коз»: Лев 4:28; 5:6)",
+      "evidence": [
+        "Lev.4.28",
+        "Lev.5.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Женский род от sa'ir («самец», se'ir izzim — «самец коз»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Лев 4"
+    }
+  ]
+}

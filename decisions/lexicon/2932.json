@@ -1,0 +1,28 @@
+{
+  "key": "2932",
+  "kind": "word",
+  "display": "tumah",
+  "senses": [
+    {
+      "id": "uncleanness",
+      "ru": "нечистота",
+      "stems": [
+        "нечистот"
+      ],
+      "gloss": "нечистота (Лев 5:3; 16:16)",
+      "evidence": [
+        "Lev.16.16",
+        "Lev.5.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Лев 5"
+    }
+  ]
+}

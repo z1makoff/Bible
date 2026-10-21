@@ -1,0 +1,27 @@
+{
+  "key": "4169",
+  "kind": "word",
+  "display": "moqedah",
+  "senses": [
+    {
+      "id": "hearth",
+      "ru": "кострище",
+      "stems": [
+        "кострищ"
+      ],
+      "gloss": "место горения на жертвеннике (только Лев 6:2)",
+      "evidence": [
+        "Lev.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От yaqad («полыхать»). «Очаги» уже передаёт mishpetayim.",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Лев 6"
+    }
+  ]
+}
