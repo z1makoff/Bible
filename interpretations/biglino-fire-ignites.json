@@ -1,0 +1,58 @@
+{
+ "id": "biglino-fire-ignites",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "784",
+  "3519"
+ ],
+ "places": [
+  "Lev.9.23",
+  "Lev.9.24"
+ ],
+ "claim": "В восьмой день YHWH показывается со своим kavod всему народу, и сразу «огонь вышел от лиц YHWH и сжёг всесожжение»; народ падает лицом на землю. На этот раз Elohim сам поджигает приготовленное — делом, которое поражает сотни присутствующих.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "Questa volta l’Elohìm provvede in prima persona a incendiare quanto era stato preparato",
+  "quoteRu": "На этот раз Elohim сам поджигает то, что было приготовлено",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Сразу после явления kavod огонь вышел от лица YHWH.",
+   "grade": "entailed",
+   "for": [
+    "Lev.9.23",
+    "Lev.9.24"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это видел весь народ.",
+   "grade": "entailed",
+   "for": [
+    "Lev.9.24"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Огонь впервые зажёг приготовленное.",
+   "grade": "plausible",
+   "for": [],
+   "against": [
+    "Lev.9.10",
+    "Lev.9.13",
+    "Lev.9.17",
+    "Lev.9.20"
+   ],
+   "note": "Ещё до этого Aharon «воскурил» на жертвеннике жир, всесожжение и дар: огонь, видимо, уже горел; огонь от YHWH «съел» то, что лежало на жертвеннике."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Лев 9, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "biglino-urim-binary",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "224",
+  "8550"
+ ],
+ "places": [
+  "Lev.8.8",
+  "Exod.28.30"
+ ],
+ "claim": "Urim и tummim — два небольших предмета, хранившихся в кармане нагрудника жреца. Ими пользовались для быстрого, «двоичного» вопрошания YHWH: задавали вопрос с выбором из двух ответов. Самый явный пример — 1 Цар 14:41, где Shaul путём исключения находит виновного.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "quote": "due piccoli oggetti che erano conservati nella tasca del pettorale del sacerdote",
+  "quoteRu": "два небольших предмета, которые хранились в кармане нагрудника жреца",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Urim и tummim помещены в нагрудник.",
+   "grade": "entailed",
+   "for": [
+    "Exod.28.30",
+    "Lev.8.8"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Ими вопрошали YHWH.",
+   "grade": "supported",
+   "for": [
+    "Num.27.21",
+    "1Sam.28.6"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Ответ — выбор из двух.",
+   "grade": "supported",
+   "for": [
+    "1Sam.14.41"
+   ],
+   "against": [],
+   "note": "В масоретском тексте 1 Цар 14:41 короток; в Септуагинте подробнее: «если вина на мне… дай urim, если на народе… дай tummim»."
+  },
+  {
+   "claim": "Это два небольших предмета.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Текст не описывает, что это и как выглядело."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Лев 8, отрывок проверен по тексту"
+  }
+ ]
+}
