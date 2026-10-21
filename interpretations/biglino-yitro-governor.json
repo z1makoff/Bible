@@ -1,0 +1,69 @@
+{
+ "id": "biglino-yitro-governor",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3548"
+ ],
+ "places": [
+  "Exod.18.1",
+  "Exod.18.19",
+  "Exod.18.21"
+ ],
+ "claim": "Yitro/Reuel — kohen, по Бильино «жрец/исполняющий обязанности» от имени местного Elohim, то есть управляющий, знающий искусство правления. Поэтому он и передаёт зятю всё нужное, чтобы сделать из племён народ: Moshe — посредник между народом и Elohim, он передаёт законы, а повседневный суд поручен начальникам тысяч, сотен, пятидесятков и десятков.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "quote": "«sacerdote/facente funzioni» per conto dell’Elohim locale e dunque esperto nell’arte del governare",
+  "quoteRu": "«жрец/исполняющий обязанности» от имени местного Elohim и потому знаток искусства управления",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Yitro — kohen Midyan.",
+   "grade": "entailed",
+   "for": [
+    "Exod.18.1",
+    "Exod.2.16"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Он даёт Moshe устройство управления народом.",
+   "grade": "entailed",
+   "for": [
+    "Exod.18.19",
+    "Exod.18.21",
+    "Exod.18.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Kohen — не только служитель культа, но и должностное лицо.",
+   "grade": "plausible",
+   "for": [
+    "2Sam.8.18",
+    "2Sam.20.26"
+   ],
+   "against": [],
+   "note": "В 2 Цар 8:18 kohanim — сыновья Давида; что они делали, текст не уточняет."
+  },
+  {
+   "claim": "Yitro служил местному Elohim.",
+   "grade": "compatible",
+   "for": [
+    "Exod.18.12"
+   ],
+   "against": [
+    "Exod.18.11"
+   ],
+   "note": "Текст не называет, какому Elohim он был жрецом; в 18:11–12 он славит YHWH и приносит жертвы Elohim."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 18, отрывок проверен по тексту"
+  }
+ ]
+}

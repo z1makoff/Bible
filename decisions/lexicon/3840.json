@@ -1,0 +1,38 @@
+{
+  "key": "3840",
+  "kind": "keep",
+  "display": "livnat",
+  "senses": [
+    {
+      "id": "pavement",
+      "ru": "кладка",
+      "stems": [
+        "кладк"
+      ],
+      "gloss": "кладка, вымостка из плит (как levenah — «кирпич»)",
+      "evidence": [
+        "Exod.24.10"
+      ]
+    },
+    {
+      "id": "whiteness",
+      "ru": "белизна",
+      "stems": [
+        "белизн"
+      ],
+      "gloss": "белизна (от lavan — «белый»)",
+      "evidence": [
+        "Exod.24.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Единственное употребление в Исх 24:10: livnat ha-sappir. Подходят «кладка (вымостка) из sappir» и «белизна sappir». Не переводится.",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 24"
+    }
+  ]
+}

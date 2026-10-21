@@ -1,0 +1,58 @@
+{
+ "id": "biglino-elohim-acherim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "430",
+  "312"
+ ],
+ "places": [
+  "Exod.20.2",
+  "Exod.20.3"
+ ],
+ "claim": "Если Elohim — всегда единственный Бог, зачем ему уточнять, что это он вывел народ из Египта? Почему он говорит, что не должно быть «других Elohim», употребляя прилагательное во множественном числе acherim — «другие, иные, чужие»? Как народ, едва вышедший из Египта, мог обратиться к «другим Elohim», если их нет?",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-of-the-bible",
+  "chapter": "Exodus 20",
+  "quote": "using the plural adjective [acherim], which means “other, different, foreign?”",
+  "quoteRu": "употребляя прилагательное во множественном числе acherim, что значит «другие, иные, чужие»",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Elohim acherim — с прилагательным во множественном числе.",
+   "grade": "entailed",
+   "for": [
+    "Exod.20.3"
+   ],
+   "against": []
+  },
+  {
+   "claim": "YHWH представляется через вывод из Mitsrayim.",
+   "grade": "entailed",
+   "for": [
+    "Exod.20.2"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Другие Elohim существуют как реальные соперники.",
+   "grade": "compatible",
+   "for": [
+    "Exod.12.12",
+    "Exod.18.11"
+   ],
+   "against": [
+    "Deut.4.35"
+   ],
+   "note": "Сама заповедь этого не утверждает и не отрицает; при Elohim о YHWH прилагательные обычно в единственном числе (Быт 1:1 — «создал»)."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 20, отрывок проверен по тексту"
+  }
+ ]
+}

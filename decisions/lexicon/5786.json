@@ -1,0 +1,28 @@
+{
+  "key": "5786",
+  "kind": "word",
+  "display": "ivver",
+  "senses": [
+    {
+      "id": "blind",
+      "ru": "ослепить",
+      "stems": [
+        "ослеп"
+      ],
+      "gloss": "ослепить (4 Цар 25:7; Втор 16:19)",
+      "evidence": [
+        "2Kgs.25.7",
+        "Deut.16.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 23"
+    }
+  ]
+}

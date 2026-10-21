@@ -1,0 +1,28 @@
+{
+  "key": "5056",
+  "kind": "word",
+  "display": "naggach",
+  "senses": [
+    {
+      "id": "prone-to-gore",
+      "ru": "бодливый",
+      "stems": [
+        "бодлив"
+      ],
+      "gloss": "бодливый (Исх 21:29, 36)",
+      "evidence": [
+        "Exod.21.29",
+        "Exod.21.36"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 21"
+    }
+  ]
+}

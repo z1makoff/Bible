@@ -1,0 +1,28 @@
+{
+  "key": "9",
+  "kind": "word",
+  "display": "avedah",
+  "senses": [
+    {
+      "id": "lost-thing",
+      "ru": "пропажа",
+      "stems": [
+        "пропаж"
+      ],
+      "gloss": "потерянная вещь, пропажа (Лев 5:22–23; Втор 22:3)",
+      "evidence": [
+        "Lev.5.22",
+        "Deut.22.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

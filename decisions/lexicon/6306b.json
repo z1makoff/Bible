@@ -1,0 +1,27 @@
+{
+  "key": "6306b",
+  "kind": "word",
+  "display": "pidyon",
+  "senses": [
+    {
+      "id": "redemption",
+      "ru": "откуп",
+      "stems": [
+        "откуп"
+      ],
+      "gloss": "откуп, плата за освобождение (Пс 49:9)",
+      "evidence": [
+        "Ps.49.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От padah («откупить»). Другое слово, чем kofer («выкуп»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 21"
+    }
+  ]
+}

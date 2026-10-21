@@ -1,0 +1,28 @@
+{
+  "key": "781",
+  "kind": "word",
+  "display": "aras",
+  "senses": [
+    {
+      "id": "betroth",
+      "ru": "обручить",
+      "stems": [
+        "обруч"
+      ],
+      "gloss": "обручить, взять в невесты (Втор 20:7; 22:23)",
+      "evidence": [
+        "Deut.20.7",
+        "Deut.22.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

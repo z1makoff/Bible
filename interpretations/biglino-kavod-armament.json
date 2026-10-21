@@ -1,0 +1,68 @@
+{
+ "id": "biglino-kavod-armament",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3519"
+ ],
+ "places": [
+  "Exod.16.7",
+  "Exod.16.10"
+ ],
+ "claim": "Бильино приводит Джеффа Беннера (Ancient Hebrew Research Center): в Исх 16:7 kavod YHWH — то, что увидят глазами; по поэтическим параллелям (щит в Пс 3:4, лук в Иов 29:20, «YHWH сильный в битве» в Пс 24:8) первичное конкретное значение kavod — боевое вооружение, «тяжёлое». Бильино считает это подтверждением своего понимания kavod как тяжёлого предмета, обеспечивавшего силу YHWH.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "quote": "per questo esperto di ebraico biblico altro non era che un’arma",
+  "quoteRu": "для этого знатока библейского иврита [kavod] был не чем иным, как оружием",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Kavod YHWH видят глазами.",
+   "grade": "entailed",
+   "for": [
+    "Exod.16.7",
+    "Exod.16.10"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Корень kavod — «тяжёлый».",
+   "grade": "supported",
+   "for": [
+    "Gen.31.1"
+   ],
+   "against": [],
+   "note": "Ср. kaved — «быть тяжёлым»."
+  },
+  {
+   "claim": "Первичное значение kavod — оружие.",
+   "grade": "speculative",
+   "for": [
+    "Ps.3.4",
+    "Job.29.20"
+   ],
+   "against": [
+    "Gen.31.1",
+    "Gen.45.13"
+   ],
+   "note": "Параллели поэтические и допускают «честь, слава»; в прозе kavod — достояние и честь."
+  },
+  {
+   "claim": "Kavod в Исх 16 — видимый предмет.",
+   "grade": "compatible",
+   "for": [
+    "Exod.16.10"
+   ],
+   "against": [],
+   "note": "Текст говорит только, что он показался в облаке."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 16, отрывок проверен по тексту"
+  }
+ ]
+}

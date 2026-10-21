@@ -1,0 +1,46 @@
+{
+ "id": "biglino-asah-not-create",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "6213a"
+ ],
+ "places": [
+  "Exod.20.11"
+ ],
+ "claim": "В Исх 20:11, где Elohim сам объясняет shabbat, стоит глагол asah — «строить, изготовлять, формировать», а не «творить из ничего».",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "Esodo 20,11",
+  "quote": "significa «costruire, fabbricare, formare» e mai creare dal nulla",
+  "quoteRu": "значит «строить, изготовлять, формировать» и никогда не «творить из ничего»",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "В 20:11 — asah.",
+   "grade": "entailed",
+   "for": [
+    "Exod.20.11"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Asah не значит «из ничего».",
+   "grade": "supported",
+   "for": [
+    "Gen.6.14",
+    "Gen.8.6"
+   ],
+   "against": [],
+   "note": "Asah — «сделать» (ковчег, окно); ничто в 20:11 не говорит о творении из ничего."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 20, отрывок проверен по тексту"
+  }
+ ]
+}

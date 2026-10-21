@@ -1,0 +1,53 @@
+{
+ "id": "biglino-banquet",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "430"
+ ],
+ "places": [
+  "Exod.24.9",
+  "Exod.24.10",
+  "Exod.24.11"
+ ],
+ "claim": "Moshe, Aharon, Nadav, Avihu и семьдесят старейшин увидели Elohim Yisrael, а потом ели и пили: по сути их пригласили на пир в его доме, где пол был из плит сапфира, чистого, как небо. Значит, «Бога-отца» видели многие (вопреки Ин 1:18).",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "quote": "In sostanza sono stati invitati a un banchetto tenutosi a casa sua",
+  "quoteRu": "По сути их пригласили на пир, устроенный у него дома",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Они видели Elohim Yisrael.",
+   "grade": "entailed",
+   "for": [
+    "Exod.24.10",
+    "Exod.24.11"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Они ели и пили.",
+   "grade": "entailed",
+   "for": [
+    "Exod.24.11"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Пир был у него дома, а пол — из плит sappir.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст не говорит, что ели с ним или в его доме; «под ногами его» — livnat sappir, значение не установлено."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 24, отрывок проверен по тексту"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5392",
+  "kind": "word",
+  "display": "neshekh",
+  "senses": [
+    {
+      "id": "interest",
+      "ru": "лихва",
+      "stems": [
+        "лихв"
+      ],
+      "gloss": "рост, лихва с долга (Лев 25:36–37; Втор 23:20)",
+      "evidence": [
+        "Lev.25.36",
+        "Deut.23.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От nashakh — «кусать».",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

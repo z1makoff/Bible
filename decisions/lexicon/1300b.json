@@ -1,0 +1,28 @@
+{
+  "key": "1300b",
+  "kind": "word",
+  "display": "baraq",
+  "senses": [
+    {
+      "id": "lightning",
+      "ru": "молния",
+      "stems": [
+        "молни"
+      ],
+      "gloss": "молния (Пс 77:19; 135:7); блеск меча (Втор 32:41)",
+      "evidence": [
+        "Ps.77.19",
+        "Ps.135.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 19"
+    }
+  ]
+}

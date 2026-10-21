@@ -1,0 +1,28 @@
+{
+  "key": "6205",
+  "kind": "word",
+  "display": "arafel",
+  "senses": [
+    {
+      "id": "thick-darkness",
+      "ru": "сумрак",
+      "stems": [
+        "сумрак"
+      ],
+      "gloss": "густой тёмный покров, тьма облака (Втор 4:11; 3 Цар 8:12 — YHWH «обитать в arafel»)",
+      "evidence": [
+        "Deut.4.11",
+        "1Kgs.8.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Сумрак» — чтобы не совпадать с choshekh («тьма»), chashekhah («мрак») и afelah («мгла»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 20"
+    }
+  ]
+}

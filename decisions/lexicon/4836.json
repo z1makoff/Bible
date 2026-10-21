@@ -1,0 +1,28 @@
+{
+  "key": "4836",
+  "kind": "word",
+  "display": "martsea",
+  "senses": [
+    {
+      "id": "awl",
+      "ru": "шило",
+      "stems": [
+        "шил"
+      ],
+      "gloss": "шило (Исх 21:6; Втор 15:17)",
+      "evidence": [
+        "Exod.21.6",
+        "Deut.15.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 21"
+    }
+  ]
+}

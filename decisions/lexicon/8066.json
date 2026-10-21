@@ -1,0 +1,28 @@
+{
+  "key": "8066",
+  "kind": "word",
+  "display": "shemini",
+  "senses": [
+    {
+      "id": "eighth",
+      "ru": "восьмой",
+      "stems": [
+        "восьм"
+      ],
+      "gloss": "восьмой (Лев 9:1; 12:3)",
+      "evidence": [
+        "Lev.9.1",
+        "Lev.12.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

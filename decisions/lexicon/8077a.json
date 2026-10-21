@@ -1,0 +1,28 @@
+{
+  "key": "8077a",
+  "kind": "word",
+  "display": "shemamah",
+  "senses": [
+    {
+      "id": "desolation",
+      "ru": "запустение",
+      "stems": [
+        "запусте"
+      ],
+      "gloss": "опустошённая земля, запустение (Лев 26:33; Ис 1:7)",
+      "evidence": [
+        "Lev.26.33",
+        "Isa.1.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 23"
+    }
+  ]
+}

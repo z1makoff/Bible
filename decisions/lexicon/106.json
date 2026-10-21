@@ -1,0 +1,27 @@
+{
+  "key": "106",
+  "kind": "word",
+  "display": "egrof",
+  "senses": [
+    {
+      "id": "fist",
+      "ru": "кулак",
+      "stems": [
+        "кулак"
+      ],
+      "gloss": "кулак (Ис 58:4 — «бить кулаком»)",
+      "evidence": [
+        "Isa.58.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 21"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "biglino-greater-than-elohim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "430"
+ ],
+ "places": [
+  "Exod.18.11"
+ ],
+ "claim": "Если Elohim — единственный Бог, как «Бог» может быть больше всех Elohim? Зачем при Elohim слово «все» и артикль? Восклицание Yitro имеет смысл, только если другие Elohim существуют как предмет сравнения: YHWH оказывается сильнейшим из них по своим делам, а не по единственности, о которой жрец даже не намекает.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-of-the-bible",
+  "chapter": "Exodus 18",
+  "quote": "how can “God” be greater than all the Elohim?",
+  "quoteRu": "как «Бог» может быть больше всех Elohim?",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "YHWH сравнивается со «всеми ha-Elohim».",
+   "grade": "entailed",
+   "for": [
+    "Exod.18.11"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Другие elohim существуют как предмет сравнения.",
+   "grade": "supported",
+   "for": [
+    "Exod.12.12",
+    "Exod.15.11"
+   ],
+   "against": [],
+   "note": "Текст сравнивает, не уточняя, кто они."
+  },
+  {
+   "claim": "YHWH превосходит их делами, а не единственностью.",
+   "grade": "supported",
+   "for": [
+    "Exod.18.10",
+    "Exod.18.11"
+   ],
+   "against": [],
+   "note": "Довод Yitro — избавление из Mitsrayim."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 18, отрывок проверен по тексту"
+  }
+ ]
+}

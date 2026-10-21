@@ -1,0 +1,28 @@
+{
+  "key": "1590",
+  "kind": "word",
+  "display": "gannav",
+  "senses": [
+    {
+      "id": "thief",
+      "ru": "вор",
+      "stems": [
+        "вор"
+      ],
+      "gloss": "вор (Втор 24:7; Иер 2:26)",
+      "evidence": [
+        "Deut.24.7",
+        "Jer.2.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

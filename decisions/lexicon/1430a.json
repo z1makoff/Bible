@@ -1,0 +1,28 @@
+{
+  "key": "1430a",
+  "kind": "word",
+  "display": "gadish",
+  "senses": [
+    {
+      "id": "stack",
+      "ru": "копна",
+      "stems": [
+        "копн"
+      ],
+      "gloss": "копна снопов (Суд 15:5; Иов 5:26)",
+      "evidence": [
+        "Judg.15.5",
+        "Job.5.26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2254a",
+  "kind": "word",
+  "display": "chaval",
+  "senses": [
+    {
+      "id": "pledge",
+      "ru": "взять в залог",
+      "stems": [
+        "залог"
+      ],
+      "gloss": "взять в залог (Втор 24:6, 17; Иов 22:6)",
+      "evidence": [
+        "Deut.24.6",
+        "Job.22.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

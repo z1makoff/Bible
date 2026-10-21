@@ -1,0 +1,28 @@
+{
+  "key": "5383",
+  "kind": "word",
+  "display": "nashah",
+  "senses": [
+    {
+      "id": "creditor",
+      "ru": "заимодавец",
+      "stems": [
+        "заимодав"
+      ],
+      "gloss": "давать в долг; заимодавец (Втор 15:2; 4 Цар 4:1)",
+      "evidence": [
+        "Deut.15.2",
+        "2Kgs.4.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

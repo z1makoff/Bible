@@ -1,0 +1,51 @@
+{
+  "key": "2940",
+  "kind": "word",
+  "display": "taam",
+  "senses": [
+    {
+      "id": "taste",
+      "ru": "вкус",
+      "stems": [
+        "вкус"
+      ],
+      "gloss": "вкус (Чис 11:8; Иов 6:6)",
+      "evidence": [
+        "Num.11.8",
+        "Job.6.6"
+      ]
+    },
+    {
+      "id": "discernment",
+      "ru": "рассудок",
+      "stems": [
+        "рассуд"
+      ],
+      "gloss": "рассудительность, разум (1 Цар 25:33)",
+      "evidence": [
+        "1Sam.25.33",
+        "Ps.119.66"
+      ]
+    },
+    {
+      "id": "decree",
+      "ru": "указ",
+      "stems": [
+        "указ"
+      ],
+      "gloss": "указ (Ион 3:7)",
+      "evidence": [
+        "Jonah.3.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 16"
+    }
+  ]
+}

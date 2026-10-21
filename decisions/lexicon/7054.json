@@ -1,0 +1,28 @@
+{
+  "key": "7054",
+  "kind": "word",
+  "display": "qamah",
+  "senses": [
+    {
+      "id": "standing-grain",
+      "ru": "нива",
+      "stems": [
+        "нив"
+      ],
+      "gloss": "хлеб на корню, нива (Втор 16:9; 23:26; Суд 15:5)",
+      "evidence": [
+        "Deut.16.9",
+        "Judg.15.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

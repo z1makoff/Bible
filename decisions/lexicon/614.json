@@ -1,0 +1,27 @@
+{
+  "key": "614",
+  "kind": "word",
+  "display": "asif",
+  "senses": [
+    {
+      "id": "ingathering",
+      "ru": "сбор",
+      "stems": [
+        "сбор"
+      ],
+      "gloss": "сбор урожая (Исх 34:22)",
+      "evidence": [
+        "Exod.34.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От asaf («собрать»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 23"
+    }
+  ]
+}

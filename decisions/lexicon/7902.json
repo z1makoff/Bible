@@ -1,0 +1,40 @@
+{
+  "key": "7902",
+  "kind": "word",
+  "display": "shekhavah",
+  "senses": [
+    {
+      "id": "layer",
+      "ru": "слой",
+      "stems": [
+        "сло"
+      ],
+      "gloss": "слой (росы), то, что легло (Исх 16:13–14)",
+      "evidence": [
+        "Exod.16.13",
+        "Exod.16.14"
+      ]
+    },
+    {
+      "id": "lying",
+      "ru": "излияние",
+      "stems": [
+        "излиян"
+      ],
+      "gloss": "в сочетании shikhvat zera — излияние семени (Лев 15:16)",
+      "evidence": [
+        "Lev.15.16",
+        "Lev.15.32"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От shakhav — «лежать».",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 16"
+    }
+  ]
+}

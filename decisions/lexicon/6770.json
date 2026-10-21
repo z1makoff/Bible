@@ -1,0 +1,28 @@
+{
+  "key": "6770",
+  "kind": "word",
+  "display": "tsame",
+  "senses": [
+    {
+      "id": "thirst",
+      "ru": "жаждать",
+      "stems": [
+        "жажд"
+      ],
+      "gloss": "испытывать жажду (Суд 15:18; Руфь 2:9)",
+      "evidence": [
+        "Judg.15.18",
+        "Ruth.2.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 17"
+    }
+  ]
+}

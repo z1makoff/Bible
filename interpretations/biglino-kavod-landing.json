@@ -1,0 +1,64 @@
+{
+ "id": "biglino-kavod-landing",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3519",
+  "7931"
+ ],
+ "places": [
+  "Exod.24.15",
+  "Exod.24.16",
+  "Exod.24.17"
+ ],
+ "claim": "Глагол shakhan в 24:16 означает «расположиться и остаться»: kavod занимает позицию, садится и остаётся на горе. Это похоже на обычное описание посадки летающего предмета с яркими видимыми явлениями: снизу израильтяне видели kavod как огонь или облако.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "Esodo 24,15-17",
+  "quote": "Pare di assistere alla normale descrizione di un atterraggio di un oggetto volante",
+  "quoteRu": "Кажется, будто перед нами обычное описание посадки летающего предмета",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Kavod YHWH «поселился» на горе, облако покрывало её шесть дней.",
+   "grade": "entailed",
+   "for": [
+    "Exod.24.16"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Shakhan — «расположиться и остаться».",
+   "grade": "supported",
+   "for": [
+    "Num.9.17",
+    "Num.9.18"
+   ],
+   "against": [],
+   "note": "Тот же глагол — об облаке, остающемся над скинией."
+  },
+  {
+   "claim": "Вид kavod — как огонь пожирающий.",
+   "grade": "entailed",
+   "for": [
+    "Exod.24.17"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это посадка летающего предмета.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст описывает видимые явления, но не называет их природу."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 24, отрывок проверен по тексту"
+  }
+ ]
+}

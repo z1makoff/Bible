@@ -1,0 +1,28 @@
+{
+  "key": "34",
+  "kind": "word",
+  "display": "evyon",
+  "senses": [
+    {
+      "id": "needy",
+      "ru": "нищий",
+      "stems": [
+        "нищ"
+      ],
+      "gloss": "нуждающийся, нищий (Втор 15:4, 7, 11; Иов 29:16)",
+      "evidence": [
+        "Deut.15.7",
+        "Job.29.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 23"
+    }
+  ]
+}

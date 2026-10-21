@@ -1,0 +1,28 @@
+{
+  "key": "1591",
+  "kind": "word",
+  "display": "genevah",
+  "senses": [
+    {
+      "id": "stolen",
+      "ru": "покража",
+      "stems": [
+        "покраж"
+      ],
+      "gloss": "украденное, покража (Исх 22:2–3)",
+      "evidence": [
+        "Exod.22.2",
+        "Exod.22.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое слово, чем ganav («украсть»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 22"
+    }
+  ]
+}

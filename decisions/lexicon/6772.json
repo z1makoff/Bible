@@ -1,0 +1,28 @@
+{
+  "key": "6772",
+  "kind": "word",
+  "display": "tsama",
+  "senses": [
+    {
+      "id": "thirst",
+      "ru": "жажда",
+      "stems": [
+        "жажд"
+      ],
+      "gloss": "жажда (Втор 28:48; Суд 15:18)",
+      "evidence": [
+        "Deut.28.48",
+        "Judg.15.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 17"
+    }
+  ]
+}

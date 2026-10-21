@@ -1,0 +1,50 @@
+{
+ "id": "biglino-elohim-not-judges",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "430"
+ ],
+ "places": [
+  "Exod.18.15",
+  "Exod.18.19",
+  "Exod.18.22"
+ ],
+ "claim": "Смешение Elohim и «судей» невозможно: это богословская натяжка в пользу единобожия. В Исх 18 видно различие: народ приходит к Moshe «искать Elohim», Moshe приносит дела к Elohim, а судить народ поручено людям — начальникам, которых он ставит.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "chapter": "Giudici e/o Elohim?",
+  "quote": "la confusione tra Elohim e giudici non è possibile",
+  "quoteRu": "смешение Elohim и судей невозможно",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "В Исх 18 судят люди-начальники, а Elohim — тот, к кому приносят дела.",
+   "grade": "entailed",
+   "for": [
+    "Exod.18.19",
+    "Exod.18.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Elohim нигде не значит «судьи».",
+   "grade": "compatible",
+   "for": [],
+   "against": [
+    "Exod.21.6",
+    "Exod.22.7",
+    "Exod.22.8"
+   ],
+   "note": "В этих местах традиция понимает ha-elohim как «судьи»; сам текст этого однозначно не решает."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 18, отрывок проверен по тексту"
+  }
+ ]
+}

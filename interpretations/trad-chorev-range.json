@@ -1,0 +1,51 @@
+{
+ "id": "trad-chorev-range",
+ "tradition": "Традиционная (Толковая Библия Лопухина)",
+ "lemmas": [],
+ "places": [
+  "Exod.17.6"
+ ],
+ "claim": "«В Chorev» — не на горе с этим именем: к Sinai народ ещё не подошёл; Chorev здесь — горный хребет, носящий это имя.",
+ "source": {
+  "kind": "book",
+  "book": "lopuhin-exodus",
+  "section": "толкование на Исх 17:5–7",
+  "quote": "так как в данное время евреи не подошли еще и к Синаю",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Скала — «в Chorev».",
+   "grade": "entailed",
+   "for": [
+    "Exod.17.6"
+   ],
+   "against": []
+  },
+  {
+   "claim": "К Sinai народ приходит позже.",
+   "grade": "entailed",
+   "for": [
+    "Exod.19.1",
+    "Exod.19.2"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Chorev — горный хребет.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Exod.3.1"
+   ],
+   "note": "В 3:1 Chorev — «гора Elohim»; что здесь имеется в виду другое, текст не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 17, отрывок проверен по тексту"
+  }
+ ]
+}
