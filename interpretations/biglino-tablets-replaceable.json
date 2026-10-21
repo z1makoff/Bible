@@ -1,0 +1,51 @@
+{
+ "id": "biglino-tablets-replaceable",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3871",
+  "7665"
+ ],
+ "places": [
+  "Exod.32.19"
+ ],
+ "claim": "Moshe в гневе разбивает плиты; очевидно, он знал, что может получить другие: нельзя представить, чтобы человек позволил себе уничтожить единственный и незаменимый божественный дар. И YHWH за это не гневается на Moshe — просто велит вытесать новые плиты.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libro-cambiera",
+  "quote": "Evidentemente sapeva di poterne avere delle altre",
+  "quoteRu": "Очевидно, он знал, что может получить другие",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Moshe сломал плиты.",
+   "grade": "entailed",
+   "for": [
+    "Exod.32.19"
+   ],
+   "against": []
+  },
+  {
+   "claim": "YHWH не упрекает его за это и велит вытесать новые.",
+   "grade": "supported",
+   "for": [
+    "Exod.34.1"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Moshe знал заранее, что плиты заменят.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст говорит о гневе Moshe, а не о расчёте."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 32, отрывок проверен по тексту"
+  }
+ ]
+}

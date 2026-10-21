@@ -1,0 +1,28 @@
+{
+  "key": "5366",
+  "kind": "word",
+  "display": "neqarah",
+  "senses": [
+    {
+      "id": "cleft",
+      "ru": "расселина",
+      "stems": [
+        "расселин"
+      ],
+      "gloss": "расселина, щель в скале (Ис 2:21)",
+      "evidence": [
+        "Isa.2.21",
+        "Exod.33.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 33"
+    }
+  ]
+}

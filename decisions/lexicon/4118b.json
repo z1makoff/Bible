@@ -1,0 +1,28 @@
+{
+  "key": "4118b",
+  "kind": "word",
+  "display": "maher",
+  "senses": [
+    {
+      "id": "quickly",
+      "ru": "быстро",
+      "stems": [
+        "быстр"
+      ],
+      "gloss": "быстро, скоро (Втор 9:12; Нав 2:5)",
+      "evidence": [
+        "Deut.9.12",
+        "Josh.2.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 32"
+    }
+  ]
+}

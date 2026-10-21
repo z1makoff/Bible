@@ -1,0 +1,28 @@
+{
+  "key": "4385",
+  "kind": "word",
+  "display": "mikhtav",
+  "senses": [
+    {
+      "id": "writing",
+      "ru": "письмо",
+      "stems": [
+        "письм"
+      ],
+      "gloss": "написанное, надпись (Исх 39:30; Ис 38:9)",
+      "evidence": [
+        "Exod.39.30",
+        "Isa.38.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 32"
+    }
+  ]
+}
