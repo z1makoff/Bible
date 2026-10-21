@@ -231,6 +231,18 @@ def check_chapter(path, lex, rep, version):
                 rep.error(where, f"слово {w['tr']} ({wid}) не передано и не указано как пропущенное")
             elif content_lemmas(w) and wid not in rendered:
                 rep.error(where, f"слово {w['tr']} ({wid}) передано только служебной частью")
+        # Союз ve- везде передаётся как «и» (правила, раздел 4); иначе нужна причина в x или omit
+        by_word = {}
+        for sp in v.get("spans", []):
+            for wid in sp.get("w", []):
+                by_word.setdefault(alt_of.get(wid, wid), []).append(sp)
+        for wid, w in words.items():
+            segs = w.get("segs") or [{}]
+            if segs[0].get("prefix") != "c" or wid in omit:
+                continue
+            sps = by_word.get(wid, [])
+            if not any(sp["t"].lower() == "и" or sp.get("x") for sp in sps):
+                rep.error(where, f"{w['tr']}: союз ve- не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
         for wid, place in v.get("places", {}).items():
             if wid not in all_words:
                 rep.error(where, f"разбор места: слова {wid} нет в стихе")
