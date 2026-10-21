@@ -1,0 +1,27 @@
+{
+  "key": "4299",
+  "kind": "word",
+  "display": "matveh",
+  "senses": [
+    {
+      "id": "yarn",
+      "ru": "пряжа",
+      "stems": [
+        "пряж"
+      ],
+      "gloss": "пряжа, спряденное (только Исх 35:25)",
+      "evidence": [
+        "Exod.35.25"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От tavah («прясть»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 35"
+    }
+  ]
+}
