@@ -1,0 +1,28 @@
+{
+  "key": "6532",
+  "kind": "word",
+  "display": "parokhet",
+  "senses": [
+    {
+      "id": "veil",
+      "ru": "завеса",
+      "stems": [
+        "завес"
+      ],
+      "gloss": "завеса перед местом ларя (Исх 26:31–33; Лев 16:2)",
+      "evidence": [
+        "Exod.26.31",
+        "Lev.16.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

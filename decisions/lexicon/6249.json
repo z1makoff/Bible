@@ -1,0 +1,28 @@
+{
+  "key": "6249",
+  "kind": "word",
+  "display": "ashtei",
+  "senses": [
+    {
+      "id": "one",
+      "ru": "один (в «одиннадцать»)",
+      "stems": [
+        "один"
+      ],
+      "gloss": "«один» только в составе числа ashtei esreh — «одиннадцать»",
+      "evidence": [
+        "Exod.26.7",
+        "Deut.1.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

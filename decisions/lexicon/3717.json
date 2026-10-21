@@ -1,0 +1,28 @@
+{
+  "key": "3717",
+  "kind": "word",
+  "display": "kafal",
+  "senses": [
+    {
+      "id": "double",
+      "ru": "сложить вдвое",
+      "stems": [
+        "вдвое"
+      ],
+      "gloss": "сложить вдвое (Исх 26:9; 28:16)",
+      "evidence": [
+        "Exod.26.9",
+        "Exod.28.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

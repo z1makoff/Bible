@@ -1,0 +1,29 @@
+{
+  "key": "4345",
+  "kind": "word",
+  "display": "mikhbar",
+  "senses": [
+    {
+      "id": "grating",
+      "ru": "решётка",
+      "stems": [
+        "решётк",
+        "решетк"
+      ],
+      "gloss": "решётка жертвенника (Исх 27:4; 38:4)",
+      "evidence": [
+        "Exod.27.4",
+        "Exod.38.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 27"
+    }
+  ]
+}

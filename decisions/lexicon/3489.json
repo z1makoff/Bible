@@ -1,0 +1,28 @@
+{
+  "key": "3489",
+  "kind": "word",
+  "display": "yated",
+  "senses": [
+    {
+      "id": "peg",
+      "ru": "кол",
+      "stems": [
+        "кол"
+      ],
+      "gloss": "кол, колышек шатра (Суд 4:21; Ис 54:2)",
+      "evidence": [
+        "Judg.4.21",
+        "Isa.54.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 27"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "biglino-tavnit-model",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "8403"
+ ],
+ "places": [
+  "Exod.25.9",
+  "Exod.25.40"
+ ],
+ "claim": "Elohim на горе, где он жил, показал Moshe точное изображение — чертёж или модель с размерами — того, что надо было изготовить; текст, по Бильино, не позволяет думать о видении или сне. Он находит странным, что «Бог» так подробно описывает устройство утвари для своего культа.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "mostrò a Mosè una rappresentazione precisa (disegno o modello) di ciò che doveva essere realizzato",
+  "quoteRu": "показал Моисею точное изображение (чертёж или модель) того, что надо было изготовить",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Moshe показывают tavnit жилища и вещей.",
+   "grade": "entailed",
+   "for": [
+    "Exod.25.9",
+    "Exod.25.40"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Tavnit — образец, модель.",
+   "grade": "supported",
+   "for": [
+    "2Kgs.16.10",
+    "1Chr.28.11"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это был чертёж или модель, а не видение.",
+   "grade": "plausible",
+   "for": [],
+   "against": [],
+   "note": "Каким способом образец показан, текст не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 25, отрывок проверен по тексту"
+  }
+ ]
+}

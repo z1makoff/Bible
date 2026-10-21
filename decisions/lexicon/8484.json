@@ -1,0 +1,28 @@
+{
+  "key": "8484",
+  "kind": "word",
+  "display": "tikhon",
+  "senses": [
+    {
+      "id": "middle",
+      "ru": "средний",
+      "stems": [
+        "средн"
+      ],
+      "gloss": "средний (Суд 7:19 — средняя стража)",
+      "evidence": [
+        "Judg.7.19",
+        "Exod.26.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "5629",
+  "kind": "word",
+  "display": "serach",
+  "senses": [
+    {
+      "id": "overhang",
+      "ru": "свисающее",
+      "stems": [
+        "свиса",
+        "свис"
+      ],
+      "gloss": "свисающая часть (единственное место)",
+      "evidence": [
+        "Exod.26.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От sarach («свешиваться»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

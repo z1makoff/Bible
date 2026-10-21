@@ -1,0 +1,28 @@
+{
+  "key": "4742",
+  "kind": "word",
+  "display": "mequtsaah",
+  "senses": [
+    {
+      "id": "corner",
+      "ru": "угловой",
+      "stems": [
+        "углов"
+      ],
+      "gloss": "угловой брус (Исх 26:23; 36:28)",
+      "evidence": [
+        "Exod.26.23",
+        "Exod.36.28"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 26"
+    }
+  ]
+}

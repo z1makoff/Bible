@@ -1,0 +1,46 @@
+{
+ "id": "biglino-kapporet-lid",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3727"
+ ],
+ "places": [
+  "Exod.25.17",
+  "Exod.25.21"
+ ],
+ "claim": "Корень слова kapporet значит «покрывать и защищать»: это была крышка ларя, а значение «покрывать грехи» появилось позже, по расширению смысла. Назначение kapporet объясняет сам YHWH в 25:22.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "siamo autorizzati a pensare che si trattasse della copertura (coperchio) dell’Arca",
+  "quoteRu": "мы вправе думать, что это было покрытие (крышка) ковчега",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Kapporet кладут на ларь сверху.",
+   "grade": "entailed",
+   "for": [
+    "Exod.25.21"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Значение «искупление» — позднее.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Lev.16.14",
+    "Lev.16.15"
+   ],
+   "note": "Обряд искупления на kapporet описан в той же Торе."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 25, отрывок проверен по тексту"
+  }
+ ]
+}

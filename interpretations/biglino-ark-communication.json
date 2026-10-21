@@ -1,0 +1,52 @@
+{
+ "id": "biglino-ark-communication",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3727",
+  "3742",
+  "3259"
+ ],
+ "places": [
+  "Exod.25.22"
+ ],
+ "claim": "Назначение kapporet объясняет сам YHWH: «там буду сходиться с тобой и говорить с тобой». Значит, это физическое место контакта и предмет, через который говорят; Бильино спрашивает, не была ли это настоящая приёмно-передающая система, и оговаривает, что наверняка этого не знает.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "lo scopo di consentire l’incontro e la comunicazione tra l’Elohìm e Mosè",
+  "quoteRu": "цель — сделать возможными встречу и общение между Elohim и Моисеем",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "YHWH будет сходиться с Moshe и говорить сверху kapporet, между keruvim.",
+   "grade": "entailed",
+   "for": [
+    "Exod.25.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Голос слышен оттуда.",
+   "grade": "supported",
+   "for": [
+    "Num.7.89"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это устройство для связи.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Текст говорит о месте встречи и голосе, но не об устройстве."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 25, отрывок проверен по тексту"
+  }
+ ]
+}

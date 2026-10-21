@@ -1,0 +1,28 @@
+{
+  "key": "4207b",
+  "kind": "word",
+  "display": "mizlagah",
+  "senses": [
+    {
+      "id": "fork",
+      "ru": "вилка",
+      "stems": [
+        "вилк"
+      ],
+      "gloss": "вилка для мяса (Исх 27:3; ср. mazleg с тремя зубцами — 1 Цар 2:13)",
+      "evidence": [
+        "Exod.27.3",
+        "1Chr.28.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 27"
+    }
+  ]
+}

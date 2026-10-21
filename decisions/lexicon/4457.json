@@ -1,0 +1,28 @@
+{
+  "key": "4457",
+  "kind": "word",
+  "display": "melqachayim",
+  "senses": [
+    {
+      "id": "tongs",
+      "ru": "щипцы",
+      "stems": [
+        "щипц"
+      ],
+      "gloss": "щипцы (Ис 6:6 — взять уголь с жертвенника)",
+      "evidence": [
+        "Isa.6.6",
+        "Exod.25.38"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 25"
+    }
+  ]
+}

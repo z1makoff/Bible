@@ -1,0 +1,28 @@
+{
+  "key": "7979",
+  "kind": "word",
+  "display": "shulchan",
+  "senses": [
+    {
+      "id": "table",
+      "ru": "стол",
+      "stems": [
+        "стол"
+      ],
+      "gloss": "стол (4 Цар 4:10; 2 Цар 9:7 — есть за столом царя)",
+      "evidence": [
+        "2Kgs.4.10",
+        "2Sam.9.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 25"
+    }
+  ]
+}

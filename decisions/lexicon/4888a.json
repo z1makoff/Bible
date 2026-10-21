@@ -1,0 +1,28 @@
+{
+  "key": "4888a",
+  "kind": "word",
+  "display": "mishchah",
+  "senses": [
+    {
+      "id": "anointing",
+      "ru": "помазание",
+      "stems": [
+        "помазани"
+      ],
+      "gloss": "помазание (масло помазания: Исх 29:7; Лев 8:2)",
+      "evidence": [
+        "Exod.29.7",
+        "Lev.8.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От mashach («помазать»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 25"
+    }
+  ]
+}

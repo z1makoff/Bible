@@ -1,0 +1,57 @@
+{
+ "id": "biglino-keruvim-position",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3742",
+  "3671"
+ ],
+ "places": [
+  "Exod.25.18",
+  "Exod.25.19",
+  "Exod.25.20"
+ ],
+ "claim": "Текст не говорит прямо, что keruvim стояли на kapporet: они «на концах» его, обращены «к» нему и заслоняют его крыльями. Kanaf здесь — края, которые раскрываются, чтобы покрывать и защищать. Поэтому нельзя быть уверенным, что keruvim были сверху; возможно, они стояли снаружи.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "Non possiamo quindi essere certi del fatto che queste due strutture fossero poste sopra",
+  "quoteRu": "Поэтому мы не можем быть уверены, что эти две конструкции были помещены сверху",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Keruvim — на концах kapporet, лицами к нему, крыльями заслоняют его.",
+   "grade": "entailed",
+   "for": [
+    "Exod.25.18",
+    "Exod.25.20"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Слова «на kapporet» о них нет.",
+   "grade": "entailed",
+   "for": [
+    "Exod.25.19",
+    "Exod.37.8"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Они могли стоять снаружи.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Exod.25.19"
+   ],
+   "note": "«Из kapporet сделайте keruvim» (25:19; 37:8) скорее говорит, что они — одно целое с ним. Отдельно стоящие keruvim — у Shlomo (3 Цар 6:23–27), но это другие фигуры."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 25, отрывок проверен по тексту"
+  }
+ ]
+}
