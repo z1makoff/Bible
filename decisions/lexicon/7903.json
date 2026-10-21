@@ -1,0 +1,29 @@
+{
+  "key": "7903",
+  "kind": "word",
+  "display": "shekhovet",
+  "senses": [
+    {
+      "id": "intercourse",
+      "ru": "соитие",
+      "stems": [
+        "соити"
+      ],
+      "gloss": "соитие: «не дай соития своего на семя» (Лев 18:20, 23; 20:15; Чис 5:20)",
+      "evidence": [
+        "Lev.18.20",
+        "Lev.20.15",
+        "Num.5.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От shakhav — «лечь». «Излияние» уже передаёт shekhavah.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "by": "claude",
+      "change": "создано при подготовке Лев 18"
+    }
+  ]
+}
