@@ -1,0 +1,28 @@
+{
+  "key": "1643",
+  "kind": "word",
+  "display": "geres",
+  "senses": [
+    {
+      "id": "groats",
+      "ru": "крупа",
+      "stems": [
+        "круп"
+      ],
+      "gloss": "крупа, дроблёное зерно (Лев 2:14, 16)",
+      "evidence": [
+        "Lev.2.14",
+        "Lev.2.16"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Лев 2"
+    }
+  ]
+}

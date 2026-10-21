@@ -1,0 +1,27 @@
+{
+  "key": "3989",
+  "kind": "word",
+  "display": "maafeh",
+  "senses": [
+    {
+      "id": "baked",
+      "ru": "выпечка",
+      "stems": [
+        "выпечк"
+      ],
+      "gloss": "выпечка из печи (только Лев 2:4)",
+      "evidence": [
+        "Lev.2.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От afah («печь»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Лев 2"
+    }
+  ]
+}
