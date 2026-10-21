@@ -1,0 +1,28 @@
+{
+  "key": "7550",
+  "kind": "word",
+  "display": "raqiq",
+  "senses": [
+    {
+      "id": "wafer",
+      "ru": "корж",
+      "stems": [
+        "корж"
+      ],
+      "gloss": "тонкий корж (Лев 2:4; Чис 6:15)",
+      "evidence": [
+        "Lev.2.4",
+        "Num.6.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

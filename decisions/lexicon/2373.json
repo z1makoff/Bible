@@ -1,0 +1,28 @@
+{
+  "key": "2373",
+  "kind": "word",
+  "display": "chazeh",
+  "senses": [
+    {
+      "id": "breast",
+      "ru": "грудина",
+      "stems": [
+        "грудин"
+      ],
+      "gloss": "грудина жертвенного животного (Лев 7:30–31)",
+      "evidence": [
+        "Lev.7.30",
+        "Lev.7.31"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

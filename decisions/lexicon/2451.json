@@ -1,0 +1,28 @@
+{
+  "key": "2451",
+  "kind": "word",
+  "display": "chokhmah",
+  "senses": [
+    {
+      "id": "wisdom",
+      "ru": "мудрость",
+      "stems": [
+        "мудрост"
+      ],
+      "gloss": "мудрость, умение (Исх 28:3; 31:3 — мастерство; 3 Цар 5:9 — мудрость Shlomo)",
+      "evidence": [
+        "Exod.31.3",
+        "1Kgs.5.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От chakham («мудрый»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

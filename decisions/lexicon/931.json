@@ -1,0 +1,28 @@
+{
+  "key": "931",
+  "kind": "word",
+  "display": "bohen",
+  "senses": [
+    {
+      "id": "thumb",
+      "ru": "большой палец",
+      "stems": [
+        "больш"
+      ],
+      "gloss": "большой палец руки или ноги (Суд 1:6–7)",
+      "evidence": [
+        "Judg.1.6",
+        "Judg.1.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

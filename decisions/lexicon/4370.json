@@ -1,0 +1,28 @@
+{
+  "key": "4370",
+  "kind": "word",
+  "display": "mikhnas",
+  "senses": [
+    {
+      "id": "breeches",
+      "ru": "штаны",
+      "stems": [
+        "штан"
+      ],
+      "gloss": "льняные штаны жрецов (Лев 6:3; Иез 44:18)",
+      "evidence": [
+        "Lev.6.3",
+        "Ezek.44.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

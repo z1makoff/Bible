@@ -1,0 +1,28 @@
+{
+  "key": "3550",
+  "kind": "word",
+  "display": "kehunnah",
+  "senses": [
+    {
+      "id": "priesthood",
+      "ru": "жречество",
+      "stems": [
+        "жречеств"
+      ],
+      "gloss": "жречество, служение жрецов (Исх 29:9; Чис 18:7)",
+      "evidence": [
+        "Num.18.7",
+        "Exod.40.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От kohen («жрец»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "key": "2796",
+  "kind": "word",
+  "display": "charash",
+  "senses": [
+    {
+      "id": "craftsman",
+      "ru": "мастер",
+      "stems": [
+        "мастер"
+      ],
+      "gloss": "мастер по дереву, камню, металлу (2 Цар 5:11; Ис 44:12–13)",
+      "evidence": [
+        "2Sam.5.11",
+        "Isa.44.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

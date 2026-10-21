@@ -1,0 +1,28 @@
+{
+  "key": "6603",
+  "kind": "word",
+  "display": "pittuach",
+  "senses": [
+    {
+      "id": "engraving",
+      "ru": "резьба",
+      "stems": [
+        "резьб"
+      ],
+      "gloss": "резьба, гравировка (Исх 28:11; 3 Цар 6:29)",
+      "evidence": [
+        "Exod.28.11",
+        "1Kgs.6.29"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

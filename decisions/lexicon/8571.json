@@ -1,0 +1,28 @@
+{
+  "key": "8571",
+  "kind": "word",
+  "display": "tenukh",
+  "senses": [
+    {
+      "id": "lobe",
+      "ru": "мочка",
+      "stems": [
+        "мочк"
+      ],
+      "gloss": "мочка уха (Исх 29:20; Лев 14:14)",
+      "evidence": [
+        "Exod.29.20",
+        "Lev.14.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

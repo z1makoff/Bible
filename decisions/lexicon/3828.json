@@ -1,0 +1,28 @@
+{
+  "key": "3828",
+  "kind": "word",
+  "display": "levonah",
+  "senses": [
+    {
+      "id": "frankincense",
+      "ru": "ладан",
+      "stems": [
+        "ладан"
+      ],
+      "gloss": "ладан, белая ароматная смола (от lavan — «белый»: Лев 2:1; Ис 60:6 — из Шевы)",
+      "evidence": [
+        "Lev.2.1",
+        "Isa.60.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 30"
+    }
+  ]
+}

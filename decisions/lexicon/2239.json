@@ -1,0 +1,28 @@
+{
+  "key": "2239",
+  "kind": "word",
+  "display": "zeret",
+  "senses": [
+    {
+      "id": "span",
+      "ru": "пядь",
+      "stems": [
+        "пяд"
+      ],
+      "gloss": "пядь, мера (1 Цар 17:4 — рост Golyat; Ис 40:12)",
+      "evidence": [
+        "1Sam.17.4",
+        "Isa.40.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

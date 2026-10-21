@@ -1,0 +1,29 @@
+{
+  "key": "4696",
+  "kind": "word",
+  "display": "metsach",
+  "senses": [
+    {
+      "id": "forehead",
+      "ru": "лоб",
+      "stems": [
+        "лоб",
+        "лб"
+      ],
+      "gloss": "лоб (1 Цар 17:49 — камень вонзился в лоб; 2 Пар 26:19)",
+      "evidence": [
+        "1Sam.17.49",
+        "2Chr.26.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "key": "8331",
+  "kind": "word",
+  "display": "sharshah",
+  "senses": [
+    {
+      "id": "chain",
+      "ru": "цепочка",
+      "stems": [
+        "цепочк"
+      ],
+      "gloss": "цепочка (единственное место)",
+      "evidence": [
+        "Exod.28.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Вероятно, то же слово, что sharsherah (28:14).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

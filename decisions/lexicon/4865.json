@@ -1,0 +1,28 @@
+{
+  "key": "4865",
+  "kind": "word",
+  "display": "mishbetsot",
+  "senses": [
+    {
+      "id": "setting",
+      "ru": "оправа",
+      "stems": [
+        "оправ"
+      ],
+      "gloss": "оправа, гнездо для камня (Исх 28:11, 13; Пс 45:14)",
+      "evidence": [
+        "Exod.28.11",
+        "Ps.45.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

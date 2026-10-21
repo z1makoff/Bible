@@ -1,0 +1,28 @@
+{
+  "key": "451",
+  "kind": "word",
+  "display": "alyah",
+  "senses": [
+    {
+      "id": "fat-tail",
+      "ru": "курдюк",
+      "stems": [
+        "курдюк"
+      ],
+      "gloss": "жирный хвост овцы (Лев 3:9)",
+      "evidence": [
+        "Lev.3.9",
+        "Lev.7.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

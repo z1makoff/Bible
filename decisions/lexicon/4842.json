@@ -1,0 +1,28 @@
+{
+  "key": "4842",
+  "kind": "word",
+  "display": "mirqachat",
+  "senses": [
+    {
+      "id": "compounding",
+      "ru": "составление",
+      "stems": [
+        "составлени"
+      ],
+      "gloss": "составление благовоний; составленная мазь (2 Пар 16:14)",
+      "evidence": [
+        "Exod.30.25",
+        "2Chr.16.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 30"
+    }
+  ]
+}

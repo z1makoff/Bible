@@ -1,0 +1,28 @@
+{
+  "key": "4598",
+  "kind": "word",
+  "display": "meil",
+  "senses": [
+    {
+      "id": "robe",
+      "ru": "мантия",
+      "stems": [
+        "манти"
+      ],
+      "gloss": "верхняя длинная одежда знатных (1 Цар 18:4 — Yehonatan отдал Давиду; 1 Цар 24:5 — край мантии Shaul)",
+      "evidence": [
+        "1Sam.18.4",
+        "1Sam.24.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Мантия» — чтобы не совпадать с simlah, salmah, adderet («плащ») и beged («одежда»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}

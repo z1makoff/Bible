@@ -1,0 +1,28 @@
+{
+  "key": "6223",
+  "kind": "word",
+  "display": "ashir",
+  "senses": [
+    {
+      "id": "rich",
+      "ru": "богатый",
+      "stems": [
+        "богат"
+      ],
+      "gloss": "богатый (2 Цар 12:1–2; Притч 22:2)",
+      "evidence": [
+        "2Sam.12.1",
+        "Prov.22.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 30"
+    }
+  ]
+}

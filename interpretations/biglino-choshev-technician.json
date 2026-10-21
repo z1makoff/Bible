@@ -1,0 +1,58 @@
+{
+ "id": "biglino-choshev-technician",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "2803",
+  "646",
+  "2833"
+ ],
+ "places": [
+  "Exod.28.6",
+  "Exod.28.15"
+ ],
+ "claim": "Maaseh choshev переводят «искусная работа», но буквально это «работа соединяющего, замышляющего»: choshev — причастие от chashav («соединять, составлять, рассчитывать, проектировать»). Значит, efod и нагрудник — работа техника, а не художника: они не украшения, они должны были работать.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "quote": "chiaramente di fronte al lavoro di un tecnico e non a quello di un artista",
+  "quoteRu": "явно перед нами работа техника, а не художника",
+  "checked": "2026-10-21"
+ },
+ "support": [
+  {
+   "claim": "Efod и нагрудник — «дело choshev».",
+   "grade": "entailed",
+   "for": [
+    "Exod.28.6",
+    "Exod.28.15"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Choshev — от chashav («замышлять, рассчитывать»).",
+   "grade": "supported",
+   "for": [
+    "Exod.31.4",
+    "Exod.35.35"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это работа техника, а не художника.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Exod.26.1",
+    "Exod.35.35"
+   ],
+   "note": "Тем же «делом choshev» сделаны полотнища с keruvim (26:1); в 35:35 choshev стоит в ряду с ткачом и узорщиком."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-21",
+   "by": "claude",
+   "change": "создано при подготовке Исх 28, отрывок проверен по тексту"
+  }
+ ]
+}

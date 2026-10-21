@@ -1,0 +1,28 @@
+{
+  "key": "6916",
+  "kind": "word",
+  "display": "qiddah",
+  "senses": [
+    {
+      "id": "cassia",
+      "ru": "кассия",
+      "stems": [
+        "касси"
+      ],
+      "gloss": "кассия, ароматная кора (Исх 30:24; Иез 27:19)",
+      "evidence": [
+        "Exod.30.24",
+        "Ezek.27.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 30"
+    }
+  ]
+}

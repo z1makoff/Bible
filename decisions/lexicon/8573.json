@@ -1,0 +1,28 @@
+{
+  "key": "8573",
+  "kind": "word",
+  "display": "tenufah",
+  "senses": [
+    {
+      "id": "waving",
+      "ru": "взмах",
+      "stems": [
+        "взмах"
+      ],
+      "gloss": "взмах, движение перед YHWH (Лев 7:30; Чис 8:11 — о левитах)",
+      "evidence": [
+        "Lev.7.30",
+        "Num.8.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "От nuf («взмахнуть»).",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 29"
+    }
+  ]
+}

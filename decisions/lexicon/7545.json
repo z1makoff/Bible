@@ -1,0 +1,28 @@
+{
+  "key": "7545",
+  "kind": "word",
+  "display": "roqach",
+  "senses": [
+    {
+      "id": "compound",
+      "ru": "состав",
+      "stems": [
+        "состав"
+      ],
+      "gloss": "благовонный состав (Исх 30:25, 35)",
+      "evidence": [
+        "Exod.30.25",
+        "Exod.30.35"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 30"
+    }
+  ]
+}

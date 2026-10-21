@@ -1,0 +1,28 @@
+{
+  "key": "1383",
+  "kind": "word",
+  "display": "gavlut",
+  "senses": [
+    {
+      "id": "twisting",
+      "ru": "свивка",
+      "stems": [
+        "свивк"
+      ],
+      "gloss": "свивка, скрутка (Исх 28:22; 39:15)",
+      "evidence": [
+        "Exod.28.22",
+        "Exod.39.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-21",
+      "by": "claude",
+      "change": "создано при подготовке Исх 28"
+    }
+  ]
+}
