@@ -1,0 +1,29 @@
+{
+  "key": "6455",
+  "kind": "word",
+  "display": "pisseach",
+  "senses": [
+    {
+      "id": "lame",
+      "ru": "хромой",
+      "stems": [
+        "хром"
+      ],
+      "gloss": "хромой (Лев 21:18; Втор 15:21; 2 Цар 9:13 — Mefiboshet «хромой на обе ноги»; Ис 35:6)",
+      "evidence": [
+        "Lev.21.18",
+        "2Sam.9.13",
+        "Isa.35.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "by": "claude",
+      "change": "создано при подготовке Лев 21"
+    }
+  ]
+}
