@@ -1,0 +1,29 @@
+{
+  "key": "1210",
+  "kind": "word",
+  "display": "batsir",
+  "senses": [
+    {
+      "id": "vintage",
+      "ru": "сбор винограда",
+      "stems": [
+        "сбор"
+      ],
+      "gloss": "сбор винограда (Лев 26:5; Суд 8:2 — «лучше ли остатки Efrayim, чем сбор Aviezer?»; Ис 24:13; Мих 7:1)",
+      "evidence": [
+        "Lev.26.5",
+        "Judg.8.2",
+        "Mic.7.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "by": "claude",
+      "change": "создано при подготовке Лев 26"
+    }
+  ]
+}
