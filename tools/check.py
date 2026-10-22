@@ -241,7 +241,8 @@ def check_chapter(path, lex, rep, version):
             if segs[0].get("prefix") != "c" or wid in omit:
                 continue
             sps = by_word.get(wid, [])
-            if not any(sp["t"].lower() == "и" or sp.get("x") for sp in sps):
+            # причина (x) засчитывается только на служебном фрагменте самого союза, а не на любом фрагменте слова
+            if not any(sp["t"].lower() == "и" or (sp.get("x") and sp.get("k") == "fn") for sp in sps):
                 rep.error(where, f"{w['tr']}: союз ve- не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
         for wid, place in v.get("places", {}).items():
             if wid not in all_words:
