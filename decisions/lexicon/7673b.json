@@ -1,0 +1,28 @@
+{
+  "key": "7673b",
+  "kind": "word",
+  "display": "shavat",
+  "senses": [
+    {
+      "id": "keep-sabbath",
+      "ru": "справлять",
+      "stems": [
+        "справл"
+      ],
+      "gloss": "справлять shabbat: «справляйте shabbat ваш» (Лев 23:32); «и будет справлять земля shabbat для YHWH» (25:2)",
+      "evidence": [
+        "Lev.23.32",
+        "Lev.25.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Отдельная лемма в разметке OSHB; того же корня, что shavat — «прекратить, отдыхать» и shabbat.",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "by": "claude",
+      "change": "создано при подготовке Лев 23"
+    }
+  ]
+}
