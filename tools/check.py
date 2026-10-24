@@ -121,6 +121,14 @@ def load_lexicon(rep):
     return entries
 
 
+def stem_found(stem, text):
+    """Основа должна начинать русское слово: «дел» узнаёт «делай», но не «отдел» (приставочные формы
+    перечисляются в словаре отдельно: «сдел»). Основа короче трёх букв засчитывается только целым словом."""
+    stem = stem.lower()
+    end = r"(?![а-яёa-z])" if len(stem) < 3 else ""
+    return re.search(rf"(?<![а-яёa-z]){re.escape(stem)}{end}", text.lower()) is not None
+
+
 def sense_of(span, wid):
     s = span.get("s")
     return s.get(wid) if isinstance(s, dict) else s
@@ -214,7 +222,7 @@ def check_chapter(path, lex, rep, version):
                         sense = next((s for s in e.get("senses", []) if s["id"] == sid), None)
                         if sense is None and not sp.get("x"):
                             rep.error(here, f"значение «{sid}» не найдено в словаре для {e['display']}")
-                        elif sense and not sp.get("x") and not any(st.lower() in sp["t"].lower() for st in sense["stems"]):
+                        elif sense and not sp.get("x") and not any(stem_found(st, sp["t"]) for st in sense["stems"]):
                             rep.error(here, f"для значения «{sid}» по словарю решений ожидается «{sense['ru']}»; "
                                             "если здесь иначе, нужно исключение с причиной (x)")
                 rendered.add(alt_of.get(wid, wid))

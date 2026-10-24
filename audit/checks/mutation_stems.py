@@ -10,7 +10,11 @@ CASES = [  # (глава, старый текст фрагмента, новый
 ]
 with tempfile.TemporaryDirectory() as tmp:
     tmp = Path(tmp)
-    for d in ("tools", "decisions", "interpretations", "library", "corpus"):
+    # tools копируется, а не связывается ссылкой: check.py ищет корень проекта от своего настоящего пути
+    shutil.copytree(ROOT / "tools", tmp / "tools", ignore=shutil.ignore_patterns("__pycache__"))
+    if len(sys.argv) > 1:  # другая версия check.py, например из git: python … mutation_stems.py old_check.py
+        shutil.copy(sys.argv[1], tmp / "tools" / "check.py")
+    for d in ("decisions", "interpretations", "library", "corpus"):
         (tmp / d).symlink_to(ROOT / d)
     shutil.copy(ROOT / "ПРАВИЛА.md", tmp)
     shutil.copytree(ROOT / "translations", tmp / "translations")

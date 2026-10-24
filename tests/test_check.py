@@ -95,6 +95,22 @@ class CheckGen11(unittest.TestCase):
         rep = self.run_check(self.edited(1, t="сотворил", x="проверка исключения"))
         self.assertEqual(rep.errors, [])
 
+    def test_stem_must_start_the_word(self):
+        # «воссоздал» содержит основу «созда», но это другое слово: приставочные формы перечисляются в словаре
+        rep = self.run_check(self.edited(1, t="воссоздал"))
+        self.assertError(rep, "ожидается «создать»")
+
+    def test_stem_found(self):
+        self.assertTrue(check.stem_found("дел", "сделаем, делай"))
+        self.assertFalse(check.stem_found("дел", "отделил"))
+        self.assertTrue(check.stem_found("дал", "дала"))
+        self.assertFalse(check.stem_found("дал", "предал"))
+        # основа короче трёх букв — только целым словом
+        self.assertTrue(check.stem_found("ел", "и ел он"))
+        self.assertFalse(check.stem_found("бо", "богохульствуй"))
+        self.assertFalse(check.stem_found("по", "попросила"))
+        self.assertTrue(check.stem_found("в живых", "сохранили в живых"))
+
     def test_missing_word_is_reported(self):
         v = copy.deepcopy(GEN_1_1)
         del v["spans"][5]
