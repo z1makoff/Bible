@@ -118,6 +118,18 @@ def load_lexicon(rep):
         if e.get("kind") == "word" and not e.get("senses"):
             rep.error(where, "у обычного слова нет ни одного значения")
         entries[key] = e
+    # Разные исходные слова — разные русские слова (правила, раздел 3); допущенное совпадение отмечается в sameRu
+    by_ru = {}
+    for key, e in entries.items():
+        if e.get("kind") == "word":
+            for s in e.get("senses", []):
+                by_ru.setdefault((s.get("ru") or "").lower(), set()).add(key)
+    for ru, keys in sorted(by_ru.items()):
+        for a in sorted(keys):
+            for b in sorted(keys):
+                if a < b and (b not in entries[a].get("sameRu", []) or a not in entries[b].get("sameRu", [])):
+                    rep.warn(f"словарь/{a}.json", f"«{ru}» — и у {entries[b]['display']} ({b}): разные слова — разные "
+                                                  "русские слова (правила, раздел 3); если иначе нельзя, отметьте в sameRu обоих")
     return entries
 
 

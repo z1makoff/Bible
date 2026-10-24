@@ -124,6 +124,20 @@ class CheckGen11(unittest.TestCase):
         rep = self.run_check(v)
         self.assertFalse(any("а слово переведено" in e for e in rep.errors), rep.errors)
 
+    def test_same_russian_word_for_different_words(self):
+        def write(key, **extra):
+            data = {"key": key, "status": "draft", "notes": "", "history": HIST} | LEXICON[key] | extra
+            data["senses"] = [dict(s, ru="небеса") for s in data["senses"]]
+            (check.LEXICON / f"{key}.json").write_text(json.dumps(data, ensure_ascii=False), "utf-8")
+        write("776")
+        rep = self.run_check()
+        self.assertTrue(any("«небеса» — и у" in w for w in rep.warnings), rep.warnings)
+        write("776", sameRu=["8064"])
+        data = json.loads((check.LEXICON / "8064.json").read_text("utf-8")) | {"sameRu": ["776"]}
+        (check.LEXICON / "8064.json").write_text(json.dumps(data, ensure_ascii=False), "utf-8")
+        rep = self.run_check()
+        self.assertFalse(any("«небеса» — и у" in w for w in rep.warnings), rep.warnings)
+
     def test_missing_word_is_reported(self):
         v = copy.deepcopy(GEN_1_1)
         del v["spans"][5]
