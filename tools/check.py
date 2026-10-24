@@ -118,7 +118,27 @@ def load_lexicon(rep):
         if e.get("kind") == "word" and not e.get("senses"):
             rep.error(where, "у обычного слова нет ни одного значения")
         entries[key] = e
+    # Разные исходные слова — разные русские слова (правила, раздел 3); допущенное совпадение отмечается в sameRu
+    by_ru = {}
+    for key, e in entries.items():
+        if e.get("kind") == "word":
+            for s in e.get("senses", []):
+                by_ru.setdefault((s.get("ru") or "").lower(), set()).add(key)
+    for ru, keys in sorted(by_ru.items()):
+        for a in sorted(keys):
+            for b in sorted(keys):
+                if a < b and (b not in entries[a].get("sameRu", []) or a not in entries[b].get("sameRu", [])):
+                    rep.warn(f"словарь/{a}.json", f"«{ru}» — и у {entries[b]['display']} ({b}): разные слова — разные "
+                                                  "русские слова (правила, раздел 3); если иначе нельзя, отметьте в sameRu обоих")
     return entries
+
+
+def stem_found(stem, text):
+    """Основа должна начинать русское слово: «дел» узнаёт «делай», но не «отдел» (приставочные формы
+    перечисляются в словаре отдельно: «сдел»). Основа короче трёх букв засчитывается только целым словом."""
+    stem = stem.lower()
+    end = r"(?![а-яёa-z])" if len(stem) < 3 else ""
+    return re.search(rf"(?<![а-яёa-z]){re.escape(stem)}{end}", text.lower()) is not None
 
 
 def sense_of(span, wid):
@@ -214,7 +234,7 @@ def check_chapter(path, lex, rep, version):
                         sense = next((s for s in e.get("senses", []) if s["id"] == sid), None)
                         if sense is None and not sp.get("x"):
                             rep.error(here, f"значение «{sid}» не найдено в словаре для {e['display']}")
-                        elif sense and not sp.get("x") and not any(st.lower() in sp["t"].lower() for st in sense["stems"]):
+                        elif sense and not sp.get("x") and not any(stem_found(st, sp["t"]) for st in sense["stems"]):
                             rep.error(here, f"для значения «{sid}» по словарю решений ожидается «{sense['ru']}»; "
                                             "если здесь иначе, нужно исключение с причиной (x)")
                 rendered.add(alt_of.get(wid, wid))
@@ -244,7 +264,24 @@ def check_chapter(path, lex, rep, version):
             # причина (x) засчитывается только на служебном фрагменте самого союза, а не на любом фрагменте слова
             if not any(sp["t"].lower() == "и" or (sp.get("x") and sp.get("k") == "fn") for sp in sps):
                 rep.error(where, f"{w['tr']}: союз ve- не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
-        for wid, place in v.get("places", {}).items():
+        # Главное правило (раздел 1): латиница — с разбором места; перевод — если подходит одно значение
+        # или русское слово сохраняет все подходящие (covers)
+        places = v.get("places", {})
+        for wid, sps in by_word.items():
+            if wid not in all_words:
+                continue
+            w = all_words[wid]
+            if not any(lex.get(c, {}).get("kind") == "word" for c in content_lemmas(w)):
+                continue
+            place = places.get(wid)
+            if any(sp.get("k") == "lat" for sp in sps) and not place:
+                rep.error(where, f"{w['tr']} ({wid}): слово оставлено латиницей, но нет разбора места (places)")
+            fits = (place or {}).get("fits", [])
+            if (any(sp.get("k") is None and not sp.get("x") for sp in sps) and len(fits) > 1
+                    and not place.get("covers")):
+                rep.error(where, f"{w['tr']} ({wid}): по разбору места подходят {len(fits)} значения, а слово переведено; "
+                                 "нужна латиница или отметка covers (русское слово сохраняет их все)")
+        for wid, place in places.items():
             if wid not in all_words:
                 rep.error(where, f"разбор места: слова {wid} нет в стихе")
                 continue

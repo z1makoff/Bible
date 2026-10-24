@@ -1,6 +1,6 @@
 {
   "key": "1235",
-  "kind": "word",
+  "kind": "keep",
   "display": "beqa",
   "senses": [
     {
@@ -17,12 +17,17 @@
     }
   ],
   "status": "draft",
-  "notes": "",
+  "notes": "Мера веса (половина sheqel, Исх 38:26), как sheqel и gerah: не переводится. «Половина» — machatsit и chatsi.",
   "history": [
     {
       "date": "2026-10-17",
       "by": "claude",
       "change": "создано при подготовке Быт 22–24"
+    },
+    {
+      "date": "2026-10-24",
+      "by": "claude",
+      "change": "не переводится как мера веса (было «половина», совпадало с chatsi и machatsit)"
     }
   ]
 }

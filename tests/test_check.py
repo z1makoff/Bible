@@ -95,6 +95,49 @@ class CheckGen11(unittest.TestCase):
         rep = self.run_check(self.edited(1, t="сотворил", x="проверка исключения"))
         self.assertEqual(rep.errors, [])
 
+    def test_stem_must_start_the_word(self):
+        # «воссоздал» содержит основу «созда», но это другое слово: приставочные формы перечисляются в словаре
+        rep = self.run_check(self.edited(1, t="воссоздал"))
+        self.assertError(rep, "ожидается «создать»")
+
+    def test_stem_found(self):
+        self.assertTrue(check.stem_found("дел", "сделаем, делай"))
+        self.assertFalse(check.stem_found("дел", "отделил"))
+        self.assertTrue(check.stem_found("дал", "дала"))
+        self.assertFalse(check.stem_found("дал", "предал"))
+        # основа короче трёх букв — только целым словом
+        self.assertTrue(check.stem_found("ел", "и ел он"))
+        self.assertFalse(check.stem_found("бо", "богохульствуй"))
+        self.assertFalse(check.stem_found("по", "попросила"))
+        self.assertTrue(check.stem_found("в живых", "сохранили в живых"))
+
+    def test_latin_word_needs_place_analysis(self):
+        rep = self.run_check(self.edited(5, t="erets", k="lat", s=None))
+        self.assertError(rep, "нет разбора места")
+
+    def test_translation_with_several_fits(self):
+        v = copy.deepcopy(GEN_1_1)
+        v["places"]["01nPh"] = {"fits": ["land", "other"], "why": "подходят два"}
+        rep = self.run_check(v)
+        self.assertError(rep, "подходят 2 значения, а слово переведено")
+        v["places"]["01nPh"]["covers"] = True  # русское слово сохраняет оба значения (правила, раздел 1)
+        rep = self.run_check(v)
+        self.assertFalse(any("а слово переведено" in e for e in rep.errors), rep.errors)
+
+    def test_same_russian_word_for_different_words(self):
+        def write(key, **extra):
+            data = {"key": key, "status": "draft", "notes": "", "history": HIST} | LEXICON[key] | extra
+            data["senses"] = [dict(s, ru="небеса") for s in data["senses"]]
+            (check.LEXICON / f"{key}.json").write_text(json.dumps(data, ensure_ascii=False), "utf-8")
+        write("776")
+        rep = self.run_check()
+        self.assertTrue(any("«небеса» — и у" in w for w in rep.warnings), rep.warnings)
+        write("776", sameRu=["8064"])
+        data = json.loads((check.LEXICON / "8064.json").read_text("utf-8")) | {"sameRu": ["776"]}
+        (check.LEXICON / "8064.json").write_text(json.dumps(data, ensure_ascii=False), "utf-8")
+        rep = self.run_check()
+        self.assertFalse(any("«небеса» — и у" in w for w in rep.warnings), rep.warnings)
+
     def test_missing_word_is_reported(self):
         v = copy.deepcopy(GEN_1_1)
         del v["spans"][5]

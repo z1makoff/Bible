@@ -1,7 +1,7 @@
 {
  "book": "Lev",
  "chapter": 25,
- "rules": "1.1",
+ "rules": "1.2",
  "status": "ready",
  "verses": [
   {
@@ -1349,11 +1349,11 @@
      "s": "day"
     },
     {
-     "t": "искуплений",
+     "t": "kippurim",
      "w": [
       "038Qr"
      ],
-     "s": "atonement"
+     "k": "lat"
     },
     {
      "t": "проведите",
@@ -1431,6 +1431,13 @@
       "horn"
      ],
      "why": "Как выше."
+    },
+    "038Qr": {
+     "fits": [
+      "purification",
+      "atonement"
+     ],
+     "why": "Kippurim — от kipper: «очищение» или «искупление». Не переводится, как и kipper (ваше решение от 24.10.2026)."
     }
    }
   },
