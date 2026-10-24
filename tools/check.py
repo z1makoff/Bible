@@ -252,7 +252,24 @@ def check_chapter(path, lex, rep, version):
             # причина (x) засчитывается только на служебном фрагменте самого союза, а не на любом фрагменте слова
             if not any(sp["t"].lower() == "и" or (sp.get("x") and sp.get("k") == "fn") for sp in sps):
                 rep.error(where, f"{w['tr']}: союз ve- не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
-        for wid, place in v.get("places", {}).items():
+        # Главное правило (раздел 1): латиница — с разбором места; перевод — если подходит одно значение
+        # или русское слово сохраняет все подходящие (covers)
+        places = v.get("places", {})
+        for wid, sps in by_word.items():
+            if wid not in all_words:
+                continue
+            w = all_words[wid]
+            if not any(lex.get(c, {}).get("kind") == "word" for c in content_lemmas(w)):
+                continue
+            place = places.get(wid)
+            if any(sp.get("k") == "lat" for sp in sps) and not place:
+                rep.error(where, f"{w['tr']} ({wid}): слово оставлено латиницей, но нет разбора места (places)")
+            fits = (place or {}).get("fits", [])
+            if (any(sp.get("k") is None and not sp.get("x") for sp in sps) and len(fits) > 1
+                    and not place.get("covers")):
+                rep.error(where, f"{w['tr']} ({wid}): по разбору места подходят {len(fits)} значения, а слово переведено; "
+                                 "нужна латиница или отметка covers (русское слово сохраняет их все)")
+        for wid, place in places.items():
             if wid not in all_words:
                 rep.error(where, f"разбор места: слова {wid} нет в стихе")
                 continue

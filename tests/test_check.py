@@ -111,6 +111,19 @@ class CheckGen11(unittest.TestCase):
         self.assertFalse(check.stem_found("по", "попросила"))
         self.assertTrue(check.stem_found("в живых", "сохранили в живых"))
 
+    def test_latin_word_needs_place_analysis(self):
+        rep = self.run_check(self.edited(5, t="erets", k="lat", s=None))
+        self.assertError(rep, "нет разбора места")
+
+    def test_translation_with_several_fits(self):
+        v = copy.deepcopy(GEN_1_1)
+        v["places"]["01nPh"] = {"fits": ["land", "other"], "why": "подходят два"}
+        rep = self.run_check(v)
+        self.assertError(rep, "подходят 2 значения, а слово переведено")
+        v["places"]["01nPh"]["covers"] = True  # русское слово сохраняет оба значения (правила, раздел 1)
+        rep = self.run_check(v)
+        self.assertFalse(any("а слово переведено" in e for e in rep.errors), rep.errors)
+
     def test_missing_word_is_reported(self):
         v = copy.deepcopy(GEN_1_1)
         del v["spans"][5]
