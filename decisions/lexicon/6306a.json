@@ -1,0 +1,27 @@
+{
+  "key": "6306a",
+  "kind": "word",
+  "display": "pidyom",
+  "senses": [
+    {
+      "id": "redemption",
+      "ru": "откуп",
+      "stems": [
+        "откуп"
+      ],
+      "gloss": "откуп: «серебро откупа» (Чис 3:49)",
+      "evidence": [
+        "Num.3.49"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Другое написание pidyon («откуп», Исх 21:30).",
+  "history": [
+    {
+      "date": "2026-10-22",
+      "by": "claude",
+      "change": "создано при подготовке Чис 3"
+    }
+  ]
+}
