@@ -48,9 +48,68 @@ function refLink(ref) {
   return `<a href="#/${b}/${c}/${v}">${esc(refLabel(ref))}</a>`;
 }
 
+// ---------- стол ----------
+
+// Трактаты на столе. Открытый трактат помнится в state.tract: возвращаясь на стол,
+// он анимацией закрывается.
+function deskTracts() {
+  const done = Object.values(state.prepared).reduce((n, chs) => n + Object.keys(chs).length, 0);
+  const read = Object.keys(state.progress).length;
+  const last = state.settings.last;
+  let cont = null;
+  if (last) {
+    const [b, c, v] = last.split(".");
+    cont = { label: `Продолжить: ${refLabel(last)}`, href: `#/${b}/${c}${v ? "/" + v : ""}` };
+  }
+  return [
+    { id: "ot", title: "Танах", sub: "Ветхий Завет", kind: "codex", href: "#/ot",
+      info: [`подготовлено глав: ${done}`, read ? `прочитано: ${read}` : ""].filter(Boolean).join(" · "), cont },
+    { id: "enoch", title: "Книга Еноха", sub: "1 Енох", kind: "scroll", href: "#/enoch", info: "перевод не начат" },
+    { id: "jub", title: "Юбилеи", sub: "позже", kind: "codex", later: true, info: "позже" },
+  ];
+}
+
+function renderDesk() {
+  $("#where").hidden = true;
+  $("#toggles").hidden = true;
+  $("#tractLink").hidden = true;
+  closeCard();
+  document.body.classList.add("on-desk");
+  const from = state.tract;
+  state.tract = null;
+  document.title = "Читалка";
+  Desk.show($("#main"), deskTracts(), { from, local: LOCAL, onOpen: (href) => { location.hash = href; } });
+}
+
+// Уход со стола в трактат: стол убирается, страница трактата проявляется.
+function enterTract(tract, showLink) {
+  const fromDesk = document.body.classList.contains("on-desk");
+  if (fromDesk) {
+    Desk.hide();
+    document.body.classList.remove("on-desk");
+    $("#main").classList.remove("from-desk");
+    void $("#main").offsetWidth;
+    $("#main").classList.add("from-desk");
+  }
+  state.tract = tract;
+  $("#tractLink").hidden = !showLink;
+}
+
+function renderEnoch() {
+  enterTract("enoch", false);
+  $("#where").hidden = true;
+  $("#toggles").hidden = true;
+  closeCard();
+  $("#main").innerHTML = `<section class="library"><h1>Книга Еноха</h1>
+    <p class="hint">Перевод ещё не начат. Сначала выбираем исходный текст — полностью книга сохранилась только на геэзе;
+    есть арамейские фрагменты из Кумрана и греческие главы — и дописываем для неё правила.</p></section>`;
+  document.title = "Книга Еноха";
+}
+
 // ---------- библиотека ----------
 
 function renderLibrary() {
+  enterTract("ot", false);
   $("#where").hidden = true;
   $("#toggles").hidden = true;
   closeCard();
@@ -119,6 +178,7 @@ async function importData(f) {
 
 function renderBook(id) {
   const b = state.byId[id];
+  enterTract("ot", true);
   $("#where").hidden = true;
   $("#toggles").hidden = true;
   closeCard();
@@ -140,6 +200,7 @@ async function openChapter(book, chapter, verse, lookup = false) {
   if (!b || chapter < 1 || chapter > b.chapters) return renderLibrary();
   const data = await api(`/api/chapter/${book}/${chapter}`);
   state.chapter = data;
+  enterTract("ot", true);
   $("#where").hidden = false;
   $("#toggles").hidden = false;
   $("#bookName").innerHTML = `<a href="#/${book}">${esc(b.name)}</a>`;
@@ -490,9 +551,11 @@ function route() {
   const lookup = state.lookup;
   state.lookup = false;
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
-  if (!parts.length) return renderLibrary();
+  if (!parts.length) return renderDesk();
+  if (parts[0] === "ot") return renderLibrary();
+  if (parts[0] === "enoch") return renderEnoch();
   const [book, ch, v] = parts;
-  if (!state.byId[book]) return renderLibrary();
+  if (!state.byId[book]) return renderDesk();
   if (!ch) return renderBook(book);
   const sameChapter = state.chapter && state.chapter.book === book && state.chapter.chapter === +ch && $("#where").hidden === false;
   if (sameChapter && v) {

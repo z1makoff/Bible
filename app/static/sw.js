@@ -4,7 +4,7 @@
 "use strict";
 
 const CACHE = "chitalka";
-const SHELL = ["./", "index.html", "style.css", "morph.js", "local.js", "app.js", "manifest.webmanifest",
+const SHELL = ["./", "index.html", "style.css", "morph.js", "desk.js", "local.js", "app.js", "manifest.webmanifest",
   "icons/icon-192.png", "data/books.json", "data/places.json"];
 
 self.addEventListener("install", (e) => {

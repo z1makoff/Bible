@@ -28,7 +28,8 @@ def main():
     d = server.Data()
     if SITE.exists():
         shutil.rmtree(SITE)
-    shutil.copytree(STATIC, SITE)
+    # 3D-стол (Three.js) — только для программы на компьютере; на сайте стол двумерный
+    shutil.copytree(STATIC, SITE, ignore=shutil.ignore_patterns("vendor", "desk3d.js"))
     (SITE / ".nojekyll").write_text("")
 
     # страница: подключить хранилище в браузере, манифест и офлайн-режим
