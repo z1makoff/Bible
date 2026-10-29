@@ -341,6 +341,28 @@ def check_interpretations(rep):
             rep.warn(f"книга/{book_id}", "файл на диске не совпадает с каталогом (SHA-256): другое издание или копия")
 
 
+def check_shared_ru(lex, rep):
+    """Правила, раздел 3: разные еврейские слова — разные русские. Совпадение `ru` у разных
+    статей допустимо, только если хотя бы одна из них называет другую в notes или gloss."""
+    by_ru = {}
+    for key, e in lex.items():
+        if e.get("kind") == "word":
+            for s in e.get("senses", []):
+                by_ru.setdefault(s.get("ru", "").strip().lower(), set()).add(key)
+
+    def text(e):
+        return " ".join([e.get("notes", "")] + [s.get("gloss", "") for s in e.get("senses", [])]).lower()
+
+    for ru, keys in sorted(by_ru.items()):
+        keys = sorted(keys)
+        for i, a in enumerate(keys):
+            for b in keys[i + 1:]:
+                ea, eb = lex[a], lex[b]
+                if eb["display"].lower() not in text(ea) and ea["display"].lower() not in text(eb):
+                    rep.warn(f"словарь/{a}, {b}", f"«{ru}» — и у {ea['display']}, и у {eb['display']}: "
+                                                  "развести или записать причину в notes (правила, раздел 3)")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     if not (CORPUS / "lexemes.json").exists():
@@ -359,6 +381,8 @@ def main():
         else:
             rep.error(path.name, "файла перевода нет")
     check_interpretations(rep)
+    if len(sys.argv) != 3:
+        check_shared_ru(lex, rep)
     for w in rep.warnings:
         print("предупреждение —", w)
     for e in rep.errors:

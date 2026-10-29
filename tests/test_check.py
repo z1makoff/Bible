@@ -194,5 +194,22 @@ class StemMatch(unittest.TestCase):
         self.assertFalse(check.stem_at_word_start("дн", "сегодня"))
 
 
+class SharedRussian(unittest.TestCase):
+    def lex(self, notes=""):
+        word = lambda key, display, n="": {"key": key, "kind": "word", "display": display, "notes": n,
+                                            "senses": [{"id": "x", "ru": "дело", "gloss": ""}]}
+        return {"1697": word("1697", "davar", notes), "4639": word("4639", "maaseh")}
+
+    def test_same_russian_word_warns(self):
+        rep = check.Report()
+        check.check_shared_ru(self.lex(), rep)
+        self.assertEqual(len(rep.warnings), 1)
+
+    def test_reason_in_notes_allows_it(self):
+        rep = check.Report()
+        check.check_shared_ru(self.lex("«дело» — как у maaseh: …"), rep)
+        self.assertEqual(rep.warnings, [])
+
+
 if __name__ == "__main__":
     unittest.main()
