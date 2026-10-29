@@ -265,3 +265,5 @@ form small { color: var(--muted); }
   }
   body.with-card main { padding-bottom: 75vh; }
 }
+.interp-elsewhere { margin-top: 8px; }
+.interp-elsewhere > .src { margin: 10px 0 2px; }

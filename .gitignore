@@ -7,3 +7,5 @@ user/server.log
 user/backups/
 site/
 *.lnk
+user/*.json
+user/*.jsonl

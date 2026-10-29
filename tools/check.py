@@ -121,6 +121,18 @@ def load_lexicon(rep):
     return entries
 
 
+def stem_at_word_start(stem, text):
+    """Основа ищется внутри слова (при-ходить, две-сти), но короткая (1–2 буквы) — только
+    в начале слова или после приставки (по-шли, на-поил): иначе «дн» находится в «сегодня»."""
+    stem, text = stem.lower(), text.lower()
+    if len(stem) > 2:
+        return stem in text
+    return re.search(r"(?<![а-яёa-z])" + RU_PREFIX + re.escape(stem), text) is not None
+
+
+RU_PREFIX = r"(?:в|во|вз|вс|вы|до|за|из|ис|на|над|о|об|от|ото|по|под|пере|при|про|раз|рас|с|со|у)?"
+
+
 def sense_of(span, wid):
     s = span.get("s")
     return s.get(wid) if isinstance(s, dict) else s
@@ -214,7 +226,7 @@ def check_chapter(path, lex, rep, version):
                         sense = next((s for s in e.get("senses", []) if s["id"] == sid), None)
                         if sense is None and not sp.get("x"):
                             rep.error(here, f"значение «{sid}» не найдено в словаре для {e['display']}")
-                        elif sense and not sp.get("x") and not any(st.lower() in sp["t"].lower() for st in sense["stems"]):
+                        elif sense and not sp.get("x") and not any(stem_at_word_start(st, sp["t"]) for st in sense["stems"]):
                             rep.error(here, f"для значения «{sid}» по словарю решений ожидается «{sense['ru']}»; "
                                             "если здесь иначе, нужно исключение с причиной (x)")
                 rendered.add(alt_of.get(wid, wid))

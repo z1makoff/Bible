@@ -234,6 +234,8 @@ function renderRussian(v, tv) {
   const parts = [];
   let prevNoSpace = true;
   const overridden = new Set();
+  const kq = new Set();  // слова с кетивом и кере: написано одно, читать велено другое
+  for (const w of v.words) if (w.ketiv) [w, ...(w.qere || [])].forEach((x) => kq.add(x.id));
   for (const sp of tv.spans) {
     const k = sp.k || "tr";
     const ids = sp.w || [];
@@ -247,7 +249,8 @@ function renderRussian(v, tv) {
     }
     const space = prevNoSpace || (k === "p" && NO_SPACE_BEFORE.has(sp.t)) ? "" : " ";
     prevNoSpace = k === "p" && NO_SPACE_AFTER.has(sp.t);
-    const mark = sp.g ? `<sup class="gmark" title="Грамматический выбор">◇</sup>` : "";
+    let mark = sp.g ? `<sup class="gmark" title="Грамматический выбор">◇</sup>` : "";
+    if (k !== "p" && ids.some((wid) => kq.has(wid))) mark += `<sup class="ketiv" title="Кетив и кере: написано одно, масореты велят читать другое (подробности — в карточке)">к</sup>`;
     const attrs = ids.length ? ` data-w="${esc(ids.join(" "))}" tabindex="0"` : "";
     parts.push(`${space}<span class="${cls}"${attrs}>${esc(text)}${mark}</span>`);
   }
@@ -410,20 +413,31 @@ function decisionBlock(lex) {
   return html;
 }
 
-function interpretationsBlock(lex) {
+function interpretationsBlock(lex, ref) {
   if (!lex.interpretations.length) return "";
-  return `<h3>Трактовки</h3>` + lex.interpretations.map((it) => {
-    const src = it.source || {};
-    const where = [src.chapter && `глава «${esc(src.chapter)}»`, src.section && esc(src.section), src.page && `с. ${esc(src.page)}`, src.time && esc(src.time),
-      src.url && `<a href="${esc(src.url)}" target="_blank" rel="noopener">ссылка</a>`].filter(Boolean).join(", ");
-    const quote = src.quote ? `<blockquote class="quote">«${esc(src.quote)}»${src.quoteRu ? `<br><small>${esc(src.quoteRu)}</small>` : ""}</blockquote>` : "";
-    return `<div class="interp"><p><b>${esc(it.tradition)}:</b> ${esc(it.claim)}</p>
-      <ul>${(it.support || []).map((s) => `<li><span class="grade">${esc(s.gradeRu)}</span> — ${esc(s.claim)}
-        ${s.for?.length ? `<br><small>за: ${s.for.map(refLink).join(", ")}</small>` : ""}
-        ${s.against?.length ? `<br><small>против: ${s.against.map(refLink).join(", ")}</small>` : ""}
-        ${s.note ? `<br><small>${esc(s.note)}</small>` : ""}</li>`).join("")}</ul>
-      <p class="src">Источник: <i>${esc(src.title)}</i>${src.edition ? `, ${esc(src.edition)}` : ""}${where ? `, ${where}` : ""}</p>${quote}</div>`;
-  }).join("");
+  // трактовка слова относится к своим местам; остальные — свёрнуты, с указанием мест
+  const isHere = (it) => !it.lemmas?.length || !it.places?.length || it.places.includes(ref);
+  const here = lex.interpretations.filter(isHere);
+  const elsewhere = lex.interpretations.filter((it) => !isHere(it));
+  let html = here.length ? `<h3>Трактовки этого места</h3>${here.map(interpretationHtml).join("")}` : "";
+  if (elsewhere.length) {
+    html += `<details class="interp-elsewhere"><summary>Трактовки этого слова в других местах <small>${elsewhere.length}</small></summary>
+      ${elsewhere.map((it) => `<p class="src">К месту: ${it.places.map(refLink).join(", ")}</p>${interpretationHtml(it)}`).join("")}</details>`;
+  }
+  return html;
+}
+
+function interpretationHtml(it) {
+  const src = it.source || {};
+  const where = [src.chapter && `глава «${esc(src.chapter)}»`, src.section && esc(src.section), src.page && `с. ${esc(src.page)}`, src.time && esc(src.time),
+    src.url && `<a href="${esc(src.url)}" target="_blank" rel="noopener">ссылка</a>`].filter(Boolean).join(", ");
+  const quote = src.quote ? `<blockquote class="quote">«${esc(src.quote)}»${src.quoteRu ? `<br><small>${esc(src.quoteRu)}</small>` : ""}</blockquote>` : "";
+  return `<div class="interp"><p><b>${esc(it.tradition)}:</b> ${esc(it.claim)}</p>
+    <ul>${(it.support || []).map((s) => `<li><span class="grade">${esc(s.gradeRu)}</span> — ${esc(s.claim)}
+      ${s.for?.length ? `<br><small>за: ${s.for.map(refLink).join(", ")}</small>` : ""}
+      ${s.against?.length ? `<br><small>против: ${s.against.map(refLink).join(", ")}</small>` : ""}
+      ${s.note ? `<br><small>${esc(s.note)}</small>` : ""}</li>`).join("")}</ul>
+    <p class="src">Источник: <i>${esc(src.title)}</i>${src.edition ? `, ${esc(src.edition)}` : ""}${where ? `, ${where}` : ""}</p>${quote}</div>`;
 }
 
 function occurrencesBlock(lex) {
@@ -473,11 +487,11 @@ async function openCard(wid) {
   html += `<h3>Ваше решение для этого места</h3>
     <form class="decision"><input name="text" placeholder="Как передать здесь" value="${esc(ud?.text || "")}">
     <input name="reason" placeholder="Почему (по желанию)" value="${esc(ud?.reason || "")}">
-    <button>Сохранить</button>${ud ? `<small>сохранено ${esc(ud.date.replace("T", " "))}; Claude учтёт его при подготовке следующих глав</small>` : ""}</form>`;
+    <button>Сохранить</button>${ud ? `<small>сохранено ${esc(ud.date.replace("T", " "))}; Claude сначала обсудит его с вами: применить везде или только здесь</small>` : ""}</form>`;
   for (const lx of lexes) {
     if (!lx) continue;
     html += `<section class="lexeme"><h2><span lang="he">${esc(lx.info.lemma || "")}</span> <i>${esc(lx.info.xlit || lx.key)}</i></h2>`;
-    html += decisionBlock(lx) + interpretationsBlock(lx) + occurrencesBlock(lx) + dictionariesBlock(lx.info);
+    html += decisionBlock(lx) + interpretationsBlock(lx, v.ref) + occurrencesBlock(lx) + dictionariesBlock(lx.info);
     html += `<h3>Ваша заметка к слову</h3><form class="note-form" data-target="lexeme:${esc(lx.key)}">
       <textarea name="text" rows="3" placeholder="Мысли, наблюдения, вопросы">${esc(lx.note?.text || "")}</textarea>
       <button>Сохранить</button></form></section>`;

@@ -182,5 +182,17 @@ class CheckGen11(unittest.TestCase):
         self.assertEqual(check.books.letters("dell’ac-\nqua «là-acque»"), check.books.letters("dell'acqua \"là acque\""))
 
 
+class StemMatch(unittest.TestCase):
+    def test_long_stem_inside_word(self):
+        self.assertTrue(check.stem_at_word_start("ход", "приходил"))
+
+    def test_short_stem_after_prefix(self):
+        self.assertTrue(check.stem_at_word_start("шл", "пошли"))
+        self.assertTrue(check.stem_at_word_start("дн", "дни"))
+
+    def test_short_stem_not_inside_other_word(self):
+        self.assertFalse(check.stem_at_word_start("дн", "сегодня"))
+
+
 if __name__ == "__main__":
     unittest.main()
