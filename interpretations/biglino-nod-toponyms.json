@@ -1,0 +1,44 @@
+{
+ "id": "biglino-nod-toponyms",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Gen.4.13",
+  "Gen.4.16"
+ ],
+ "claim": "Qayin, пишет Бильино, изгнан из Eden в землю Nod (Быт 4:13 и далее). Древние топонимы этой земли он помещает к востоку от места, которое считает возможным Eden. Дальше сопоставление названий, не вывод из стиха: много поселений до сих пор зовутся Noqdi или Noadi, «принадлежащий Noqd и Noad». Местность Keruhabad, «резиденция kheru», тоже к востоку; kheru он называет очень воинственным племенем, и по этому топониму keruvim были бы своего рода стражами территории к востоку от Eden. «Sarebbero» остаётся.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "о земле Nod",
+  "quote": "Caino viene esiliato nella terra di Nod",
+  "quoteRu": "Каин изгнан в землю Нод",
+  "checked": "2026-10-30"
+ },
+ "support": [
+  {
+   "claim": "Qayin уходит в землю Nod, к востоку от Eden.",
+   "grade": "entailed",
+   "for": [
+    "Gen.4.16"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Noqdi, Noadi и Keruhabad — те же имена, а keruvim были бы стражами к востоку.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Gen.4.16"
+   ],
+   "note": "Современных названий и племени kheru в тексте нет. Условное «sarebbero stati» — его. Стих называет только землю Nod."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-30",
+   "by": "grok",
+   "change": "создано: топонимическое сопоставление Nod, Noqdi, Keruhabad; не слито с вопросом о других людях"
+  }
+ ]
+}

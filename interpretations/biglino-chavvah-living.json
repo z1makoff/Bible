@@ -1,0 +1,43 @@
+{
+ "id": "biglino-chavvah-living",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "2332"
+ ],
+ "places": [
+  "Gen.3.20"
+ ],
+ "claim": "Слово chavvah, данное новой твари, пишет Бильино, значит поэтому «живущая», «мать живущих». Дальше он ставит это имя рядом с богиней ANUNNAKI, которая, по его словам, произвела бы новый вид. «Живая» и «мать всех живущих» — объяснение самого стиха; отождествление с богиней — его.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "chapter": "об имени chavvah",
+  "quote": "significa quindi la “vivente”, la “madre dei viventi”",
+  "quoteRu": "значит поэтому «живущая», «мать живущих»",
+  "checked": "2026-10-30"
+ },
+ "support": [
+  {
+   "claim": "Имя объяснено в стихе: она стала матерью всех живущих.",
+   "grade": "entailed",
+   "for": [
+    "Gen.3.20"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Chavvah — богиня ANUNNAKI, произведшая новый вид.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Так он сопоставляет. В Быт 3:20 богини нет. «Avrebbe prodotto» — его условное наклонение."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-30",
+   "by": "grok",
+   "change": "создано: имя Chavvah и его сопоставление с богиней ANUNNAKI; глосса «живая» в карточке уже есть"
+  }
+ ]
+}

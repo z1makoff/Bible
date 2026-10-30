@@ -265,13 +265,18 @@ function renderHebrew(v) {
   return `<p class="he" dir="rtl" lang="he">${words}</p>`;
 }
 
+function synText(text) {
+  return esc(text).replace(/\[[^\[\]]*\]/g, (m) =>
+    `<span class="synadd" title="Добавлено к еврейскому тексту, обычно из греческого перевода">${m}</span>`);
+}
+
 function renderSynodal(v) {
   if (!v.syn.length) return `<p class="syn empty">В Синодальном (по этому источнику) этого текста нет.</p>`;
   const [book, ch, n] = v.ref.split(".");
   return v.syn.map((s) => {
     const same = s.exact && String(s.c) === ch && String(s.v) === n;
     const label = same ? "" : `<span class="synref" title="${s.exact ? "Другой номер стиха" : "Границы стихов не совпадают"}">${s.exact ? "" : "≈ "}${s.c}:${s.v}</span> `;
-    return `<p class="syn">${label}${esc(s.text)}</p>`;
+    return `<p class="syn">${label}${synText(s.text)}</p>`;
   }).join("");
 }
 

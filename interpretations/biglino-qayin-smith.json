@@ -1,0 +1,52 @@
+{
+ "id": "biglino-qayin-smith",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "7014b"
+ ],
+ "places": [
+  "Gen.4.22"
+ ],
+ "claim": "О имени Tubal-Qayin Бильино пишет, что корень qayin значит «ковач, кузнец». Вместе с корнем yabal, «вести», имя, по его словам, указывало бы на того, кто начал, вёл и передал добычу и обработку металла. Это чтение имени в Быт 4:22, не рассказ о Qayin из Быт 4:1.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-e-sacro",
+  "chapter": "об имени Tubal-Qayin",
+  "quote": "la radice qayin infatti significa “forgiatore, fabbro”",
+  "quoteRu": "корень qayin значит «ковач, кузнец»",
+  "checked": "2026-10-30"
+ },
+ "support": [
+  {
+   "claim": "Tubal-Qayin — ковач всякого орудия из меди и железа.",
+   "grade": "entailed",
+   "for": [
+    "Gen.4.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Корень имени значит «кузнец».",
+   "grade": "plausible",
+   "for": [
+    "Gen.4.22"
+   ],
+   "against": [
+    "Gen.4.1"
+   ],
+   "note": "Стих описывает занятие Tubal-Qayin и корня не толкует. В Быт 4:1 имя Qayin объяснено через qaniti, «приобрела»."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-30",
+   "by": "grok",
+   "change": "создано: корень qayin «кузнец» у Tubal-Qayin; карточка не менялась"
+  },
+  {
+   "date": "2026-10-30",
+   "by": "claude",
+   "change": "встречная проверка: формулировка и места приведены к источнику и тексту"
+  }
+ ]
+}

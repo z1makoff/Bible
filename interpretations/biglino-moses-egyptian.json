@@ -1,0 +1,46 @@
+{
+ "id": "biglino-moses-egyptian",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Exod.2.19"
+ ],
+ "claim": "Moshe, пишет Бильино, по прямому утверждению самой Библии был египтянином. Ссылка в той же фразе — Исх 2:19.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-e-sacro",
+  "chapter": "об Исх 2:19",
+  "quote": "Mosè, per stessa affermazione biblica, era un egiziano",
+  "quoteRu": "Моисей, по прямому утверждению Библии, был египтянином",
+  "checked": "2026-10-30"
+ },
+ "support": [
+  {
+   "claim": "Дочери Reuel называют его египтянином.",
+   "grade": "entailed",
+   "for": [
+    "Exod.2.19"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Библия утверждает, что он был египтянином.",
+   "grade": "plausible",
+   "for": [
+    "Exod.2.19"
+   ],
+   "against": [
+    "Exod.2.1",
+    "Exod.2.11"
+   ],
+   "note": "В 2:19 это слова дочерей. В 2:1 он из дома Levi, в 2:11 выходит к своим братьям, сыновьям Israel."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-10-30",
+   "by": "grok",
+   "change": "создано по Исх 2:19: его формулировка «по утверждению самой Библии»"
+  }
+ ]
+}

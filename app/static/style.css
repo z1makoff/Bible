@@ -203,6 +203,7 @@ body.on-desk .desk-head h1 { color: var(--ink); }
 .syn { color: var(--muted); font-size: 15px; font-family: var(--serif); }
 .syn.empty { font-style: italic; }
 .synref { font-family: var(--sans); font-size: 12px; color: var(--accent); }
+.synadd { color: var(--accent); }
 .synonly { margin: 4px 0 8px; font-size: 14px; color: var(--muted); }
 .synonly summary { cursor: pointer; }
 .sel { background: var(--sel) !important; }
