@@ -95,7 +95,7 @@ for v in verses:
     v.clear()
     v.update(v_sorted)
 
-out = {"book": book, "chapter": chap, "rules": "1.1", "status": status, "verses": verses}
+out = {"book": book, "chapter": chap, "rules": "1.2", "status": status, "verses": verses}
 path = root / f"translations/ot/{book}/{chap:03d}.json"
 path.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", "utf-8")
 print(f"{path.name}: стихов {len(verses)}")

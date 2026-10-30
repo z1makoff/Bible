@@ -173,6 +173,14 @@ class CheckGen11(unittest.TestCase):
         rep = self.run_check(interpretation=self.interpretation(**self.book_source(page="12")))
         self.assertError(rep, "нет печатных страниц")
 
+    def test_grade_without_places_needs_source_in_note(self):
+        self.with_book(found=True)
+        it = self.interpretation(**self.book_source())
+        it["support"] = [{"claim": "Внешний факт", "grade": "supported"}]
+        self.assertError(self.run_check(interpretation=it), "нет мест в пользу")
+        it["support"][0]["note"] = "Геродот 2.59"
+        self.assertEqual(self.run_check(interpretation=it).errors, [])
+
     def test_russian_book_needs_no_translation(self):
         self.with_book(found=True, lang="ru")
         rep = self.run_check(interpretation=self.interpretation(**self.book_source(quoteRu="")))

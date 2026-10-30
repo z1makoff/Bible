@@ -333,6 +333,8 @@ def check_interpretations(rep):
         for s in it.get("support", []):
             if s.get("grade") not in GRADES:
                 rep.error(where, f"неизвестная оценка «{s.get('grade')}»")
+            if s.get("grade") in ("entailed", "strong", "supported") and not s.get("for") and not str(s.get("note", "")).strip():
+                rep.error(where, f"«{s.get('claim')}»: нет мест в пользу и нет источника в пояснении (правила, раздел 6)")
             for ref in s.get("for", []) + s.get("against", []):
                 if not ref_exists(ref):
                     rep.error(where, f"места {ref} нет в корпусе")

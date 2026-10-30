@@ -1,7 +1,7 @@
 {
  "book": "Exod",
  "chapter": 38,
- "rules": "1.1",
+ "rules": "1.2",
  "status": "ready",
  "verses": [
   {
@@ -3893,11 +3893,11 @@
    "n": 26,
    "spans": [
     {
-     "t": "половина",
+     "t": "beqa",
      "w": [
       "02i3K"
      ],
-     "s": "half"
+     "k": "lat"
     },
     {
      "t": "на",
@@ -4139,9 +4139,9 @@
    "places": {
     "02i3K": {
      "fits": [
-      "half"
+      "weight"
      ],
-     "why": "Beqa — половина sheqel (сказано здесь же)."
+     "why": "Beqa — мера веса: сам текст поясняет — «половина sheqel»."
     },
     "02ZtQ": {
      "fits": [
