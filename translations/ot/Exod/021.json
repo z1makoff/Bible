@@ -3228,11 +3228,11 @@
      "k": "ins"
     },
     {
-     "t": "жизнь",
+     "t": "nefesh",
      "w": [
       "02MHW"
      ],
-     "s": "life"
+     "k": "lat"
     },
     {
      "t": "за",
@@ -3242,11 +3242,11 @@
      "k": "fn"
     },
     {
-     "t": "жизнь",
+     "t": "nefesh",
      "w": [
       "02pjb"
      ],
-     "s": "life"
+     "k": "lat"
     },
     {
      "t": ",",
@@ -3256,9 +3256,17 @@
    "places": {
     "02MHW": {
      "fits": [
+      "being",
       "life"
      ],
-     "why": "Nefesh tachat nafesh — «nefesh за nefesh»: здесь — жизнь за жизнь."
+     "why": "Nefesh tachat nafesh — «nefesh за nefesh»: «жизнь за жизнь» или «существо за существо». Текст не выбирает."
+    },
+    "02pjb": {
+     "fits": [
+      "being",
+      "life"
+     ],
+     "why": "Nefesh tachat nafesh — «nefesh за nefesh»: «жизнь за жизнь» или «существо за существо». Текст не выбирает."
     }
    }
   },
