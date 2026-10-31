@@ -28,7 +28,7 @@
   },
   {
    "claim": "Голос слышен оттуда.",
-   "grade": "supported",
+   "grade": "entailed",
    "for": [
     "Num.7.89"
    ],
@@ -47,6 +47,11 @@
    "date": "2026-10-21",
    "by": "claude",
    "change": "создано при подготовке Исх 25, отрывок проверен по тексту"
+  },
+  {
+   "date": "2026-10-31",
+   "by": "claude",
+   "change": "Чис 7:89 entailed, как в biglino-num7-radio"
   }
  ]
 }
