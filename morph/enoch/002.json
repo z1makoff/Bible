@@ -1,0 +1,855 @@
+{
+  "chapter": 2,
+  "words": {
+    "e00142": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ጠየቁ",
+          "lemma": "L98e472f177914ffc85f95eae26d6897d",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, повелительное, вы",
+      "alts": [],
+      "note": "Повелительное мн. от ጠየቀ n=9037 «наблюдать», не имя ጥያቄ. Дильман цитирует стих."
+    },
+    "e00143": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲሎ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение, винительный",
+      "alts": [],
+      "note": ""
+    },
+    "e00144": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ውስተ",
+          "lemma": "L0085d4db9ff047f19e2506f048330c4e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
+    },
+    "e00145": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሰማይ",
+          "lemma": "La9bb24a0fe584281803afce3dc50409e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00146": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ግብረ",
+          "lemma": "L9f89a626df3640bea98e416571edcf62",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, сопряжённая форма",
+      "alts": [],
+      "note": "Имя ግብር n=8427 «дело». Черновик поставил глагол ገብረ: в этом стихе речь о делах на небе, греч. ἔργα."
+    },
+    "e00147": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እፎ",
+          "lemma": "L3be4b6158a7a4931bf27d4266398411c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e00148": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይመይጡ",
+          "lemma": "L4817a44defe84dd586decc251784c989",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": "Отрицание ኢ, код i, он не из списка OSHB. Глагол ሜጠ n=1574 «свернуть с пути». Дильман цитирует стих."
+    },
+    "e00149": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ፍናዊ",
+          "lemma": "Le502c7c7edb2441ca2cc1dcdb07262a2",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3mp"
+        }
+      ],
+      "gram": "имя с «их»",
+      "alts": [],
+      "note": "Множественное ፍኖት n=10027 «путь»: ፍናዌ. Не имя деятеля ፈናዊ n=10029 «посылающий»."
+    },
+    "e00150": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ብርሃናት",
+          "lemma": "L0ee2b800080f412d8b790033155f64ed",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, множественное",
+      "alts": [],
+      "note": ""
+    },
+    "e00151": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ውስተ",
+          "lemma": "L0085d4db9ff047f19e2506f048330c4e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
+    },
+    "e00152": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሰማይ",
+          "lemma": "La9bb24a0fe584281803afce3dc50409e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00153": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": "Дильман цитирует 1En.2.1 при ከመ n=6045."
+    },
+    "e00154": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲሉ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": ""
+    },
+    "e00155": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ይሠርቅ",
+          "lemma": "L18fc9f9a4c3c41b889d0004fb95057c6",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, он",
+      "alts": [],
+      "note": ""
+    },
+    "e00156": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "የዐርብ",
+          "lemma": "L1a395a94d6c74c91a8f1d28b64cf1ab2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": "ዐርበ n=7006 «заходить» о светилах. Греческий δύνει. Рядом የዐርፍ в 2:3 — другой корень."
+    },
+    "e00157": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሥሩዕ",
+          "lemma": "L747e181c7a91441e9e52fccf7b8463dc",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": "Дильман прямо цитирует Hen. 2,1 при ሥሩዕ."
+    },
+    "e00158": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲሉ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": ""
+    },
+    "e00159": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "በበ",
+          "lemma": "L1efb93b69ec7499dae62a79b6374fbd3",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ዘመኑ",
+          "lemma": "Lc784361c443c49eeb284367dd60a0575",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог «каждый» и имя с «его»",
+      "alts": [],
+      "note": "በበ n=3742 — удвоенный предлог «каждый», не две приставки b. «Его» при ዘመን слито. Омограф n=3981 отсылает к በ."
+    },
+    "e00160": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይትዐደዉ",
+          "lemma": "Lbd629c35f12e46fd87f8e20a92f5f735",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": "ተዐደወ n=7328, Дильман цитирует стих. Греческий οὐ παραβαίνουσιν. ኢ — код i."
+    },
+    "e00161": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ትእዛዞሙ",
+          "lemma": "L3b10bc00743d4756a71f8bb7d16e3568",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя с «их»",
+      "alts": [],
+      "note": "ትእዛዝ. «Их» слито в ዞሙ, отдельного ኦሙ нет. Дильман цитирует стих."
+    },
+    "e00162": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርእይ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ዋ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "В статье ርእየ n=2239 инфинитив ርእይ (или ርኢይ), императив ርኢ, реже ረአይ. Написано ርእይ, не ርኢ, поэтому повелительным не называю. ዋ отделяю: основа ርእይ в статье есть. Код S3fs в таблице — ሃ, не ዋ, на ዋ код не ставлю."
+    },
+    "e00163": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00164": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ለብዉ",
+          "lemma": "Ldaef50a7325a448bad3fa139184ad2b6",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, повелительное, вы",
+      "alts": [],
+      "note": "ለበወ n=300 «уразуметь», отыменный от ልብ. Дильман цитирует стих. Не само имя ልብ."
+    },
+    "e00165": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "በእንተ",
+          "lemma": "L28238a9be00149149a590a1213abc558",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
+    },
+    "e00166": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ምግባር",
+          "lemma": "L0d2d1b4b8a7c42aa89fe21175b70c2b8",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00167": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ይትገበር",
+          "lemma": "Lb213c4538b5a4734a7d0cbe4a0d4b644",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, он",
+      "alts": [],
+      "note": "ተገብረ n=8423 «делаться». Дильман цитирует стих. Сосед n=8424 — другое написание той же породы, в стихе его нет."
+    },
+    "e00168": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ላዕሌ",
+          "lemma": "L45f28ef0825d41548a97d227905caf43",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሃ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3fs"
+        }
+      ],
+      "gram": "предлог с «неё»",
+      "alts": [],
+      "note": ""
+    },
+    "e00169": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ቀዳሚ",
+          "lemma": "L9f75acc4ce5b4f7bb0bb3a3fb8efebee",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "прилагательное",
+      "alts": [],
+      "note": ""
+    },
+    "e00170": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እስከ",
+          "lemma": "Lc4c5c8312cfe4225b18affaa4849704c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
+    },
+    "e00171": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ተፍጻሜቱ",
+          "lemma": "Le83c059c7f624571a0a1df93709da274",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя с «его»",
+      "alts": [],
+      "note": "Имя ተፍጻሜት. В выгрузке статьи короткое «subst.». «Его» слито. Дильман цитирует стих, греч. τελειώσεως."
+    },
+    "e00172": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": ""
+    },
+    "e00173": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይትመየጥ",
+          "lemma": "Lc818b61b516745bf94bda22905dbd887",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, он",
+      "alts": [],
+      "note": "Отрицание непрошедшего пишется እይ-, код i на እ. ተመይጠ n=1575 «изменяться»."
+    },
+    "e00174": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲሉ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": ""
+    },
+    "e00175": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ግብሩ",
+          "lemma": "L9f89a626df3640bea98e416571edcf62",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя с «его»",
+      "alts": [],
+      "note": "Имя ግብር, не глагол ገብረ. «Его» слито."
+    },
+    "e00176": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "አምላክ",
+          "lemma": "L7c99f92ff886464e8afcbb4dac3d243a",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00177": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እንዘ",
+          "lemma": "L3960568be0164b6d81d5e9e7edefca41",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": ""
+    },
+    "e00178": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ያስተርኢ",
+          "lemma": "Lf46d199b4f634717aef16ce076efd67c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, он",
+      "alts": [],
+      "note": ""
+    },
+    "e00179": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርእይ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ዎ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "Как e00162: в статье инфинитив ርእይ, императив ርኢ. Дильман цитирует стих. ዎ отделяю, потому что основа известна. Кода на ዎ нет: S3ms в таблице — ሁ."
+    },
+    "e00180": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ሐጋይ",
+          "lemma": "Lb27f6aa0199c44b68b03697495f9e936",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00181": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ክረምት",
+          "lemma": "Lbb15d2f5a25a48859ce54e6275ceef58",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00182": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": ""
+    },
+    "e00183": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲላ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": "ኲላ здесь форма ኵሉ при женском «земля», не κόλλα n=11732."
+    },
+    "e00184": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00185": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "መልአት",
+          "lemma": "L340972bdc1394754bdc683cd53df69ea",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, прошедшее, она",
+      "alts": [],
+      "note": "Прошедшее, она, от መልአ n=1086 «наполняться». Имя действия ምልአት n=1093 начинается с ም."
+    },
+    "e00186": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ማየ",
+          "lemma": "La2d7972c05aa4f869136a410748aa336",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, сопряжённая форма",
+      "alts": [],
+      "note": ""
+    },
+    "e00187": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ደመና",
+          "lemma": "L860c435bed3744cbb165f6bfdb724dde",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00188": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ጠል",
+          "lemma": "L01e365034d3a42b393588c6b46569069",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00189": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዝናም",
+          "lemma": "Lcb03aa2823b443079dec862549ed34bf",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e00190": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "የዐርፍ",
+          "lemma": "L89c172304b44438584149fed1c5268e3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, сослагательное, они",
+      "alts": [],
+      "note": "Ближе неиспользуемый корень ዐረፈ n=7050 «ослабеть, покоиться»: Дильман сам сомневается, его ли форма ይዕርፍ в Юбилеях. Последняя согласная ፈ, не ብ корня ዐርበ «заходить». У Смирнова «стелются»."
+    },
+    "e00191": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ላዕሌ",
+          "lemma": "L45f28ef0825d41548a97d227905caf43",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሃ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3fs"
+        }
+      ],
+      "gram": "предлог с «неё»",
+      "alts": [],
+      "note": ""
+    }
+  }
+}

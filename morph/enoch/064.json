@@ -1,0 +1,511 @@
+{
+  "chapter": 64,
+  "words": {
+    "e07319": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ካልአ",
+          "lemma": "L129e367ac7db407e9c0faddd0284f402",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e07320": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ገጻተ",
+          "lemma": "Le23f119b061b4deb83e87e5c2b4c31e7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e07321": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e07322": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ውእቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e07323": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "መካን",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2d60420452f6408da882a3445c067153",
+        "L7936096aa0fc48b09392a135351dd0d6",
+        "Lceb06f9b6a874cda8fa7066cc3148a07",
+        "Lba6d08d1562941028b2f08ead6c76980"
+      ],
+      "note": "несколько статей; кандидаты: መካን n=1457, መካን n=6296, ኮነ n=6290, መካን n=1458"
+    },
+    "e07324": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኅቡኣተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L0074461bfdae464a9a8c6dceca6525b6"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ኅብአት n=4567"
+    },
+    "e07325": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ሰማዕኩ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e07326": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ቃሎ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2c5bfc3044484aa2813a09dd67ad700c",
+        "L7fa30a8c7f6b4422b8edd7dd1de0e493",
+        "L968149f7fc1748479a9f8482bc3f49c0",
+        "L999b9fce8b9f49778705c18e2906e6e5",
+        "Lc7d3c7da23cb47818e85c825a1182b3a"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ቆለ n=3541, ቃል n=3174, ቃል n=3542, ቆሊ n=11568, ቁል n=12092"
+    },
+    "e07327": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "መልአክ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7f7ffeec8f4f44d983ddc4264d4312be",
+        "L2d888571de8f44f4be1bcbf281c2b25a",
+        "La7006ebc3af1491689e88bfad74f11d5"
+      ],
+      "note": "несколько статей; кандидаты: መልአክ n=352, ለአከ n=346, መልአክ n=1096"
+    },
+    "e07328": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እንዘ",
+          "lemma": "L3960568be0164b6d81d5e9e7edefca41",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e07329": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይብል",
+          "lemma": "L3b4d830677ef46c0beaf9f1c172d2d24",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ብህለ n=3743"
+    },
+    "e07330": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እሉ",
+          "lemma": "L9361340426b043f5a9264104cbf3c5c6",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Labd2d88590b04984a1901a61c7ad9f77"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидат по отсылке: ዝ n=7440"
+    },
+    "e07331": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እሙንቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lc162b97441554a01b8d7f69294ab9347"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидат по отсылке: ውእቱ n=6672"
+    },
+    "e07332": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መላእክት",
+          "lemma": "L7f7ffeec8f4f44d983ddc4264d4312be",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e07333": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L9fa031f31b5e47599137f54201b3068f",
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1",
+        "Ldbcd9df387794613b6e6ba62a0c8e2dc",
+        "L5641c39fe8ec478e8146f253d604d2d8",
+        "L9361340426b043f5a9264104cbf3c5c6"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዘ n=7439, ዘ n=7441, ዘ n=7442, እለ n=5381, እሌ n=12500, ዝ n=7440"
+    },
+    "e07334": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወረዱ",
+          "lemma": "L95fc07a7dfdd40eeb40419f92caaa983",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e07335": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ሰማይ",
+          "lemma": "La9bb24a0fe584281803afce3dc50409e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e07336": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዲበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L03c70b7d960f4653b5f5848c5fcf8bcd",
+        "L1d8dc94ceacd4d86b129dc55467e5153",
+        "L8f92a72612064876a02ff76b898060a5",
+        "Lde89114a448443288501676170a0fd36",
+        "La20bb427626a4df1ba791e105f4aa89c"
+      ],
+      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+    },
+    "e07337": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e07338": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ኅቡእ",
+          "lemma": "L5b2c8c178e8f423a9b4540cf523a0b0f",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e07339": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ከሠቱ",
+          "lemma": "Lf732da2504af4565891247f1828a7351",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e07340": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ውሉደ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L5de49ada412d4d12ba5044087a800c95",
+        "Lc6d9143b27b64210abbcb33a1ebae48b"
+      ],
+      "note": "несколько статей; кандидаты: ውሉድ n=6435, ወልድ n=6436"
+    },
+    "e07341": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ሰብእ",
+          "lemma": "L5ddf72830e2c4c86884379045eb1271e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e07342": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "አስሐትዎሙ",
+          "lemma": "Le4e3ea820a2c431d8ce0f19210e0b90b",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e07343": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ውሉደ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L5de49ada412d4d12ba5044087a800c95",
+        "Lc6d9143b27b64210abbcb33a1ebae48b"
+      ],
+      "note": "несколько статей; кандидаты: ውሉድ n=6435, ወልድ n=6436"
+    },
+    "e07344": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ሰብእ",
+          "lemma": "L5ddf72830e2c4c86884379045eb1271e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e07345": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L22c2e71ac6c0443e8f05d480b3ac9e85",
+        "L5724e47151364d91bd5e63d589c0ffd9",
+        "Lcddc0aae60324baa9922c63b7c27b716",
+        "L6e84824fe2e1492692a9ea37e104f6eb"
+      ],
+      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+    },
+    "e07346": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ይግበሩ",
+          "lemma": "L0eb8ac47c3fe4e9db66fdff97a061550",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e07347": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ኀጢአተ",
+          "lemma": "L4002a457b5f34b96affaa1b22401bad8",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    }
+  }
+}

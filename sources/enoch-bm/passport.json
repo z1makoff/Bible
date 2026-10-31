@@ -1,0 +1,19 @@
+{
+  "id": "enoch-bm",
+  "title": "Beta maṣāḥǝft — LIT1340EnochE, эфиопская Книга Еноха (ed1 Дильман 1851 и EOTCed)",
+  "role": "Базовый текст Книги Еноха (ed1) и церковный вариант (EOTCed)",
+  "language": "gez",
+  "witness": "ed1: издание Дильмана 1851, оцифровка Ерабека 1995; EOTCed: печатная Библия Эфиопской церкви",
+  "license": "Файл TEI: «This file is licensed under the Creative Commons Attribution-ShareAlike 4.0.» (http://creativecommons.org/licenses/by-sa/4.0/). Текст edition 1: «1995 Library of Ethiopian Texts, created and maintained by Michal Jerabek, Prague. Permission to use, copy, and distribute this text, for any NONCOMMERCIAL purpose is hereby granted without fee, provided that the copyright notice and this permission notice appear in all copies of this text. This text cannot be sold under any circumstances.»",
+  "attribution": "Beta maṣāḥǝft, Hiob-Ludolf-Zentrum für Äthiopistik; ed1: Michal Jerabek, 1995 Library of Ethiopian Texts; Unicode: Ran HaCohen. Уведомление Ерабека сохраняется при любой копии.",
+  "origin": "https://github.com/BetaMasaheft/Works/blob/e99e697ce7f56b34a2ba740c078c257fd0e175d9/1001-2000/LIT1340EnochE.xml",
+  "version": "e99e697ce7f56b34a2ba740c078c257fd0e175d9",
+  "files": [
+    {
+      "name": "LIT1340EnochE.xml",
+      "url": "https://raw.githubusercontent.com/BetaMasaheft/Works/e99e697ce7f56b34a2ba740c078c257fd0e175d9/1001-2000/LIT1340EnochE.xml",
+      "bytes": 713504,
+      "sha256": "61dd5b372894e54c10f661740d0dd3fbfbfaeef4c99c55690eed4b4aae03f6d9"
+    }
+  ]
+}

@@ -1,0 +1,3530 @@
+{
+  "chapter": 41,
+  "words": {
+    "e04286": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "እምድኅረዝ",
+          "lemma": "L42d96d0518834126988ce37d21ff899d",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04287": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04288": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኲሎ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; кандидаты: ኵሉ n=5982"
+    },
+    "e04289": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኅብኣቲሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L0074461bfdae464a9a8c6dceca6525b6"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ኅብአት n=4567"
+    },
+    "e04290": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ሰማያት",
+          "lemma": "La9bb24a0fe584281803afce3dc50409e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04291": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወመንግሥት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lbdac1a43440f45af94de46be5561a32f",
+        "Lce6ea021cf544beca5cc60c2f297d1ad"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: ወ+መንግሥት | ወ+መንግሥት; кандидаты: መንግሥት n=5194, መንግሥ n=12665"
+    },
+    "e04292": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እፎ",
+          "lemma": "L3be4b6158a7a4931bf27d4266398411c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04293": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ትትከፈል",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lc12543e3680e4541a4f3db3f8a7c40ab",
+        "L41728c1bd20f4e39b745486931843f19"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ተከፍለ n=6374, ተካፈለ n=6375"
+    },
+    "e04294": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ተግባረ",
+          "lemma": "Lb10b54b3272c4c4faeab2f6604f3621c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04295": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ሰብእ",
+          "lemma": "L5ddf72830e2c4c86884379045eb1271e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04296": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L22c2e71ac6c0443e8f05d480b3ac9e85",
+        "L5724e47151364d91bd5e63d589c0ffd9",
+        "Lcddc0aae60324baa9922c63b7c27b716",
+        "L6e84824fe2e1492692a9ea37e104f6eb"
+      ],
+      "note": "несколько статей; Дильман ссылается на этот стих; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+    },
+    "e04297": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በመዳልው",
+          "lemma": "Lf95a0d1ab77d4ee0a886bf4f410b0b27",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e04298": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይደለዉ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L3a55eab77ac74ce28432ca0d28e9c5ed",
+        "L5b251504c85d447eb2502bcd272fd0d5"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ደለወ n=7803, ደለወ n=7802"
+    },
+    "e04299": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በህየ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld9c2ec598c0241bb990a569a1a6d1010"
+      ],
+      "note": "несколько нарезок; нарезки: በ+ህየ | በህየ; кандидаты: ህየ n=74"
+    },
+    "e04300": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04301": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ማኅደሪሆሙ",
+          "lemma": "L75c8b48a3e2b45e9baa1d1ef9b7f142e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04302": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ኅሩያን",
+          "lemma": "L6cb8be842c0f4e1da6e09ecaee7240e6",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04303": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ማኅደሪሆሙ",
+          "lemma": "L75c8b48a3e2b45e9baa1d1ef9b7f142e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04304": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ቅዱሳን",
+          "lemma": "Lc3a34881860047b1938fb94f0b0d52db",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04305": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ርእያ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04306": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "አዕይንት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "የ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S1cs"
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lb284a617c02042bf978e8cd468993adb"
+      ],
+      "note": "окончание двусмысленно; ኒ или የ не отделяю уверенно: на глаголе ኒ — n=4755, энклитика тоже возможна; кандидаты: ዐይን n=7297"
+    },
+    "e04307": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በህየ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld9c2ec598c0241bb990a569a1a6d1010"
+      ],
+      "note": "несколько нарезок; нарезки: በ+ህየ | በህየ; кандидаты: ህየ n=74"
+    },
+    "e04308": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኲሎሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L34d5574842584f8f81d2803036df50fd"
+      ],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: ኲሎሙ | ኲሎ+ሙ; окончание отделено, потому что основа известна; роль окончания не auto; кандидаты: ኵሉ n=5982"
+    },
+    "e04309": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ኃጥኣን",
+          "lemma": "Ldbf4db65aff4434f8804d18fc6bbcde3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04310": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እንዘ",
+          "lemma": "L3960568be0164b6d81d5e9e7edefca41",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04311": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይሰደዱ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7d29989f2b2a432892304c6a47602736"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ሰደደ n=3044"
+    },
+    "e04312": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እምህየ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld9c2ec598c0241bb990a569a1a6d1010"
+      ],
+      "note": "несколько нарезок; нарезки: እም+ህየ | እምህየ; кандидаты: ህየ n=74"
+    },
+    "e04313": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L9fa031f31b5e47599137f54201b3068f",
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1",
+        "Ldbcd9df387794613b6e6ba62a0c8e2dc",
+        "L5641c39fe8ec478e8146f253d604d2d8",
+        "L9361340426b043f5a9264104cbf3c5c6"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዘ n=7439, ዘ n=7441, ዘ n=7442, እለ n=5381, እሌ n=12500, ዝ n=7440"
+    },
+    "e04314": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይክህድዎ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04315": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ስመ",
+          "lemma": "L243ee3d27a9f4b1dbf648087aea8d6de",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04316": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እግዚአ",
+          "lemma": "Le9f92384b9f140fd96e8db2de778f150",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04317": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መናፍስት",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04318": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ይስሕብዎሙ",
+          "lemma": "L8207eed39cac499fbc1a66a02e34a1c2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04319": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ቀዊም",
+          "lemma": "Lfa90c71d325746faa25919fcd8fcd910",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "прилагательное",
+      "alts": [],
+      "note": ""
+    },
+    "e04320": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "አልቦሙ",
+          "lemma": "L54b8b8537676435b8388f3bc365148d2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04321": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በመቅሠፍት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L1496c4cb783c44f3aac5c6631d5e7328",
+        "L1cf7de2529624ab5808a199adf05ff18"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: በ+መቅሠፍት | በመቅሠፍት; кандидаты: መቅሠፍት n=3289, ምቅሣፍ n=3290"
+    },
+    "e04322": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እንተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1",
+        "Lcddc0aae60324baa9922c63b7c27b716",
+        "L5724e47151364d91bd5e63d589c0ffd9"
+      ],
+      "note": "несколько статей; кандидаты: ዘ n=7439, ዘ n=7441, ዘ n=7442, እንተ n=5741, እንተ n=5740"
+    },
+    "e04323": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ትወጽእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L834137d95b66470188aca347a062ce4d"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ተወጽአ n=6865"
+    },
+    "e04324": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "እግዚአ",
+          "lemma": "Le9f92384b9f140fd96e8db2de778f150",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04325": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መናፍስት",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04326": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ህየ",
+          "lemma": "Ld9c2ec598c0241bb990a569a1a6d1010",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04327": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ርእያ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04328": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "አዕይንት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "የ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S1cs"
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lb284a617c02042bf978e8cd468993adb"
+      ],
+      "note": "окончание двусмысленно; ኒ или የ не отделяю уверенно: на глаголе ኒ — n=4755, энклитика тоже возможна; кандидаты: ዐይን n=7297"
+    },
+    "e04329": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኅቡአተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld3e3f075d9694e398e9277f76cc7b723",
+        "L0074461bfdae464a9a8c6dceca6525b6"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ኀበ n=4534, ኅብአት n=4567"
+    },
+    "e04330": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መባርቅት",
+          "lemma": "L458570b234f7412f8f3f8303effb0ea1",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04331": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ነጐድጓድ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "La4a778ef97904939abf0c34b95d09cd5",
+        "Le827a3dba49140aaaf98591419040a4a",
+        "L3e6456432f9544daae88e83dc57b6985"
+      ],
+      "note": "несколько статей; Дильман ссылается на этот стих; кандидаты: ጐድጐደ n=8700, ነጐድጓድ n=8702, ነጐድጓድ n=5233"
+    },
+    "e04332": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኅቡአተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld3e3f075d9694e398e9277f76cc7b723",
+        "L0074461bfdae464a9a8c6dceca6525b6"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ኀበ n=4534, ኅብአት n=4567"
+    },
+    "e04333": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ነፋሳት",
+          "lemma": "Lfdbfad004e8e493c86b1dc2e70e62d51",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04334": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እፎ",
+          "lemma": "L3be4b6158a7a4931bf27d4266398411c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04335": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ይትከፈሉ",
+          "lemma": "L41728c1bd20f4e39b745486931843f19",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": ""
+    },
+    "e04336": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L22c2e71ac6c0443e8f05d480b3ac9e85",
+        "L5724e47151364d91bd5e63d589c0ffd9",
+        "Lcddc0aae60324baa9922c63b7c27b716",
+        "L6e84824fe2e1492692a9ea37e104f6eb"
+      ],
+      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+    },
+    "e04337": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይንፍሑ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L6231b0d8e84d4dd18807c26726c687de"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ነፍኀ n=5347"
+    },
+    "e04338": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዲበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L03c70b7d960f4653b5f5848c5fcf8bcd",
+        "L1d8dc94ceacd4d86b129dc55467e5153",
+        "L8f92a72612064876a02ff76b898060a5",
+        "Lde89114a448443288501676170a0fd36",
+        "La20bb427626a4df1ba791e105f4aa89c"
+      ],
+      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+    },
+    "e04339": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04340": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኅቡአተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld3e3f075d9694e398e9277f76cc7b723",
+        "L0074461bfdae464a9a8c6dceca6525b6"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ኀበ n=4534, ኅብአት n=4567"
+    },
+    "e04341": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ደመናት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7b6df210138c4262b3ff6da400309b66",
+        "L860c435bed3744cbb165f6bfdb724dde"
+      ],
+      "note": "несколько статей; кандидаты: ደመነ n=7875, ደመና n=7880"
+    },
+    "e04342": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ጠል",
+          "lemma": "L01e365034d3a42b393588c6b46569069",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04343": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ህየ",
+          "lemma": "Ld9c2ec598c0241bb990a569a1a6d1010",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04344": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04345": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እምኀበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L4dd11e7976f1410d860dbfa338a18c49",
+        "Ld3e3f075d9694e398e9277f76cc7b723"
+      ],
+      "note": "несколько нарезок; несколько статей; Дильман ссылается на этот стих; нарезки: እም+ኀበ | እምኀበ; кандидаты: ኀበ n=4532, ኀበ n=4534"
+    },
+    "e04346": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይወጽእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L3df865c656c241fdb4def86b01741d6a",
+        "L647c7cc975c0462aa73d80eb3d52901b"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ወጽአ n=6864, ወፅአ n=6870"
+    },
+    "e04347": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ውእቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04348": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "መካን",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2d60420452f6408da882a3445c067153",
+        "L7936096aa0fc48b09392a135351dd0d6",
+        "Lceb06f9b6a874cda8fa7066cc3148a07",
+        "Lba6d08d1562941028b2f08ead6c76980"
+      ],
+      "note": "несколько статей; кандидаты: መካን n=1457, መካን n=6296, ኮነ n=6290, መካን n=1458"
+    },
+    "e04349": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ህየ",
+          "lemma": "Ld9c2ec598c0241bb990a569a1a6d1010",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04350": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይጸግቡ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld28cd30c6c6f4198a2ff4f1081f66ea7"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ጸግበ n=9581"
+    },
+    "e04351": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ፀበለ",
+          "lemma": "L04e052e68c864d45850a0ac113eb1534",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; кандидаты: ጸበል n=9287"
+    },
+    "e04352": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04353": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ህየ",
+          "lemma": "Ld9c2ec598c0241bb990a569a1a6d1010",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e04354": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04355": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መዛግብተ",
+          "lemma": "L9341ae0110174dcda5aba1b77008fc13",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04356": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዕፅዋነ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L6a77a5a6817547c1be804719c6f4ba18",
+        "L00a731086be04a749b68dfab8e103f8c",
+        "L364ac7c480a146a89a2a8e21624c2c7a",
+        "L953151f4d2a7405587d9b77b9f82fa50",
+        "Lc595f729ff9e49b99761404c53a34b8a",
+        "Ld7e5c03140294ada9b58e172d33e179f",
+        "Lfcf0e71a21644e9d9191e7b2da218128"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ዕጽው n=7403, ዑፃዌ n=7426, ዐጸወ n=7407, ዐጸወ n=7408, ዐፀወ n=7418, ዐጻዊ n=7405, ዐጸወ n=7400"
+    },
+    "e04357": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ኔ",
+          "lemma": "L371243180fbf41b9b075ff0b3115d342",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3mp"
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04358": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ይትከፈሉ",
+          "lemma": "L41728c1bd20f4e39b745486931843f19",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": ""
+    },
+    "e04359": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ነፋሳት",
+          "lemma": "Lfdbfad004e8e493c86b1dc2e70e62d51",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04360": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "መዝገበ",
+          "lemma": "L9341ae0110174dcda5aba1b77008fc13",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04361": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በረድ",
+          "lemma": "L816615b709544a02a7d6cd25817695de",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04362": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "መዝገበ",
+          "lemma": "L9341ae0110174dcda5aba1b77008fc13",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04363": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ጊሜ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7a88b95f99a643dca2bbd3d6ee6673a6",
+        "L4502f3a8e15b415fbfa4bf783a2b032f",
+        "Lb57d0b834e754b38a796bcc2c9d93867"
+      ],
+      "note": "несколько статей; кандидаты: ጊሜ n=8631, ጌመ n=8630, ጊሜ n=8305"
+    },
+    "e04364": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ደመናት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7b6df210138c4262b3ff6da400309b66",
+        "L860c435bed3744cbb165f6bfdb724dde"
+      ],
+      "note": "несколько статей; Дильман ссылается на этот стих; кандидаты: ደመነ n=7875, ደመና n=7880"
+    },
+    "e04365": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ደመና",
+          "lemma": "L860c435bed3744cbb165f6bfdb724dde",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04366": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዚአሁ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lcad91b1f6ef4456c98ed437aed2baef5",
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидаты: ዘ n=7439, ዘ n=7441, ዘ n=7442"
+    },
+    "e04367": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እምላዕለ",
+          "lemma": "Lc79171fabf45494084a6a99ced322e39",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04368": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04369": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "የኅድር",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L489c335dc9224268b966aaef6e81ad2f"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ኀደረ n=4656"
+    },
+    "e04370": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እምቅድመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L1f55e8fbfcbd4b85ba6009202a855086",
+        "L758167f4415344c9bd45d15b61d8392a"
+      ],
+      "note": "несколько нарезок; несколько статей; Дильман ссылается на этот стих; нарезки: እምቅድመ | እም+ቅድመ | እም+ቅድመ; кандидаты: ቅድመ n=3615, ቅድም n=3614"
+    },
+    "e04371": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ዓለም",
+          "lemma": "Ld51df0545aa047a4ae12b379c92f0265",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04372": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04373": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መዛግብተ",
+          "lemma": "L9341ae0110174dcda5aba1b77008fc13",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04374": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ፀሐይ",
+          "lemma": "La3cf503a13714632bd274fe25dcd3e47",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04375": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ወርኅ",
+          "lemma": "Lc95fe7dc0d014ea9a443ed4f6e3d4d1e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04376": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እምአይቴ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L604205dce75b4df0a155e3f63705c186"
+      ],
+      "note": "несколько нарезок; Дильман ссылается на этот стих; нарезки: እም+አይቴ | እምአይቴ; кандидаты: አይቴ n=5859"
+    },
+    "e04377": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይወጽኡ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L3df865c656c241fdb4def86b01741d6a",
+        "L647c7cc975c0462aa73d80eb3d52901b"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ወጽአ n=6864, ወፅአ n=6870"
+    },
+    "e04378": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "አይቴ",
+          "lemma": "L604205dce75b4df0a155e3f63705c186",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04379": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይገብኡ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L71017b7261634702bdca7bf0dada3c28"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ገብአ n=8455"
+    },
+    "e04380": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ግብአቶሙ",
+          "lemma": "L952aa1b9546b41dfac1402fcecbaa33d",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04381": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ስብሕ",
+          "lemma": "Lb20644bf923e47d6a952b8460bd22287",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; кандидаты: ሥብሕ n=1842"
+    },
+    "e04382": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወእፎ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L3be4b6158a7a4931bf27d4266398411c"
+      ],
+      "note": "несколько нарезок; нарезки: ወ+እፎ | ወእፎ; кандидаты: እፎ n=5941"
+    },
+    "e04383": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይከብር",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L51720b933007429e988da5f7e764218a"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ከብረ n=6171"
+    },
+    "e04384": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "፩እምካልኡ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04385": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ምኋሮሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04386": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ብዑል",
+          "lemma": "L24b63abae49742ecbea2fb6c3254de52",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04387": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "የኀልፉ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lca1176e4ef894a9caa8d984c9d6f718d"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ኀለፈ n=4433"
+    },
+    "e04388": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ምኋረ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04389": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኢይዌስኩ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lb848f5fac4764287a4e4df874a5bc464"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ወሰከ n=6587"
+    },
+    "e04390": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "የሐፅፁ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2304b1c2dd6048dea6a5da79199876f1"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ሐጸጸ n=997"
+    },
+    "e04391": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ኋረ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04392": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዚአሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L08793f14470f4f0c9078797e4f1c74e0"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ዞዐ n=7665"
+    },
+    "e04393": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ሃይማኖቶሙ",
+          "lemma": "Lb93bec42ac2a460fb2dfd2468ba54c59",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04394": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "የዐቅቡ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L835660aa3fea44e884677a0c18515ab0"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ያዕቆብ n=11086"
+    },
+    "e04395": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "፩",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "число",
+      "alts": [],
+      "note": "эфиопское число; нет в словаре Дильмана"
+    },
+    "e04396": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ምስለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld520264a013b43b99cdba4d6f567060d",
+        "L0321376e4d164939b7ab6caec845d574"
+      ],
+      "note": "несколько нарезок; несколько статей; Дильман ссылается на этот стих; нарезки: ምስለ | ምስለ; кандидаты: ምስለ n=1270, ምስል n=1268"
+    },
+    "e04397": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ካልኡ",
+          "lemma": "L129e367ac7db407e9c0faddd0284f402",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04398": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በመሐላ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L44c0fe3b85064f5390af25d24bc46aac",
+        "L64a41d598c5149efa9c6fbad08feda0c",
+        "L6e75294c9ccc431c8623522a90108e4a"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: በመሐላ | በ+መሐላ | በ+መሐላ; кандидаты: መሐላ n=1140, መሐላ n=1144, መሐለ n=1134"
+    },
+    "e04399": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ነበሩ",
+          "lemma": "L75a52981a6b6422b8065c9f441af3323",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04400": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ይወፅእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L3df865c656c241fdb4def86b01741d6a",
+        "L647c7cc975c0462aa73d80eb3d52901b"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ወጽአ n=6864, ወፅአ n=6870"
+    },
+    "e04401": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ቅድመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L1f55e8fbfcbd4b85ba6009202a855086",
+        "L758167f4415344c9bd45d15b61d8392a"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: ቅድመ | ቅድመ; кандидаты: ቅድመ n=3615, ቅድም n=3614"
+    },
+    "e04402": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ፀሐይ",
+          "lemma": "La3cf503a13714632bd274fe25dcd3e47",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04403": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ይገብር",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L0eb8ac47c3fe4e9db66fdff97a061550"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ገብረ n=8420"
+    },
+    "e04404": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ፍኖቶ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld2709e0d91ae44dc808f2cd4c63829ff",
+        "Le502c7c7edb2441ca2cc1dcdb07262a2"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ፈንት n=11293, ፍኖት n=10027"
+    },
+    "e04405": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ትእዛዘ",
+          "lemma": "L3b10bc00743d4756a71f8bb7d16e3568",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04406": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እግዚአ",
+          "lemma": "Le9f92384b9f140fd96e8db2de778f150",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04407": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መናፍስት",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04408": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ይጸንዕ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L6fb063c4248b4d78aabdfa34bd7ddf5d",
+        "L62334f148c444814a545fadd936418d7"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ጸንዐ n=9391, ጸንዐ n=9392"
+    },
+    "e04409": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ስሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L111elyv827trnzlkjguhh3o8r5h365y4",
+        "L243ee3d27a9f4b1dbf648087aea8d6de",
+        "L4074445d6f61400cae851b0271a5b96b",
+        "L68abba5e6dab4744adb6c44ef8010a27",
+        "L86648bb5742148fcb87d80beee66dc48",
+        "L91fc80e263f5447e9cabde58cdc56310",
+        "L9ad0e25e4767494686ee0bb77e9571e5"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ሤመ n=13540, ስም n=2562, ሳሚ n=11838, ሴም n=10364, ሶም n=2932, ሤመ n=1951, ስም n=2517"
+    },
+    "e04410": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ዓለመ",
+          "lemma": "Ld51df0545aa047a4ae12b379c92f0265",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04411": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ዓለም",
+          "lemma": "Ld51df0545aa047a4ae12b379c92f0265",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04412": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "እምድኅረዝ",
+          "lemma": "L42d96d0518834126988ce37d21ff899d",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04413": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ፍኖት",
+          "lemma": "Le502c7c7edb2441ca2cc1dcdb07262a2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04414": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዘኅቡእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L5b2c8c178e8f423a9b4540cf523a0b0f"
+      ],
+      "note": "несколько нарезок; нарезки: ዘ+ኅቡእ | ዘኅቡእ; кандидаты: ኅቡእ n=4566"
+    },
+    "e04415": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ክሡት",
+          "lemma": "L86941c76d5744471b8a5cc30a15559f3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e04416": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ወርኅ",
+          "lemma": "Lc95fe7dc0d014ea9a443ed4f6e3d4d1e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04417": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ምኋረ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04418": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ፍኖቱ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld2709e0d91ae44dc808f2cd4c63829ff",
+        "Le502c7c7edb2441ca2cc1dcdb07262a2"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ፈንት n=11293, ፍኖት n=10027"
+    },
+    "e04419": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይፌጽም",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Laf2163b2ef01461cbdf0e6ead0b92a51",
+        "L4d59b7f82cf74e6c9a9e347be577a6bf"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ፈጸመ n=10120, ፈፀመ n=10141"
+    },
+    "e04420": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ውእቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04421": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "መካን",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2d60420452f6408da882a3445c067153",
+        "L7936096aa0fc48b09392a135351dd0d6",
+        "Lceb06f9b6a874cda8fa7066cc3148a07",
+        "Lba6d08d1562941028b2f08ead6c76980"
+      ],
+      "note": "несколько статей; кандидаты: መካን n=1457, መካን n=6296, ኮነ n=6290, መካን n=1458"
+    },
+    "e04422": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "መዓልት",
+          "lemma": "Lcb5337fcc3de46c683396b176c9e8e1e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L6501d9604c954959acae884e73224985"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидат по отсылке: ወዐለ n=6711"
+    },
+    "e04423": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወበሌሊት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7d3f5de16efb443897b1964c5b710d5e",
+        "L6c6e29087e6541f084493b2a78f3ff9f"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: ወ+በሌሊት | ወ+በ+ሌሊት; кандидаты: ሌሊት n=386, ሌሊት n=443"
+    },
+    "e04424": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "፩",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "число",
+      "alts": [],
+      "note": "эфиопское число; нет в словаре Дильмана"
+    },
+    "e04425": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ካልኡ",
+          "lemma": "L129e367ac7db407e9c0faddd0284f402",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04426": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይኔጽር",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L431f963208fb4f628075b39546940dac",
+        "L85e26ceb321e4be4b73d38daee9e0b50"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ነጸረ n=5281, ነፀረ n=5303"
+    },
+    "e04427": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በቅድመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L1f55e8fbfcbd4b85ba6009202a855086",
+        "L758167f4415344c9bd45d15b61d8392a"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: በቅድመ | በ+ቅድመ | በ+ቅድመ; кандидаты: ቅድመ n=3615, ቅድም n=3614"
+    },
+    "e04428": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እግዚአ",
+          "lemma": "Le9f92384b9f140fd96e8db2de778f150",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04429": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መናፍስት",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04430": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "የአኲቱ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04431": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ይሴብሑ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L1356a62d93574ed78c0aa66e72a2e878",
+        "La4ac98548891472bbf53978964fb60d4"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ሠብሐ n=1839, ሰብሐ n=2690"
+    },
+    "e04432": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኢያዐርፉ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04433": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እስመ",
+          "lemma": "Ldc99d416e229465784340c3f1d3b3771",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04434": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "አኰቴቶሙ",
+          "lemma": "L536fd71e2963468480da875221ac0219",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04435": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ዕረፍት",
+          "lemma": "L71dbfa6d9d614477bedefb4a4c3a971b",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04436": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ውእቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04437": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ሎሙ",
+          "lemma": "Le4d650c370464996939e7bfb43dd6444",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04438": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እስመ",
+          "lemma": "Ldc99d416e229465784340c3f1d3b3771",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04439": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ፀሐይ",
+          "lemma": "La3cf503a13714632bd274fe25dcd3e47",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04440": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ብሩህ",
+          "lemma": "L8d2e5d81ff6c4ace9dcf10a2a12304f0",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e04441": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ብዙኅ",
+          "lemma": "Le0d022efdb454ff38422b1f47ade524c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04442": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ምያጤ",
+          "lemma": "Lfce2712d2cc846be8574237031df30c6",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04443": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ቦቱ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L79528bf91b00402f9cb3505bd6ea3010",
+        "Lf7ef7e9010bb4e6598292167c61ebfe7"
+      ],
+      "note": "несколько статей; кандидаты: በ n=3740, በ n=3741"
+    },
+    "e04444": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለበረከት",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L4b9b4dfc2fbf4553b23412c6d8f455e9",
+        "L864bdb27a60e437f9186ef375a675bf6"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: ለ+በረከት | ለ+በረከት; кандидаты: በረከት n=3907, በረከ n=3900"
+    },
+    "e04445": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "መርገም",
+          "lemma": "L6f1a00db207540f8b153970fef3b12f8",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04446": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ምርዋጸ",
+          "lemma": "L888f39713fbc4390a620fa2ee28492c3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e04447": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ፍኖቱ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Ld2709e0d91ae44dc808f2cd4c63829ff",
+        "Le502c7c7edb2441ca2cc1dcdb07262a2"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ፈንት n=11293, ፍኖት n=10027"
+    },
+    "e04448": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ወርኅ",
+          "lemma": "Lc95fe7dc0d014ea9a443ed4f6e3d4d1e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04449": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ጻድቃን",
+          "lemma": "L92ebbf88bfe14ccfbcf367b7425c59d2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04450": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ብርሃን",
+          "lemma": "L0ee2b800080f412d8b790033155f64ed",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04451": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ኃጥኣን",
+          "lemma": "Ldbf4db65aff4434f8804d18fc6bbcde3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04452": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ጽልመት",
+          "lemma": "L04ad649fe0ec4a9ea84c5633797e814c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04453": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በስሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L111elyv827trnzlkjguhh3o8r5h365y4",
+        "L243ee3d27a9f4b1dbf648087aea8d6de",
+        "L3804016261544664966fdad2bce8800e",
+        "L4074445d6f61400cae851b0271a5b96b",
+        "L68abba5e6dab4744adb6c44ef8010a27",
+        "L86648bb5742148fcb87d80beee66dc48",
+        "L91fc80e263f5447e9cabde58cdc56310",
+        "L9ad0e25e4767494686ee0bb77e9571e5"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ሤመ n=13540, ስም n=2562, ቤስም n=3935, ሳሚ n=11838, ሴም n=10364, ሶም n=2932, ሤመ n=1951, ስም n=2517"
+    },
+    "e04454": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "እግዚእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L4c8a05fce5c5454f9db57dc417c58938",
+        "L84c4c2e8341f41d89dd94b339037fd0f",
+        "Le62d63a19e7941c191c8ee45cbbc6eae",
+        "Le9f92384b9f140fd96e8db2de778f150",
+        "L86d93ad493f94be2908e8b74d0d90c9e"
+      ],
+      "note": "несколько статей; кандидаты: ገዝአ n=8611, ገዝአ n=8599, ገዝአ n=8608, እግዚእ n=8600, እግዚእ n=5914"
+    },
+    "e04455": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዘፈጠረ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7a19e61b8daf414f890e8923007bc366",
+        "Lcb9878e12e264230b01efc517ee74a4c"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: ዘ+ፈጠረ | ዘ+ፈጠረ; кандидаты: ፈጠረ n=10098, ፈጠራ n=10103"
+    },
+    "e04456": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ማእከለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lbee2fad117ba4967b1b66cfbc1c04eb5",
+        "L2ffdf5c9580545c9a8b89a10165e18c3"
+      ],
+      "note": "несколько нарезок; несколько статей; Дильман ссылается на этот стих; нарезки: ማእከለ | ማእከለ; кандидаты: ማእከለ n=5784, ማእከል n=5783"
+    },
+    "e04457": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ብርሃን",
+          "lemma": "L0ee2b800080f412d8b790033155f64ed",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04458": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወማእከለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lbee2fad117ba4967b1b66cfbc1c04eb5",
+        "L2ffdf5c9580545c9a8b89a10165e18c3"
+      ],
+      "note": "несколько нарезок; несколько статей; Дильман ссылается на этот стих; нарезки: ወ+ማእከለ | ወ+ማእከለ; кандидаты: ማእከለ n=5784, ማእከል n=5783"
+    },
+    "e04459": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ጽልመት",
+          "lemma": "L04ad649fe0ec4a9ea84c5633797e814c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04460": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ከፈለ",
+          "lemma": "L531305e7ad7e44baae170d7526c16777",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04461": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መንፈሶሙ",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04462": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ሰብእ",
+          "lemma": "L5ddf72830e2c4c86884379045eb1271e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04463": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "አጽንዐ",
+          "lemma": "L5e41e709981a464cb61961fa944b1690",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол",
+      "alts": [],
+      "note": "Дильман ссылается на этот стих"
+    },
+    "e04464": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መንፈሶሙ",
+          "lemma": "Lc372a0c42e3f4448a888fc8becc52f04",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04465": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ጻድቃን",
+          "lemma": "L92ebbf88bfe14ccfbcf367b7425c59d2",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04466": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ስመ",
+          "lemma": "L243ee3d27a9f4b1dbf648087aea8d6de",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04467": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ጽድቀ",
+          "lemma": "Le59e94aeda8344c2845587f8159b70e8",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e04468": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዚአሁ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lcad91b1f6ef4456c98ed437aed2baef5",
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидаты: ዘ n=7439, ዘ n=7441, ዘ n=7442"
+    },
+    "e04469": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እስመ",
+          "lemma": "Ldc99d416e229465784340c3f1d3b3771",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04470": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "መልአክ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L7f7ffeec8f4f44d983ddc4264d4312be",
+        "L2d888571de8f44f4be1bcbf281c2b25a",
+        "La7006ebc3af1491689e88bfad74f11d5"
+      ],
+      "note": "несколько статей; кандидаты: መልአክ n=352, ለአከ n=346, መልአክ n=1096"
+    },
+    "e04471": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይከልእ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2af2bd7cb15f42c8966bb892fe04aade",
+        "Ld8560965efd04aba9a3ab5a720447291"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ከልአ n=6007, ከልዐ n=6022"
+    },
+    "e04472": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ሥልጣን",
+          "lemma": "L1d5d7d3babe642dbbd18e98df0f5c694",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": ""
+    },
+    "e04473": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይክል",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e04474": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ከሊአ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2af2bd7cb15f42c8966bb892fe04aade",
+        "L0a68f1fa922a4bbd8b848d46589616e9",
+        "L129e367ac7db407e9c0faddd0284f402",
+        "L55dc5bbb072045cf950d217e1cffe78b",
+        "L740af30092a54f8c9a7a10cd458e44d5",
+        "L75beb7036d9846059e524775fc47c185",
+        "L864058eb7bdd4571996801755e48749f",
+        "Ld8560965efd04aba9a3ab5a720447291"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ከልአ n=6007, ከልአ n=6019, ካልእ n=6017, ከላኢ n=6011, ከልዐ n=6023, ክሉእ n=6009, ክልኤ n=6015, ከልዐ n=6022"
+    },
+    "e04475": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "እስመ",
+          "lemma": "Ldc99d416e229465784340c3f1d3b3771",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04476": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መኰንን",
+          "lemma": "L54cddf4d312945989ead56c4eae6e24a",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e04477": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ለኲሎሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L34d5574842584f8f81d2803036df50fd"
+      ],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: ለ+ኲሎሙ | ለ+ኲሎ+ሙ; окончание отделено, потому что основа известна; роль окончания не auto; кандидаты: ኵሉ n=5982"
+    },
+    "e04478": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይሬኢ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ርእየ n=2239"
+    },
+    "e04479": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "እሎንተ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L47dc66707d6745f5b6d3e9e5c1ab6e65"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: እሎንቱ n=5401"
+    },
+    "e04480": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ኲሎሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L34d5574842584f8f81d2803036df50fd"
+      ],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: ኲሎሙ | ኲሎ+ሙ; окончание отделено, потому что основа известна; роль окончания не auto; кандидаты: ኵሉ n=5982"
+    },
+    "e04481": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ቅድሜሁ",
+          "lemma": "L1f55e8fbfcbd4b85ba6009202a855086",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04482": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ውእቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": ""
+    },
+    "e04483": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይኴንን",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L33c68ef3caa64957a3b188b0acdce604"
+      ],
+      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; кандидаты: ኰነነ n=6244"
+    }
+  }
+}

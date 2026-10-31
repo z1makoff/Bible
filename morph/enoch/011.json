@@ -1,0 +1,473 @@
+{
+  "chapter": 11,
+  "words": {
+    "e01152": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "እማንቱ",
+          "lemma": "Ldde04abbe6b44807814dc0a0b42ad84c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "Lc162b97441554a01b8d7f69294ab9347"
+      ],
+      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидат по отсылке: ውእቱ n=6672"
+    },
+    "e01153": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "መዋዕል",
+          "lemma": "L7796c77485f74d52bea947042d622493",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Заголовок መዋዕል n=12572, в выгрузке латинского значения нет. Значение по ዕለት n=6714: «subst., plerumque fem., Pl. ዕለታት»; «temporis spatium, tempus»; «dies»."
+    },
+    "e01154": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እፈትሕ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L64940664ab294eb0b1ebbe5f97d053fc",
+        "L0e87a0f392ae4765b2c804938ba42aca",
+        "L7556c3d5c511402cb0799fc584a4a54a"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ፈትሐ n=9970, አፍትሐ n=9971, ኤፍታሕ n=11730"
+    },
+    "e01155": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "መዛግብተ",
+          "lemma": "L9341ae0110174dcda5aba1b77008fc13",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e01156": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "በረከት",
+          "lemma": "L4b9b4dfc2fbf4553b23412c6d8f455e9",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: በረከት n=3907."
+    },
+    "e01157": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እለ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L9fa031f31b5e47599137f54201b3068f",
+        "L0542cd28360a428a99c900f5c01dde3e",
+        "L6d2f800ae7f04a77815a6dacb546cb54",
+        "L7f88f9d1fb5c42e7ad39ba621daafec1",
+        "Ldbcd9df387794613b6e6ba62a0c8e2dc",
+        "L5641c39fe8ec478e8146f253d604d2d8",
+        "L9361340426b043f5a9264104cbf3c5c6"
+      ],
+      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዘ n=7439, ዘ n=7441, ዘ n=7442, እለ n=5381, እሌ n=12500, ዝ n=7440"
+    },
+    "e01158": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "በ",
+          "lemma": null,
+          "prefix": "b",
+          "morph": null
+        },
+        {
+          "t": "ሰማይ",
+          "lemma": "La9bb24a0fe584281803afce3dc50409e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ሰማይ n=2564."
+    },
+    "e01159": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L22c2e71ac6c0443e8f05d480b3ac9e85",
+        "L5724e47151364d91bd5e63d589c0ffd9",
+        "Lcddc0aae60324baa9922c63b7c27b716",
+        "L6e84824fe2e1492692a9ea37e104f6eb"
+      ],
+      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+    },
+    "e01160": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "አውርዶሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "нет в словаре Дильмана"
+    },
+    "e01161": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዲበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L03c70b7d960f4653b5f5848c5fcf8bcd",
+        "L1d8dc94ceacd4d86b129dc55467e5153",
+        "L8f92a72612064876a02ff76b898060a5",
+        "Lde89114a448443288501676170a0fd36",
+        "La20bb427626a4df1ba791e105f4aa89c"
+      ],
+      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+    },
+    "e01162": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ምድር",
+          "lemma": "L8b93b042451e4bbd8bb7de567f7a32da",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ምድር n=1586."
+    },
+    "e01163": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዲበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L03c70b7d960f4653b5f5848c5fcf8bcd",
+        "L1d8dc94ceacd4d86b129dc55467e5153",
+        "L8f92a72612064876a02ff76b898060a5",
+        "Lde89114a448443288501676170a0fd36",
+        "La20bb427626a4df1ba791e105f4aa89c"
+      ],
+      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+    },
+    "e01164": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ግብሮሙ",
+          "lemma": "L9f89a626df3640bea98e416571edcf62",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+    },
+    "e01165": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ዲበ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L03c70b7d960f4653b5f5848c5fcf8bcd",
+        "L1d8dc94ceacd4d86b129dc55467e5153",
+        "L8f92a72612064876a02ff76b898060a5",
+        "Lde89114a448443288501676170a0fd36",
+        "La20bb427626a4df1ba791e105f4aa89c"
+      ],
+      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+    },
+    "e01166": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ፃማ",
+          "lemma": "L3192885482784e4c8f19d0ce8ab05e53",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3mp"
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; кандидаты: ጻማ n=9250"
+    },
+    "e01167": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ለ",
+          "lemma": null,
+          "prefix": "l",
+          "morph": null
+        },
+        {
+          "t": "ውሉደ",
+          "lemma": "Lc6d9143b27b64210abbcb33a1ebae48b",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, множественное, сопряжённая форма",
+      "alts": [],
+      "note": "ወልድ n=6436 печатает Pl. ውሉድ и сопряжённую ውሉደ (в тексте статьи: ውሉደ እግዚአብሔር, ውሉደ ሰብእ, ውሉደ አዳም). Sense 1 filius; дальше proles, nepos, progenies. Русский смысл не выбираю."
+    },
+    "e01168": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሰብእ",
+          "lemma": "L5ddf72830e2c4c86884379045eb1271e",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ሰብእ n=2714."
+    },
+    "e01169": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሰላም",
+          "lemma": "Lde466ba6ec674f8981ee8866d6a81867",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ሰላም n=2435."
+    },
+    "e01170": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ርትዐ",
+          "lemma": "L54642d85b3604b98853bd6a22eddbfd4",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e01171": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ሱቱፋነ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L2c86ba134fff43b7b06121a86cd00363",
+        "L2e718610549e42f6938d72160ee9888c",
+        "L71250ccb0b22458397ce4cf12d7a9aa3",
+        "L8ba2a30a676547b6be98eb025a706a3d",
+        "L93be948b922745a38c50b1504b5c7233",
+        "Lee61fb3d1e9e450593cacf3ec7fb0307"
+      ],
+      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ሱቱፍ n=2777, ሰተፈ n=2774, ሱታፌ n=2780, ሱታፊ n=2779, ሱቱፍና n=2781, ሱታፍ n=2778"
+    },
+    "e01172": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ይከውኑ",
+          "lemma": "Lceb06f9b6a874cda8fa7066cc3148a07",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [],
+      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ኮነ n=6290"
+    },
+    "e01173": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "በኲሉ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L34d5574842584f8f81d2803036df50fd"
+      ],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: በኲሉ | በ+ኲሉ; кандидаты: ኵሉ n=5982"
+    },
+    "e01174": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "መዋዕለ",
+          "lemma": "L7796c77485f74d52bea947042d622493",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, сопряжённая форма",
+      "alts": [],
+      "note": "Заголовок መዋዕል n=12572, в выгрузке латинского значения нет. Значение по ዕለት n=6714: «subst., plerumque fem., Pl. ዕለታት»; «temporis spatium, tempus»; «dies»."
+    },
+    "e01175": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዓለም",
+          "lemma": "Ld51df0545aa047a4ae12b379c92f0265",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ዓለም n=6918."
+    },
+    "e01176": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ወበኲሉ",
+          "lemma": null,
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": null,
+      "alts": [
+        "L34d5574842584f8f81d2803036df50fd"
+      ],
+      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: ወ+በኲሉ | ወ+በ+ኲሉ; кандидаты: ኵሉ n=5982"
+    },
+    "e01177": {
+      "status": "auto",
+      "segs": [
+        {
+          "t": "ትውልደ",
+          "lemma": "L4ad9c3b64d2b4963b19a7d9f477e561a",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "форма построена от заголовка статьи"
+    },
+    "e01178": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዓለም",
+          "lemma": "Ld51df0545aa047a4ae12b379c92f0265",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя",
+      "alts": [],
+      "note": "Написание совпало с одной статьёй Дильмана: ዓለም n=6918."
+    }
+  }
+}

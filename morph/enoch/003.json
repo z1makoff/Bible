@@ -1,0 +1,361 @@
+{
+  "chapter": 3,
+  "words": {
+    "e00192": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ጠየቁ",
+          "lemma": "L98e472f177914ffc85f95eae26d6897d",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, повелительное, вы",
+      "alts": [],
+      "note": ""
+    },
+    "e00193": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ርኢኩ",
+          "lemma": "L264252cd3dd8422bbc2ba0526217d3c7",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, прошедшее, я",
+      "alts": [],
+      "note": "Прошедшее, я. ኩ — окончание лица, не суффикс."
+    },
+    "e00194": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": ""
+    },
+    "e00195": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ኲሉ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": ""
+    },
+    "e00196": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዐፀው",
+          "lemma": "L1a0c948cf5294ea78c177b87e26ccbaa",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя, множественное",
+      "alts": [
+        "Lc595f729ff9e49b99761404c53a34b8a"
+      ],
+      "note": "По смыслу множественное ዕፅ n=7419 «дерево», в статье множественное ዕፀው. В ed1 первый гласный ዐ. Рядом пустой корень ዐፀወ n=7418 «твёрдость»."
+    },
+    "e00197": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እፎ",
+          "lemma": "L3be4b6158a7a4931bf27d4266398411c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "наречие",
+      "alts": [],
+      "note": ""
+    },
+    "e00198": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ያስተርእዩ",
+          "lemma": "Lf46d199b4f634717aef16ce076efd67c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": "Множественное от ያስተርኢ, አስተርአየ n=2243."
+    },
+    "e00199": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ከመ",
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "союз",
+      "alts": [],
+      "note": ""
+    },
+    "e00200": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ይቡስ",
+          "lemma": "Ldd1be0f2e1154f99b6e3b08e705cf4b9",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e00201": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ወ",
+          "lemma": null,
+          "prefix": "c",
+          "morph": null
+        },
+        {
+          "t": "ኲሉ",
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение",
+      "alts": [],
+      "note": ""
+    },
+    "e00202": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "አቊጽሊ",
+          "lemma": "L9a8ae51d148049c9b8cc29a10311fd76",
+          "prefix": null,
+          "morph": null
+        },
+        {
+          "t": "ሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3mp"
+        }
+      ],
+      "gram": "имя с «их»",
+      "alts": [],
+      "note": "Множественное ቈጽል n=3683 «лист», в статье አቍጽል. В ed1 ኊ. Глагол አቍጸለ n=3681 «покрываться листвой» сюда слабее: при слове есть «их»."
+    },
+    "e00203": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ንጉፋት",
+          "lemma": "L41bd6f03ce1c45e1943328adfbe83a99",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие, множественное",
+      "alts": [],
+      "note": "ንጉፍ n=5238 «опавший», Дильман цитирует Hen. 3. Имя действия ንግፈት n=5241 — другой заголовок."
+    },
+    "e00204": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "እንበለ",
+          "lemma": "L94691cd2e8004e70b98c962e8454b1d3",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [
+        "Lfe70afc899034e25ab04544e8b05996a"
+      ],
+      "note": "za- и እንበለ n=5735 «кроме». Заголовок ዘእንበለ n=7641 только отсылает туда."
+    },
+    "e00205": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "፲ወ፬ዐፀው",
+          "lemma": "L1a0c948cf5294ea78c177b87e26ccbaa",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "число и имя в одном графическом слове",
+      "alts": [
+        "Lc595f729ff9e49b99761404c53a34b8a"
+      ],
+      "note": "፲ወ፬ «14» написано слитно с ዐፀው. Чищу как одно слово ed1. Именная часть — как e00196, с тем же сомнением гласного. Цифрам отдельной леммы Дильмана нет."
+    },
+    "e00206": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "ዘ",
+          "lemma": null,
+          "prefix": "s",
+          "morph": null
+        },
+        {
+          "t": "ኢ",
+          "lemma": null,
+          "prefix": "i",
+          "morph": null
+        },
+        {
+          "t": "ይትነገፍኡ",
+          "lemma": "Lb33f230d206c46e9948b412d6e71e25b",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": "По форме t-порода от ነገፈ n=5234 «стряхивать»: «которые не осыпаются». Отдельного заголовка ተነገፈ нет. Конечное ኡ — гласный лица, не суффикс."
+    },
+    "e00207": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እለ",
+          "lemma": "Ldbcd9df387794613b6e6ba62a0c8e2dc",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "местоимение, множественное",
+      "alts": [],
+      "note": ""
+    },
+    "e00208": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ይጸንሑ",
+          "lemma": "L39dcfdf03c73475abc9cbb3475294361",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, они",
+      "alts": [],
+      "note": ""
+    },
+    "e00209": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እም",
+          "lemma": null,
+          "prefix": "m",
+          "morph": null
+        },
+        {
+          "t": "ብሉይ",
+          "lemma": "La853d341ed814898bc035984337ec283",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "причастие",
+      "alts": [],
+      "note": ""
+    },
+    "e00210": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "እስከ",
+          "lemma": "Lc4c5c8312cfe4225b18affaa4849704c",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
+    },
+    "e00211": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ይመጽእ",
+          "lemma": "Lf2a4e68eb1f9494d8c4beae1396707d5",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "глагол, непрошедшее, он",
+      "alts": [],
+      "note": ""
+    },
+    "e00212": {
+      "status": "checked",
+      "segs": [
+        {
+          "t": "ሐዲስ",
+          "lemma": "L26fff305667147778898334495b00712",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "прилагательное",
+      "alts": [],
+      "note": ""
+    },
+    "e00213": {
+      "status": "unsure",
+      "segs": [
+        {
+          "t": "እም፪ወእም፫ክረምት",
+          "lemma": "Lbb15d2f5a25a48859ce54e6275ceef58",
+          "prefix": null,
+          "morph": null
+        }
+      ],
+      "gram": "имя с числительными в одном графическом слове",
+      "alts": [],
+      "note": "В одном слове እም, цифра 2, ወ, ещё እም, цифра 3 и ክረምት n=6077. Отдельные እም не вырезаю: остаток не слово. Цифрам леммы нет."
+    }
+  }
+}

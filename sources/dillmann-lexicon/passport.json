@@ -1,0 +1,25 @@
+{
+  "id": "dillmann-lexicon",
+  "title": "Дильман, Lexicon linguae aethiopicae (1865), TEI TraCES / Beta maṣāḥǝft",
+  "role": "Словарь геэза: латинские значения, английский слой TraCES, ссылки на места; аннотация, не доказательство",
+  "language": "gez, la, en",
+  "witness": "August Dillmann, Lexicon linguae aethiopicae, Leipzig 1865, цифровая разметка TraCES",
+  "license": "В заголовке статей дословно одна формулировка: «This file is licensed under the Creative Commons Attribution-ShareAlike Non Commercial 4.0.» Адрес в том же заголовке у 12453 файлов: http://creativecommons.org/licenses/by-sa-nc/4.0/ ; у 1278 файлов: https://creativecommons.org/licenses/by-sa-nc/4.0/ (не стандартный by-nc-sa). У build.xml, expath-pkg.xml, repo.xml и schema/Dillmann.xml элемента licence нет. Других формулировок в XML нет.",
+  "attribution": "TraCES project, Hiob-Ludolf-Zentrum für Äthiopistik, Hamburg. https://www.traces.uni-hamburg.de/",
+  "origin": "https://github.com/BetaMasaheft/DillmannData/tree/4b1cf257e7a51e72f509d8cb2d61d7d823e4ed3e",
+  "version": "4b1cf257e7a51e72f509d8cb2d61d7d823e4ed3e",
+  "files": [
+    {
+      "name": "DillmannData-4b1cf257e7a51e72f509d8cb2d61d7d823e4ed3e.zip",
+      "url": "https://codeload.github.com/BetaMasaheft/DillmannData/zip/4b1cf257e7a51e72f509d8cb2d61d7d823e4ed3e",
+      "bytes": 30177583,
+      "sha256": "8583fbb899dd0df969f762f0b7276166aefc04c86ff80eee2d7d45f56b987542"
+    },
+    {
+      "name": "README.md",
+      "url": "https://raw.githubusercontent.com/BetaMasaheft/DillmannData/4b1cf257e7a51e72f509d8cb2d61d7d823e4ed3e/README.md",
+      "bytes": 397,
+      "sha256": "6ae0e91ee2f0e1fa1e3bcd9407935380640414d7453f950164d4aa8d6d66ed39"
+    }
+  ]
+}

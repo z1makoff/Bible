@@ -1,0 +1,49 @@
+{
+  "id": "first1k-enoch",
+  "title": "First1KGreek — греческий Енох (Флемминг–Радермахер 1901, Свит 1905) и латинский отрывок",
+  "role": "Греческий свидетель глав, которые есть в открытой оцифровке; текст распознан, ошибки OCR не правятся",
+  "language": "grc, lat",
+  "witness": "Flemming–Radermacher 1901 (tlg1463.tlg001.1st1K-grc2); Swete 1905 (1st1K-grc1); латинский отрывок гл. 106 (1st1K-lat1)",
+  "license": "В файлах изданий дословно: «Available under a Creative Commons Attribution-ShareAlike 4.0 International License» (https://creativecommons.org/licenses/by-sa/4.0/). Полный текст лицензии репозитория — license.md.",
+  "attribution": "Open Greek and Latin / First1KGreek; University of Leipzig; Harvard College Library. Редакторы изданий: Johannes Flemming, Ludwig Radermacher; Henry Barclay Swete.",
+  "origin": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001",
+  "version": "f47b6d42a1343a8a6dca500001d1fb27e5cce5ca",
+  "files": [
+    {
+      "name": "__cts__.xml",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001/__cts__.xml",
+      "bytes": 1632,
+      "sha256": "506496a53c2571889b999900f0393e2a4c1f8948dea737e2788c67dfe1b0aad7"
+    },
+    {
+      "name": "tlg1463.tlg001.1st1K-grc1.xml",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001/tlg1463.tlg001.1st1K-grc1.xml",
+      "bytes": 117712,
+      "sha256": "97ef42427781d8f96b1f3f4d98b687a622b67dafa223ec2ff0a0b75451152ca4"
+    },
+    {
+      "name": "tlg1463.tlg001.1st1K-grc2.xml",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001/tlg1463.tlg001.1st1K-grc2.xml",
+      "bytes": 188267,
+      "sha256": "b0a8f1db38ecaa95da85f37d78722a92b1651582ec26ba0a9b70a993586c0023"
+    },
+    {
+      "name": "tlg1463.tlg001.1st1K-lat1.xml",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001/tlg1463.tlg001.1st1K-lat1.xml",
+      "bytes": 6907,
+      "sha256": "36bccbc5f9a2ab14b35ef444da0dc5632c83668aed871ce02856d63e02ccdfd8"
+    },
+    {
+      "name": "tlg1463.tlg001.opp-ger1.xml",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/data/tlg1463/tlg001/tlg1463.tlg001.opp-ger1.xml",
+      "bytes": 279682,
+      "sha256": "ba2c4fbe7958b1b7ab2b1d623f7545872a59c95e27b755eff520b1349728ab04"
+    },
+    {
+      "name": "license.md",
+      "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/f47b6d42a1343a8a6dca500001d1fb27e5cce5ca/license.md",
+      "bytes": 18625,
+      "sha256": "ccf0e8ce183761bf82700126cc45a4e907b2cede024e65e3fef5c2338b9b7063"
+    }
+  ]
+}

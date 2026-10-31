@@ -1,0 +1,20 @@
+{
+  "id": "dss-enoch",
+  "title": "Арамейские рукописи Книги Еноха (ETCBC / Dead Sea Scrolls)",
+  "role": "Текст фрагментов. К стихам геэза не привязан: в выгрузке нет столбца стиха Еноха.",
+  "language": "arc",
+  "witness": "Кумранские свитки Еноха в разметке ETCBC DSS",
+  "license": "CC BY-NC 4.0. В заголовках tf: Creative Commons Attribution-NonCommercial 4.0 International License.",
+  "attribution": "Данные: Martin G. Abegg, Jr., James E. Bowley, Edward M. Cook. Разметка Text-Fabric: Eep Talstra Centre for Bible and Computer (ETCBC).",
+  "origin": "https://github.com/ETCBC/dss",
+  "version": "dd29636120a89a91bf760bf349f07ce9dc3a2998",
+  "note": "enoch-aramaic.json собран локально из tf/2.0.2 этого коммита. В репозитории такого файла нет. Уровни: scroll, fragment, line. Файла column.tf нет. Поля стиха Еноха у слова нет.",
+  "files": [
+    {
+      "name": "enoch-aramaic.json",
+      "url": "https://github.com/ETCBC/dss/commit/dd29636120a89a91bf760bf349f07ce9dc3a2998",
+      "bytes": 6862412,
+      "sha256": "ebf3c372beb9d75f5151beb705a9621a51e796629e704d19fa6e2e47240ff857"
+    }
+  ]
+}
