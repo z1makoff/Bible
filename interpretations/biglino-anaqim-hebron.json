@@ -1,0 +1,73 @@
+{
+ "id": "biglino-anaqim-hebron",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Num.13.22"
+ ],
+ "claim": "Anakim, люди «с длинной шеей», пишет Бильино, занимали район Chevron. Названы три вождя, Achiman, Sheshai и Talmai, с именами арамейского происхождения. Их победил Kalev, когда город сдался ему, потом Yehoshua их уничтожил, и они уцелели только в Газе, Ашдоде и Гате. Он также отмечает созвучие Anakim и шумерского Anunnaki, вероятного соответствия библейских Elohim; в заключении книги пишет «Anakiti-Anunnaki?» с вопросом.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-gods-of-the-bible",
+  "section": "глава о гигантах",
+  "quote": "The Anakim (men “with long necks”) inhabited the area of Hebron",
+  "quoteRu": "Anakim (люди «с длинной шеей») населяли район Chevron",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "Там Achiman, Sheshai и Talmai, рождённые Anaq.",
+   "grade": "entailed",
+   "for": [
+    "Num.13.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Длинная шея.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Значение имени Anaq места не показывают; что это про шею, текст не говорит."
+  },
+  {
+   "claim": "Их изгнал Kalev.",
+   "grade": "supported",
+   "for": [
+    "Josh.15.14"
+   ],
+   "against": [],
+   "note": "О сдаче города в этом месте нет."
+  },
+  {
+   "claim": "Yehoshua уничтожил, уцелели в Газе, Гате, Ашдоде.",
+   "grade": "supported",
+   "for": [
+    "Josh.11.21",
+    "Josh.11.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Имена арамейские.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Проверяется по языкам; текст этого не говорит."
+  },
+  {
+   "claim": "Созвучие с Anunnaki.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Созвучие слов родства не показывает; других оснований здесь нет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 12–14, отрывок проверен по тексту"
+  }
+ ]
+}

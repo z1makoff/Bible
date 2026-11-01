@@ -1,0 +1,62 @@
+{
+ "id": "trad-num13-anaq",
+ "tradition": "Традиционная (Толковая Библия Лопухина)",
+ "lemmas": [],
+ "places": [
+  "Num.13.22",
+  "Num.13.28"
+ ],
+ "claim": "Anaq, пишет Лопухин, сын князя Arba, основатель Qiryat Arba, то есть Chevron (Нав 15:13–14). Сыны его отличались ростом и силой.",
+ "source": {
+  "kind": "book",
+  "book": "lopuhin-numbers",
+  "section": "толкование на Чис 13:23 (у нас 13:22)",
+  "quote": "«Сыны Енаковы» отличались своим ростом и силой",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "Там Achiman, Sheshai и Talmai, рождённые Anaq.",
+   "grade": "entailed",
+   "for": [
+    "Num.13.22"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Anaq — сын Arba.",
+   "grade": "supported",
+   "for": [
+    "Josh.15.13"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Anaq — основатель Qiryat Arba.",
+   "grade": "speculative",
+   "for": [],
+   "against": [
+    "Josh.14.15"
+   ],
+   "note": "Город назван по Arba, «большому человеку среди Anaqim»; основателем Anaq не назван."
+  },
+  {
+   "claim": "Рост и сила.",
+   "grade": "supported",
+   "for": [
+    "Num.13.31",
+    "Num.13.32",
+    "Num.13.33"
+   ],
+   "against": [],
+   "note": "Это слова разведчиков, которые вывели молву на землю."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 12–14, отрывок проверен по тексту"
+  }
+ ]
+}

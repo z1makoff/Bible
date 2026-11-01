@@ -1,0 +1,60 @@
+{
+ "id": "biglino-num14-kemosh",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Num.14.43"
+ ],
+ "claim": "На стеле Mesha, пишет Бильино, царь Yisrael мог притеснять Моав, потому что Kemosh гневался на свою землю. Так и в Библии: в Числах 14 Moshe предупреждает о поражении от Amaleqi, потому что Yahweh гневается на народ (ст. 43). Оба Elohim, по его сопоставлению, поступают одинаково.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-bibbia-non-parla",
+  "section": "разбор стелы Mesha, строка 5",
+  "quote": "Così avviene anche nella Bibbia",
+  "quoteRu": "Так же происходит и в Библии",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "И упадёте мечом; и не будет YHWH с вами.",
+   "grade": "entailed",
+   "for": [
+    "Num.14.43"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Amaleq — от Esav.",
+   "grade": "supported",
+   "for": [
+    "Gen.36.12"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Причина — гнев YHWH.",
+   "grade": "compatible",
+   "for": [
+    "Num.14.11"
+   ],
+   "against": [
+    "Num.14.43"
+   ],
+   "note": "В ст. 43 слова «гнев» нет: сказано, что вернулись вы от следования за YHWH. Гнев читается из ст. 11–12."
+  },
+  {
+   "claim": "Сходство со стелой Mesha.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Стела вне Библии; проверяется по её тексту, в проекте его нет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 12–14, отрывок проверен по тексту"
+  }
+ ]
+}

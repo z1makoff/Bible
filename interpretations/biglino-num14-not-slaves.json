@@ -1,0 +1,54 @@
+{
+ "id": "biglino-num14-not-slaves",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Num.14.2",
+  "Num.14.3"
+ ],
+ "claim": "Moshe, пишет Бильино, с трудом управлял народом, который при всяком случае жаловался на жизнь в пустыне и вспоминал, как хорошо было в Mitsrayim, где были еда и дом: это ещё одно подтверждение, что они, очевидно, не были в рабстве. Среди мест он называет Чис 14:1 и далее.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "section": "разбор Исх 32, о трёх тысячах восставших",
+  "quote": "a ulteriore riprova del fatto che non erano evidentemente in situazione di schiavitù",
+  "quoteRu": "как ещё одно подтверждение того, что они, очевидно, не были в рабстве",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "О если бы умерли мы в земле Mitsrayim!",
+   "grade": "entailed",
+   "for": [
+    "Num.14.2"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Разве не хорошо нам вернуться в Mitsrayim?",
+   "grade": "entailed",
+   "for": [
+    "Num.14.3"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Они не были в рабстве.",
+   "grade": "contradicted",
+   "for": [],
+   "against": [
+    "Exod.1.13",
+    "Exod.1.14",
+    "Exod.2.23"
+   ],
+   "note": "Та же оценка, что в biglino-slaves-gold. Ст. 3 сравнивает Mitsrayim с мечом и разграблением, а не с рабством."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 12–14, отрывок проверен по тексту"
+  }
+ ]
+}

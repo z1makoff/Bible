@@ -1,0 +1,29 @@
+{
+  "key": "1433",
+  "kind": "word",
+  "display": "godel",
+  "senses": [
+    {
+      "id": "greatness",
+      "ru": "величие",
+      "stems": [
+        "величи"
+      ],
+      "gloss": "величие: Втор 3:24; 5:24; Пс 150:2",
+      "evidence": [
+        "Num.14.19",
+        "Deut.3.24",
+        "Deut.5.24"
+      ]
+    }
+  ],
+  "notes": "",
+  "status": "draft",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "by": "claude",
+      "change": "создано при подготовке Чис 12–14"
+    }
+  ]
+}
