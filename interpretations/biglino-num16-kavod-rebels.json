@@ -1,0 +1,62 @@
+{
+ "id": "biglino-num16-kavod-rebels",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Num.16.19",
+  "Num.16.24",
+  "Num.16.26",
+  "Num.16.35"
+ ],
+ "claim": "Yahweh, пишет Бильино, является со своим kavod к собравшимся мятежникам и, велев сначала удалить народ, сжигает их; этим мощным оружием мятеж подавлен. Другое возможное объяснение конца истории он обещает в главе о ларе.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "section": "разбор kavod, Числа 16,19 и далее",
+  "quote": "dopo avere opportunamente fatto allontanare il popolo, li incenerisce",
+  "quoteRu": "предварительно велев удалить народ, сжигает их",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "И показался kavod YHWH ко всему обществу.",
+   "grade": "entailed",
+   "for": [
+    "Num.16.19"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Народу велено отойти.",
+   "grade": "supported",
+   "for": [
+    "Num.16.24",
+    "Num.16.26"
+   ],
+   "against": [],
+   "note": "Отойти велено от жилища Qorach, Datan и Aviram. О тех, кто стоит у входа шатра встречи, в этих стихах не сказано."
+  },
+  {
+   "claim": "И огонь вышел от YHWH, и съел пятьдесят и двести мужчин.",
+   "grade": "entailed",
+   "for": [
+    "Num.16.35"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Это оружие.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Стих говорит только: огонь вышел от YHWH. Что это орудие, текст не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 16–18, отрывок проверен по тексту"
+  }
+ ]
+}
