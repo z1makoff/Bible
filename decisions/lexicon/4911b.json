@@ -1,0 +1,29 @@
+{
+  "key": "4911b",
+  "kind": "word",
+  "display": "mashal",
+  "senses": [
+    {
+      "id": "proverb",
+      "ru": "слагать притчи",
+      "stems": [
+        "притч"
+      ],
+      "gloss": "слагать притчи: Иез 16:44; 18:2; Чис 21:27",
+      "evidence": [
+        "Ezek.16.44",
+        "Ezek.18.2",
+        "Num.21.27"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-01",
+      "by": "claude",
+      "change": "создано при подготовке Чис 21"
+    }
+  ]
+}

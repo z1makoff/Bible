@@ -1,0 +1,49 @@
+{
+ "id": "biglino-book-of-wars-detail",
+ "tradition": "Мауро Бильино",
+ "lemmas": [],
+ "places": [
+  "Num.21.14",
+  "Num.21.15"
+ ],
+ "claim": "Точность этого краткого описания местности, пишет Бильино, позволяет считать, что сведения об орудиях и способах боя этого Elohim были бы для нас очень интересны. Там, возможно, нашлись бы соответствия рассказам о Vimana в индийских текстах или более точные описания keruvim. В «Non c'è creazione nella Bibbia» он добавляет: книга, возможно, сообщала бы и о том, как использовали в сражениях ларь.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-dio-alieno",
+  "section": "о keruvim, Числа 21,14–15",
+  "quote": "La precisione di questa brevissima descrizione territoriale",
+  "quoteRu": "Точность этого кратчайшего описания местности",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "Vahev в Sufah, и лощины Arnon.",
+   "grade": "entailed",
+   "for": [
+    "Num.21.14"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Там были сведения о способах боя.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Приведённый отрывок — только перечень мест; название говорит о войнах."
+  },
+  {
+   "claim": "Vimana и keruvim.",
+   "grade": "speculative",
+   "for": [],
+   "against": [],
+   "note": "Автор пишет «возможно». В отрывке этого нет."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 19–21, отрывок проверен по тексту"
+  }
+ ]
+}

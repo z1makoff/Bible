@@ -1,0 +1,57 @@
+{
+ "id": "trad-num21-kemosh",
+ "tradition": "Традиционная (Толковая Библия Лопухина)",
+ "lemmas": [],
+ "places": [
+  "Num.21.29"
+ ],
+ "claim": "Kemosh, пишет Лопухин, — языческое божество, чествовавшееся жителями Moav, подобное Baal и Molekh.",
+ "source": {
+  "kind": "book",
+  "book": "lopuhin-numbers",
+  "section": "толкование на Чис 21:29",
+  "quote": "языческое божество, чествовавшееся моавитянами",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "Пропал ты, народ Kemosh.",
+   "grade": "entailed",
+   "for": [
+    "Num.21.29"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Kemosh назван Elohim Моава.",
+   "grade": "entailed",
+   "for": [
+    "1Kgs.11.33"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Языческое.",
+   "grade": "supported",
+   "for": [
+    "1Kgs.11.7"
+   ],
+   "against": [],
+   "note": "Там он назван shiqquts Моава."
+  },
+  {
+   "claim": "Подобное Baal и Molekh.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Стих этого не говорит."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 19–21, отрывок проверен по тексту"
+  }
+ ]
+}

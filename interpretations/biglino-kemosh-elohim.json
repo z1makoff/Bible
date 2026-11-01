@@ -1,0 +1,62 @@
+{
+ "id": "biglino-kemosh-elohim",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "3645"
+ ],
+ "places": [
+  "Judg.11.24",
+  "1Kgs.11.33"
+ ],
+ "claim": "Kamosh, Elohim Моава, пишет Бильино, по свойствам и власти полностью соответствует Yahweh. В Суд 11:24 вождь Израиля признаёт за ним право давать землю своим, а стела Mesha, IX век до н. э., подтверждает, что между ними нет различия. В «La Bibbia non parla di Dio» он оговаривает: в Суд 11:24 ошибка переписчика, Elohim аммонитян не Kemosh, а Milkom. Чис 21:29 он не разбирает.",
+ "source": {
+  "kind": "book",
+  "book": "biglino-libri-senza-dio",
+  "section": "о других Elohim, 3 Цар 11 и Суд 11:24",
+  "quote": "assoluta corrispondenza tra le caratteristiche e i poteri dell’Elohim Kamosh",
+  "quoteRu": "полное соответствие между свойствами и властью Elohim Kamosh",
+  "checked": "2026-11-01"
+ },
+ "support": [
+  {
+   "claim": "Пропал ты, народ Kemosh.",
+   "grade": "entailed",
+   "for": [
+    "Num.21.29"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Kemosh назван Elohim Моава.",
+   "grade": "entailed",
+   "for": [
+    "1Kgs.11.33"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Yiftach ставит его дар земли рядом с даром YHWH.",
+   "grade": "entailed",
+   "for": [
+    "Judg.11.24"
+   ],
+   "against": []
+  },
+  {
+   "claim": "Различия нет.",
+   "grade": "plausible",
+   "for": [
+    "Judg.11.24"
+   ],
+   "against": [],
+   "note": "Суд 11:24 — довод в споре, стела проверяется вне Библии, разбор её автор даёт в «La Bibbia non parla di Dio». Чис 21:29 говорит только о поражении народа Kemosh."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "by": "claude",
+   "change": "создано при подготовке трактовок к Чис 19–21, отрывок проверен по тексту"
+  }
+ ]
+}
