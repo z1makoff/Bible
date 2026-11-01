@@ -37,6 +37,10 @@ class Report:
         self.warnings.append(f"{where}: {msg}")
 
 
+# Правила 1.3 добавили только раздел о Енохе: главы ВЗ с отметкой 1.2 действуют.
+OT_RULES = ("1.2",)
+
+
 def rules_version():
     m = re.search(r"Версия (\d+\.\d+)", (ROOT / "ПРАВИЛА.md").read_text("utf-8"))
     return m.group(1) if m else None
@@ -152,7 +156,7 @@ def check_chapter(path, lex, rep, version):
         return
     if (tr.get("book"), tr.get("chapter")) != (book, chapter):
         rep.error(where0, "книга или глава внутри файла не совпадают с путём")
-    if tr.get("rules") != version:
+    if tr.get("rules") not in (version, *OT_RULES):
         rep.warn(where0, f"подготовлена по правилам {tr.get('rules')}, действуют {version}")
     if tr.get("status") not in CHAPTER_STATUSES:
         rep.error(where0, f"неизвестный статус «{tr.get('status')}»")
@@ -365,6 +369,34 @@ def check_shared_ru(lex, rep):
                                                   "развести или записать причину в notes (правила, раздел 3)")
 
 
+def check_enoch(rep):
+    """Разметка Еноха: статусы, леммы и формы против словаря Дильмана и корпуса."""
+    lex_path = CORPUS / "geez-lexemes.json"
+    morph = sorted((ROOT / "morph" / "enoch").glob("*.json"))
+    if not morph or not lex_path.exists():
+        return
+    geez = json.loads(lex_path.read_text("utf-8"))
+    for path in morph:
+        data = json.loads(path.read_text("utf-8"))
+        where = f"Енох {data['chapter']}"
+        corpus_path = CORPUS / "enoch" / "1En" / path.name
+        words = {}
+        if corpus_path.exists():
+            corpus = json.loads(corpus_path.read_text("utf-8"))
+            words = {w["id"]: w["text"] for v in corpus["verses"] for w in v["words"]}
+        for wid, w in data["words"].items():
+            if w["status"] not in ("auto", "unsure", "checked"):
+                rep.error(where, f"{wid}: неизвестный статус {w['status']}")
+            lemmas = [s["lemma"] for s in w["segs"] if s.get("lemma")]
+            for lemma in lemmas + list(w.get("alts") or []):
+                if lemma not in geez:
+                    rep.error(where, f"{wid}: леммы {lemma} нет в словаре Дильмана")
+            if w["status"] == "checked" and not lemmas and w.get("gram") != "числительное":
+                rep.error(where, f"{wid}: проверенное слово без леммы")
+            if words and "".join(s["t"] for s in w["segs"]) != words.get(wid):
+                rep.error(where, f"{wid}: сегменты не складываются в слово корпуса")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     if not (CORPUS / "lexemes.json").exists():
@@ -385,6 +417,7 @@ def main():
     check_interpretations(rep)
     if len(sys.argv) != 3:
         check_shared_ru(lex, rep)
+        check_enoch(rep)
     for w in rep.warnings:
         print("предупреждение —", w)
     for e in rep.errors:

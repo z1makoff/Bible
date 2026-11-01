@@ -2,7 +2,7 @@
   "chapter": 11,
   "words": {
     "e01152": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ወ",
@@ -23,18 +23,16 @@
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "Lc162b97441554a01b8d7f69294ab9347"
-      ],
-      "note": "отсылка Дильмана «vid. sub»: заголовок отсылки не беру леммой; кандидат по отсылке: ውእቱ n=6672"
+      "gram": "местоимение",
+      "alts": [],
+      "note": "Разбор Opus: ውእቱ n=6672."
     },
     "e01153": {
       "status": "checked",
       "segs": [
         {
           "t": "መዋዕል",
-          "lemma": "L7796c77485f74d52bea947042d622493",
+          "lemma": "Ld6b825418be3449294c090c4c475a0cc",
           "prefix": null,
           "morph": null
         }
@@ -44,25 +42,21 @@
       "note": "Заголовок መዋዕል n=12572, в выгрузке латинского значения нет. Значение по ዕለት n=6714: «subst., plerumque fem., Pl. ዕለታት»; «temporis spatium, tempus»; «dies»."
     },
     "e01154": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "እፈትሕ",
-          "lemma": null,
+          "lemma": "L64940664ab294eb0b1ebbe5f97d053fc",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L64940664ab294eb0b1ebbe5f97d053fc",
-        "L0e87a0f392ae4765b2c804938ba42aca",
-        "L7556c3d5c511402cb0799fc584a4a54a"
-      ],
-      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ፈትሐ n=9970, አፍትሐ n=9971, ኤፍታሕ n=11730"
+      "gram": "глагол, сослагательное, я",
+      "alts": [],
+      "note": "Разбор Opus: ፈትሐ n=9970."
     },
     "e01155": {
-      "status": "auto",
+      "status": "checked",
       "segs": [
         {
           "t": "መዛግብተ",
@@ -90,26 +84,18 @@
       "note": "Написание совпало с одной статьёй Дильмана: በረከት n=3907."
     },
     "e01157": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "እለ",
-          "lemma": null,
+          "lemma": "Ldbcd9df387794613b6e6ba62a0c8e2dc",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L9fa031f31b5e47599137f54201b3068f",
-        "L0542cd28360a428a99c900f5c01dde3e",
-        "L6d2f800ae7f04a77815a6dacb546cb54",
-        "L7f88f9d1fb5c42e7ad39ba621daafec1",
-        "Ldbcd9df387794613b6e6ba62a0c8e2dc",
-        "L5641c39fe8ec478e8146f253d604d2d8",
-        "L9361340426b043f5a9264104cbf3c5c6"
-      ],
-      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዘ n=7439, ዘ n=7441, ዘ n=7442, እለ n=5381, እሌ n=12500, ዝ n=7440"
+      "gram": "местоимение",
+      "alts": [],
+      "note": "Разбор Opus: እለ n=5381."
     },
     "e01158": {
       "status": "checked",
@@ -132,57 +118,46 @@
       "note": "Написание совпало с одной статьёй Дильмана: ሰማይ n=2564."
     },
     "e01159": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ከመ",
-          "lemma": null,
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L22c2e71ac6c0443e8f05d480b3ac9e85",
-        "L5724e47151364d91bd5e63d589c0ffd9",
-        "Lcddc0aae60324baa9922c63b7c27b716",
-        "L6e84824fe2e1492692a9ea37e104f6eb"
-      ],
-      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+      "gram": "союз",
+      "alts": [],
+      "note": "Разбор Opus: ከመ n=6045."
     },
     "e01160": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "አውርዶሙ",
-          "lemma": null,
+          "lemma": "Lde7750cfefad467d8f96bc06d9ca83ff",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "глагол, сослагательное, я, с «их»",
       "alts": [],
-      "note": "нет в словаре Дильмана"
+      "note": "Разбор Opus: አውረደ n=6557."
     },
     "e01161": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": "Разбор Opus: ዲበ n=7980."
     },
     "e01162": {
       "status": "checked",
@@ -199,27 +174,21 @@
       "note": "Написание совпало с одной статьёй Дильмана: ምድር n=1586."
     },
     "e01163": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": "Разбор Opus: ዲበ n=7980."
     },
     "e01164": {
-      "status": "auto",
+      "status": "checked",
       "segs": [
         {
           "t": "ግብሮሙ",
@@ -233,7 +202,7 @@
       "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
     },
     "e01165": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ወ",
@@ -243,23 +212,17 @@
         },
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": "Разбор Opus: ዲበ n=7980."
     },
     "e01166": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ፃማ",
@@ -271,12 +234,12 @@
           "t": "ሆሙ",
           "lemma": null,
           "prefix": null,
-          "morph": "S3mp"
+          "morph": null
         }
       ],
-      "gram": null,
+      "gram": "имя с «их»",
       "alts": [],
-      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; кандидаты: ጻማ n=9250"
+      "note": "Разбор Opus: ጻማ n=9250."
     },
     "e01167": {
       "status": "checked",
@@ -327,7 +290,7 @@
       "note": "Написание совпало с одной статьёй Дильмана: ሰላም n=2435."
     },
     "e01170": {
-      "status": "auto",
+      "status": "checked",
       "segs": [
         {
           "t": "ወ",
@@ -347,28 +310,21 @@
       "note": "форма построена от заголовка статьи"
     },
     "e01171": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ሱቱፋነ",
-          "lemma": null,
+          "lemma": "L2c86ba134fff43b7b06121a86cd00363",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L2c86ba134fff43b7b06121a86cd00363",
-        "L2e718610549e42f6938d72160ee9888c",
-        "L71250ccb0b22458397ce4cf12d7a9aa3",
-        "L8ba2a30a676547b6be98eb025a706a3d",
-        "L93be948b922745a38c50b1504b5c7233",
-        "Lee61fb3d1e9e450593cacf3ec7fb0307"
-      ],
-      "note": "совпадение по согласным после омофонов, не по гласным; Дильман ссылается на этот стих; кандидаты: ሱቱፍ n=2777, ሰተፈ n=2774, ሱታፌ n=2780, ሱታፊ n=2779, ሱቱፍና n=2781, ሱታፍ n=2778"
+      "gram": "прилагательное, множественное",
+      "alts": [],
+      "note": "Разбор Opus: ሱቱፍ n=2777."
     },
     "e01172": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ይከውኑ",
@@ -377,32 +333,30 @@
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "глагол, непрошедшее, они",
       "alts": [],
-      "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: ኮነ n=6290"
+      "note": "Разбор Opus: ኮነ n=6290."
     },
     "e01173": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "በኲሉ",
-          "lemma": null,
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L34d5574842584f8f81d2803036df50fd"
-      ],
-      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: በኲሉ | በ+ኲሉ; кандидаты: ኵሉ n=5982"
+      "gram": "местоимение",
+      "alts": [],
+      "note": "Разбор Opus: ኵሉ n=5982."
     },
     "e01174": {
       "status": "checked",
       "segs": [
         {
           "t": "መዋዕለ",
-          "lemma": "L7796c77485f74d52bea947042d622493",
+          "lemma": "Ld6b825418be3449294c090c4c475a0cc",
           "prefix": null,
           "morph": null
         }
@@ -426,23 +380,21 @@
       "note": "Написание совпало с одной статьёй Дильмана: ዓለም n=6918."
     },
     "e01176": {
-      "status": "unsure",
+      "status": "checked",
       "segs": [
         {
           "t": "ወበኲሉ",
-          "lemma": null,
+          "lemma": "L34d5574842584f8f81d2803036df50fd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L34d5574842584f8f81d2803036df50fd"
-      ],
-      "note": "совпадение через омофон или известную основу с окончанием, не по точному написанию; не auto; несколько нарезок; нарезки: ወ+በኲሉ | ወ+በ+ኲሉ; кандидаты: ኵሉ n=5982"
+      "gram": "местоимение",
+      "alts": [],
+      "note": "Разбор Opus: ኵሉ n=5982."
     },
     "e01177": {
-      "status": "auto",
+      "status": "checked",
       "segs": [
         {
           "t": "ትውልደ",

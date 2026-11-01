@@ -5,13 +5,16 @@
 import json
 import re
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "tools"))
 
 import build_enoch  # noqa: E402
+import check  # noqa: E402
 import enoch_tag  # noqa: E402
 import geez  # noqa: E402
 
@@ -385,6 +388,42 @@ class CorpusTest(unittest.TestCase):
         verse4 = next(verse for verse in chapter["verses"] if verse["n"] == 4)
         self.assertEqual(verse4["words"][0]["id"], "e00056")
         self.assertEqual(verse4["words"][0]["text"], "ወአምላከ")
+
+
+class CheckEnochTest(unittest.TestCase):
+    """check_enoch ловит порчу разметки: подменяем ROOT на копию с одной главой."""
+
+    def errors(self, spoil):
+        data = json.loads((MORPH / "001.json").read_text(encoding="utf-8"))
+        spoil(data["words"][next(iter(data["words"]))])
+        with tempfile.TemporaryDirectory() as tmp:
+            folder = Path(tmp) / "morph" / "enoch"
+            folder.mkdir(parents=True)
+            (folder / "001.json").write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            report = check.Report()
+            with mock.patch.object(check, "ROOT", Path(tmp)):
+                check.check_enoch(report)
+        return report.errors
+
+    def test_clean_chapter_passes(self):
+        self.assertEqual(self.errors(lambda word: None), [])
+
+    def test_unknown_status(self):
+        self.assertTrue(self.errors(lambda word: word.update(status="ok")))
+
+    def test_unknown_lemma(self):
+        self.assertTrue(self.errors(lambda word: word["segs"][0].update(lemma="L0")))
+
+    def test_segments_must_join_to_corpus_word(self):
+        self.assertTrue(self.errors(lambda word: word["segs"][0].update(t="ሀ")))
+
+    def test_checked_word_needs_lemma(self):
+        def spoil(word):
+            word["status"] = "checked"
+            word["gram"] = None
+            for seg in word["segs"]:
+                seg["lemma"] = None
+        self.assertTrue(self.errors(spoil))
 
 
 if __name__ == "__main__":
