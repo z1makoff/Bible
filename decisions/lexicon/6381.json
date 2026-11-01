@@ -31,7 +31,7 @@
     }
   ],
   "status": "draft",
-  "notes": "",
+  "notes": "Значение fulfill известно только из оборота с neder: отдельного примера нет.",
   "history": [
     {
       "date": "2026-10-17",
@@ -52,6 +52,11 @@
       "date": "2026-10-22",
       "by": "claude",
       "change": "форма yafli — Лев 27:2"
+    },
+    {
+      "date": "2026-11-01",
+      "by": "claude",
+      "change": "заметка: откуда значение fulfill"
     }
   ],
   "displayForms": [
