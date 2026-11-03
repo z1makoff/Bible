@@ -1,0 +1,36 @@
+{
+ "id": "biglino-num21-eshed",
+ "tradition": "Мауро Бильино",
+ "lemmas": [
+  "793"
+ ],
+ "places": [
+  "Num.21.14",
+  "Num.21.15"
+ ],
+ "claim": "Выдержку из книги войн Бильино переводит пословно и для eshed даёт «parte bassa», «нижняя часть»; nachal у него «fiumi».",
+ "source": {
+  "kind": "book",
+  "book": "biglino-non-ce-creazione",
+  "section": "Numeri 21,14-15",
+  "quote": "parte bassa di i fiumi",
+  "quoteRu": "нижняя часть рек",
+  "checked": "2026-11-02"
+ },
+ "support": [
+  {
+   "claim": "Eshed — «parte bassa», нижняя часть.",
+   "grade": "compatible",
+   "for": [],
+   "against": [],
+   "note": "Слово только в Чис 21:15. В словарь это не внесено: другого места нет. «Лощин» — наше слово для nachal, его «fiumi» им не заменено."
+  }
+ ],
+ "history": [
+  {
+   "date": "2026-11-02",
+   "by": "grok",
+   "change": "создано по сводке проверки Чисел 11–21"
+  }
+ ]
+}
