@@ -1,0 +1,32 @@
+{
+  "key": "L0a20dcd105814411b5482f1719591f7e",
+  "n": "4054",
+  "head": "ቦአ",
+  "kind": "word",
+  "display": "boa",
+  "senses": [
+    {
+      "id": "enter",
+      "ru": "войти",
+      "stems": [
+        "вход",
+        "войд",
+        "вош",
+        "войт"
+      ],
+      "gloss": "войти, войти к женщине (Дильман 1: intrare, ingredi; a: inire feminam — Hen. 7,1)",
+      "evidence": [
+        "1En.7.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман a называет Hen. 7,1 (inire feminam, coire). В русском «войти» покрывает и обычный вход, и «войти к женщине».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

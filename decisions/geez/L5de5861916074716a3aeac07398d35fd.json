@@ -1,0 +1,47 @@
+{
+  "key": "L5de5861916074716a3aeac07398d35fd",
+  "n": "15",
+  "head": "ሀለወ",
+  "kind": "word",
+  "display": "halawa",
+  "senses": [
+    {
+      "id": "exist",
+      "ru": "существовать",
+      "stems": [
+        "существ"
+      ],
+      "gloss": "быть, существовать, не связка",
+      "evidence": [
+        "1En.1.1"
+      ]
+    },
+    {
+      "id": "impend",
+      "ru": "предстоять",
+      "stems": [
+        "предстоя",
+        "предстоит"
+      ],
+      "gloss": "предстоять, быть впереди (Дильман 15.1.d praesens instans: ይመጽእ ሀሎ venturus est Hen. 10,2; 15.2 instare, futurum esse: ዘሀለወ ይኩን Apoc. 1,19)",
+      "evidence": [
+        "1En.1.1",
+        "1En.10.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 15.1.d: ሀለወ с имперфектом другого глагола — praesens instans: ይመጽእ ሀሎ venturus est Hen. 10,2; 15.2: instare, futurum esse, c. Subj. (ዘሀለወ ይኩን Apoc. 1,19). В этих местах (1:1, 10:2 e00825) — impend «предстоять»; прочие места — exist.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П28: добавлено impend «предстоять» (Дильман 15.1.d, 15.2)"
+    }
+  ]
+}

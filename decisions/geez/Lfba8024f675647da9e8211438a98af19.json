@@ -1,0 +1,69 @@
+{
+  "key": "Lfba8024f675647da9e8211438a98af19",
+  "n": "4932",
+  "head": "ምንባር",
+  "kind": "word",
+  "display": "menebar",
+  "senses": [
+    {
+      "id": "place_noun",
+      "ru": "место",
+      "stems": [
+        "мест"
+      ],
+      "gloss": "место, где что-то положено (Дильман 1.a: locus in quo quid positum est; τόπος)",
+      "evidence": [
+        "1En.33.3",
+        "Dillmann: Job 14,18"
+      ]
+    },
+    {
+      "id": "dwelling",
+      "ru": "жилище",
+      "stems": [
+        "жилищ"
+      ],
+      "gloss": "жилище, местопребывание (Дильман 1.c: sedes, mansio, habitatio, domicilium)",
+      "evidence": [
+        "1En.33.3",
+        "Dillmann: Hez. 16,31"
+      ]
+    },
+    {
+      "id": "storehouse",
+      "ru": "хранилище",
+      "stems": [
+        "хранилищ"
+      ],
+      "gloss": "хранилище, склад (Дильман 1.b: ubi quid reponitur, apotheca; ὁπλοθῆκαι)",
+      "evidence": [
+        "Dillmann: 2 Par. 32,27"
+      ]
+    },
+    {
+      "id": "seat",
+      "ru": "седалище",
+      "stems": [
+        "седалищ"
+      ],
+      "gloss": "сиденье, кресло, кафедра (Дильман 3: sedes, sella, cathedra)",
+      "evidence": [
+        "Dillmann: Jsp. p. 328"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 4932, subst. (от ነበረ, «сидеть, быть»): (1) locus — a) in quo quid positum est «место, где что лежит» (τόπος): ኰኵሕ ይበሊ በውስተ ምንባሩ Job 14,18; Jes. 46,7; b) ubi quid reponitur, apotheca «хранилище»: ምንባራተ ንዋያተ ሐቅል 2 Par. 32,27; c) ubi quis habitat «жилище, местопребывание»: ገበርኪ ምንባራተኪ ውስተ ኵሉ መርሕብ Hez. 16,31; Gen. 10,30; Nah. 3,10; (2) basis, fundamentum, sustentaculum, pes «основание, подставка»: ምንባረ መቅጹት χυτρόπους Lev. 11,35 (отдельным смыслом не взято: «основание» занято у masarat); (3) sedes, sella, cathedra «сиденье, кафедра»: ምንባረ ማእምራን Jsp. p. 328 (aliâs መንበር). 33.3 ወጸሐፍኩ ኲሎ ሙጻኦሙ … ወአስማቲሆሙ በደርጎሙ ወምንባሮሙ ወጊዜሆሙ — «записал выходы их … имена их, соединения их, ምንባር их, времена их» (Смирнов «их положению»): подходят 'place_noun' («положение, место») и 'dwelling' («жилище, пребывание» звёзд); греческого 33.3 в корпусе нет — поэтому латиница menebar. «Жилище» есть и у mahedar (ማኅደር); «место» — у makan (መካን): слова разведены по корню и по примерам Дильмана. 74.2, 74.9, 74.12, 75.2, 106.7 auto.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→4, ru уточнено, notes написаны; добавлены dwelling, storehouse, seat (пункты 1.c, 1.b, 3 Дильмана); evidence 33.3 у place_noun и dwelling"
+    }
+  ]
+}

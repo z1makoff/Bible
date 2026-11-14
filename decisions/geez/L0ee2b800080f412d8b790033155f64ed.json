@@ -1,0 +1,40 @@
+{
+  "key": "L0ee2b800080f412d8b790033155f64ed",
+  "n": "3865",
+  "head": "ብርሃን",
+  "kind": "word",
+  "display": "berehan",
+  "senses": [
+    {
+      "id": "light",
+      "ru": "свет",
+      "stems": [
+        "свет"
+      ],
+      "gloss": "свет",
+      "evidence": [
+        "1En.1.8"
+      ]
+    },
+    {
+      "id": "luminary",
+      "ru": "светило",
+      "stems": [
+        "светил"
+      ],
+      "gloss": "светило",
+      "evidence": [
+        "1En.2.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    }
+  ]
+}

@@ -43,9 +43,32 @@ function refLabel(ref) {
   return v ? `${name} ${c}:${v}` : `${name} ${c}`;
 }
 
+function hashBook(book) {
+  return book === "1En" ? "enoch" : book;
+}
+
 function refLink(ref) {
   const [b, c, v] = ref.split(".");
-  return `<a href="#/${b}/${c}/${v}">${esc(refLabel(ref))}</a>`;
+  return `<a href="#/${hashBook(b)}/${c}/${v}">${esc(refLabel(ref))}</a>`;
+}
+
+function evidenceHtml(ev) {
+  return /^[1-3]?[A-Za-z]+\.\d+\.\d+$/.test(ev) ? refLink(ev) : esc(ev);
+}
+
+// Номера подготовленных глав одной строкой: 1–3, 5.
+function preparedSpan(book) {
+  const nums = Object.keys(state.prepared[book] || {}).map(Number).filter((n) => Number.isFinite(n)).sort((a, b) => a - b);
+  if (!nums.length) return "";
+  const parts = [];
+  let start = nums[0], prev = nums[0];
+  for (const n of nums.slice(1)) {
+    if (n === prev + 1) { prev = n; continue; }
+    parts.push(start === prev ? String(start) : `${start}–${prev}`);
+    start = prev = n;
+  }
+  parts.push(start === prev ? String(start) : `${start}–${prev}`);
+  return parts.join(", ");
 }
 
 // ---------- стол ----------
@@ -53,18 +76,20 @@ function refLink(ref) {
 // Трактаты на столе. Открытый трактат помнится в state.tract: возвращаясь на стол,
 // он анимацией закрывается.
 function deskTracts() {
-  const done = Object.values(state.prepared).reduce((n, chs) => n + Object.keys(chs).length, 0);
+  const done = Object.entries(state.prepared).reduce((n, [id, chs]) => n + (id === "1En" ? 0 : Object.keys(chs).length), 0);
   const read = Object.keys(state.progress).length;
   const last = state.settings.last;
   let cont = null;
   if (last) {
     const [b, c, v] = last.split(".");
-    cont = { label: `Продолжить: ${refLabel(last)}`, href: `#/${b}/${c}${v ? "/" + v : ""}` };
+    cont = { label: `Продолжить: ${refLabel(last)}`, href: `#/${hashBook(b)}/${c}${v ? "/" + v : ""}` };
   }
+  const enochSpan = preparedSpan("1En");
   return [
     { id: "ot", title: "Танах", sub: "Ветхий Завет", kind: "codex", href: "#/ot",
       info: [`подготовлено глав: ${done}`, read ? `прочитано: ${read}` : ""].filter(Boolean).join(" · "), cont },
-    { id: "enoch", title: "Книга Еноха", sub: "1 Енох", kind: "scroll", href: "#/enoch", info: "перевод не начат" },
+    { id: "enoch", title: "Книга Еноха", sub: "1 Енох", kind: "scroll", href: "#/enoch",
+      info: enochSpan ? `главы ${enochSpan}` : "перевод не начат" },
     { id: "jub", title: "Юбилеи", sub: "позже", kind: "codex", later: true, info: "позже" },
   ];
 }
@@ -92,17 +117,37 @@ function enterTract(tract, showLink) {
     $("#main").classList.add("from-desk");
   }
   state.tract = tract;
-  $("#tractLink").hidden = !showLink;
+  const link = $("#tractLink");
+  if (tract === "enoch") {
+    link.href = "#/enoch";
+    link.textContent = "Книга Еноха";
+  } else {
+    link.href = "#/ot";
+    link.textContent = "Ветхий Завет";
+  }
+  link.hidden = !showLink;
 }
 
-function renderEnoch() {
+function layerLabel(id, visible) {
+  const label = document.getElementById(id)?.closest("label");
+  if (label) label.hidden = !visible;
+}
+
+function showLayers(enoch, hasGreek) {
+  layerLabel("showHebrew", !enoch);
+  layerLabel("showSynodal", !enoch);
+  layerLabel("showGeez", enoch);
+  layerLabel("showSmirnov", enoch);
+  layerLabel("showGreek", enoch && hasGreek);
+}
+
+function renderEnochMissing() {
   enterTract("enoch", false);
   $("#where").hidden = true;
   $("#toggles").hidden = true;
   closeCard();
   $("#main").innerHTML = `<section class="library"><h1>Книга Еноха</h1>
-    <p class="hint">Перевод ещё не начат. Сначала выбираем исходный текст — полностью книга сохранилась только на геэзе;
-    есть арамейские фрагменты из Кумрана и греческие главы — и дописываем для неё правила.</p></section>`;
+    <p class="hint">Корпус ещё не собран. Сначала python tools/build_enoch.py.</p></section>`;
   document.title = "Книга Еноха";
 }
 
@@ -178,32 +223,37 @@ async function importData(f) {
 
 function renderBook(id) {
   const b = state.byId[id];
-  enterTract("ot", true);
+  const enoch = id === "1En";
+  enterTract(enoch ? "enoch" : "ot", !enoch);
   $("#where").hidden = true;
   $("#toggles").hidden = true;
   closeCard();
-  let html = `<section class="library"><h1>${esc(b.name)}</h1><div class="chapters">`;
+  const title = enoch ? "Книга Еноха" : b.name;
+  const route = enoch ? "enoch" : id;
+  let html = `<section class="library"><h1>${esc(title)}</h1><div class="chapters">`;
   for (let c = 1; c <= b.chapters; c++) {
     const st = (state.prepared[id] || {})[c];
     const rd = state.progress[`${id}.${c}`];
-    const title = [st ? STATUS[st] : "не подготовлена", rd ? `прочитана ${dateRu(rd.date)}` : ""].filter(Boolean).join(", ");
-    html += `<a class="ch${st ? " has" : ""}${rd ? " read" : ""}" href="#/${id}/${c}" title="${title}">${c}</a>`;
+    const hint = [st ? STATUS[st] : "не подготовлена", rd ? `прочитана ${dateRu(rd.date)}` : ""].filter(Boolean).join(", ");
+    html += `<a class="ch${st ? " has" : ""}${rd ? " read" : ""}" href="#/${route}/${c}" title="${hint}">${c}</a>`;
   }
   $("#main").innerHTML = html + `</div><p class="hint">Выделены подготовленные главы; ✓ — прочитанные вами.</p></section>`;
-  document.title = b.name;
+  document.title = title;
 }
 
 // ---------- глава ----------
 
 async function openChapter(book, chapter, verse, lookup = false) {
   const b = state.byId[book];
-  if (!b || chapter < 1 || chapter > b.chapters) return renderLibrary();
+  const enoch = book === "1En";
+  if (!b || chapter < 1 || chapter > b.chapters) return enoch ? renderBook("1En") : renderLibrary();
   const data = await api(`/api/chapter/${book}/${chapter}`);
   state.chapter = data;
-  enterTract("ot", true);
+  enterTract(enoch ? "enoch" : "ot", true);
   $("#where").hidden = false;
   $("#toggles").hidden = false;
-  $("#bookName").innerHTML = `<a href="#/${book}">${esc(b.name)}</a>`;
+  const back = enoch ? "enoch" : book;
+  $("#bookName").innerHTML = `<a href="#/${back}">${esc(b.name)}</a>`;
   const sel = $("#chapterSelect");
   sel.innerHTML = Array.from({ length: b.chapters }, (_, i) =>
     `<option value="${i + 1}"${i + 1 === chapter ? " selected" : ""}>${i + 1}</option>`).join("");
@@ -265,6 +315,28 @@ function renderHebrew(v) {
   return `<p class="he" dir="rtl" lang="he">${words}</p>`;
 }
 
+const GRC_EDITION = { flemming1901: "Флемминг 1901", swete1905: "Суит 1905" };
+
+function renderGeez(v) {
+  const words = v.words.map((w) => `<span class="hw" data-w="${esc(w.id)}" tabindex="0">${esc(w.text)}</span>`).join(" ");
+  return `<p class="gez" lang="gez">${words}</p>`;
+}
+
+function renderSmirnov(v) {
+  const rows = v.smirnov || [];
+  if (!rows.length) return `<p class="syn empty">У Смирнова этого стиха нет.</p>`;
+  return rows.map((s) => `<p class="syn">${esc(s.text)}</p>`).join("");
+}
+
+function renderGreek(v) {
+  const rows = v.grc || [];
+  if (!rows.length) return `<p class="syn empty">Греческого текста этого стиха нет.</p>`;
+  return rows.map((s) => {
+    const name = GRC_EDITION[s.edition] || s.edition || "";
+    return `<p class="syn grc"><span class="synref">${esc(name)}</span> ${esc(s.text)}</p>`;
+  }).join("");
+}
+
 function synText(text) {
   return esc(text).replace(/\[[^\[\]]*\]/g, (m) =>
     `<span class="synadd" title="Добавлено к еврейскому тексту, обычно из греческого перевода">${m}</span>`);
@@ -291,15 +363,30 @@ function renderSynOnly(v) {
 function renderChapter() {
   const ch = state.chapter;
   const b = state.byId[ch.book];
+  const enoch = ch.book === "1En";
   const tr = ch.translation;
   const tvs = translatedVerses();
-  const showHe = state.settings.showHebrew || !tr;
-  const showSyn = state.settings.showSynodal || !tr;
-  $("#showHebrew").checked = !!state.settings.showHebrew;
-  $("#showSynodal").checked = !!state.settings.showSynodal;
+  const hasGreek = enoch && ch.verses.some((v) => (v.grc || []).length);
+  const showHe = !enoch && (state.settings.showHebrew || !tr);
+  const showSyn = !enoch && (state.settings.showSynodal || !tr);
+  const showGe = enoch && (state.settings.showGeez || !tr);
+  const showSm = enoch && (state.settings.showSmirnov || !tr);
+  const showGr = enoch && hasGreek && (state.settings.showGreek || !tr);
+  showLayers(enoch, hasGreek);
+  if (enoch) {
+    $("#showGeez").checked = !!state.settings.showGeez;
+    $("#showSmirnov").checked = !!state.settings.showSmirnov;
+    $("#showGreek").checked = !!state.settings.showGreek;
+  } else {
+    $("#showHebrew").checked = !!state.settings.showHebrew;
+    $("#showSynodal").checked = !!state.settings.showSynodal;
+  }
+  const route = enoch ? "enoch" : ch.book;
   let html = `<article class="chapter"><h1>${esc(b.name)} ${ch.chapter}</h1>`;
   if (!tr) {
-    html += `<p class="status">Глава ещё не подготовлена. Показаны еврейский текст и Синодальный; слова в еврейском можно нажимать.</p>`;
+    html += enoch
+      ? `<p class="status">Глава ещё не подготовлена. Показаны геэз и Смирнов${hasGreek ? " и греческий" : ""}; слова геэза можно нажимать.</p>`
+      : `<p class="status">Глава ещё не подготовлена. Показаны еврейский текст и Синодальный; слова в еврейском можно нажимать.</p>`;
   } else {
     html += `<p class="status">${esc(STATUS[tr.status] || tr.status)} · правила ${esc(tr.rules)}</p>`;
   }
@@ -307,18 +394,25 @@ function renderChapter() {
   for (const v of ch.verses) {
     const tv = tvs[v.n];
     html += `<section class="verse${v.break ? " brk-" + v.break : ""}" id="v${v.n}">`;
-    html += `<a class="vn" href="#/${ch.book}/${ch.chapter}/${v.n}" title="Запомнить место">${v.n}</a>`;
+    html += `<a class="vn" href="#/${route}/${ch.chapter}/${v.n}" title="Запомнить место">${v.n}</a>`;
     html += `<div class="vt">`;
     if (tv) html += renderRussian(v, tv);
     else if (tr) html += `<p class="ru pending">Стих ещё не подготовлен.</p>`;
-    if (showHe || (tr && !tv)) html += renderHebrew(v);
-    if (showSyn || (tr && !tv)) html += renderSynodal(v);
-    html += renderSynOnly(v) + `</div></section>`;
+    if (enoch) {
+      if (showGe || (tr && !tv)) html += renderGeez(v);
+      if (showSm || (tr && !tv)) html += renderSmirnov(v);
+      if (showGr || (hasGreek && tr && !tv)) html += renderGreek(v);
+    } else {
+      if (showHe || (tr && !tv)) html += renderHebrew(v);
+      if (showSyn || (tr && !tv)) html += renderSynodal(v);
+      html += renderSynOnly(v);
+    }
+    html += `</div></section>`;
   }
   const n = ch.chapter;
   html += `<div class="read-end">${readButton(ch)}</div>`;
-  html += `<nav class="bottom">${n > 1 ? `<a href="#/${ch.book}/${n - 1}">‹ Глава ${n - 1}</a>` : "<span></span>"}`;
-  html += n < b.chapters ? `<a href="#/${ch.book}/${n + 1}">Глава ${n + 1} ›</a>` : "<span></span>";
+  html += `<nav class="bottom">${n > 1 ? `<a href="#/${route}/${n - 1}">‹ Глава ${n - 1}</a>` : "<span></span>"}`;
+  html += n < b.chapters ? `<a href="#/${route}/${n + 1}">Глава ${n + 1} ›</a>` : "<span></span>";
   $("#main").innerHTML = html + `</nav></article>`;
   if (state.selected) highlight(state.selected.wid);
 }
@@ -413,7 +507,7 @@ function decisionBlock(lex) {
   if (d.notes) html += `<p>${esc(d.notes)}</p>`;
   if (d.senses?.length) {
     html += `<ul class="senses">` + d.senses.map((s) =>
-      `<li><b>«${esc(s.ru)}»</b>${s.gloss ? ` — ${esc(s.gloss)}` : ""}<br><small>Видно в: ${s.evidence.map(refLink).join(", ")}</small></li>`).join("") + `</ul>`;
+      `<li><b>«${esc(s.ru)}»</b>${s.gloss ? ` — ${esc(s.gloss)}` : ""}<br><small>Видно в: ${(s.evidence || []).map(evidenceHtml).join(", ")}</small></li>`).join("") + `</ul>`;
   }
   return html;
 }
@@ -452,7 +546,19 @@ function occurrencesBlock(lex) {
   return `<h3>Где ещё встречается <small>${times(lex.count)}</small></h3>${books}`;
 }
 
+function dillmannBlock(info) {
+  const senses = (info.senses || []).map((s) => `<p class="dillmann-text">${esc(s.text)}</p>`).join("");
+  const english = (info.en || []).filter((t) => String(t).trim());
+  let html = `<details class="dicts" open><summary>Дильман${info.n ? `, статья ${esc(info.n)}` : ""} (подсказка, не доказательство)</summary>`;
+  html += senses || `<p class="muted">Латинского текста в статье нет.</p>`;
+  if (english.length) {
+    html += `<p class="muted">Английский слой</p>` + english.map((t) => `<p class="dillmann-text">${esc(t)}</p>`).join("");
+  }
+  return html + `</details>`;
+}
+
 function dictionariesBlock(info) {
+  if (info?.geez) return dillmannBlock(info);
   const parts = [];
   if (info.bdb) parts.push(`<p><b>BDB:</b> ${info.bdb.senses ? info.bdb.senses.map(esc).join("; ") : esc(info.bdb.text)}</p>`);
   if (info.strong?.meaning) parts.push(`<p><b>Strong:</b> ${esc(info.strong.meaning)}</p>`);
@@ -474,19 +580,40 @@ async function openCard(wid) {
   if (sel && matchMedia("(max-width: 600px)").matches) {  // на телефоне карточка снизу: слово — над ней
     window.scrollBy(0, sel.getBoundingClientRect().top - $(".bar").offsetHeight - 16);
   }
-  const grammar = w.segs.map((s) => `<li><span class="he-inline" lang="he">${esc(s.t.replace(/[֑-֯]/g, ""))}</span> — ${esc(MORPH.segment(s.morph, w.lang))}</li>`).join("");
+  const enoch = state.chapter.book === "1En";
+  const grammar = enoch
+    ? `<li>${esc(w.gram || "разбор не записан")}</li>`
+    : w.segs.map((s) => `<li><span class="he-inline" lang="he">${esc(s.t.replace(/[֑-֯]/g, ""))}</span> — ${esc(MORPH.segment(s.morph, w.lang))}</li>`).join("");
   const keys = contentLemmas(w);
   const lexes = await Promise.all(keys.map((k) => api(`/api/lexeme/${k}?ref=${encodeURIComponent(v.ref)}`).catch(() => null)));
+  const alts = enoch && w.alts?.length
+    ? await Promise.all(w.alts.map((k) => api(`/api/lexeme/${k}?ref=${encodeURIComponent(v.ref)}`).catch(() => null)))
+    : [];
   let html = `<button class="close" title="Закрыть (Esc)" aria-label="Закрыть">×</button>
-    <p class="word" lang="he" dir="rtl">${esc(w.text)}</p><p class="tr">${esc(w.tr)}</p>
+    <p class="word${enoch ? " gez" : ""}" ${enoch ? 'lang="gez"' : 'lang="he" dir="rtl"'}>${esc(w.text)}</p><p class="tr">${esc(w.tr)}</p>
     <p class="ref">${esc(refLabel(v.ref))}${w.lang === "A" ? " · арамейский" : ""}</p>`;
+  if (enoch && w.status && w.status !== "checked") {
+    html += `<p class="note">Разметка этого слова: ${esc(w.status)}. Пока разбор не checked, перевод по нему — черновик.</p>`;
+  }
   if (w.ketiv) {
     const q = (w.qere || []).map((x) => esc(x.text)).join(" ");
     html += `<p class="note">Так <b>написано</b> (кетив). Масореты велят <b>читать</b>: <span lang="he">${q || "— (не читать)"}</span>.</p>`;
   }
   if (ketiv) html += `<p class="note">Это <b>чтение</b> (кере) к написанному <span lang="he">${esc(ketiv.text)}</span>.</p>`;
   html += `<h3>Грамматика</h3><ul class="grammar">${grammar}</ul>`;
-  const lex = lexes.find(Boolean);
+  if (enoch && w.note) html += `<details><summary>Заметка к разметке</summary><p>${esc(w.note)}</p></details>`;
+  if (alts.length) {
+    const items = w.alts.map((k, i) => {
+      const head = alts[i]?.info?.lemma || k;
+      const n = alts[i]?.info?.n ? ` n=${alts[i].info.n}` : "";
+      return `<span lang="gez">${esc(head)}</span>${esc(n)}`;
+    });
+    html += `<p class="muted">Другие статьи: ${items.join("; ")}</p>`;
+  }
+  const tv = translatedVerses()[v.n];
+  const mainSpan = (tv?.spans || []).filter((s) => (s.w || []).includes(w.id)).find((s) => s.k !== "fn");
+  const sid = mainSpan && (typeof mainSpan.s === "object" ? mainSpan.s?.[w.id] : mainSpan.s);
+  const lex = (sid && lexes.find((lx) => lx?.decision?.senses?.some((s) => s.id === sid))) || lexes.find(Boolean);
   html += `<h3>Почему здесь так</h3>${placeExplanation(v, w, lex)}`;
   const ud = userDecision(v.ref, w.id);
   html += `<h3>Ваше решение для этого места</h3>
@@ -495,7 +622,9 @@ async function openCard(wid) {
     <button>Сохранить</button>${ud ? `<small>сохранено ${esc(ud.date.replace("T", " "))}; Claude сначала обсудит его с вами: применить везде или только здесь</small>` : ""}</form>`;
   for (const lx of lexes) {
     if (!lx) continue;
-    html += `<section class="lexeme"><h2><span lang="he">${esc(lx.info.lemma || "")}</span> <i>${esc(lx.info.xlit || lx.key)}</i></h2>`;
+    const headLang = lx.info.geez ? "gez" : "he";
+    const articleNo = lx.info.geez && lx.info.n ? ` <small>n=${esc(lx.info.n)}</small>` : "";
+    html += `<section class="lexeme"><h2><span lang="${headLang}">${esc(lx.info.lemma || "")}</span> <i>${esc(lx.info.xlit || lx.key)}</i>${articleNo}</h2>`;
     html += decisionBlock(lx) + interpretationsBlock(lx, v.ref) + occurrencesBlock(lx) + dictionariesBlock(lx.info);
     html += `<h3>Ваша заметка к слову</h3><form class="note-form" data-target="lexeme:${esc(lx.key)}">
       <textarea name="text" rows="3" placeholder="Мысли, наблюдения, вопросы">${esc(lx.note?.text || "")}</textarea>
@@ -556,7 +685,7 @@ function goBack() {
   state.pendingCard = r.wid;
   renderReturnButton();
   const [b, c, v] = r.ref.split(".");
-  const target = `#/${b}/${c}/${v}`;
+  const target = `#/${hashBook(b)}/${c}/${v}`;
   if (location.hash === target) route(); else location.hash = target;
 }
 
@@ -572,8 +701,9 @@ function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   if (!parts.length) return renderDesk();
   if (parts[0] === "ot") return renderLibrary();
-  if (parts[0] === "enoch") return renderEnoch();
-  const [book, ch, v] = parts;
+  const book = parts[0] === "enoch" ? "1En" : parts[0];
+  if ((parts[0] === "enoch" || parts[0] === "1En") && !state.byId["1En"]) return renderEnochMissing();
+  const ch = parts[1], v = parts[2];
   if (!state.byId[book]) return renderDesk();
   if (!ch) return renderBook(book);
   const sameChapter = state.chapter && state.chapter.book === book && state.chapter.chapter === +ch && $("#where").hidden === false;
@@ -591,7 +721,7 @@ function step(delta) {
   const ch = state.chapter;
   if (!ch || $("#where").hidden) return;
   const n = ch.chapter + delta;
-  if (n >= 1 && n <= state.byId[ch.book].chapters) location.hash = `#/${ch.book}/${n}`;
+  if (n >= 1 && n <= state.byId[ch.book].chapters) location.hash = `#/${hashBook(ch.book)}/${n}`;
 }
 
 document.addEventListener("click", (e) => {
@@ -613,15 +743,18 @@ document.addEventListener("keydown", (e) => {
 $("#backToReading").onclick = goBack;
 $("#prev").onclick = () => step(-1);
 $("#next").onclick = () => step(1);
-$("#chapterSelect").onchange = (e) => { location.hash = `#/${state.chapter.book}/${e.target.value}`; };
+$("#chapterSelect").onchange = (e) => { location.hash = `#/${hashBook(state.chapter.book)}/${e.target.value}`; };
 $("#showHebrew").onchange = (e) => { saveState({ showHebrew: e.target.checked }); renderChapter(); };
 $("#showSynodal").onchange = (e) => { saveState({ showSynodal: e.target.checked }); renderChapter(); };
+$("#showGeez").onchange = (e) => { saveState({ showGeez: e.target.checked }); renderChapter(); };
+$("#showSmirnov").onchange = (e) => { saveState({ showSmirnov: e.target.checked }); renderChapter(); };
+$("#showGreek").onchange = (e) => { saveState({ showGreek: e.target.checked }); renderChapter(); };
 window.addEventListener("hashchange", route);
 
 (async function start() {
   const data = await api("/api/books");
   state.books = data.books;
-  state.byId = Object.fromEntries(data.books.map((b) => [b.id, b]));
+  state.byId = Object.fromEntries([...data.books, ...(data.enoch || [])].map((b) => [b.id, b]));
   state.prepared = data.prepared;
   state.settings = data.state || {};
   state.progress = data.progress || {};

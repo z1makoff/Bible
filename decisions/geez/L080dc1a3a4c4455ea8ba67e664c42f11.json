@@ -1,0 +1,30 @@
+{
+  "key": "L080dc1a3a4c4455ea8ba67e664c42f11",
+  "n": "6946",
+  "head": "ዕመቅ",
+  "kind": "word",
+  "display": "emaq",
+  "senses": [
+    {
+      "id": "depth",
+      "ru": "глубина",
+      "stems": [
+        "глубин"
+      ],
+      "gloss": "глубина (Дильман: profunditas, profundum, altitudo, altum; Hen. 17,3; 18,11)",
+      "evidence": [
+        "1En.17.3",
+        "1En.18.11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6946: «profunditas, profundum (altitudo, altum)», Hen. 17,3 и 18,11 названы. В скобках altitudo/altum — «высота»; в 18:11 ዕመቅ стоит против መልዕልት (высота), поэтому «глубина». Греч. 17:3 ἀεροβαθῆ.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

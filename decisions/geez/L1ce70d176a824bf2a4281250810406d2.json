@@ -1,0 +1,29 @@
+{
+  "key": "L1ce70d176a824bf2a4281250810406d2",
+  "n": "7749",
+  "head": "የማን",
+  "kind": "word",
+  "display": "yaman",
+  "senses": [
+    {
+      "id": "right-side",
+      "ru": "правая сторона",
+      "stems": [
+        "прав"
+      ],
+      "gloss": "правая сторона (Дильман: pars dextra, manus dextra)",
+      "evidence": [
+        "1En.13.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "В 13:7 сторона (греч. δεξιῶν), не юг. «Юг» — скобка Смирнова.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

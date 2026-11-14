@@ -1,0 +1,47 @@
+{
+  "key": "L5e38992f50c94b9aabadcf28ed37a6f3",
+  "n": "8760",
+  "head": "ጥሉል",
+  "kind": "word",
+  "display": "telul",
+  "senses": [
+    {
+      "id": "moist",
+      "ru": "влажный",
+      "stems": [
+        "влажн"
+      ],
+      "gloss": "влажный, обильный влагой (Дильман: humectatus, madidus, humidus, roscidus)",
+      "evidence": [
+        "1En.26.1",
+        "Dillmann: Num. 13,20"
+      ]
+    },
+    {
+      "id": "rich",
+      "ru": "тучный",
+      "stems": [
+        "тучн"
+      ],
+      "gloss": "тучный, жирный, плодородный (Дильман: pinguis, opimus; о земле и о пище; πίων)",
+      "evidence": [
+        "1En.26.1",
+        "Dillmann: Jes. 5,1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 8760, part.: humectatus, madidus, humidus, roscidus, pinguis — о земле: Num. 13,20; Hen. 26,1; በብሔር ጥሉል ἐν τόπῳ πίονι Jes. 5,1; ውስተ ጺኦት ጥሉል Hez. 34,12; ደብር ጥሉል τετυρωμένος Ps. 67,15; a) fertilis, fecundus — о реке (Lud. e Mss. Colb., позднее); b) pinguis, opimus, pinguedine perfusus — о пище: መባልዕት ጥሉላት F.M. 14,5. Два засвидетельствованных значения: «влажный» (humidus, roscidus) и «тучный, жирный» (pinguis; греч. πίων «тучный, плодородный»). 26.1 ወርኢኩ መካነ ቡሩከ ወጥሉለ — «благословенное и плодородное место» (Смирнов «плодородное»): подходят оба, поэтому латиница telul. Пункты a (река) и b (пища) к 26.1 не нужны; b объединён с 'rich' как та же pinguis.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, ru уточнено, notes написаны; добавлен смысл rich (pinguis, πίων); 26.1 подходит к обоим"
+    }
+  ]
+}

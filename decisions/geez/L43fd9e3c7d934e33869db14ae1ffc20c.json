@@ -1,0 +1,29 @@
+{
+  "key": "L43fd9e3c7d934e33869db14ae1ffc20c",
+  "n": "5523",
+  "head": "አርዌ",
+  "kind": "word",
+  "display": "arewe",
+  "senses": [
+    {
+      "id": "beast",
+      "ru": "зверь",
+      "stems": [
+        "звер"
+      ],
+      "gloss": "зверь (Дильман 1: bestia, fera; a: bestiae terrestres)",
+      "evidence": [
+        "1En.7.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

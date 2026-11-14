@@ -1,0 +1,29 @@
+{
+  "key": "Lc308b778b31448d6b56a231f985b0f71",
+  "n": "7008",
+  "head": "ዐረብ",
+  "kind": "word",
+  "display": "arab",
+  "senses": [
+    {
+      "id": "west",
+      "ru": "запад",
+      "stems": [
+        "запад"
+      ],
+      "gloss": "запад (Дильман 1: occidens)",
+      "evidence": [
+        "1En.13.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 2 Arabia. В 13:7 запад (греч. δύσεως, рядом Armon), не Аравия.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

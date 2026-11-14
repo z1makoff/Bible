@@ -1,0 +1,32 @@
+{
+  "key": "L390318c4b04b4178ad302cba9873d9f1",
+  "n": "3794",
+  "head": "በልዐ",
+  "kind": "word",
+  "display": "balea",
+  "senses": [
+    {
+      "id": "eat",
+      "ru": "есть",
+      "stems": [
+        "съе",
+        "ест",
+        "ел",
+        "ед"
+      ],
+      "gloss": "есть, съесть (Дильман 1: edere, comedere; Hen. 7,4)",
+      "evidence": [
+        "1En.7.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как akhal (398) «есть». Дильман a называет Hen. 7,4.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

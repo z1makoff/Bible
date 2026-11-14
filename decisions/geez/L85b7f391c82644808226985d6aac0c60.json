@@ -1,0 +1,29 @@
+{
+  "key": "L85b7f391c82644808226985d6aac0c60",
+  "n": "5910",
+  "head": "እግር",
+  "kind": "word",
+  "display": "eger",
+  "senses": [
+    {
+      "id": "foot",
+      "ru": "нога",
+      "stems": [
+        "ног"
+      ],
+      "gloss": "нога (Дильман 1: pes)",
+      "evidence": [
+        "1En.10.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как regel (7272) «нога».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

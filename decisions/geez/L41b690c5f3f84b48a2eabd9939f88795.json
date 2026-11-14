@@ -1,0 +1,30 @@
+{
+  "key": "L41b690c5f3f84b48a2eabd9939f88795",
+  "n": "4803",
+  "head": "አንሥአ",
+  "kind": "word",
+  "display": "anesea",
+  "senses": [
+    {
+      "id": "lift",
+      "ru": "поднять",
+      "stems": [
+        "подня",
+        "подним"
+      ],
+      "gloss": "поднять (Дильман 1: tollere, attollere)",
+      "evidence": [
+        "1En.13.5"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не nasea «взять». 13:5 — глаза, 14:25 — поднял меня.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

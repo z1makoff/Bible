@@ -1,0 +1,46 @@
+{
+  "key": "Lca1176e4ef894a9caa8d984c9d6f718d",
+  "n": "4433",
+  "head": "ኀለፈ",
+  "kind": "word",
+  "display": "khalafa",
+  "senses": [
+    {
+      "id": "pass",
+      "ru": "пройти",
+      "stems": [
+        "прош",
+        "пройд"
+      ],
+      "gloss": "пройти (Дильман: transire, praeterire)",
+      "evidence": [
+        "1En.13.1"
+      ]
+    },
+    {
+      "id": "cross",
+      "ru": "переступить",
+      "stems": [
+        "переступ"
+      ],
+      "gloss": "переступить (Дильман 1.c: transire terminum; metaph. mandatum, c. Acc.; Hen. 18,15)",
+      "evidence": [
+        "1En.18.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не hora «идти». В 13:1 деепричастие об Henok. Греч. πορεύου — повелительное Азазелу. 18:15 — Дильман 1.c: transire terminum … metaph. mandatum, c. Acc. Hen. 18,15. «Переступить» (transire + Acc.) не добавляет церковного смысла «преступления».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "добавлено значение `cross` «переступить» (главы 17–19)"
+    }
+  ]
+}

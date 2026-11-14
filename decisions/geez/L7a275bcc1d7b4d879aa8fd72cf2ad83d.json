@@ -1,0 +1,31 @@
+{
+  "key": "L7a275bcc1d7b4d879aa8fd72cf2ad83d",
+  "n": "5365",
+  "head": "ነፍጸ",
+  "kind": "word",
+  "display": "nafetsa",
+  "senses": [
+    {
+      "id": "flee",
+      "ru": "убежать",
+      "stems": [
+        "убежа",
+        "убега",
+        "убеж"
+      ],
+      "gloss": "убежать, рассеяться (Дильман I,1: dilabi, dispergi, diffugere)",
+      "evidence": [
+        "1En.10.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман: diffugere. Греч. 10:3 ἐκφύγῃ «спасётся». Выбрано «убежать» по Дильману (Смирнов «спасся»).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

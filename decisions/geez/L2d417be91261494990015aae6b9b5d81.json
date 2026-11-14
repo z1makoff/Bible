@@ -1,0 +1,30 @@
+{
+  "key": "L2d417be91261494990015aae6b9b5d81",
+  "n": "1472",
+  "head": "ሞተ",
+  "kind": "word",
+  "display": "mota",
+  "senses": [
+    {
+      "id": "die",
+      "ru": "умереть",
+      "stems": [
+        "умр",
+        "умер"
+      ],
+      "gloss": "умереть",
+      "evidence": [
+        "1En.5.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    }
+  ]
+}

@@ -6,8 +6,9 @@ auto — одна нарезка и одна статья. Сюда входит
 остаются unsure. Совпадение только через омофон — тоже unsure. Ссылка Дильмана
 на стих сама по себе лемму не выбирает. Отсылка «vid. sub» не становится леммой.
 
-Файл morph/enoch/NNN.json, в котором есть status кроме auto, не перезаписывается
-без --force. Ручная разметка глав 1–11 этим прогоном не затирается.
+Главы 1–16 не перезаписываются без --force: в них ручная разметка.
+В главах 17–108 повторный прогон обновляет auto и чужой unsure.
+Слово со статусом checked и слово с пометой «Ручное:» остаются как были.
 """
 import json
 import re
@@ -87,6 +88,16 @@ REF_RE = re.compile(r"1En\.(\d+)\.(\d+)")
 LABEL_RE = re.compile(r"(?:Imperf|Subj|Imperat|Infin|Perf)\.")
 GEEZ_RE = re.compile(r"[\u1200-\u137F]+")
 VID_RE = re.compile(r"vid\.\s+(?:sub\s+)?([\u1200-\u135F]+)")
+_ANTE_PRON_RE = re.compile(r"ante pron\. suff\. ([\u1200-\u135A]+)")
+# Частица ኔ n=4758 — только в этих двух словах (статья Дильмана).
+_NE_HOSTS = {"እስከኔ", "አሐተኔ"}
+_RARE_CHARS = 300
+_FOLD_GROUPS = (
+    {"h", "ḥ", "ḫ"},
+    {"s", "ś"},
+    {"ʾ", "ʿ"},
+    {"ṣ", "ḍ"},
+)
 CITE_RE = re.compile(
     r"\b(?:Hen|Gen|Ex|Lev|Num|Deut|Jos|Jud|Reg|Ps|Matth|Marc|Luc|Joh|Act|"
     r"Rom|Sir|Job|Jes|Hez|Dan|Kuf|Cant|Apoc|Eph|Cor|Gal|Petr|Tim|Jac|Hebr|"
@@ -156,6 +167,14 @@ def is_verb(item):
         return True
     senses = item.get("senses") or []
     blob = " ".join((sense.get("text") or "") for sense in senses[:2])
+    # «II,1 cognoscere» — глагол, даже если в pos попало pron.
+    # n. pr. не перебиваем: иначе имя, чья статья начинается с класса, строит глагол.
+    if (
+        re.match(r"(?:IV|III|II|I),\d", blob.strip())
+        and "n. pr" not in " ".join(pos)
+        and "n.pr" not in " ".join(pos)
+    ):
+        return True
     if not _CLASS_TOKEN.search(blob[:500]):
         return False
     joined = " ".join(pos)
@@ -166,6 +185,10 @@ def is_verb(item):
     verbal_label = any(label.startswith(("subj", "imperf", "imperat", "infin")) for label in pos)
     has_paradigm = bool(_PARADIGM_HEAD.search(blob[:800]))
     if re.search(r"(?:n\.\s*ag|n\.\s*act|part\.)\s*\(", blob[:240]) and not has_paradigm:
+        return False
+    # «part. II,2 …» без Subj./Imperf. — причастие. Иначе личная форма
+    # с ያ- садится на чужой корень: ያማስኑ (ሰ) на መሠንይ (ሠ).
+    if blob.strip().startswith("part.") and not has_paradigm:
         return False
     if nominal and not verbal_label and not has_paradigm:
         return False
@@ -394,8 +417,27 @@ _CONS_FOLD = {
 }
 _OPTIONAL_CONS = {"w", "y", "ʾ", "h"}
 _GUTTURAL = {"ʾ", "ʿ", "h", "ḥ", "ḫ"}
-# Приставки лица и породные, которые снимаются до сравнения с корнем.
-_ROOT_PREFIXES = ("አስተ", "ያ", "የ", "ይ", "ት", "እ", "ን", "ተ")
+# Одна приставка с начала, самая длинная. Второй раз не снимаем:
+# после ይ радикал ን — это корень, не ещё одна приставка.
+# ያስተ и ይት идут раньше ያ и ይ.
+_ROOT_PREFIXES = (
+    "አስተ", "ኣስተ", "ያስተ", "ታስተ",
+    "ይት", "ትት", "እት", "ንት",
+    "ያ", "ታ", "ና", "የ", "ይ", "ት", "እ", "ን", "አ", "ኣ", "ተ",
+)
+# Приставка породы на форме. Голые አ и ተ не трогаем: አኀዘ и ተርፈ — это
+# заголовок I основы, а не сигнал бросить её. Задание этапа 3 — ያ / ይት / ያስተ
+# (и их лица ታ ና, ትት እት ንት, አስተ).
+_DERIV_PREFIX = (
+    ("አስተ", "IV"), ("ኣስተ", "IV"),
+    ("ያስተ", "IV"), ("ታስተ", "IV"),
+    ("ይት", "III"), ("ትት", "III"), ("እት", "III"), ("ንት", "III"),
+    ("ያ", "II"), ("ታ", "II"), ("ና", "II"),
+)
+_DERIV_ALWAYS = {
+    "አስተ", "ኣስተ", "ያስተ", "ታስተ", "ይት", "ትት", "እት", "ንት", "ያ", "ታ", "ና",
+}
+_DERIV_NAME = {"II": "II", "III": "III", "IV": "IV"}
 # Окончания сильного перфекта. -a — это сам заголовок 3 л. ед. муж.
 _PERF_CONSONANT = ("ኩ", "ከ", "ኪ", "ክሙ", "ክን", "ነ")
 # Суффиксы объекта. -o/-ā меняют гласный последнего слога, -wo/-wā пишутся ዎ/ዋ.
@@ -416,47 +458,170 @@ def _cons_of(word):
 
 
 def _strip_root_prefix(word):
-    """Снимает цепочку ይ ት እ ን ያ የ አስተ ተ с начала формы."""
-    changed = True
-    while changed and syllables(word) >= 2:
-        changed = False
-        for pref in _ROOT_PREFIXES:
-            if word.startswith(pref) and len(word) > len(pref):
-                word = word[len(pref):]
-                changed = True
-                break
+    """Снимает одну приставку ይ ት እ ን ያ የ አ አስተ ተ с начала формы.
+
+    Целиком, один раз. Иначе из ይንፍቅ после ይ съедается радикал ን.
+    """
+    if syllables(word) < 2:
+        return word
+    for pref in _ROOT_PREFIXES:
+        if word.startswith(pref) and len(word) > len(pref):
+            return word[len(pref):]
     return word
+
+
+def _match_root_raw(head_cons, form_cons):
+    """Как _match_root, но без свёртки s/ś и ṣ/ḍ. Гортанные можно пропустить."""
+    optional = _OPTIONAL_CONS | _GUTTURAL
+    if not head_cons or not form_cons:
+        return False
+    i = 0
+    j = 0
+    while i < len(head_cons):
+        if j >= len(form_cons):
+            return all(cons in optional for cons in head_cons[i:])
+        if head_cons[i] == form_cons[j]:
+            i += 1
+            j += 1
+            continue
+        if head_cons[i] in optional:
+            i += 1
+            continue
+        if form_cons[j] in optional:
+            j += 1
+            continue
+        return False
+    return True
+
+
+def _fold_same(left, right):
+    if left == right:
+        return True
+    return any(left in group and right in group for group in _FOLD_GROUPS)
+
+
+def _spelling_variant(head, token):
+    """То же слово, что заголовок, с заменой только омофонной буквы."""
+    head_cons = _raw_cons(head)
+    token_cons = _raw_cons(token)
+    if not head_cons or len(head_cons) != len(token_cons):
+        return False
+    return all(_fold_same(a, b) for a, b in zip(head_cons, token_cons))
+
+
+def _raw_root_ok(head, form):
+    """Корень без омофонов. ሠዋዒ не подтверждает статью на ስ."""
+    if not head or not form:
+        return False
+    pairs = (
+        (_raw_cons(head), _raw_cons(form)),
+        (_raw_cons(head), _raw_cons(_strip_root_prefix(form))),
+        (_raw_cons(_strip_root_prefix(head)), _raw_cons(_strip_root_prefix(form))),
+        (_raw_cons(_strip_root_prefix(head)), _raw_cons(form)),
+    )
+    return any(h and f and _match_root_raw(h, f) for h, f in pairs)
+
+
+def _match_root(head_cons, form_cons):
+    """Согласные корня идут по форме. Слабые можно пропустить.
+
+    Лишние согласные допустимы только после корня (окончание).
+    Согласная из середины чужого слова корень не подтверждает.
+    """
+    if not head_cons or not form_cons:
+        return False
+    i = 0
+    j = 0
+    while i < len(head_cons):
+        if j >= len(form_cons):
+            return all(cons in _OPTIONAL_CONS for cons in head_cons[i:])
+        if head_cons[i] == form_cons[j]:
+            i += 1
+            j += 1
+            continue
+        if head_cons[i] in _OPTIONAL_CONS:
+            i += 1
+            continue
+        if form_cons[j] in _OPTIONAL_CONS:
+            j += 1
+            continue
+        return False
+    return True
+
+
+def _leftover_strong(head, form):
+    """Сколько сильных согласных формы осталось после корня. -1, если корень не читается."""
+    best = None
+    raw_head = _cons_of(head)
+    raw_form = _cons_of(form)
+    cut_head = _cons_of(_strip_root_prefix(head))
+    cut_form = _cons_of(_strip_root_prefix(form))
+    for head_cons, form_cons in (
+        (raw_head, raw_form),
+        (raw_head, cut_form),
+        (cut_head, cut_form),
+        (cut_head, raw_form),
+    ):
+        if not _match_root(head_cons, form_cons):
+            continue
+        # Повторяем проход и считаем хвост.
+        i = 0
+        j = 0
+        while i < len(head_cons):
+            if j >= len(form_cons):
+                break
+            if head_cons[i] == form_cons[j]:
+                i += 1
+                j += 1
+                continue
+            if head_cons[i] in _OPTIONAL_CONS:
+                i += 1
+                continue
+            if form_cons[j] in _OPTIONAL_CONS:
+                j += 1
+                continue
+            break
+        tail = sum(1 for cons in form_cons[j:] if cons not in _OPTIONAL_CONS)
+        if best is None or tail < best:
+            best = tail
+    return -1 if best is None else best
+
+
+def _cited_form_ok(head, form):
+    """Форма из поля forms. Корень есть, хвост не длиннее окончания.
+
+    Одна приставка ለ/በ/ወ/እም/ዘ может быть написана слитно: ለዓለም при заголовке ዓለም.
+    """
+    candidates = [form]
+    for pref in ("እም", "በ", "ለ", "ወ", "ዘ"):
+        if form.startswith(pref) and len(form) > len(pref) + 1:
+            candidates.append(form[len(pref):])
+    for cand in candidates:
+        if _form_has_root(head, cand) and 0 <= _leftover_strong(head, cand) <= 4:
+            return True
+    return False
 
 
 def _form_has_root(head, form):
     """В форме есть согласные корня заголовка.
 
-    Слабые w/y и гортанные могут отсутствовать. Лишние согласные окончания
-    не мешают. Чужое слово из цитаты сюда не проходит.
+    Слабые w/y и гортанные могут отсутствовать. Окончание не мешает.
+    Приставка снимается и с формы, и с заголовка породы (ተ, አ, አስተ).
+    Чужое слово из цитаты, в котором корня нет, сюда не проходит.
     """
-    head_cons = _cons_of(head)
-    if not head_cons:
+    if not head or not form:
         return False
-    form_cons = _cons_of(_strip_root_prefix(form))
-    if not form_cons:
-        return False
-    pos = 0
-    for cons in head_cons:
-        start = pos
-        found = False
-        while pos < len(form_cons):
-            if form_cons[pos] == cons:
-                pos += 1
-                found = True
-                break
-            pos += 1
-        if found:
-            continue
-        if cons not in _OPTIONAL_CONS:
-            return False
-        # Слабой согласной в форме нет. Уже прочитанные слоты не съедаем.
-        pos = start
-    return True
+    raw_head = _cons_of(head)
+    raw_form = _cons_of(form)
+    cut_head = _cons_of(_strip_root_prefix(head))
+    cut_form = _cons_of(_strip_root_prefix(form))
+    pairs = (
+        (raw_head, raw_form),
+        (raw_head, cut_form),
+        (cut_head, cut_form),
+        (cut_head, raw_form),
+    )
+    return any(_match_root(h, f) for h, f in pairs)
 
 
 def _syls(word):
@@ -801,11 +966,23 @@ def function_forms(item):
 
 
 def _plural_tokens(item):
+    """Напечатанное Pl. «Pl. ዕፀወ አርዝ» — это не множественное заголовка.
+
+    Первое слово после Pl. берём, только если дальше не стоит сам заголовок
+    или у слова есть согласные этого заголовка.
+    """
+    head = item.get("head") or ""
+    text = _article_text(item)
     found = []
-    for match in re.finditer(r"Pl\.\s*([\u1200-\u137F]+)", _article_text(item)):
-        tok = match.group(1).strip("፡")
-        if is_single(tok) and syllables(tok) >= 2 and tok not in found:
-            found.append(tok)
+    for match in re.finditer(r"Pl\.\s*([\u1200-\u137F]+)", text):
+        tok = match.group(1).strip("፡።፣፤፥፦፧፨")
+        if not is_single(tok) or syllables(tok) < 2 or tok in found:
+            continue
+        nxt = re.match(r"[\s፡።፣፤፥፦፧፨:.,;]*([\u1200-\u137F]+)", text[match.end():])
+        nxt_word = nxt.group(1).strip("፡።፣፤፥፦፧፨") if nxt else ""
+        if nxt_word == head and not _form_has_root(head, tok):
+            continue
+        found.append(tok)
     return found
 
 
@@ -828,6 +1005,23 @@ def _nominal_article(item):
     return bool(_plural_tokens(item))
 
 
+def _possessive_u(item):
+    """3 м. ед. -u на последнем слоге: ዘርእ → ዘርኡ.
+
+    Пустая статья не строит форму. Иначе n. pr. без смысла
+    загораживает одноимённое имя.
+    """
+    if not _nominal_article(item) or not _has_dillmann_sense(item):
+        return None
+    head = item.get("head") or ""
+    if not head or not is_single(head):
+        return None
+    form = _swap_last(head, "u")
+    if not form or form == head:
+        return None
+    return form
+
+
 def build_noun_forms(item):
     """Множественное -ān -āt -t, сопряжённая и винительный -a, суффиксы.
 
@@ -845,6 +1039,9 @@ def build_noun_forms(item):
             bases.append(plural)
     out = []
     for base in bases:
+        # Голое Pl. сюда не кладём: አባግዕ печатают две статьи, ውሉድ — ещё и свой
+        # заголовок. Такое Pl. добавляет второй проход, и только если оно
+        # ничьё заглавное слово со смыслом.
         chars = _syls(base)
         if not chars:
             continue
@@ -861,6 +1058,9 @@ def build_noun_forms(item):
                 out.append(at)
             if not head.endswith("ት"):
                 out.append(head + "ት")
+            his = _possessive_u(item)
+            if his:
+                out.append(his)
         omu = _swap_last(base, "o", "ሙ")
         ihomu = _swap_last(base, "i", "ሆሙ")
         ihu = _swap_last(base, "i", "ሁ")
@@ -944,6 +1144,53 @@ def pointer_targets(lex, eid):
     return ids
 
 
+def _stem_classes(item):
+    found = []
+    for label in item.get("stem") or []:
+        match = re.match(r"(IV|III|II|I)(?:,|$)", str(label))
+        if match and match.group(1) not in found:
+            found.append(match.group(1))
+    return found
+
+
+def _class_root_word(head, klass):
+    """Заголовок без приставки своей породы. I остаётся как есть."""
+    rest = head or ""
+    if klass == "IV":
+        prefs = ("አስተ", "ኣስተ")
+    elif klass == "II":
+        prefs = ("አ", "ኣ")
+    elif klass == "III":
+        prefs = ("ተ",)
+    else:
+        prefs = ()
+    for pref in prefs:
+        if rest.startswith(pref) and len(rest) > len(pref):
+            return rest[len(pref):]
+    return rest
+
+
+def _key_cons(word):
+    """Согласные корня. Слабые w/y выпадают, гортанные остаются: иначе b-r
+    склеивает አብርሀ и አኅበረ."""
+    return tuple(cons for cons in _cons_of(word) if cons not in {"w", "y"})
+
+
+def _class_strong(head, klass):
+    return _key_cons(_class_root_word(head, klass))
+
+
+def _strip_plural_alef(word):
+    """ኡ/ኦ в конце имперфекта — гласный, не согласная корня."""
+    if len(word) >= 2 and word.endswith(("ኡ", "ኦ")):
+        return word[:-1]
+    return word
+
+
+def _has_dillmann_sense(item):
+    return any((sense.get("text") or "").strip() for sense in (item.get("senses") or []))
+
+
 class LexIndex:
     def __init__(self, items):
         self.items = items
@@ -957,9 +1204,15 @@ class LexIndex:
         self.built = {}
         self.built_fold = {}
         self.func_unsure = {}
+        self.form_weak = {}
+        self.by_class_strong = {}
+        self.by_bare = {}
+        self.printed_pl = {}
         self.cite = {}
         self.verbal = set()
         self.by_n = {}
+        self.suffix_stem = {}
+        self.by_printed_morph = {}
         for eid, item in items.items():
             number = str(item.get("n") or "")
             if number and number not in self.by_n:
@@ -979,7 +1232,16 @@ class LexIndex:
                 if fskel:
                     self.by_fold_skel.setdefault(fskel, []).append(eid)
             for form in item.get("forms") or []:
-                if is_single(form) and _related(item, form):
+                if not is_single(form):
+                    continue
+                # Форма из цитаты даёт лемму только если в ней корень заголовка.
+                # Иначе статья остаётся слабым кандидатом, не auto.
+                # Короткий заголовок (ለ, በ) сидит внутри любого длинного слова.
+                # Хвост длиннее окончания — чужая цитата, не форма статьи.
+                # Односложный обломок длинного заголовка (ቦ у ኀበ) — не форма.
+                if head and syllables(head) >= 2 and syllables(form) == 1:
+                    continue
+                if head and len(_cons_of(head)) >= 2 and _cited_form_ok(head, form):
                     bucket = self.by_form.setdefault(form, [])
                     if eid not in bucket:
                         bucket.append(eid)
@@ -987,6 +1249,11 @@ class LexIndex:
                     fold_bucket = self.by_fold_form.setdefault(folded, [])
                     if eid not in fold_bucket:
                         fold_bucket.append(eid)
+                    self._remember_bare(eid, form)
+                elif head and syllables(form) >= 2 and _related(item, form):
+                    weak = self.form_weak.setdefault(form, [])
+                    if eid not in weak:
+                        weak.append(eid)
             for form, _how in collect_paradigm(item):
                 bucket = self.paradigm.setdefault(form, [])
                 if eid not in bucket:
@@ -1011,15 +1278,132 @@ class LexIndex:
                 if match:
                     key = (int(match.group(1)), int(match.group(2)))
                     self.cite.setdefault(key, set()).add(eid)
+            if head and is_verb(item):
+                for tok in _article_tokens(item):
+                    if syllables(tok) < 2 or not _cited_form_ok(head, tok):
+                        continue
+                    self._remember_bare(eid, tok)
             if is_verb(item):
                 self.verbal.add(eid)
+                for klass in _stem_classes(item):
+                    strong = _class_strong(head, klass)
+                    if not strong:
+                        continue
+                    key = (klass, strong)
+                    bucket = self.by_class_strong.setdefault(key, [])
+                    if eid not in bucket:
+                        bucket.append(eid)
+        for eid, item in items.items():
+            for plural in _plural_tokens(item):
+                bucket = self.printed_pl.setdefault(plural, [])
+                if eid not in bucket:
+                    bucket.append(eid)
+        # Голое Pl. — форма статьи, только если это не чужой заголовок со смыслом.
+        # Корень обязателен, когда ту же форму печатают несколько статей (አባግዕ).
+        # Одна статья (መዳልው у መድሎት, መዋዕል у ሞዐልት) берётся и без целого корня:
+        # ломаное множественное корень часто не держит.
+        for plural, eids in self.printed_pl.items():
+            heads = self.by_head.get(plural) or []
+            if any(_has_dillmann_sense(self.items.get(hid) or {}) for hid in heads):
+                continue
+            rooted = [
+                eid for eid in eids
+                if _form_has_root((self.items.get(eid) or {}).get("head") or "", plural)
+            ]
+            use = rooted or (eids if len(eids) == 1 else [])
+            for eid in use:
+                self._add_built(eid, plural)
+        # -u не перекрывает чужой заголовок со смыслом. ኵሉ — своя статья
+        # («ኵል c. pron. suff.»), а не построенная форма от ኵል.
+        for form, eids in list(self.built.items()):
+            heads = self.by_head.get(form) or []
+            if not any(_has_dillmann_sense(self.items.get(hid) or {}) for hid in heads):
+                continue
+            drop = [
+                eid for eid in eids
+                if _possessive_u(self.items.get(eid) or {}) == form
+            ]
+            if not drop:
+                continue
+            kept = [eid for eid in eids if eid not in drop]
+            folded = geez.fold_form(form)
+            if kept:
+                self.built[form] = kept
+            else:
+                self.built.pop(form, None)
+            if not folded:
+                continue
+            for eid in drop:
+                still = any(
+                    eid in ids and geez.fold_form(other) == folded
+                    for other, ids in self.built.items()
+                )
+                if still:
+                    continue
+                fold_bucket = self.built_fold.get(folded)
+                if fold_bucket and eid in fold_bucket:
+                    fold_bucket.remove(eid)
+                    if not fold_bucket:
+                        self.built_fold.pop(folded, None)
         for bucket in (
             self.by_head, self.by_form, self.by_skel, self.by_fold_head,
             self.by_fold_form, self.by_fold_skel, self.paradigm, self.built,
-            self.built_fold, self.func_unsure,
+            self.built_fold, self.func_unsure, self.form_weak, self.by_class_strong,
+            self.by_bare,
         ):
             for key in bucket:
                 bucket[key] = sorted(set(bucket[key]))
+        self._index_printed()
+
+    def _index_printed(self):
+        """Напечатанный гласный падежа и «ante pron. suff.».
+
+        В индекс попадает только замена последнего гласного заголовка,
+        которую статья реально печатает. Чужая цитата с тем же написанием
+        (ወለደ при токене ወልደ, አርስዐ при ርእሳ) сюда не входит.
+        """
+        for eid, item in self.items.items():
+            text = _article_text(item)
+            match = _ANTE_PRON_RE.search(text)
+            if match:
+                stem = match.group(1)
+                if is_single(stem):
+                    bucket = self.suffix_stem.setdefault(stem, [])
+                    if eid not in bucket:
+                        bucket.append(eid)
+            head = item.get("head") or ""
+            if not is_single(head) or syllables(head) < 2 or _is_letter_item(item):
+                continue
+            seen = set()
+            for tok in _article_tokens(item):
+                if tok in seen or tok == head or not _last_vowel_variant(head, tok):
+                    continue
+                # ኵሉ и አቡ — свои статьи. Напечатанный гласный чужой статьи их не забирает.
+                if any(
+                    _has_dillmann_sense(self.items.get(hid) or {})
+                    for hid in (self.by_head.get(tok) or [])
+                ):
+                    continue
+                if not _form_has_root(head, tok):
+                    continue
+                seen.add(tok)
+                bucket = self.by_printed_morph.setdefault(tok, [])
+                if eid not in bucket:
+                    bucket.append(eid)
+        for bucket in (self.suffix_stem, self.by_printed_morph):
+            for key in bucket:
+                bucket[key] = sorted(set(bucket[key]))
+
+    def _remember_bare(self, eid, form):
+        """Поверхность и она же без ዘ/ኢ/ወ в начале цитаты.
+
+        В выбор лемм не входит. Нужна, только чтобы ጸ не уступил статье на ፀ,
+        если Дильман уже напечатал это написание.
+        """
+        for bare in _clitic_bares(form):
+            bucket = self.by_bare.setdefault(bare, [])
+            if eid not in bucket:
+                bucket.append(eid)
 
     def _add_built(self, eid, form):
         if not form or not is_single(form) or syllables(form) < 2:
@@ -1038,7 +1422,12 @@ class LexIndex:
             fold_bucket.append(eid)
 
     def _add_listed(self, eid, form):
-        if not form or not is_single(form) or syllables(form) < 2:
+        if not form or not is_single(form):
+            return
+        # Односложное — только явная парадигма ለ/በ (ቦ «есть» / «в нём»).
+        # Иначе ቦ из ኀበ и любой односложный обломок снова становятся формой.
+        head = (self.items.get(eid) or {}).get("head") or ""
+        if syllables(form) < 2 and form not in _FUNCTION_LIST.get(head, ()):
             return
         bucket = self.by_form.setdefault(form, [])
         if eid not in bucket:
@@ -1192,12 +1581,74 @@ def _stem_known(lex, stem):
     return stem in lex.by_head or stem in lex.by_form or stem in lex.built
 
 
+def _radix_inusitata(lex, eid):
+    """Статья «radix inusitata»: корень назван, слова от него нет."""
+    text = _article_text(lex.items.get(eid) or "").strip().lower()
+    return text.startswith("rad. inus")
+
+
+def _content_over_unused_root(lex, stem):
+    """Отсылка на неиспользуемый корень не прячет статью, которая печатает форму.
+
+    መንገለ — заголовок n=1410 «vid. sub ነገለ». Цель n=5184 — radix inusitata.
+    Форма መንገለ напечатана у предлога መንገል n=5185: винительный и сопряжённое.
+    Чужое слово в списке (እምነ перечисляет другие предлоги) не берётся:
+    его заголовок не вариант последнего гласного этой формы.
+    """
+    heads = lex.by_head.get(stem) or []
+    if not heads:
+        return None
+    if any(pointer_targets(lex, eid) is None for eid in heads):
+        return None
+    for eid in heads:
+        targets = pointer_targets(lex, eid) or []
+        if not targets or not all(_radix_inusitata(lex, tid) for tid in targets):
+            return None
+    found = []
+    for eid in lex.by_form.get(stem, []):
+        if pointer_targets(lex, eid) is not None or _radix_inusitata(lex, eid):
+            continue
+        if _is_stub(lex, eid):
+            continue
+        head = (lex.items.get(eid) or {}).get("head") or ""
+        if not _last_vowel_variant(head, stem):
+            continue
+        if eid not in found:
+            found.append(eid)
+    if len(found) == 1:
+        return found[0]
+    return None
+
+
+def _plural_override(lex, stem):
+    """Пустой заголовок уступает одной статье, где это напечатанное Pl.
+
+    መዋዕል n=12572 без смысла не забирает множественное от ሞዐልት.
+    Заголовок со смыслом (ውሉድ, አፈው) не трогаем.
+    """
+    heads = lex.by_head.get(stem) or []
+    if not heads:
+        return None
+    if any(_has_dillmann_sense(lex.items.get(eid) or {}) for eid in heads):
+        return None
+    extra = [eid for eid in lex.built.get(stem, []) if eid not in heads]
+    if len(extra) == 1:
+        return extra[0]
+    return None
+
+
 def exact_hits(text, lex):
     """Точные написания. Заглавное слово важнее процитированной формы.
 
     Построенная форма, которая совпала с чужим заголовком, auto не даёт.
     """
     if text in lex.by_head:
+        printed = _content_over_unused_root(lex, text)
+        if printed:
+            return [_hit((), text, None, [printed], "form", False)]
+        over = _plural_override(lex, text)
+        if over:
+            return [_hit((), text, None, [over], "built", False)]
         heads = lex.by_head[text]
         extra = [eid for eid in lex.built.get(text, []) if eid not in heads]
         if extra:
@@ -1213,14 +1664,22 @@ def exact_hits(text, lex):
                 continue
             hits = []
             if stem in lex.by_head:
-                hit = _hit(pieces, stem, suf, lex.by_head[stem], "head", ambiguous)
-                extra = [eid for eid in lex.built.get(stem, []) if eid not in lex.by_head[stem]]
-                if extra:
-                    hit["ambiguous"] = True
-                    hits.append(hit)
-                    hits.append(_hit(pieces, stem, suf, extra, "built", True))
+                printed = _content_over_unused_root(lex, stem)
+                if printed:
+                    hits.append(_hit(pieces, stem, suf, [printed], "form", ambiguous))
                 else:
-                    hits.append(hit)
+                    over = _plural_override(lex, stem)
+                    if over:
+                        hits.append(_hit(pieces, stem, suf, [over], "built", ambiguous))
+                    else:
+                        hit = _hit(pieces, stem, suf, lex.by_head[stem], "head", ambiguous)
+                        extra = [eid for eid in lex.built.get(stem, []) if eid not in lex.by_head[stem]]
+                        if extra:
+                            hit["ambiguous"] = True
+                            hits.append(hit)
+                            hits.append(_hit(pieces, stem, suf, extra, "built", True))
+                        else:
+                            hits.append(hit)
             else:
                 built = [eid for eid in lex.built.get(stem, [])]
                 listed = _form_lemmas(lex, stem)
@@ -1327,31 +1786,506 @@ def _merge_same_cut(hits):
     return out
 
 
-def _prefer_confident(hits):
-    """Короткая приставка выигрывает у лишней. Заголовок выигрывает у построенной формы.
+def _is_letter_item(item):
+    """Однобуквенная статья алфавита. Не лемма сегмента."""
+    head = (item or {}).get("head") or ""
+    if syllables(head) != 1:
+        return False
+    return "litera alphabeti" in _article_text(item)
 
-    Две статьи на одной глубине не прячутся: иначе auto взял бы одну из них молча.
-    Более глубокая нарезка отбрасывается, только если на малой глубине статья одна.
+
+def _is_letter(lex, eid):
+    return _is_letter_item(lex.items.get(eid) or {})
+
+
+def _is_stub(lex, eid):
+    """Пустая статья, отсылка или короткий q.v. Содержательная статья остаётся."""
+    item = lex.items.get(eid) or {}
+    if pointer_targets(lex, eid) is not None:
+        return True
+    text = _article_text(item).strip()
+    if not text:
+        return True
+    if len(text) < 80 and re.search(r"q\.v\.|vid\.", text, re.I):
+        return True
+    return False
+
+
+def _last_vowel_variant(head, form):
+    """Та же основа, другой гласный последнего слога. Не чужое слово."""
+    hs = _syls(head)
+    fs = _syls(form)
+    if len(hs) < 2 or len(hs) != len(fs) or hs[:-1] != fs[:-1]:
+        return False
+    if hs[-1] == fs[-1]:
+        return False
+    return geez.SYLLABLE[hs[-1]][0] == geez.SYLLABLE[fs[-1]][0]
+
+
+def _ne_host(text):
+    """(приставки, основа) если слово — እስከኔ или አሐተኔ, иначе None."""
+    prefs = []
+    core = text
+    for surf, code in (("ወ", "c"), ("በ", "b"), ("ለ", "l")):
+        if core.startswith(surf) and core[len(surf):] in _NE_HOSTS:
+            prefs.append((surf, code))
+            core = core[len(surf):]
+            break
+    if core not in _NE_HOSTS:
+        return None
+    return tuple(prefs), core
+
+
+def _suf_ambiguous(hit):
+    if not hit["suf"]:
+        return False
+    return any(hit["suf"][0] == surf and amb for surf, _morph, amb in SUFFIXES)
+
+
+def _article_len(lex, eid):
+    return len(_article_text(lex.items.get(eid) or {}))
+
+
+def _token_set(lex, eid):
+    cache = lex.__dict__.setdefault("_tok_cache", {})
+    if eid not in cache:
+        cache[eid] = set(_article_tokens(lex.items.get(eid) or {}))
+    return cache[eid]
+
+
+def _prints_surface(lex, eid, text):
+    """Статья претендует на это написание: заголовок, напечатанный гласный или форма."""
+    if _is_stub(lex, eid) or _is_letter(lex, eid):
+        return False
+    item = lex.items.get(eid) or {}
+    if text == (item.get("head") or ""):
+        return True
+    if eid in (lex.by_printed_morph.get(text) or []):
+        return True
+    if eid in (lex.by_form.get(text) or []):
+        return True
+    if eid in (lex.built.get(text) or []) or eid in (lex.paradigm.get(text) or []):
+        if text in _token_set(lex, eid):
+            return True
+    return False
+
+
+def _content_lemmas(lex, eids):
+    return [eid for eid in eids if not _is_stub(lex, eid) and not _is_letter(lex, eid)]
+
+
+def _drop_empty_lemmas(hit, lex):
+    """Буква алфавита и пустая отсылка не остаются рядом с содержательной статьёй."""
+    if not hit["lemmas"]:
+        return False
+    kept = []
+    changed = False
+    for eid in hit["lemmas"]:
+        item = lex.items.get(eid) or {}
+        number = str(item.get("n") or "")
+        if _is_letter(lex, eid):
+            changed = True
+            continue
+        if number == "4758" and _ne_host(hit.get("_text") or "") is None:
+            changed = True
+            continue
+        kept.append(eid)
+    if not changed:
+        return True
+    if not kept:
+        return False
+    hit["lemmas"] = kept
+    if len(kept) == 1 and not _suf_ambiguous(hit):
+        hit["ambiguous"] = False
+    return True
+
+
+def _retarget_abu(hit, lex):
+    """አቡ + суффикс — አብ «отец», не n. peregr. с заголовком አቡ."""
+    if not hit["suf"]:
+        return
+    owners = [
+        eid for eid in (lex.suffix_stem.get(hit["stem"]) or [])
+        if not _is_stub(lex, eid)
+    ]
+    if not owners:
+        return
+    kept = []
+    replaced = False
+    for eid in hit["lemmas"]:
+        head = (lex.items.get(eid) or {}).get("head") or ""
+        if head == hit["stem"] and eid not in owners:
+            replaced = True
+            continue
+        if eid not in kept:
+            kept.append(eid)
+    if not replaced:
+        return
+    for eid in owners:
+        if eid not in kept:
+            kept.append(eid)
+    hit["lemmas"] = kept
+    hit["kind"] = "form"
+    if len(kept) == 1 and not _suf_ambiguous(hit):
+        hit["ambiguous"] = False
+
+
+def _force_bo(hit, lex):
+    """ቦ — «есть» n=3741. ኀበ сюда не входит, n=3740 остаётся в примечании."""
+    if hit["stem"] != "ቦ":
+        return
+    chosen = lex.by_n.get("3741")
+    haba = lex.by_n.get("4534")
+    if not chosen:
+        return
+    if haba and haba in hit["lemmas"] or chosen in hit["lemmas"] or hit["kind"] == "form":
+        hit["lemmas"] = [chosen]
+        hit["ambiguous"] = False
+        hit["kind"] = "form"
+        hit["bo"] = True
+
+
+def _filter_stubs(hit, lex):
+    if len(hit["lemmas"]) < 2:
+        return
+    content = _content_lemmas(lex, hit["lemmas"])
+    if not content or len(content) == len(hit["lemmas"]):
+        return
+    hit["lemmas"] = content
+    if len(content) == 1 and not _suf_ambiguous(hit):
+        hit["ambiguous"] = False
+
+
+def _joined(hit):
+    return (
+        "".join(surf for surf, _code in hit["pieces"])
+        + hit["stem"]
+        + (hit["suf"][0] if hit["suf"] else "")
+    )
+
+
+def _part_count(hit):
+    return len(hit["pieces"]) + 1 + (1 if hit["suf"] else 0)
+
+
+def _same_lemma_split(confident):
+    """Одна лемма и та же поверхность: оставить нарезку с приставкой и суффиксом.
+
+    Иначе форма ወይእዜኒ из списка n=7767 прячет ወ + ይእዜ + ኒ.
+    """
+    ids = []
+    for hit in confident:
+        if len(hit["lemmas"]) != 1:
+            return None
+        eid = hit["lemmas"][0]
+        if eid not in ids:
+            ids.append(eid)
+    if len(ids) != 1:
+        return None
+    best = None
+    best_rank = None
+    for hit in confident:
+        surf = _joined(hit)
+        if not any(
+            other is not hit and _joined(other) == surf and _part_count(other) < _part_count(hit)
+            for other in confident
+        ):
+            continue
+        rank = (
+            _part_count(hit),
+            len(hit["suf"][0]) if hit["suf"] else 0,
+            -len(hit["pieces"]),
+        )
+        if best is None or rank > best_rank:
+            best = hit
+            best_rank = rank
+    return best
+
+
+def _relative_head(hit, lex):
+    """ዘ + заголовок обычной статьи. Склейка «ዘመን + -u» её не отменяет."""
+    if lex is None or len(hit.get("lemmas") or []) != 1 or hit.get("suf"):
+        return False
+    pieces = hit.get("pieces") or ()
+    if len(pieces) != 1 or pieces[0][1] != "s":
+        return False
+    eid = hit["lemmas"][0]
+    if _is_stub(lex, eid) or _is_letter(lex, eid):
+        return False
+    if _article_len(lex, eid) < _RARE_CHARS:
+        return False
+    head = (lex.items.get(eid) or {}).get("head") or ""
+    return bool(head) and hit["stem"] == head
+
+
+def _deeper_other_pos(shallow, confident, lex):
+    """Редкое имя на малой глубине не прячет обычный глагол глубже.
+
+    ወፈርሁ: ን 6894 и ፈርሀ n=9884 оба реальны. Винительный ወልድ — длинная
+    статья, более глубокое ልድ она по-прежнему закрывает.
+    """
+    if lex is None or len(shallow["lemmas"]) != 1:
+        return False
+    eid = shallow["lemmas"][0]
+    if _article_len(lex, eid) >= _RARE_CHARS:
+        return False
+    shallow_verb = eid in lex.verbal or is_verb(lex.items.get(eid) or {})
+    for hit in confident:
+        if len(hit["pieces"]) <= len(shallow["pieces"]):
+            continue
+        for oid in hit["lemmas"]:
+            if oid == eid or _article_len(lex, oid) < _RARE_CHARS:
+                continue
+            other_verb = oid in lex.verbal or is_verb(lex.items.get(oid) or {})
+            if shallow_verb != other_verb:
+                return True
+    return False
+
+
+def _prefer_confident(hits, lex=None):
+    """Меньше приставок выигрывает у более глубокой нарезки.
+
+    Заголовок на большей глубине не прячет короткую нарезку: иначе буква ደ
+    забирала винительный ወልድ, а частица ኔ — форму እምነ.
+    На одной глубине разные леммы не прячутся. Одна лемма схлопывается
+    в нарезку со суффиксом (እምኔ + ሆሙ).
     """
     confident = [hit for hit in hits if not hit["ambiguous"]]
+    weak = [hit for hit in hits if hit["ambiguous"]]
     if len(confident) <= 1:
         return hits
-    heads = [hit for hit in confident if hit["kind"] == "head"]
-    pool = heads or confident
-    best_depth = min(len(hit["pieces"]) for hit in pool)
-    shallow = [hit for hit in pool if len(hit["pieces"]) == best_depth]
+    split = _same_lemma_split(confident)
+    if split is not None:
+        return [split] + weak
+    best_depth = min(len(hit["pieces"]) for hit in confident)
+    shallow = [hit for hit in confident if len(hit["pieces"]) == best_depth]
     deeper = any(len(hit["pieces"]) > best_depth for hit in confident)
-    hidden = len(pool) != len(confident)
-    if len(shallow) == 1 and len(shallow[0]["lemmas"]) == 1 and (deeper or hidden):
-        weak = [hit for hit in hits if hit["ambiguous"]]
+    if (
+        len(shallow) == 1
+        and len(shallow[0]["lemmas"]) == 1
+        and deeper
+        and not _deeper_other_pos(shallow[0], confident, lex)
+    ):
+        shallow_id = shallow[0]["lemmas"][0]
+        extra = [
+            hit for hit in confident
+            if hit not in shallow
+            and hit["lemmas"]
+            and hit["lemmas"][0] != shallow_id
+            and _relative_head(hit, lex)
+        ]
+        if extra:
+            return shallow + extra + weak
         return shallow + weak
     return hits
 
 
-def _blocks_auto(chosen, weak):
+def _nominal_eid(lex, eid):
+    if eid in lex.verbal or is_verb(lex.items.get(eid) or {}):
+        return False
+    return _positively_nominal(lex, eid)
+
+
+def _add_weak(hits, pieces, stem, lemmas):
+    lemmas = list(dict.fromkeys(lemmas))
+    if not lemmas or not stem:
+        return
+    for hit in hits:
+        if hit["pieces"] == pieces and hit["stem"] == stem and not hit["suf"]:
+            for eid in lemmas:
+                if eid not in hit["lemmas"]:
+                    hit["lemmas"].append(eid)
+            hit["ambiguous"] = True
+            return
+    hits.append(_hit(pieces, stem, None, lemmas, "head", True))
+
+
+def _vowel_mates(text, hits, lex):
+    """Глагол с суффиксом и имя с тем же остовом. Никто не напечатал слово — не auto.
+
+    Слабый hit на той же глубине закрывает auto. Редкая статья, которая
+    совпала со всем словом, уступает короткой нарезке ወ + имя.
+    """
+    confident = [hit for hit in hits if not hit["ambiguous"] and hit["lemmas"]]
+    if any(
+        _prints_surface(lex, eid, text)
+        for hit in confident
+        for eid in hit["lemmas"]
+    ):
+        return
+    for hit in list(confident):
+        if len(hit["lemmas"]) != 1:
+            continue
+        eid = hit["lemmas"][0]
+        if _is_letter(lex, eid):
+            continue
+        chars = _syls(hit["stem"])
+        targets = []
+        if chars and geez.SYLLABLE[chars[-1]][1] in {"o", "ā"}:
+            targets.append(hit["stem"])
+        if hit["pieces"]:
+            full = "".join(surf for surf, _code in hit["pieces"]) + hit["stem"]
+            full += hit["suf"][0] if hit["suf"] else ""
+            fchars = _syls(full)
+            head = (lex.items.get(eid) or {}).get("head") or ""
+            if fchars and geez.SYLLABLE[fchars[-1]][1] in {"o", "ā"} and hit["stem"] == head:
+                targets.append(full)
+        for src in targets:
+            base = _swap_last(src, "ǝ")
+            if not base or base == src or base == hit["stem"]:
+                continue
+            mates = [
+                tid for tid in _content_lemmas(lex, lex.by_head.get(base) or [])
+                if tid != eid and not _prints_surface(lex, tid, text)
+            ]
+            # ወ+ልዳ не тащит короткое ልድ: под приставкой берём только обычную статью.
+            if src == hit["stem"] and hit["pieces"]:
+                mates = [tid for tid in mates if _article_len(lex, tid) >= _RARE_CHARS]
+            if not mates:
+                continue
+            pieces = () if src != hit["stem"] else hit["pieces"]
+            _add_weak(hits, pieces, base, mates)
+        # ኩ/ከ/ነ — подлежащее перфекта. ሁ — притяжательное, не лицо глагола.
+        if (
+            hit["suf"]
+            and hit["suf"][0] in set(_PERF_CONSONANT)
+            and not _prints_surface(lex, eid, text)
+        ):
+            cite = _swap_last(hit["stem"], "a")
+            if cite and cite != hit["stem"]:
+                mates = []
+                cur_verb = eid in lex.verbal or is_verb(lex.items.get(eid) or {})
+                for tid in lex.by_head.get(cite) or []:
+                    if tid == eid or _is_stub(lex, tid) or _is_letter(lex, tid):
+                        continue
+                    mate_verb = tid in lex.verbal or is_verb(lex.items.get(tid) or {})
+                    if mate_verb == cur_verb or _prints_surface(lex, tid, text):
+                        continue
+                    mates.append(tid)
+                if mates:
+                    rest = hit["stem"] + hit["suf"][0]
+                    _add_weak(hits, hit["pieces"], rest, mates)
+        if hit["stem"].endswith(("ዋ", "ዎ")) and len(hit["stem"]) > 1:
+            noun = hit["stem"][:-1]
+            mates = [
+                tid for tid in _content_lemmas(lex, lex.by_head.get(noun) or [])
+                if tid != eid and _nominal_eid(lex, tid) and not _prints_surface(lex, tid, text)
+            ]
+            if mates:
+                _add_weak(hits, hit["pieces"], noun, mates)
+
+
+def _drop_rare_long(text, hits, lex):
+    """Редкая статья на всё слово уступает ወ/በ/ለ + обычному имени.
+
+    Глагол на большей глубине не отбрасывается: оба чтения реальны.
+    """
+    confident = [hit for hit in hits if not hit["ambiguous"] and len(hit["lemmas"]) == 1]
+    drop = set()
+    for rare in confident:
+        eid = rare["lemmas"][0]
+        if _prints_surface(lex, eid, text) or _article_len(lex, eid) >= _RARE_CHARS:
+            continue
+        if _is_stub(lex, eid):
+            continue
+        for other in confident:
+            if other is rare or len(other["pieces"]) <= len(rare["pieces"]):
+                continue
+            if not other["pieces"] or other["pieces"][0][1] not in {"c", "b", "l"}:
+                continue
+            oid = other["lemmas"][0]
+            if not _nominal_eid(lex, oid) or _is_stub(lex, oid):
+                continue
+            if _article_len(lex, oid) < _RARE_CHARS:
+                continue
+            drop.add(id(rare))
+            break
+    if not drop:
+        return hits
+    return [hit for hit in hits if id(hit) not in drop]
+
+
+def _narrow_printed(text, hits, lex):
+    """Кто напечатал это слово, тот и остаётся. Ненапечатанный сосед отпадает."""
+    confident = [hit for hit in hits if not hit["ambiguous"]]
+    printers = []
+    for hit in confident:
+        if any(_prints_surface(lex, eid, text) for eid in hit["lemmas"]):
+            printers.append(hit)
+    if not printers or len(printers) == len(confident):
+        return hits
+    kept = list(printers)
+    for hit in confident:
+        if hit not in kept and _relative_head(hit, lex):
+            kept.append(hit)
+    weak = [hit for hit in hits if hit["ambiguous"]]
+    return kept + weak
+
+
+def prepare_hits(text, hits, lex):
+    """Кластеры этапа 3б: буква, ኔ, አቡ, ቦ, напечатанная форма, редкая статья."""
+    prepared = []
+    for hit in hits:
+        hit["_text"] = text
+        if not _drop_empty_lemmas(hit, lex):
+            continue
+        _retarget_abu(hit, lex)
+        _force_bo(hit, lex)
+        _filter_stubs(hit, lex)
+        if hit["lemmas"]:
+            prepared.append(hit)
+    printed = _content_lemmas(lex, lex.by_printed_morph.get(text) or [])
+    if printed and not any(
+        hit["pieces"] == () and hit["stem"] == text and not hit["suf"]
+        and set(hit["lemmas"]) >= set(printed)
+        for hit in prepared
+    ):
+        prepared.append(_hit((), text, None, printed, "form", len(printed) != 1))
+    host = _ne_host(text)
+    particle = lex.by_n.get("4758")
+    if host and host[1] == "አሐተኔ" and particle:
+        prefs, _core = host
+        pieces = tuple(prefs) + (("አሐተ", None),)
+        if not any(particle in hit["lemmas"] for hit in prepared):
+            prepared.append(_hit(pieces, "ኔ", None, [particle], "head", False))
+    prepared = _narrow_printed(text, prepared, lex)
+    prepared = _drop_rare_long(text, prepared, lex)
+    _vowel_mates(text, prepared, lex)
+    for hit in prepared:
+        hit.pop("_text", None)
+        hit.pop("bo", None)
+    return prepared
+
+
+def _unsplit_same_lemma(weak, chosen, lex):
+    """በመንገለ напечатано у n=5185 и не спорит с нарезкой በ + መንገለ.
+
+    Для прочих статей целая форма по-прежнему не даёт auto: иначе ለክሙ
+    и ለዓለም молча теряли бы второе чтение.
+    """
+    if weak.get("pieces") or weak.get("suf") or chosen.get("lemmas") != weak.get("lemmas"):
+        return False
+    if len(chosen.get("lemmas") or []) != 1:
+        return False
+    number = str((lex.items.get(chosen["lemmas"][0]) or {}).get("n") or "")
+    if number != "5185":
+        return False
+    joined = "".join(surf for surf, _code in chosen["pieces"]) + chosen["stem"]
+    if chosen.get("suf"):
+        joined += chosen["suf"][0]
+    return weak["stem"] == joined
+
+
+def _blocks_auto(chosen, weak, lex):
     """Слабый hit на той же или меньшей глубине не даёт auto. Более глубокий — нет."""
     depth = len(chosen["pieces"])
-    return any(len(hit["pieces"]) <= depth for hit in weak)
+    for hit in weak:
+        if len(hit["pieces"]) > depth:
+            continue
+        if _unsplit_same_lemma(hit, chosen, lex):
+            continue
+        return True
+    return False
 
 
 def _dedupe(hits):
@@ -1510,6 +2444,226 @@ def _unwrap(lex, ids):
     return real, pointers
 
 
+def _raw_cons(word):
+    out = []
+    for ch in word or "":
+        if ch not in geez.SYLLABLE:
+            continue
+        cons = geez.SYLLABLE[ch][0]
+        if cons.endswith("ʷ"):
+            cons = cons[:-1]
+        out.append(cons)
+    return out
+
+
+def _attested_cons(lex, eid):
+    """Согласные, которые статья пишет сама, без свёртки омофонов."""
+    item = lex.items.get(eid) or {}
+    head = item.get("head") or ""
+    words = [head]
+    for form in item.get("forms") or []:
+        if is_single(form):
+            words.append(form)
+    for tok in _token_set(lex, eid):
+        # Вариант заголовка (ወጽአ при ወፅአ) пишет свою букву. Чужое слово
+        # той же статьи (ሠዋዒ при ተዐስየ) — нет: длина согласных другая.
+        if head and _spelling_variant(head, tok):
+            words.append(tok)
+            continue
+        if head and abs(syllables(tok) - syllables(head)) > 3:
+            continue
+        if head and not _raw_root_ok(head, tok):
+            continue
+        words.append(tok)
+    found = set()
+    for word in words:
+        found.update(_raw_cons(word))
+    return found
+
+
+def _spelling_unattested(text, lex, eid):
+    """В слове есть ሠ/ሐ/ዐ/ፀ, а статья знает только свёрнутый омофон."""
+    attested = _attested_cons(lex, eid)
+    used = set(_raw_cons(text))
+    for group in _FOLD_GROUPS:
+        here = used & group
+        there = attested & group
+        if here and there and not here <= there:
+            return True
+    return False
+
+
+def _sade_mismatch(text, lex, eid):
+    """В слове ጸ, а статья пишет только ፀ, или наоборот.
+
+    Свёртка ṣ/ḍ находит кандидата. Она не выбирает лемму, если рядом
+    есть статья, которая пишет букву этого слова.
+    """
+    group = {"ṣ", "ḍ"}
+    here = set(_raw_cons(text)) & group
+    there = _attested_cons(lex, eid) & group
+    return bool(here and there and not here <= there)
+
+
+# Только показатели перед цитатой. ተ не снимаем: это приставка породы.
+_BARE_CLITICS = ("እም", "ዘ", "ኢ", "ወ", "በ", "ለ")
+
+
+def _clitic_bares(form):
+    """Форма и она же без начальных ዘ/ኢ/ወ. ዘኢይትፌጸም даёт и ይትፌጸም."""
+    found = []
+    seen = set()
+    stack = [form]
+    while stack:
+        cur = stack.pop()
+        if cur in seen or not is_single(cur) or syllables(cur) < 2:
+            continue
+        seen.add(cur)
+        found.append(cur)
+        for pref in _BARE_CLITICS:
+            if cur.startswith(pref) and len(cur) > len(pref) + 1:
+                stack.append(cur[len(pref):])
+    return found
+
+
+def _singular_u(surface):
+    """ይትፌጸሙ → ይትፌጸም. Только гласный u последнего слога, не чужое окончание."""
+    chars = _syls(surface)
+    if not chars or geez.SYLLABLE[chars[-1]][1] != "u":
+        return None
+    sixth = _as_sixth(chars[-1])
+    if not sixth:
+        return None
+    return "".join(chars[:-1]) + sixth
+
+
+def _printed_owners(lex, surface):
+    """Статьи, где Дильман напечатал эту поверхность, в том числе после ዘ/ኢ."""
+    if not surface:
+        return []
+    found = list(lex.by_bare.get(surface) or [])
+    singular = _singular_u(surface)
+    if singular and singular != surface:
+        for eid in lex.by_bare.get(singular) or []:
+            if eid not in found:
+                found.append(eid)
+    return found
+
+
+def _sade_head_variant(lex, left, right):
+    """Два заголовка различаются только ጸ/ፀ. ተፈጸመ и ተፈፅመ — такая пара."""
+    h1 = (lex.items.get(left) or {}).get("head") or ""
+    h2 = (lex.items.get(right) or {}).get("head") or ""
+    c1 = _raw_cons(h1)
+    c2 = _raw_cons(h2)
+    if not c1 or len(c1) != len(c2):
+        return False
+    differ = False
+    for a, b in zip(c1, c2):
+        if a == b:
+            continue
+        if {a, b} <= {"ṣ", "ḍ"}:
+            differ = True
+            continue
+        return False
+    return differ
+
+
+def _twin_claims(lex, twin, chosen, stem, head):
+    """Вторая статья с тем же заголовком претендует на эту форму.
+
+    Не на любую личную форму глагола: n=1777 «nectere» не печатает ይሠርቅ,
+    и Сонет оставил n=1768. Иначе 15 слов ሠረቀ и 67 слов ለ стали бы unsure.
+    """
+    del chosen
+    if stem == head:
+        return True
+    return twin in (lex.by_form.get(stem) or []) or twin in (lex.built.get(stem) or [])
+
+
+def _target_claims_head(lex, target, head):
+    item = lex.items.get(target) or {}
+    if target not in lex.verbal and not is_verb(item):
+        return False
+    if head in (item.get("forms") or []):
+        return True
+    return head in _token_set(lex, target)
+
+
+def _homonym_twins(lex, eid, stem, head):
+    twins = []
+    for tid in lex.by_head.get(head) or []:
+        if tid == eid or _is_letter(lex, tid):
+            continue
+        targets = pointer_targets(lex, tid)
+        if targets is not None:
+            for target in targets:
+                if target == eid or target in twins:
+                    continue
+                if _target_claims_head(lex, target, head):
+                    twins.append(target)
+            continue
+        if _is_stub(lex, tid):
+            continue
+        if _twin_claims(lex, tid, eid, stem, head) and tid not in twins:
+            twins.append(tid)
+    return twins
+
+
+def _strip_letter_lemmas(lex, rec):
+    """Буква алфавита не остаётся леммой и не остаётся кандидатом."""
+    for seg in rec.get("segs") or []:
+        eid = seg.get("lemma")
+        if eid and _is_letter(lex, eid):
+            seg["lemma"] = None
+            rec["status"] = "unsure"
+            rec["gram"] = None
+    rec["alts"] = [eid for eid in (rec.get("alts") or []) if not _is_letter(lex, eid)]
+    return rec
+
+
+def _apply_homonyms(text, lex, rec):
+    """Две содержательные статьи с одним заголовком не выбираются молча.
+
+    Пустая и отсылочная не мешают. ቦ уже решён как n=3741, не как омоним n=3740.
+    """
+    if rec.get("status") != "auto":
+        return rec
+    lemma = _lemma_id(rec)
+    if not lemma:
+        return rec
+    item = lex.items.get(lemma) or {}
+    if str(item.get("n") or "") == "3741":
+        stem_bo = next((seg.get("t") for seg in rec["segs"] if seg.get("lemma") == lemma), "")
+        if stem_bo == "ቦ":
+            return rec
+    stem = None
+    for seg in rec.get("segs") or []:
+        if seg.get("lemma") == lemma:
+            stem = seg.get("t")
+            break
+    head = item.get("head") or ""
+    if not stem or not head:
+        return rec
+    twins = _homonym_twins(lex, lemma, stem, head)
+    if not twins:
+        return rec
+    for seg in rec["segs"]:
+        if seg.get("lemma") == lemma:
+            seg["lemma"] = None
+    alts = [lemma]
+    for tid in twins:
+        if tid not in alts:
+            alts.append(tid)
+    rec["status"] = "unsure"
+    rec["gram"] = None
+    rec["alts"] = alts
+    bit = "одноимённые статьи, не выбираю молча: " + _names(lex, alts[:6])
+    note = rec.get("note") or ""
+    rec["note"] = (note + "; " + bit).strip("; ")
+    return rec
+
+
 def _note_cuts(hits):
     cuts = []
     for hit in hits:
@@ -1521,9 +2675,100 @@ def _note_cuts(hits):
     return "нарезки: " + " | ".join(cuts[:6])
 
 
+def _peel_numbered_mengel(text):
+    """Число, приклеенное к መንገለ: ፫መንገለ, ወ፫መንገለ, ፩ወ፫መንገለ.
+
+    Возвращает сегменты до основы или None. Голое መንገለ и приставки без числа
+    разбирает обычный путь.
+    """
+    core = "መንገለ"
+    if not text.endswith(core) or len(text) <= len(core):
+        return None
+    rest = text[: -len(core)]
+    if not any(ch in geez.NUMBER for ch in rest):
+        return None
+    segs = []
+    pos = 0
+    if rest.startswith("ወ") and len(rest) > 1 and rest[1] in geez.NUMBER:
+        segs.append(("ወ", "c"))
+        pos = 1
+    if pos >= len(rest) or rest[pos] not in geez.NUMBER:
+        return None
+    start = pos
+    while pos < len(rest) and rest[pos] in geez.NUMBER:
+        pos += 1
+    while (
+        pos < len(rest)
+        and rest[pos] == "ወ"
+        and pos + 1 < len(rest)
+        and rest[pos + 1] in geez.NUMBER
+    ):
+        pos += 1
+        while pos < len(rest) and rest[pos] in geez.NUMBER:
+            pos += 1
+    segs.append((rest[start:pos], None))
+    if rest.startswith("ኢ", pos):
+        segs.append(("ኢ", "i"))
+        pos += len("ኢ")
+    for surf, code in (("እም", "m"), ("ዘ", "s"), ("በ", "b"), ("ለ", "l")):
+        if rest.startswith(surf, pos):
+            segs.append((surf, code))
+            pos += len(surf)
+            break
+    if pos != len(rest):
+        return None
+    return segs
+
+
+def _mengel_note(lex, verse, lemma):
+    note = "форма መንገለ напечатана у መንገል n=5185; n=5184 ነገለ — radix inusitata, не лемма"
+    if lemma and _cited(lex, verse, [lemma]):
+        note += "; Дильман ссылается на этот стих"
+    return note
+
+
+def _mengel_record(text, pieces, lex, verse):
+    """pieces — сегменты перед основой መንገለ. Лемма всегда n=5185."""
+    lemma = lex.by_n.get("5185")
+    segs = [
+        {"t": surf, "lemma": None, "prefix": code, "morph": None}
+        for surf, code in pieces
+    ]
+    segs.append({"t": "መንገለ", "lemma": lemma, "prefix": None, "morph": None})
+    if "".join(seg["t"] for seg in segs) != text or not lemma:
+        return None
+    return {
+        "status": "auto",
+        "segs": segs,
+        "gram": "предлог",
+        "alts": [],
+        "note": _mengel_note(lex, verse, lemma),
+    }
+
+
+def _finish_mengel(verse, lex, rec):
+    """Предлог n=5185. Отсылку n=1410 и пустой корень n=5184 в лемму не оставляем."""
+    lemma = _lemma_id(rec)
+    if str((lex.items.get(lemma) or {}).get("n") or "") != "5185":
+        return rec
+    if not any(seg.get("t") == "መንገለ" for seg in rec.get("segs") or []):
+        return rec
+    if rec.get("status") != "auto":
+        return rec
+    rec["gram"] = "предлог"
+    rec["alts"] = []
+    rec["note"] = _mengel_note(lex, verse, lemma)
+    return rec
+
+
 def analyze(text, verse, lex):
     """verse — (глава, стих) или None. Возвращает запись morph для одного слова."""
     text = unicodedata.normalize("NFC", text)
+    numbered = _peel_numbered_mengel(text)
+    if numbered is not None:
+        rec = _mengel_record(text, numbered, lex, verse)
+        if rec is not None:
+            return rec
     if is_number(text):
         return {
             "status": "unsure",
@@ -1532,7 +2777,7 @@ def analyze(text, verse, lex):
             "alts": [],
             "note": "эфиопское число; нет в словаре Дильмана",
         }
-    hits = _prefer_confident(_dedupe(exact_hits(text, lex)))
+    hits = _prefer_confident(_dedupe(prepare_hits(text, exact_hits(text, lex), lex)), lex)
     confident = [hit for hit in hits if not hit["ambiguous"]]
     weak = [hit for hit in hits if hit["ambiguous"]]
     note = []
@@ -1541,7 +2786,7 @@ def analyze(text, verse, lex):
     status = "unsure"
     chosen = None
     lemma = None
-    if len(confident) == 1 and len(confident[0]["lemmas"]) == 1 and not _blocks_auto(confident[0], weak):
+    if len(confident) == 1 and len(confident[0]["lemmas"]) == 1 and not _blocks_auto(confident[0], weak, lex):
         chosen = confident[0]
         raw_lemma = chosen["lemmas"][0]
         real, pointers = _unwrap(lex, [raw_lemma])
@@ -1560,6 +2805,8 @@ def analyze(text, verse, lex):
             gram = coarse_gram(lex.items[lemma])
             if chosen["kind"] == "built":
                 note.append("форма построена от заголовка статьи")
+            if str((lex.items.get(lemma) or {}).get("n") or "") == "3741" and chosen["stem"] == "ቦ":
+                note.append("ቦ — «есть» n=3741; n=3740 тоже пишет ቦ как «в нём», не выбран")
             cited = _cited(lex, verse, [lemma])
             if cited:
                 note.append("Дильман ссылается на этот стих")
@@ -1626,6 +2873,8 @@ def analyze(text, verse, lex):
             note.append("кандидаты: " + _names(lex, (alts or ([lemma] if lemma else []))[:8]))
         else:
             alts, total, equal, cited_ids, pieces, rest = skeleton_alts(text, verse, lex)
+            alts = [eid for eid in alts if not _is_letter(lex, eid)]
+            cited_ids = [eid for eid in cited_ids if not _is_letter(lex, eid)]
             if pieces and rest:
                 chosen = _hit(pieces, rest, None, [], "skel", True)
             if not alts:
@@ -1640,13 +2889,266 @@ def analyze(text, verse, lex):
                 if cited_ids:
                     note.append("Дильман ссылается на этот стих")
                 note.append("кандидаты: " + _names(lex, alts[:8]))
-    return {
+    rec = {
         "status": status,
         "segs": _segs(text, chosen, lemma),
         "gram": gram,
         "alts": alts,
         "note": "; ".join(note),
     }
+    rec = _apply_deriv(text, lex, rec)
+    rec = _apply_homonyms(text, lex, rec)
+    rec = _strip_letter_lemmas(lex, rec)
+    rec = _add_rootless_form(text, lex, rec)
+    return _finish_mengel(verse, lex, rec)
+
+
+def _lemma_id(rec):
+    for seg in rec.get("segs") or []:
+        if seg.get("lemma"):
+            return seg["lemma"]
+    return None
+
+
+def _deriv_splits(text):
+    """(приставки предложения, остаток, приставка породы, класс, тело без неё)."""
+    found = []
+    for pieces, rest in chains(text, allow_k=True):
+        for pref, klass in _DERIV_PREFIX:
+            if rest.startswith(pref) and len(rest) > len(pref):
+                found.append((pieces, rest, pref, klass, rest[len(pref):]))
+                break
+    return found
+
+
+def _stem_articles(lex, klass, body):
+    """Статьи этой породы, чей корень совпал с телом формы."""
+    found = []
+    for variant in (body, _strip_plural_alef(body)):
+        key = _key_cons(variant)
+        if not key:
+            continue
+        for eid in lex.by_class_strong.get((klass, key), []):
+            if eid not in found:
+                found.append(eid)
+    return found
+
+
+def _nonverb_candidate(rec, lex):
+    ids = []
+    lemma = _lemma_id(rec)
+    if lemma:
+        ids.append(lemma)
+    ids.extend(rec.get("alts") or [])
+    for eid in ids:
+        item = lex.items.get(eid) or {}
+        if eid in lex.verbal or is_verb(item):
+            continue
+        if item.get("head"):
+            return True
+    return False
+
+
+def _verb_class(lex, eid):
+    item = lex.items.get(eid) or {}
+    if eid not in lex.verbal and not is_verb(item):
+        return None
+    classes = _stem_classes(item)
+    return classes[0] if classes else None
+
+
+def _pack_deriv(text, lex, pieces, surface, suf, eids, klass, pref):
+    """Одна статья этой породы может быть auto. Несколько — только unsure."""
+    ambiguous = len(eids) != 1 or (suf is not None and suf[2])
+    status = "unsure" if ambiguous or len(eids) != 1 else "auto"
+    lemma = eids[0] if len(eids) == 1 else None
+    alts = [] if lemma else list(eids)
+    hit = _hit(pieces, surface, (suf[0], suf[1]) if suf else None, eids, "stem", status != "auto")
+    if lemma and suf and suf[0] == "ኒ":
+        hit = _apply_particle(hit, lex) or hit
+        status = "unsure"
+    segs = _segs(text, hit, lemma)
+    if "".join(seg["t"] for seg in segs) != text:
+        return None
+    gram = coarse_gram(lex.items[lemma]) if lemma and status == "auto" else None
+    if len(eids) == 1:
+        note = f"приставка {pref}: статья {_DERIV_NAME[klass]} основы"
+    else:
+        note = f"приставка {pref}: несколько статей {_DERIV_NAME[klass]} основы"
+    if status == "auto" and lemma and _spelling_unattested(text, lex, lemma):
+        for seg in segs:
+            if seg.get("lemma") == lemma:
+                seg["lemma"] = None
+        status = "unsure"
+        gram = None
+        alts = [lemma]
+        lemma = None
+        note += "; написание отличается омофоном, в статье этой буквы нет"
+    return {
+        "status": status,
+        "segs": segs,
+        "gram": gram,
+        "alts": alts,
+        "note": note,
+    }
+
+
+def _clear_wrong_class(rec, lex, klass):
+    """Чужая основа не остаётся леммой и не остаётся единственным кандидатом."""
+    kept = []
+    for eid in rec.get("alts") or []:
+        cur = _verb_class(lex, eid)
+        if cur and cur != klass:
+            continue
+        kept.append(eid)
+    for seg in rec.get("segs") or []:
+        eid = seg.get("lemma")
+        if not eid:
+            continue
+        cur = _verb_class(lex, eid)
+        if cur and cur != klass:
+            seg["lemma"] = None
+    rec["status"] = "unsure"
+    rec["gram"] = None
+    rec["alts"] = kept
+    rec["note"] = f"приставка основы {_DERIV_NAME[klass]}: такой статьи нет"
+    return rec
+
+
+def _t_initial_head(pref, lex, lemma):
+    """ይትርፍ у ተርፈ — приставка лица плюс радикал t, не порода III.
+
+    У III заголовок тоже на ተ. Это приставка породы, не радикал: иначе
+    чужая статья III (ተፈፅመ при тексте на ጸ) не отдаёт место своей.
+    """
+    if pref not in {"ይት", "ትት", "እት", "ንት"} or not lemma:
+        return False
+    if _verb_class(lex, lemma) == "III":
+        return False
+    head = (lex.items.get(lemma) or {}).get("head") or ""
+    return head.startswith("ተ")
+
+
+def _apply_deriv(text, lex, rec):
+    """ያ-/ይት-/ያስተ- берут статью своей породы. Нет такой статьи — не I основа."""
+    splits = _deriv_splits(text)
+    if not splits:
+        return rec
+    lemma = _lemma_id(rec)
+    splits = [split for split in splits if not _t_initial_head(split[2], lex, lemma)]
+    if not splits:
+        return rec
+    if not lemma and _nonverb_candidate(rec, lex):
+        # ታሕቱ — имя с «его», не каузатив от другого корня.
+        return rec
+    # Омофон ṣ/ḍ уже мог выбрать статью с чужой буквой (ይትፌጸም → ተፈፅመ).
+    # Тогда ищем статью той же породы, которая пишет букву слова.
+    retry_sade = False
+    if lemma:
+        cur = _verb_class(lex, lemma)
+        if cur is None:
+            return rec
+        same = any(klass == cur and pref in _DERIV_ALWAYS for _p, _r, pref, klass, _b in splits)
+        if same and not _sade_mismatch(text, lex, lemma):
+            return rec
+        if same:
+            retry_sade = True
+    matches = []
+    for pieces, _rest, pref, klass, body in splits:
+        if pref not in _DERIV_ALWAYS:
+            if not lemma or _verb_class(lex, lemma) in (None, klass):
+                continue
+        options = list(_stem_options(body, SUFFIXES))
+        for stem, suf, _amb in _stem_options(body, EXTRA_SUFFIXES):
+            if suf is not None:
+                options.append((stem, suf, True))
+        for stem, suf, amb in options:
+            eids = _stem_articles(lex, klass, stem)
+            if not eids:
+                continue
+            if pref not in _DERIV_ALWAYS and len(eids) != 1:
+                continue
+            surface = pref + stem
+            packed_suf = None if suf is None else (suf[0], suf[1], amb)
+            matches.append((len(pieces), pieces, surface, packed_suf, eids, klass, pref))
+    if not matches:
+        if retry_sade:
+            return rec
+        if lemma and _verb_class(lex, lemma) not in (None,):
+            # Приставка есть, а лемма — глагол другой породы.
+            klasses = [klass for _p, _r, pref, klass, _b in splits if pref in _DERIV_ALWAYS or lemma]
+            klass = next((k for _p, _r, pref, k, _b in splits if pref in _DERIV_ALWAYS), None)
+            if klass and _verb_class(lex, lemma) != klass:
+                return _clear_wrong_class(rec, lex, klass)
+            if any(pref not in _DERIV_ALWAYS for _p, _r, pref, _k, _b in splits):
+                klass = next(k for _p, _r, pref, k, _b in splits if pref not in _DERIV_ALWAYS)
+                if _verb_class(lex, lemma) != klass:
+                    return _clear_wrong_class(rec, lex, klass)
+        elif not lemma:
+            klass = next((k for _p, _r, pref, k, _b in splits if pref in _DERIV_ALWAYS), None)
+            if klass:
+                return _clear_wrong_class(rec, lex, klass)
+        return rec
+    matches.sort(key=lambda item: (item[0], len(item[4]), 0 if item[3] is not None else 1))
+    best_depth = matches[0][0]
+    pool = [item for item in matches if item[0] == best_depth]
+    eids = []
+    for item in pool:
+        for eid in item[4]:
+            if eid not in eids:
+                eids.append(eid)
+    # ጸ/ፀ одного корня: остаётся статья, где строка напечатана.
+    # Сосед с другой буквой отпадает. Чужой корень в том же списке (ያፀምኡ) остаётся.
+    if any(_sade_mismatch(text, lex, eid) for eid in eids):
+        decided = None
+        decided_item = None
+        for item in pool:
+            if item[3] is not None:
+                continue
+            owners = [eid for eid in _printed_owners(lex, item[2]) if eid in item[4]]
+            if len(owners) != 1:
+                continue
+            owner = owners[0]
+            rest = [eid for eid in item[4] if eid != owner]
+            if rest and all(_sade_head_variant(lex, owner, eid) for eid in rest):
+                decided = owner
+                decided_item = item
+                break
+        if decided is not None:
+            pool = [(
+                decided_item[0], decided_item[1], decided_item[2], decided_item[3],
+                [decided], decided_item[5], decided_item[6],
+            )]
+            eids = [decided]
+    if retry_sade and (not eids or lemma in eids):
+        return rec
+    # Окончание, которое снимается однозначно, предпочтительнее целого слова.
+    clean = [
+        item for item in pool
+        if item[4] == eids and (item[3] is None or not item[3][2])
+    ]
+    use = clean[0] if clean else pool[0]
+    pieces, surface, suf, klass, pref = use[1], use[2], use[3], use[5], use[6]
+    packed = _pack_deriv(text, lex, pieces, surface, suf, eids, klass, pref)
+    return packed or rec
+
+
+def _add_rootless_form(text, lex, rec):
+    """Форма из чужой статьи без корня не становится леммой. Только alt."""
+    if rec.get("status") == "auto" or _lemma_id(rec):
+        return rec
+    extra = []
+    for eid in lex.form_weak.get(text, []):
+        if eid not in extra and eid not in (rec.get("alts") or []):
+            extra.append(eid)
+    if not extra:
+        return rec
+    rec["alts"] = list(rec.get("alts") or []) + extra
+    bit = "форма из цитаты без корня заголовка; не auto: " + _names(lex, extra[:4])
+    note = rec.get("note") or ""
+    rec["note"] = (note + "; " + bit).strip("; ")
+    rec["status"] = "unsure"
+    return rec
 
 
 def _manual(path):
@@ -1654,9 +3156,37 @@ def _manual(path):
         return False
     data = json.loads(path.read_text(encoding="utf-8"))
     for word in (data.get("words") or {}).values():
-        if word.get("status") != "auto":
+        if word.get("status") not in ("auto", "unsure"):
             return True
     return False
+
+
+def _manual_word(word):
+    """Решение сверки. Повторный прогон тегера его не заменяет."""
+    if not word:
+        return False
+    if word.get("status") == "checked":
+        return True
+    return str(word.get("note") or "").startswith("Ручное:")
+
+
+def _keep_manual_words(path, data):
+    """В главах 17–108 оставляет checked и помету «Ручное:». Остальное — новый разбор."""
+    if not path.exists():
+        return data, 0
+    old = json.loads(path.read_text(encoding="utf-8"))
+    kept = 0
+    for wid, word in data.get("words", {}).items():
+        prev = (old.get("words") or {}).get(wid)
+        if not _manual_word(prev):
+            continue
+        old_surf = "".join(seg.get("t") or "" for seg in prev.get("segs") or [])
+        new_surf = "".join(seg.get("t") or "" for seg in word.get("segs") or [])
+        if old_surf != new_surf:
+            continue
+        data["words"][wid] = prev
+        kept += 1
+    return data, kept
 
 
 # Имя без статьи Дильмана. Только явный знак: -ኤል/-ያል в списке имён или эта помета.
@@ -1809,10 +3339,17 @@ def main():
         if only is not None and number != only:
             continue
         path = MORPH / f"{number:03d}.json"
-        if _manual(path) and not force:
+        if number < 17 and _manual(path) and not force:
             print(f"глава {number}: оставлен ручной файл")
             continue
         data = tag_chapter(chapter, lex)
+        if number >= 17 and path.exists() and not force:
+            data, kept = _keep_manual_words(path, data)
+            if kept and kept == len(data.get("words") or {}):
+                print(f"глава {number}: ручные решения сохранены, файл не переписан")
+                continue
+            if kept:
+                print(f"глава {number}: сохранено ручных слов {kept}")
         write_morph(data, path)
         written.append(number)
     print("записаны", written[0] if written else "—", "…", written[-1] if written else "—", "файлов", len(written))

@@ -1,0 +1,29 @@
+{
+  "key": "L95f22efacec44d8a9d0dd8be8e44e7b7",
+  "n": "1050",
+  "head": "ትምህርት",
+  "kind": "word",
+  "display": "temeheret",
+  "senses": [
+    {
+      "id": "teaching",
+      "ru": "учение",
+      "stems": [
+        "учени"
+      ],
+      "gloss": "учение, наука (Дильман 1: id quod docetur, doctrina, disciplina; Hen. 10,8)",
+      "evidence": [
+        "1En.10.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1 называет Hen. 10,8. Греч. τῆς διδασκαλίας.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

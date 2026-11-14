@@ -1,0 +1,46 @@
+{
+  "key": "Ld613e240882246cb8a7229c4cb2d1001",
+  "n": "6398",
+  "head": "ወሀበ",
+  "kind": "word",
+  "display": "wahaba",
+  "senses": [
+    {
+      "id": "give",
+      "ru": "давать",
+      "stems": [
+        "дав",
+        "да"
+      ],
+      "gloss": "давать",
+      "evidence": [
+        "1En.5.6"
+      ]
+    },
+    {
+      "id": "exchange",
+      "ru": "обменять",
+      "stems": [
+        "обмен"
+      ],
+      "gloss": "обменять, c. በ pretii (Дильман 6398.d: commutare Hen. 5,6)",
+      "evidence": [
+        "1En.5.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6398.d: c. በ pretii, commutare Hen. 5,6 — exchange «обменять»; прочие места — give «давать» (c tradere, h concedere и др.).",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "Ф38: добавлено exchange «обменять» (Дильман 6398.d, Hen. 5,6)"
+    }
+  ]
+}

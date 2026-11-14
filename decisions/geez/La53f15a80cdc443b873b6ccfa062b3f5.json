@@ -1,0 +1,32 @@
+{
+  "key": "La53f15a80cdc443b873b6ccfa062b3f5",
+  "n": "7042",
+  "head": "ዐርገ",
+  "kind": "word",
+  "display": "arega",
+  "senses": [
+    {
+      "id": "ascend",
+      "ru": "подняться",
+      "stems": [
+        "подним",
+        "подня",
+        "подым",
+        "взо"
+      ],
+      "gloss": "подняться (Дильман a: ascendere, sensu proprio)",
+      "evidence": [
+        "1En.9.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман: ascendere. Греч. 9:10 ἀνέβη.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

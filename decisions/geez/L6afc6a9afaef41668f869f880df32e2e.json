@@ -1,0 +1,30 @@
+{
+  "key": "L6afc6a9afaef41668f869f880df32e2e",
+  "n": "5061",
+  "head": "ንዋም",
+  "kind": "word",
+  "display": "newam",
+  "senses": [
+    {
+      "id": "sleep",
+      "ru": "сон",
+      "stems": [
+        "сон",
+        "сн"
+      ],
+      "gloss": "сон (Дильман: somnus)",
+      "evidence": [
+        "1En.13.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не helem «сновидение». Основа «сн» — для «сне».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "L7a88b95f99a643dca2bbd3d6ee6673a6",
+  "n": "8631",
+  "head": "ጊሜ",
+  "kind": "word",
+  "display": "gime",
+  "senses": [
+    {
+      "id": "mist",
+      "ru": "туман",
+      "stems": [
+        "туман"
+      ],
+      "gloss": "туман (Дильман: nebula, caligo)",
+      "evidence": [
+        "1En.14.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Греч. ὁμίχλη. Не снег и не облако.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "L4b1fd3ec8adc45bcb9a98a3a9f12c44a",
+  "n": "6430",
+  "head": "ወለደ",
+  "kind": "word",
+  "display": "walada",
+  "senses": [
+    {
+      "id": "bear",
+      "ru": "рожать",
+      "stems": [
+        "род",
+        "рожд"
+      ],
+      "gloss": "рожать (Дильман I,1: parere; 2: gignere, procreare; для мужчин — «приводить в мир»: Hen. 6,2)",
+      "evidence": [
+        "1En.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как yalad (3205): «рожать»; Дильман 2.a называет Hen. 6,2 (de viris — gignere). Это то же слово для мужчин и женщин, как евр. yalad.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

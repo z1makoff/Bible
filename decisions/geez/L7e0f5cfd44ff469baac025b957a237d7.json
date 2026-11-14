@@ -1,0 +1,29 @@
+{
+  "key": "L7e0f5cfd44ff469baac025b957a237d7",
+  "n": "3906",
+  "head": "ቡሩክ",
+  "kind": "word",
+  "display": "buruk",
+  "senses": [
+    {
+      "id": "blessed",
+      "ru": "благословенный",
+      "stems": [
+        "благословен"
+      ],
+      "gloss": "благословенный (Дильман: benedictus; a: laudatus; b: benedictus a Deo)",
+      "evidence": [
+        "1En.9.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман: benedictus. Однокоренное с barakh (1288) «благословить».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

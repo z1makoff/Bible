@@ -1,0 +1,29 @@
+{
+  "key": "L639a712efd8348429db6c819a974792c",
+  "n": "4098",
+  "head": "አብዝኀ",
+  "kind": "word",
+  "display": "abezekha",
+  "senses": [
+    {
+      "id": "multiply",
+      "ru": "умножить",
+      "stems": [
+        "умнож"
+      ],
+      "gloss": "умножить (Дильман: multiplicare, augere)",
+      "evidence": [
+        "1En.16.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

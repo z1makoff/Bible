@@ -82,11 +82,9 @@
       "gram": null,
       "alts": [
         "L2d60420452f6408da882a3445c067153",
-        "L7936096aa0fc48b09392a135351dd0d6",
-        "Lceb06f9b6a874cda8fa7066cc3148a07",
-        "Lba6d08d1562941028b2f08ead6c76980"
+        "L7936096aa0fc48b09392a135351dd0d6"
       ],
-      "note": "несколько статей; кандидаты: መካን n=1457, መካን n=6296, ኮነ n=6290, መካን n=1458"
+      "note": "несколько статей; кандидаты: መካን n=1457, መካን n=6296"
     },
     "e07324": {
       "status": "unsure",
@@ -119,27 +117,21 @@
       "note": "нет в словаре Дильмана"
     },
     "e07326": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ቃሎ",
-          "lemma": null,
+          "lemma": "L968149f7fc1748479a9f8482bc3f49c0",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L2c5bfc3044484aa2813a09dd67ad700c",
-        "L7fa30a8c7f6b4422b8edd7dd1de0e493",
-        "L968149f7fc1748479a9f8482bc3f49c0",
-        "L999b9fce8b9f49778705c18e2906e6e5",
-        "Lc7d3c7da23cb47818e85c825a1182b3a"
-      ],
-      "note": "совпадение по согласным после омофонов, не по гласным; кандидаты: ቆለ n=3541, ቃል n=3174, ቃል n=3542, ቆሊ n=11568, ቁል n=12092"
+      "gram": "имя",
+      "alts": [],
+      "note": ""
     },
     "e07327": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ለ",
@@ -149,18 +141,14 @@
         },
         {
           "t": "መልአክ",
-          "lemma": null,
+          "lemma": "L7f7ffeec8f4f44d983ddc4264d4312be",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": null,
-      "alts": [
-        "L7f7ffeec8f4f44d983ddc4264d4312be",
-        "L2d888571de8f44f4be1bcbf281c2b25a",
-        "La7006ebc3af1491689e88bfad74f11d5"
-      ],
-      "note": "несколько статей; кандидаты: መልአክ n=352, ለአከ n=346, መልአክ n=1096"
+      "alts": [],
+      "note": ""
     },
     "e07328": {
       "status": "auto",
@@ -234,7 +222,7 @@
       ],
       "gram": null,
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e07333": {
       "status": "unsure",
@@ -249,14 +237,9 @@
       "gram": null,
       "alts": [
         "L9fa031f31b5e47599137f54201b3068f",
-        "L0542cd28360a428a99c900f5c01dde3e",
-        "L6d2f800ae7f04a77815a6dacb546cb54",
-        "L7f88f9d1fb5c42e7ad39ba621daafec1",
-        "Ldbcd9df387794613b6e6ba62a0c8e2dc",
-        "L5641c39fe8ec478e8146f253d604d2d8",
         "L9361340426b043f5a9264104cbf3c5c6"
       ],
-      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዘ n=7439, ዘ n=7441, ዘ n=7442, እለ n=5381, እሌ n=12500, ዝ n=7440"
+      "note": "несколько нарезок; несколько статей; нарезки: እለ | እለ; кандидаты: እለ n=5394, ዝ n=7440"
     },
     "e07334": {
       "status": "auto",
@@ -293,24 +276,18 @@
       "note": ""
     },
     "e07336": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
     },
     "e07337": {
       "status": "auto",
@@ -461,23 +438,18 @@
       "note": ""
     },
     "e07345": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ከመ",
-          "lemma": null,
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": null,
-      "alts": [
-        "L22c2e71ac6c0443e8f05d480b3ac9e85",
-        "L5724e47151364d91bd5e63d589c0ffd9",
-        "Lcddc0aae60324baa9922c63b7c27b716",
-        "L6e84824fe2e1492692a9ea37e104f6eb"
-      ],
-      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+      "alts": [],
+      "note": ""
     },
     "e07346": {
       "status": "auto",

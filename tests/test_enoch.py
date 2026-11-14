@@ -426,5 +426,375 @@ class CheckEnochTest(unittest.TestCase):
         self.assertTrue(self.errors(spoil))
 
 
+class Stage3Test(unittest.TestCase):
+    """Чужая цитата в forms не становится auto. ያ/ይት берут свою породу.
+
+    Примеры — реальные слова глав 17–108 и пары, которые ручная сверка
+    глав 1–16 уже отнесла к другой основе. Словарь — DillmannData проекта.
+    """
+
+    @classmethod
+    def setUpClass(cls):
+        cls.lex = enoch_tag.LexIndex.load(enoch_tag.LEXICON)
+
+    def _rec(self, word):
+        return enoch_tag.analyze(word, (41, 1), self.lex)
+
+    def _n(self, rec):
+        for seg in rec["segs"]:
+            eid = seg.get("lemma")
+            if eid:
+                return str(self.lex.items[eid].get("n"))
+        return None
+
+    def _alt_n(self, rec):
+        return {str(self.lex.items[eid].get("n")) for eid in rec["alts"]}
+
+    def test_balance_citation_is_not_the_participle(self):
+        # 41:1 በመዳልው лежит в forms причастия ድልው n=7808.
+        # Напечатанное Pl. መዳልው — у መድሎት n=7814.
+        rec = self._rec("በመዳልው")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "7814")
+        self.assertNotEqual(self._n(rec), "7808")
+
+    def test_lie_citation_is_not_stem_one(self):
+        # 104:9 ወኢተሐስዉ. ኢተሐስዉ процитировано у ሐሰወ n=695, корня там нет.
+        rec = self._rec("ወኢተሐስዉ")
+        self.assertNotEqual(rec["status"], "auto")
+        self.assertNotEqual(self._n(rec), "695")
+        self.assertNotIn("695", self._alt_n(rec))
+
+    def test_people_citation_with_two_prefixes_is_not_auto(self):
+        # 72:1 በበሕዘቢሆሙ целиком стоит в forms ሕዝብ. Две приставки, не форма.
+        rec = self._rec("በበሕዘቢሆሙ")
+        self.assertNotEqual(rec["status"], "auto")
+
+    def test_days_plural_is_not_the_empty_stub(self):
+        # መዋዕል — Pl. от ሞዐልት n=6716. Пустая статья n=12572 леммой не берётся.
+        rec = self._rec("መዋዕል")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "6716")
+        bare = self._rec("ወመዋዕሊሁ")
+        self.assertEqual(bare["status"], "auto")
+        self.assertEqual(self._n(bare), "6716")
+
+    def test_ya_takes_stem_two_not_stem_one(self):
+        # ያበርህ — II አብርሀ n=3861, не I በርሀ n=3860.
+        rec = self._rec("ያበርህ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "3861")
+
+    def test_yet_takes_stem_three_articles(self):
+        # ይትነገፍኡ: две статьи III, не I ነገፈ n=5234.
+        rec = self._rec("ይትነገፍኡ")
+        self.assertEqual(rec["status"], "unsure")
+        self.assertIsNone(self._n(rec))
+        self.assertEqual(self._alt_n(rec), {"5236", "5237"})
+
+    def test_two_stem_two_articles_stay_unsure(self):
+        # ወያጸንዑ: II,1 n=9393 и II,2 n=9394. I ጸንዐ n=9391 не лемма.
+        rec = self._rec("ወያጸንዑ")
+        self.assertEqual(rec["status"], "unsure")
+        self.assertIsNone(self._n(rec))
+        self.assertEqual(self._alt_n(rec), {"9393", "9394"})
+
+    def test_yet_on_t_initial_root_stays_stem_one(self):
+        # ይትርፍ напечатан как Subj. у ተርፈ n=4269. Радикал t, не порода III.
+        rec = self._rec("ይትርፍ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "4269")
+
+    def test_yettefesam_sade_is_10122_not_mute(self):
+        # ጸ — n=10122 ተፈጸመ. Статья печатает ዘኢይትፌጸም и Hen. 16,1.
+        # ፀ — n=10142 ተፈፅመ: в forms есть ይትፌፀም, смысл obmutescere.
+        for word in ("ይትፌጸም", "ወይትፌጸም", "ትትፌጸም", "ወትትፌጸም", "ይትፌጸሙ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "10122", word)
+            self.assertNotIn("10142", self._alt_n(rec), word)
+        mute = self._rec("ይትፌፀም")
+        self.assertEqual(mute["status"], "auto")
+        self.assertEqual(self._n(mute), "10142")
+        self.assertNotIn("10122", self._alt_n(mute))
+        plural = self._rec("ይትፌፀሙ")
+        self.assertEqual(self._n(plural), "10142")
+        self.assertNotIn("10122", self._alt_n(plural))
+
+    def test_his_seed_is_noun_and_verb(self):
+        # 22:7 ዘርኡ. Глагол ዘርአ n=7547 строит 3 мн., имя ዘርእ n=7550 — суффикс -u.
+        # В гл. 10 то же написание оставлено именем. Здесь обе статьи, не auto.
+        rec = self._rec("ዘርኡ")
+        self.assertEqual(rec["status"], "unsure")
+        self.assertIsNone(self._n(rec))
+        self.assertEqual(self._alt_n(rec), {"7547", "7550"})
+
+    def test_ya_does_not_take_a_participle_of_another_sibilant(self):
+        # 69:5 ያማስኑ. Статья n=1880 — part. II,2 መሠንይ, не эта форма.
+        rec = self._rec("ያማስኑ")
+        self.assertNotEqual(rec["status"], "auto")
+        self.assertNotEqual(self._n(rec), "1880")
+
+    def test_kullu_stays_its_own_article(self):
+        # ኵሉ n=5982 — заголовок «ኵል с суффиксом», не форма пустого построения.
+        rec = self._rec("ኵሉ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "5982")
+
+
+class Stage3bClusters(unittest.TestCase):
+    """Кластеры проверки этапа 3. Словарь — DillmannData проекта."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.lex = enoch_tag.LexIndex.load(enoch_tag.LEXICON)
+
+    def _rec(self, word):
+        return enoch_tag.analyze(word, (41, 1), self.lex)
+
+    def _n(self, rec):
+        for seg in rec["segs"]:
+            eid = seg.get("lemma")
+            if eid:
+                return str(self.lex.items[eid].get("n"))
+        return None
+
+    def _alt_n(self, rec):
+        return {str(self.lex.items[eid].get("n")) for eid in rec["alts"]}
+
+    def test_emne_suffix_is_emmena_not_the_particle(self):
+        # n=4758 только в እስከኔ и አሐተኔ. እምኔ-+суффикс — እምነ n=1400.
+        for word in ("እምኔሆሙ", "ወእምኔሆሙ", "እምኔክሙ", "እምኔሃ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "1400", word)
+        rec = self._rec("እምኔሆሙ")
+        self.assertEqual([seg["t"] for seg in rec["segs"]], ["እምኔ", "ሆሙ"])
+        host = self._rec("እስከኔ")
+        self.assertEqual(host["status"], "auto")
+        self.assertEqual(self._n(host), "5573")
+        particle = self._rec("አሐተኔ")
+        self.assertEqual(particle["status"], "auto")
+        self.assertEqual(self._n(particle), "4758")
+        self.assertEqual([seg["t"] for seg in particle["segs"]], ["አሐተ", "ኔ"])
+
+    def test_walda_is_the_accusative_not_a_letter(self):
+        # ወልደ — винительный/сопряжённый ወልድ n=6436, не буква ደ n=7792.
+        rec = self._rec("ወልደ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "6436")
+        self.assertEqual([seg["t"] for seg in rec["segs"]], ["ወልደ"])
+        self.assertNotIn("7792", self._alt_n(rec))
+
+    def test_one_letter_article_is_not_a_lemma(self):
+        rec = self._rec("ለሐ")
+        self.assertNotEqual(rec["status"], "auto")
+        self.assertIsNone(self._n(rec))
+        self.assertNotIn("493", self._alt_n(rec))
+
+    def test_abu_with_suffix_is_father(self):
+        for word in ("አቡከ", "አቡሁ", "ለአቡሁ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "5601", word)
+            self.assertNotEqual(self._n(rec), "5634", word)
+        bare = self._rec("አቡ")
+        self.assertEqual(bare["status"], "auto")
+        self.assertEqual(self._n(bare), "5634")
+
+    def test_bo_is_exists_and_heart_is_not_haba(self):
+        for word in ("ቦ", "ወቦ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "3741", word)
+            self.assertNotIn("4534", self._alt_n(rec))
+        heart = self._rec("ልቦ")
+        self.assertEqual(heart["status"], "auto")
+        self.assertEqual(self._n(heart), "289")
+        self.assertNotEqual(self._n(heart), "4534")
+
+    def test_short_noun_beats_the_rare_long_form(self):
+        for word in ("ወልቦሙ", "ወልብክሙ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "289", word)
+            self.assertTrue(any(seg.get("prefix") == "c" for seg in rec["segs"]))
+        self.assertEqual(self._n(self._rec("ሞትነ")), "1472")
+        self.assertEqual(self._n(self._rec("ብዕልክሙ")), "4068")
+        self.assertEqual(self._n(self._rec("ኮንክሙ")), "6290")
+        self.assertEqual(self._n(self._rec("ነፍሶ")), "5324")
+        self.assertEqual(self._n(self._rec("ርእሳ")), "2230")
+
+    def test_both_real_readings_stay_unsure(self):
+        pairs = (
+            ("ሞትክሙ", {"1475", "1472"}),
+            ("ነፍስነ", {"5324", "5320"}),
+            ("ወልዳ", {"10211", "6436"}),
+            ("ወገብሮ", {"8420", "8428"}),
+            ("ወፈርሁ", {"6894", "9884"}),
+            ("ገብርዋ", {"8420", "8428"}),
+        )
+        for word, expected in pairs:
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "unsure", word)
+            self.assertIsNone(self._n(rec), word)
+            self.assertTrue(expected <= self._alt_n(rec), word)
+
+    def test_same_head_homonyms_are_not_chosen_silently(self):
+        rec = self._rec("ወጽኡ")
+        self.assertEqual(rec["status"], "unsure")
+        self.assertIsNone(self._n(rec))
+        self.assertTrue({"6864", "6870"} <= self._alt_n(rec))
+        bare = self._rec("ወጽአ")
+        self.assertEqual(bare["status"], "unsure")
+        self.assertTrue({"6864", "6870"} <= self._alt_n(bare))
+        days = self._rec("መዋዕል")
+        self.assertEqual(days["status"], "auto")
+        self.assertEqual(self._n(days), "6716")
+        lomu = self._rec("ሎሙ")
+        self.assertEqual(lomu["status"], "auto")
+        self.assertEqual(self._n(lomu), "144")
+
+    def test_s_spelling_of_stem_three_is_unsure(self):
+        # 104:13 ሠ. Статья n=7083 пишет ስ и не ссылается на этот стих.
+        for word in ("ይትዐሠዩ", "ወይትዐሠዩ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "unsure", word)
+            self.assertIsNone(self._n(rec), word)
+            self.assertIn("7083", self._alt_n(rec), word)
+        for word in ("ትትሐጐል", "ይትሐጐሉ"):
+            rec = self._rec(word)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "118", word)
+
+    def test_wayezeni_keeps_conjunction_and_enclitic(self):
+        # n=7767 печатает ወይእዜኒ целиком. ወ и ኒ всё равно отдельные.
+        rec = self._rec("ወይእዜኒ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual([seg["t"] for seg in rec["segs"]], ["ወ", "ይእዜ", "ኒ"])
+        self.assertEqual(self._n(rec), "7767")
+        ni = rec["segs"][-1].get("lemma")
+        self.assertEqual(str(self.lex.items[ni].get("n")), "4756")
+
+    def test_whose_at_22_6_is_not_silently_time(self):
+        # Hen. 22,6 ዘመኑ цитирует መኑ n=1365 «чей». ዘመን n=7520 тоже пишет ዘመኑ.
+        rec = enoch_tag.analyze("ዘመኑ", (22, 6), self.lex)
+        self.assertEqual(rec["status"], "unsure")
+        self.assertIsNone(self._n(rec))
+        self.assertTrue({"1365", "7520"} <= self._alt_n(rec))
+
+    def test_sunrise_homonym_does_not_claim_the_imperfect(self):
+        # n=1777 «nectere» формы ይሠርቅ не печатает. Сонет оставил n=1768.
+        rec = self._rec("ይሠርቅ")
+        self.assertEqual(rec["status"], "auto")
+        self.assertEqual(self._n(rec), "1768")
+        self.assertNotIn("1777", self._alt_n(rec))
+
+
+class MengelPrepositionTest(unittest.TestCase):
+    """መንገለ — предлог n=5185, не radix inusitata n=5184 и не отсылка n=1410."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.lex = enoch_tag.LexIndex.load(enoch_tag.LEXICON)
+
+    def _n(self, rec):
+        for seg in rec["segs"]:
+            eid = seg.get("lemma")
+            if eid:
+                return str(self.lex.items[eid].get("n"))
+        return None
+
+    def _alt_n(self, rec):
+        return {str(self.lex.items[eid].get("n")) for eid in rec["alts"]}
+
+    def test_mengel_is_preposition_5185(self):
+        words = (
+            "መንገለ",
+            "ዘመንገለ",
+            "ወመንገለ",
+            "በመንገለ",
+            "ለመንገለ",
+            "ወዘመንገለ",
+            "ወኢመንገለ",
+            "፫መንገለ",
+            "ወ፫መንገለ",
+            "፩ወ፫መንገለ",
+        )
+        for word in words:
+            rec = enoch_tag.analyze(word, (24, 2), self.lex)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "5185", word)
+            self.assertEqual(rec["segs"][-1]["t"], "መንገለ", word)
+            self.assertNotIn("5184", self._alt_n(rec), word)
+            self.assertNotIn("1410", self._alt_n(rec), word)
+            self.assertEqual(rec["gram"], "предлог", word)
+        za = enoch_tag.analyze("ዘመንገለ", (24, 2), self.lex)
+        self.assertEqual([seg["t"] for seg in za["segs"]], ["ዘ", "መንገለ"])
+        self.assertEqual(za["segs"][0]["prefix"], "s")
+        num = enoch_tag.analyze("ወ፫መንገለ", (18, 6), self.lex)
+        self.assertEqual([seg["t"] for seg in num["segs"]], ["ወ", "፫", "መንገለ"])
+        self.assertEqual(num["segs"][0]["prefix"], "c")
+        both = enoch_tag.analyze("፩ወ፫መንገለ", (24, 2), self.lex)
+        self.assertEqual([seg["t"] for seg in both["segs"]], ["፩ወ፫", "መንገለ"])
+
+    def test_printed_mengel_forms_stay_5185(self):
+        for word in ("እመንገለ", "መነገለ", "መንገሌሁ", "መንገል"):
+            rec = enoch_tag.analyze(word, (24, 2), self.lex)
+            self.assertEqual(rec["status"], "auto", word)
+            self.assertEqual(self._n(rec), "5185", word)
+
+    def test_other_letter_is_not_pulled_off_an_unused_root(self):
+        # አምዐ и አምዕዐ — разная огласовка и разный состав. Правило መንገለ их не склеивает.
+        pointer = entry("Lp", "አምዐ", n="9001")
+        pointer["senses"] = [{"text": "vid. sub መዐዐ፡"}]
+        unused = entry("Lu", "መዐዐ", n="9002")
+        unused["senses"] = [{"text": "rad. inus. quae non adhibetur."}]
+        other = entry("Lo", "አምዕዐ", n="9003", pos=["subst."], forms=["አምዕዐ", "አምዐ"])
+        other["senses"] = [{"text": "subst. alia vox."}]
+        lex = enoch_tag.LexIndex({"Lp": pointer, "Lu": unused, "Lo": other})
+        rec = enoch_tag.analyze("አምዐ", None, lex)
+        self.assertNotEqual(self._n_of(rec, lex), "9003")
+
+    def _n_of(self, rec, lex):
+        for seg in rec["segs"]:
+            eid = seg.get("lemma")
+            if eid:
+                return str(lex.items[eid].get("n"))
+        return None
+
+    def test_checked_word_survives_a_later_tag(self):
+        old = {
+            "status": "checked",
+            "segs": [
+                {"t": "መንገለ", "lemma": "OLD", "prefix": None, "morph": None},
+            ],
+            "gram": "предлог",
+            "alts": [],
+            "note": "Проверено по Дильману: መንገል n=5185.",
+        }
+        new = {
+            "status": "auto",
+            "segs": [
+                {"t": "መንገለ", "lemma": "NEW", "prefix": None, "morph": None},
+            ],
+            "gram": "предлог",
+            "alts": [],
+            "note": "",
+        }
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "017.json"
+            path.write_text(
+                json.dumps({"chapter": 17, "words": {"e1": old}}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            data, kept = enoch_tag._keep_manual_words(
+                path, {"chapter": 17, "words": {"e1": new}}
+            )
+        self.assertEqual(kept, 1)
+        self.assertEqual(data["words"]["e1"]["status"], "checked")
+        self.assertEqual(data["words"]["e1"]["segs"][0]["lemma"], "OLD")
+
+
 if __name__ == "__main__":
     unittest.main()

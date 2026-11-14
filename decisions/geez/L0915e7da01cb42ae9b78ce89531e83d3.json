@@ -1,0 +1,29 @@
+{
+  "key": "L0915e7da01cb42ae9b78ce89531e83d3",
+  "n": "1302",
+  "head": "ሙስና",
+  "kind": "word",
+  "display": "musena",
+  "senses": [
+    {
+      "id": "rot",
+      "ru": "тление",
+      "stems": [
+        "тлен"
+      ],
+      "gloss": "тление, порча (Дильман 1: corruptio, putrefactio; καταφθορά)",
+      "evidence": [
+        "1En.10.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1. Греч. 10:22 μιάσματος «осквернения». «Порча» занято евр. mashchat (4893b).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

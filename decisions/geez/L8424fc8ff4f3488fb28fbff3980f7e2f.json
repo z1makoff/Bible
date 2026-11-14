@@ -1,0 +1,29 @@
+{
+  "key": "L8424fc8ff4f3488fb28fbff3980f7e2f",
+  "n": "6940",
+  "head": "ዓመት",
+  "kind": "word",
+  "display": "amat",
+  "senses": [
+    {
+      "id": "year",
+      "ru": "год",
+      "stems": [
+        "год"
+      ],
+      "gloss": "год",
+      "evidence": [
+        "1En.5.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Отдельное слово от keramt, у которого тоже есть «год».",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    }
+  ]
+}

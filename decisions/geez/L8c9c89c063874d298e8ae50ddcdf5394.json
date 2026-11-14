@@ -1,0 +1,46 @@
+{
+  "key": "L8c9c89c063874d298e8ae50ddcdf5394",
+  "n": "9950",
+  "head": "ፈቀደ",
+  "kind": "word",
+  "display": "faqada",
+  "senses": [
+    {
+      "id": "want",
+      "ru": "хотеть",
+      "stems": [
+        "хот",
+        "захот"
+      ],
+      "gloss": "хотеть (Дильман 5: velle, cupere; praemissa negatione nolle; греч. θελήσετε в 6:3)",
+      "evidence": [
+        "1En.6.3"
+      ]
+    },
+    {
+      "id": "need",
+      "ru": "нуждаться",
+      "stems": [
+        "нужда"
+      ],
+      "gloss": "нуждаться (Дильман 9950.6: indigere; Hen. 14,22)",
+      "evidence": [
+        "1En.14.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5. Та же «хотеть», что у евр. chafets (want). Греч. 6:3 θελήσετε. Дильман 9950.6 indigere — need «нуждаться» (Hen. 14,22). want «хотеть» оставлен для 6:3.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 38 и О6, 13.11.2026: добавлен смысл need «нуждаться» (Дильман 9950.6 indigere, Hen. 14,22)."
+    }
+  ]
+}

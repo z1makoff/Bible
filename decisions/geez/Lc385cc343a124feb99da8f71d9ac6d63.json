@@ -1,0 +1,60 @@
+{
+  "key": "Lc385cc343a124feb99da8f71d9ac6d63",
+  "n": "6881",
+  "head": "ሙፃእ",
+  "kind": "word",
+  "display": "mutsa",
+  "senses": [
+    {
+      "id": "exit",
+      "ru": "выход",
+      "stems": [
+        "выход",
+        "выхо"
+      ],
+      "gloss": "выход, место выхода (Дильман 1: locus unde quid exit, exitus, egressus)",
+      "evidence": [
+        "1En.33.3",
+        "1En.35.1",
+        "Dillmann: Jes. 37,28"
+      ]
+    },
+    {
+      "id": "rising",
+      "ru": "восход",
+      "stems": [
+        "восход"
+      ],
+      "gloss": "восход светил (Дильман a: ortus siderum)",
+      "evidence": [
+        "1En.33.3",
+        "Dillmann: Ps. 18,6"
+      ]
+    },
+    {
+      "id": "source",
+      "ru": "исток",
+      "stems": [
+        "исток"
+      ],
+      "gloss": "исток вод, источник (Дильман b: fontes aquarum)",
+      "evidence": [
+        "Dillmann: Prov. 25,26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6881, subst.: (1) locus unde quid exit, exitus, egressus «выход, место выхода»: Jes. 37,28; አልቦ ሙፃአ እምነ ማእከሎሙ οὐκ ἦν διαφυγεῖν Judith 7,19; inferna እንተ አልባቲ ሙፃአ Clem. f. 91; a) ortus siderum «восход светил» (Ps. 18,6; Hen. 33,5; 73,3; ሙፃኣት Hen. 35); b) fontes aquarum «истоки вод»: ከመ ዘይደፍን ዐዘቅተ ወያማስን ሙፃአ ማይ Prov. 25,26; 2 Reg. 22,16; c) os, ostium fluvii «устье» (Kuf. 8; примера на геэзе нет, не взято); d) porta «врата, проход» (ሙፃኣቲሁ Hez. 43,11); e) finis; f) latrina (Sx. Nah. 18); (2) pompa funeris «погребальное шествие» (2 Par. 16,14). 33.3 ወጸሐፍኩ ኲሎ ሙጻኦሙ ለለ፩ — «и записал все выходы их» (звёзд; Смирнов «все выходы их … о каждой особо»): подходят 'exit' (1) и 'rising' (a: Дильман называет Hen. 33,5 и «Hen. 35» под a), поэтому латиница mutsa. 35.1 ኀዋኅው … ወበአምጣነ ሙፃኣቱ — «врата … и их выходы»: 'exit' (врат; 'rising' не подходит). «Восход» занято у tsebah (ጽባሕ): у того слова 'rising' — «восход, утро»; у ሙፃእ — «выход светил» (ortus), слова различимы по основе. Пункты c, d, e, f, 2 отдельными смыслами не взяты. 72.2, 73.3, 78.16, 79.2, 80.1 auto или unsure.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→3, ru уточнено, notes написаны; добавлены rising и source (пункты a и b Дильмана); evidence 35.1 и цитаты"
+    }
+  ]
+}

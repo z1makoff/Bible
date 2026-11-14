@@ -1,0 +1,40 @@
+{
+  "key": "Lab0020d8203b4ca0962d618370722fb4",
+  "n": "2248",
+  "head": "አርአያ",
+  "kind": "keep",
+  "display": "areaya",
+  "senses": [
+    {
+      "id": "likeness",
+      "ru": "подобие",
+      "stems": [
+        "подоби"
+      ],
+      "gloss": "подобие (Дильман 1: imago, similitudo, species; Gen. 1,26)",
+      "evidence": [
+        "1En.19.3"
+      ]
+    },
+    {
+      "id": "example",
+      "ru": "пример",
+      "stems": [
+        "пример"
+      ],
+      "gloss": "пример (Дильман 3.a: exemplum, exemplar; Joh. 13,15)",
+      "evidence": [
+        "1En.19.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не переводится: Дильман 2248 — imago, similitudo, species (1); norma (2); exemplum, spectaculum (3, в том числе 3.b Hen. 27,3; 62,12); typus (4); facies (5). В 19:3 ርኢኩ አርአያ ባሕቲትየ «видел … один»; греч. θεωρήματα «зрелища»; стиха статья не называет, выбрать нельзя.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

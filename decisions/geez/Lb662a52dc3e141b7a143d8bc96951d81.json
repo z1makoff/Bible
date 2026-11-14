@@ -1,0 +1,46 @@
+{
+  "key": "Lb662a52dc3e141b7a143d8bc96951d81",
+  "n": "5952",
+  "head": "አፍ",
+  "kind": "word",
+  "display": "af",
+  "senses": [
+    {
+      "id": "mouth",
+      "ru": "рот",
+      "stems": [
+        "рот",
+        "рт"
+      ],
+      "gloss": "рот",
+      "evidence": [
+        "1En.5.4"
+      ]
+    },
+    {
+      "id": "opening",
+      "ru": "отверстие",
+      "stems": [
+        "отверст"
+      ],
+      "gloss": "отверстие (Дильман 2.a: orificium; fluminum Hen. 17,8; abyssi Kuf. 5)",
+      "evidence": [
+        "1En.17.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "17:8 — Дильман 2.a: orificium (maris, abyssi, fluminum Hen. 17,8). `mouth` «рот» — пункт 1 (os). «Устье» не берётся: подходит только к рекам, а в 17:8 тот же оборот при бездне.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "добавлено значение `opening` «отверстие» (главы 17–19)"
+    }
+  ]
+}

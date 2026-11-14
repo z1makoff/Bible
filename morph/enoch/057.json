@@ -133,20 +133,24 @@
       "note": ""
     },
     "e05958": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
-          "t": "ዲቤሆሙ",
-          "lemma": null,
+          "t": "ዲቤ",
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
+        },
+        {
+          "t": "ሆሙ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3mp"
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd"
-      ],
-      "note": "несколько нарезок; нарезки: ዲቤሆሙ | ዲቤ+ሆሙ; кандидаты: ዲበ n=7980"
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
     },
     "e05959": {
       "status": "unsure",
@@ -169,24 +173,18 @@
       "note": "форма из парадигмы статьи Дильмана, не заглавное написание; не auto; кандидаты: መጽአ n=1653"
     },
     "e05960": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
     },
     "e05961": {
       "status": "auto",
@@ -453,18 +451,21 @@
       "note": ""
     },
     "e05976": {
-      "status": "auto",
+      "status": "unsure",
       "segs": [
         {
           "t": "አእመሩ",
-          "lemma": "Lb48f959563ef45b88aea07c522a2e10c",
+          "lemma": null,
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": "глагол",
-      "alts": [],
-      "note": "форма построена от заголовка статьи"
+      "gram": null,
+      "alts": [
+        "La082613962f448179113e1cebfeae215",
+        "Lb48f959563ef45b88aea07c522a2e10c"
+      ],
+      "note": "несколько статей; кандидаты: አእመረ n=5446, አእመረ n=5447"
     },
     "e05977": {
       "status": "auto",

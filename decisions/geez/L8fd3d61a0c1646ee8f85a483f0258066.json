@@ -1,0 +1,30 @@
+{
+  "key": "L8fd3d61a0c1646ee8f85a483f0258066",
+  "n": "636",
+  "head": "ሐሩር",
+  "kind": "word",
+  "display": "harur",
+  "senses": [
+    {
+      "id": "heat",
+      "ru": "зной",
+      "stems": [
+        "зной",
+        "зно"
+      ],
+      "gloss": "зной, жар солнца и ветра",
+      "evidence": [
+        "1En.4.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    }
+  ]
+}

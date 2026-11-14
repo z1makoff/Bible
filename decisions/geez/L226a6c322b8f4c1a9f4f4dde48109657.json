@@ -1,0 +1,45 @@
+{
+  "key": "L226a6c322b8f4c1a9f4f4dde48109657",
+  "n": "5693",
+  "head": "አኀዘ",
+  "kind": "word",
+  "display": "akhaza",
+  "senses": [
+    {
+      "id": "seize",
+      "ru": "схватить",
+      "stems": [
+        "схвати"
+      ],
+      "gloss": "схватить (Дильман 1: prehendere; 2: страх хватает)",
+      "evidence": [
+        "1En.14.13"
+      ]
+    },
+    {
+      "id": "receive",
+      "ru": "принимать",
+      "stems": [
+        "приним"
+      ],
+      "gloss": "принимать (Дильман 4: recipere, accipere; Hen. 17,4)",
+      "evidence": [
+        "1En.17.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не nasea «взять». 17:4 — Дильман 4: recipere, accipere, Hen. 17,4 назван. Значение `seize` «схватить» (1: prehendere) не подходит. Греч. παρέχον «доставляющий» — другое слово.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "добавлено значение `receive` «принимать» (главы 17–19)"
+    }
+  ]
+}

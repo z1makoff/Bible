@@ -1,0 +1,31 @@
+{
+  "key": "Lde7750cfefad467d8f96bc06d9ca83ff",
+  "n": "6557",
+  "head": "አውረደ",
+  "kind": "word",
+  "display": "awerada",
+  "senses": [
+    {
+      "id": "bring-down",
+      "ru": "низвести",
+      "stems": [
+        "низв",
+        "низвед",
+        "низвод"
+      ],
+      "gloss": "низвести, свести вниз (Дильман II,1: descendere facere, deducere, demittere; Hen. 69,4)",
+      "evidence": [
+        "1En.11.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман II,1: descendere facere. Каузатив к ወረደ n=6556 «сойти». Греч. 11:1 κατενεγκεῖν.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

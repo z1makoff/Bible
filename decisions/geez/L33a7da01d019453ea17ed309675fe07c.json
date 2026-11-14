@@ -1,0 +1,34 @@
+{
+  "key": "L33a7da01d019453ea17ed309675fe07c",
+  "n": "6728",
+  "head": "ዋዕይ",
+  "kind": "word",
+  "display": "way",
+  "senses": [
+    {
+      "id": "heat",
+      "ru": "жар",
+      "stems": [
+        "жар"
+      ],
+      "gloss": "жар",
+      "evidence": [
+        "1En.4.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Жар» солнца: Дильман 2 ardor, fervor, aestus называет Hen. 4 (ዋዕየ ፀሓይ); как charon (2740) «жар». «Пожар» (1 incendium) — beerah (1200). Отдельное слово от harur «зной» и muqat «тепло».",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-03",
+      "by": "claude",
+      "change": "одно значение «жар», «пожар» убрано, по рецензии Opus"
+    }
+  ]
+}

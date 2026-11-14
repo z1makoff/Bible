@@ -1,0 +1,29 @@
+{
+  "key": "L91f3eb94dec4403e9b9b530cdcff277f",
+  "n": "9221",
+  "head": "መጽሐፍ",
+  "kind": "word",
+  "display": "matsehaf",
+  "senses": [
+    {
+      "id": "book",
+      "ru": "книга",
+      "stems": [
+        "книг"
+      ],
+      "gloss": "книга (Дильман: liber)",
+      "evidence": [
+        "1En.14.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Греч. 14:1 βίβλος, 14:7 γραφή.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

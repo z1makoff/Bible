@@ -1,0 +1,99 @@
+{
+  "key": "L0e2cef3e6740486888a453d6046fe93e",
+  "n": "7051",
+  "head": "አዕረፈ",
+  "kind": "word",
+  "display": "aerafa",
+  "senses": [
+    {
+      "id": "rest",
+      "ru": "покоиться",
+      "stems": [
+        "покоил",
+        "покои",
+        "покоя"
+      ],
+      "gloss": "покоиться, отдыхать (Дильман II,1.A.1: quiescere, requiescere; ἀναπαύεσθαι)",
+      "evidence": [
+        "1En.23.2",
+        "1En.33.2"
+      ]
+    },
+    {
+      "id": "cease",
+      "ru": "переставать",
+      "stems": [
+        "перестав",
+        "перест"
+      ],
+      "gloss": "переставать, прекращаться (Дильман A.2: remittere, cessare, desinere; οὐ μὴ κοπάσῃ)",
+      "evidence": [
+        "1En.23.2",
+        "Dillmann: Sir. 23,17"
+      ]
+    },
+    {
+      "id": "lean",
+      "ru": "опираться",
+      "stems": [
+        "опира",
+        "опёр",
+        "опер"
+      ],
+      "gloss": "опираться, держаться на (Дильман A.1.f: niti, sustineri)",
+      "evidence": [
+        "1En.33.2"
+      ]
+    },
+    {
+      "id": "abide",
+      "ru": "пребывать",
+      "stems": [
+        "пребыва",
+        "пребыл"
+      ],
+      "gloss": "пребывать, оставаться на ком-то (Дильман A.1.d: residere, commorari)",
+      "evidence": [
+        "Dillmann: Jes. 11,2"
+      ]
+    },
+    {
+      "id": "pass-away",
+      "ru": "почить",
+      "stems": [
+        "почи",
+        "почт"
+      ],
+      "gloss": "почить, умереть (Дильман A.1.g: obdormire, obire)",
+      "evidence": [
+        "Dillmann: Sir. 47,23"
+      ]
+    },
+    {
+      "id": "give-rest",
+      "ru": "успокаивать",
+      "stems": [
+        "успока",
+        "успоко"
+      ],
+      "gloss": "давать покой, успокаивать (Дильман B.1: quiescere sinere, ἀναπαύειν)",
+      "evidence": [
+        "Dillmann: Job 23,7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 7051, II,1. A (непереходное): 1) quiescere, requiescere («покоиться»: Job 3,13; Hen. 53,7), a) quietem invenire, b) quietum se tenere, c) otiari, feriari (Gen. 2,2), d) residere, commorari («пребывать»: ያዐርፍ ዲቤሁ መንፈሰ ጥበብ Jes. 11,2; Hen. 2,3; 60,25), e) aquiescere, f) niti, sustineri — Hen. 33,2, g) obdormire, obire («почить»: ወአዕረፈ ምስለ አበዊሁ Sir. 47,23); 2) remittere, cessare, desinere (ኢያዐርፍ እስከ ይመውት οὐ μὴ κοπάσῃ Sir. 23,17). B (переходное): 1) quiescere sinere, ad requiem perducere («давать покой»: ያዐርፈኒ እምኵነኔየ Job 23,7), 2) remittere, cessare facere, 3) demittere. Места: 23.2 ኢያዐርፍ — огонь «ни днём ни ночью не прекращал течения», греч. οὐκ ἀναπαυόμενον: подходят 'rest' и 'cease' (в тексте aerafa). 33.2 ያዐርፍ — небо «покоится» на краях земли: подходят 'rest' и 'lean' (Дильман даёт это место как niti, sustineri). «Пребывать» есть и у nabara (ነበረ, 4922, 'remain'): там значение «оставаться, быть», здесь residere «опускаться на кого-то» (дух мудрости на нём) — как разные значения разных слов, различимы по примерам Дильмана. Остальные места (41.7, 53.7, 60.15, 60.25, 62.12, 89.70, 103.13) ещё auto. Смыслы B.2–3 («приостановить», «опустить») отдельно не взяты.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→6, notes написаны; добавлены cease, lean, abide, pass-away, give-rest; evidence 1En.33.2"
+    }
+  ]
+}

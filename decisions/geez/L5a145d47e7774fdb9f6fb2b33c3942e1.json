@@ -1,0 +1,30 @@
+{
+  "key": "L5a145d47e7774fdb9f6fb2b33c3942e1",
+  "n": "5601",
+  "head": "አብ",
+  "kind": "word",
+  "display": "ab",
+  "senses": [
+    {
+      "id": "father",
+      "ru": "отец",
+      "stems": [
+        "отц",
+        "отец"
+      ],
+      "gloss": "отец (Дильман a: parens, genitor)",
+      "evidence": [
+        "1En.10.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как av (1) «отец».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

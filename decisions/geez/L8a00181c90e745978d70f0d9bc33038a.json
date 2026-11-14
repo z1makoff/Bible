@@ -1,0 +1,35 @@
+{
+  "key": "L8a00181c90e745978d70f0d9bc33038a",
+  "n": "2739",
+  "head": "ሳብዕ",
+  "kind": "word",
+  "display": "sabe",
+  "senses": [
+    {
+      "id": "seventh",
+      "ru": "седьмой",
+      "stems": [
+        "седьм"
+      ],
+      "gloss": "седьмой (Дильман: septimus; septimum, septima vice)",
+      "evidence": [
+        "1En.24.3",
+        "Dillmann: Gen. 2,2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 2739: adj. num., fem. ሳብዕት: septimus «седьмой» — Gen. 2,2; 2,3; Num. 29,32; Jer. 35,17; ውስተ ሳብዕተ እዴሃ ለምድር 4 Esr. 4,46; «septimum, septima vice»: በሳብዕ Job (…) «в седьмой раз». Одно значение. 24.3 ወሳብዕ ደብር ማእከሎሙ — «и седьмая гора среди них» (Смирнов). stems «седьм» узнают «седьмая», «седьмой», «седьмую». 60.1, 60.8, 69.2, 78.4–8, 93.3 auto.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: notes написаны; stems «седьм» (узнаёт «седьмая»); evidence цитатой Дильмана"
+    }
+  ]
+}

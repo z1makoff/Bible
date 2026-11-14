@@ -1,0 +1,29 @@
+{
+  "key": "L6ca83810da3e49bf84f5ea9930af81e7",
+  "n": "5272",
+  "head": "አንጽሐ",
+  "kind": "word",
+  "display": "anetseha",
+  "senses": [
+    {
+      "id": "purify",
+      "ru": "очистить",
+      "stems": [
+        "очист"
+      ],
+      "gloss": "очистить (Дильман II,1: 1 purum vel mundum facere, purgare)",
+      "evidence": [
+        "1En.10.20"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман II,1. Греч. 10:20 καθάρισον.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

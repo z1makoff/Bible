@@ -1,0 +1,40 @@
+{
+  "key": "Lde7636db2cb740d2a6511765eb9b200d",
+  "n": "2246",
+  "head": "ርእየት",
+  "kind": "word",
+  "display": "reeyat",
+  "senses": [
+    {
+      "id": "sight",
+      "ru": "взор",
+      "stems": [
+        "взор"
+      ],
+      "gloss": "взор, смотрение (Дильман 1: visus, intuitus)",
+      "evidence": [
+        "1En.14.19"
+      ]
+    },
+    {
+      "id": "look",
+      "ru": "вид",
+      "stems": [
+        "вид"
+      ],
+      "gloss": "вид, облик (Дильман 2: adspectus, species)",
+      "evidence": [
+        "1En.14.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "В 14:19 подходят и взор огня, и вид. Видение (Дильман 3) здесь не отделено от raey «видение».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

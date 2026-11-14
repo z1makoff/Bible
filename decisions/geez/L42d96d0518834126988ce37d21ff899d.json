@@ -1,0 +1,29 @@
+{
+  "key": "L42d96d0518834126988ce37d21ff899d",
+  "n": "8013",
+  "head": "ድኅረ",
+  "kind": "word",
+  "display": "dekhera",
+  "senses": [
+    {
+      "id": "behind",
+      "ru": "позади",
+      "stems": [
+        "позад"
+      ],
+      "gloss": "позади (Дильман I.1: loci — post, retro)",
+      "evidence": [
+        "1En.8.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман: praep. loci. В 8:1 ዘእምድኅሬሆሙ — «то, что позади них» (Смирнов «что было позади них»).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

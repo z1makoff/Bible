@@ -1,0 +1,29 @@
+{
+  "key": "Lb2584e5582884ca5af926ffeb74a8dee",
+  "n": "9885",
+  "head": "አፍርሀ",
+  "kind": "word",
+  "display": "afereha",
+  "senses": [
+    {
+      "id": "frighten",
+      "ru": "устрашать",
+      "stems": [
+        "устраш"
+      ],
+      "gloss": "устрашать (Дильман: terrere, in timorem conjicere)",
+      "evidence": [
+        "1En.14.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не fareha «бояться»: каузатив, страх наводят на него.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

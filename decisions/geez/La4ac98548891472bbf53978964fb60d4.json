@@ -1,0 +1,60 @@
+{
+  "key": "La4ac98548891472bbf53978964fb60d4",
+  "n": "2690",
+  "head": "ሰብሐ",
+  "kind": "word",
+  "display": "sabeha",
+  "senses": [
+    {
+      "id": "praise",
+      "ru": "хвалить",
+      "stems": [
+        "хвал"
+      ],
+      "gloss": "хвалить, восхвалять (Дильман I,2.1: laudare, magnificare, celebrare Deum; αἰνεῖν, δοξάζειν)",
+      "evidence": [
+        "1En.36.4",
+        "Dillmann: Sir. 17,10"
+      ]
+    },
+    {
+      "id": "sing_praise",
+      "ru": "воспевать",
+      "stems": [
+        "воспева",
+        "воспел",
+        "воспет"
+      ],
+      "gloss": "воспевать хвалу, петь гимны (Дильман 2: laudes dicere, hymnos celebrare; ὑμνεῖν)",
+      "evidence": [
+        "Dillmann: Sir. 39,14"
+      ]
+    },
+    {
+      "id": "magnify",
+      "ru": "возвеличивать",
+      "stems": [
+        "возвелич"
+      ],
+      "gloss": "возвеличивать, делать славным (Дильман 3: ስብሓት tribuere, laudabilem reddere, clarificare; θαυμαστοῦν)",
+      "evidence": [
+        "1En.36.4",
+        "Dillmann: Ps. 16,8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 2690, I,2: (1) laudare, magnificare, celebrare Deum laudibus, precibus, cantu, hymnis c. Acc. «хвалить, восхвалять» (αἰνεῖν, ὑμνεῖν, δοξάζειν): እመ ትክል ሰብሖቶ Job 35,14; Sir. 17,10; Hen. 39,12; 61,12; ሰብሖ αἴνεσις Ps. 146,1; (2) laudes dicere, hymnos celebrare «петь хвалу» abs. Hen. 40,3; ይሴብሑ ወያነቡ ὑμνῳδοῦντες 1 Par. 25,6; ሰብሑ ማሕሌቶ Sir. 39,14; c. ለ Hen. 61,12; (3) alicui ስብሓት tribuere i.e. laudabilem vel magnificum reddere, clarificare «сделать славным, возвеличить»: ሰብሓ ለምሕረትከ θαυμάστωσον Ps. 16,8; Hen. 51,3; Joh. 17,1. 36.4 ከመ ይሰብሑ ግብሮ … ወይሰብሕዎ ለግብረ እደዊሁ ዐቢይ — «чтобы они хвалили (возвеличивали) Его дело», «и будут славить Его, дело рук Его великое»: при Acc. дела подходят и 'praise' (1), и 'magnify' (3: Дильман различает «хвалить» и «возвеличить» (ስብሓት; см. ПРАВИЛА, раздел 8: ስብሐት — «хвала» и «слава»)); поэтому латиница sabeha. Греческого 36.4 в корпусе нет. Пункт 2 (петь хвалу) в 36.4 слабее: при Acc. дела идёт скорее (1) или (3), чем абсолютное «петь» (2). «Славить» в этих значениях не взято: занято у baraka (ባረከ, 'praise').",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→3, ru уточнено, notes написаны; добавлены sing_praise и magnify (пункты 2 и 3 Дильмана); evidence 36.4 у praise и magnify"
+    }
+  ]
+}

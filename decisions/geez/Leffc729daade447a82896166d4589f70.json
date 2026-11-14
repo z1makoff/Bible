@@ -1,0 +1,29 @@
+{
+  "key": "Leffc729daade447a82896166d4589f70",
+  "n": "3633",
+  "head": "ቅድሰት",
+  "kind": "word",
+  "display": "qedesat",
+  "senses": [
+    {
+      "id": "holiness",
+      "ru": "святость",
+      "stems": [
+        "святост"
+      ],
+      "gloss": "святость (Дильман: sanctitas)",
+      "evidence": [
+        "1En.14.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Статья Дильмана коротко называет sanctitas и сомневается в примере Пс. 29,4. Не qedus.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

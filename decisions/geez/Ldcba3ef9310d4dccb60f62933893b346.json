@@ -1,0 +1,29 @@
+{
+  "key": "Ldcba3ef9310d4dccb60f62933893b346",
+  "n": "6192",
+  "head": "ክበብ",
+  "kind": "word",
+  "display": "kebab",
+  "senses": [
+    {
+      "id": "circle",
+      "ru": "круг",
+      "stems": [
+        "круг"
+      ],
+      "gloss": "круг (Дильман 1: circulus, orbis; называет Hen. 14,18)",
+      "evidence": [
+        "1En.14.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Греч. 14:18 τροχός «колесо». Геэз — круг, не колесо.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

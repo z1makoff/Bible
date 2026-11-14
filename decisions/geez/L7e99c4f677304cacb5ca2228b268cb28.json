@@ -1,0 +1,40 @@
+{
+  "key": "L7e99c4f677304cacb5ca2228b268cb28",
+  "n": "3228",
+  "head": "ቀላይ",
+  "kind": "keep",
+  "display": "qalay",
+  "senses": [
+    {
+      "id": "deep",
+      "ru": "глубь",
+      "stems": [
+        "глуб"
+      ],
+      "gloss": "глубь, низ (Дильман: profundum, imum tam maris et fluviorum quam terrae)",
+      "evidence": [
+        "1En.17.7"
+      ]
+    },
+    {
+      "id": "abyss",
+      "ru": "бездна",
+      "stems": [
+        "бездн"
+      ],
+      "gloss": "бездна (Дильман: abyssus, vorago, barathrum; ἄβυσσος)",
+      "evidence": [
+        "1En.17.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не переводится: ряд Дильмана «profundum, imum … abyssus, vorago, barathrum, βάθος, ἄβυσσος» — «глубь» и «бездна» оба читаются в 17:7–8, выбрать нельзя; так же поступил проект с tehom (ПРАВИЛА, пример Быт 1:1–2). Статья Hen. 17,7–8 не называет. Греч. 17:7, 17:8 ἄβυσσος.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

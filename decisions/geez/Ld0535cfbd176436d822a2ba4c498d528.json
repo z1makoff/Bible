@@ -1,0 +1,32 @@
+{
+  "key": "Ld0535cfbd176436d822a2ba4c498d528",
+  "n": "7547",
+  "head": "ዘርአ",
+  "kind": "word",
+  "display": "zarea",
+  "senses": [
+    {
+      "id": "sow",
+      "ru": "сеять",
+      "stems": [
+        "сея",
+        "сеют",
+        "посе",
+        "посея"
+      ],
+      "gloss": "сеять (Дильман I,1: semen spargere, seminare, serere)",
+      "evidence": [
+        "1En.10.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман I,1. Греч. 10:19 σπόρος.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

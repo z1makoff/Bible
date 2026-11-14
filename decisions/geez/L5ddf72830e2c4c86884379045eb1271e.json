@@ -1,0 +1,30 @@
+{
+  "key": "L5ddf72830e2c4c86884379045eb1271e",
+  "n": "2714",
+  "head": "ሰብእ",
+  "kind": "word",
+  "display": "sabe",
+  "senses": [
+    {
+      "id": "man",
+      "ru": "человек",
+      "stems": [
+        "человек",
+        "люд"
+      ],
+      "gloss": "человек, люди (собирательное; Дильман: homo, homines, genus humanum)",
+      "evidence": [
+        "1En.6.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как adam (120): «человек»; собирательное, во мн. падеже «людей». Дильман: sing. et coll.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

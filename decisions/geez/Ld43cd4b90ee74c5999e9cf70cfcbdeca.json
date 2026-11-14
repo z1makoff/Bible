@@ -1,0 +1,45 @@
+{
+  "key": "Ld43cd4b90ee74c5999e9cf70cfcbdeca",
+  "n": "8361",
+  "head": "ግራ",
+  "kind": "word",
+  "display": "gera",
+  "senses": [
+    {
+      "id": "comb",
+      "ru": "соты",
+      "stems": [
+        "сот"
+      ],
+      "gloss": "соты",
+      "evidence": [
+        "1En.1.6"
+      ]
+    },
+    {
+      "id": "wax",
+      "ru": "воск",
+      "stems": [
+        "воск"
+      ],
+      "gloss": "воск, в паре መዓረ ግራ (Дильман 8361: usurpatum pro κηρός cera: Hen. 1,6; Voc. Ae. ሠምዕ)",
+      "evidence": [
+        "1En.1.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Только в паре с maar (መዓር, 1502): መዓረ ግራ — «воск»; Дильман 8361: semper conjunctum cum መዓር, usurpatum pro κηρός cera (Hen. 1,6; Voc. Ae. ሠምዕ). Одно русское «воск» на пару (1:6).",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "Ф11: добавлено wax «воск» (Дильман 8361: usurpatum pro κηρός cera, Hen. 1,6)"
+    }
+  ]
+}

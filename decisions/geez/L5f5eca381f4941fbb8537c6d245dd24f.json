@@ -1,0 +1,29 @@
+{
+  "key": "L5f5eca381f4941fbb8537c6d245dd24f",
+  "n": "4614",
+  "head": "ኆኅት",
+  "kind": "word",
+  "display": "khokhet",
+  "senses": [
+    {
+      "id": "door",
+      "ru": "дверь",
+      "stems": [
+        "двер"
+      ],
+      "gloss": "дверь (Дильман: ostium, janua)",
+      "evidence": [
+        "1En.14.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не aneqats «ворота».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

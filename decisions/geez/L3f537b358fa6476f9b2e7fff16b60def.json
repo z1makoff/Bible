@@ -1,0 +1,34 @@
+{
+  "key": "L3f537b358fa6476f9b2e7fff16b60def",
+  "n": "9878",
+  "head": "ፍሥሓ",
+  "kind": "word",
+  "display": "fesha",
+  "senses": [
+    {
+      "id": "joy",
+      "ru": "радость",
+      "stems": [
+        "радост"
+      ],
+      "gloss": "радость",
+      "evidence": [
+        "1En.5.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "«Радость», как simchah (8057). Дильман: laetitia, gaudium. «Утешение» (a solatium) и «благополучие» (b salus) в 5:7 и 5:9 не нужны: рядом свет, salam, веселье.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-03",
+      "by": "claude",
+      "change": "одно значение «радость», «утешение» убрано, по рецензии Opus"
+    }
+  ]
+}

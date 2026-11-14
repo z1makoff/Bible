@@ -1,0 +1,68 @@
+{
+  "key": "Lf9f0079422a84933b77ced2eb3e57ca9",
+  "n": "9972",
+  "head": "ተፈትሐ",
+  "kind": "word",
+  "display": "tafateha",
+  "senses": [
+    {
+      "id": "open",
+      "ru": "открываться",
+      "stems": [
+        "откр"
+      ],
+      "gloss": "открываться (Дильман III,1.1: aperiri, de oculis)",
+      "evidence": [
+        "1En.32.6",
+        "Dillmann: Hen. 89,7"
+      ]
+    },
+    {
+      "id": "loosen",
+      "ru": "развязываться",
+      "stems": [
+        "развяз"
+      ],
+      "gloss": "развязываться, ослабляться (Дильман 2: solvi, exsolvi, resolvi; a dissolvi)",
+      "evidence": [
+        "Dillmann: Jud. 15,14"
+      ]
+    },
+    {
+      "id": "be_forgiven",
+      "ru": "прощаться",
+      "stems": [
+        "прощ"
+      ],
+      "gloss": "быть прощённым, отпущенным (Дильман 2.b: remitti; 2.c: dimitti, absolvi)",
+      "evidence": [
+        "Dillmann: Jes. 40,2"
+      ]
+    },
+    {
+      "id": "be_judged",
+      "ru": "судиться",
+      "stems": [
+        "суд"
+      ],
+      "gloss": "быть судимым, решённым судом (Дильман 3: judicari, dici vel pronuntiari de sententia judicis; decerni, sanciri)",
+      "evidence": [
+        "Dillmann: F.N. 34"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 9972, III,1: (1) aperiri, de oculis «открываться (о глазах)»: Gen. 3,5; 3,7; Hen. 32,6; 90,10; መዓምቃት ተፈትሑ Hen. 89,7 «бездны открылись»; (2) solvi, exsolvi, resolvi «развязываться»: о путах Marc. 7,35; ተፈትሐ ማኅሜሁ እምነ መዝራዕቱ Jud. 15,14; ከመ ጣዕዋ ዘተፈትሐ እማእሰሩ Mal. 3,20; a) dissolvi «расслабляться»: ተፈትሐ መሌሊተ ሐቌሁ Dan. 5,6; Hen. 60,3; b) remitti «быть прощённым»: ተፈትሐት ኀጢአታ Jes. 40,2; c) dimitti, absolvi «быть отпущенным»: ተፈቲሖሙ Act. 4,23; (3) judicari, de personis «быть судимым»: ይትፈትሑ Can. Ant. 13; a) dici vel pronuntiari, de sententia judicis «быть вынесенным (о приговоре)»: ተፈትሐ ላዕሌሁ ፍትሐ ሞት F.N. 34; b) decerni, sanciri «быть решённым» (F.M. 10,3). 32.6 ወተፈትሐ አዕይንቲሆሙ ወአእመሩ — «и открылись глаза их, и узнали» (Смирнов «и … познали»): пункт 1, о глазах (Дильман называет Hen. 32,6). Остальные пункты в 32.6 не подходят. Рядом ተፈትሐ — страдательное к ፈትሐ; корень ፈትሐ связан со значениями «развязать, судить, простить».",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→4, ru уточнено, notes написаны; добавлены loosen, be_forgiven, be_judged (пункты 2, 2.b, 3 Дильмана); stems «откр»"
+    }
+  ]
+}

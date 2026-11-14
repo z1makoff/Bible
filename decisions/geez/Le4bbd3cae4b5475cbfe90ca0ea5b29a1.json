@@ -1,0 +1,92 @@
+{
+  "key": "Le4bbd3cae4b5475cbfe90ca0ea5b29a1",
+  "n": "10083",
+  "head": "ፈድፋድ",
+  "kind": "word",
+  "display": "fadefad",
+  "senses": [
+    {
+      "id": "especially",
+      "ru": "особенно",
+      "stems": [
+        "особен"
+      ],
+      "gloss": "особенно, преимущественно (Дильман II.1.b: abundanter, eximie, quam maxime)",
+      "evidence": [
+        "1En.25.2",
+        "1En.29.2",
+        "Dillmann: Dan. 6,3"
+      ]
+    },
+    {
+      "id": "greatly",
+      "ru": "чрезвычайно",
+      "stems": [
+        "чрезвычайн"
+      ],
+      "gloss": "очень, весьма (Дильман II.1.a: valde, admodum, vehementer; σφόδρα)",
+      "evidence": [
+        "Dillmann: Jes. 52,13"
+      ]
+    },
+    {
+      "id": "more_than",
+      "ru": "больше",
+      "stems": [
+        "больше",
+        "больш"
+      ],
+      "gloss": "больше, чем (Дильман II.1.c: magis, seq. እምነ)",
+      "evidence": [
+        "Dillmann: Prov. 5,4"
+      ]
+    },
+    {
+      "id": "excess",
+      "ru": "избыток",
+      "stems": [
+        "избыт"
+      ],
+      "gloss": "избыток, остаток, излишнее (Дильман I.a: pars excedens vel redundans)",
+      "evidence": [
+        "Dillmann: Matth. 5,37"
+      ]
+    },
+    {
+      "id": "majority",
+      "ru": "большинство",
+      "stems": [
+        "большинств"
+      ],
+      "gloss": "большая часть (Дильман I.b: pars major vel plurima)",
+      "evidence": [
+        "Dillmann: Ps. 89,11"
+      ]
+    },
+    {
+      "id": "advantage",
+      "ru": "превосходство",
+      "stems": [
+        "превосход"
+      ],
+      "gloss": "превосходство, преимущество (Дильман I.c: praestantia, excellentia)",
+      "evidence": [
+        "Dillmann: Hen. 102,7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 10083, subst. [I] и Acc. ፈድፋደ [II]: [I] a) pars excedens vel redundans «избыток, остаток»: ፈድፋዶሙ እምእሉ Matth. 5,37; ፈድፋዳት Num. 4,26; b) pars major vel plurima «большая часть»: ፈድፋዶንሰ እምእላ Ps. 89,11; c) praestantia, excellentia «превосходство»: ምንት ፈድፋዶሙ እምኔነ Hen. 102,7; Herm. p. 8; [II] ፈድፋደ как наречие: a) valde, admodum, multum, vehementer, magnopere «очень, весьма»: σφόδρα Ps. 6,3; Jes. 52,13; b) abundanter, eximie, quam maxime «в изобилии, особенно, в высшей степени»: እስመ ፈድፋደ መንፈስ ላዕሌሁ Dan. 6,3; ጥቀ ፈድፋደ Kuf. 25; c) magis, seq. እምነ «больше, чем»: Prov. 5,4; 28,23; Sir. 4,10; Gen. 19,9. 25.2 ወፈድፋደሰ — «о всём … но особенно об этом дереве» (Смирнов «обо всём желал бы я узнать, но особенно об этом дереве»; греч. περὶ πάντων … ): наречие b 'especially' (Дильман называет Hen. 25,2); 29.2 ፈድፋደ ቈስቈሰ መዐዛ — «особенно (издающие) запах ладана и мирры» (Смирнов «особенно же такие…»): 'especially'; 'greatly' (a «очень») и 'more_than' (c) в этих местах не нужны. Остальные места (61.12, 77.1, 80.5, 89.19, 89.61, 89.69, 89.74) auto. «Особенно» оставлено для пункта b; «чрезвычайно» взято для a (чтобы не совпадать с ጥቀ, у которого «весьма»), «больше» — для c.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→6, ru уточнено, notes написаны; добавлены greatly, more_than, excess, majority, advantage (пункты II.a, II.c, I.a–c Дильмана); evidence 29.2"
+    }
+  ]
+}

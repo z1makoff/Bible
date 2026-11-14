@@ -1,0 +1,32 @@
+{
+  "key": "L701fab0b8c6a4055aafd85bb05b5920a",
+  "n": "8490",
+  "head": "ጋኔን",
+  "kind": "keep",
+  "display": "ganen",
+  "displayForms": [
+    "aganent"
+  ],
+  "senses": [
+    {
+      "id": "demon",
+      "ru": "демон",
+      "stems": [
+        "демон"
+      ],
+      "gloss": "демон (Дильман: daemon, daemonion, cacodaemon, spiritus malus; ጋኔን እኩይ Tob. 3,8; Hen. 19,1)",
+      "evidence": [
+        "1En.19.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не переводится: русское «демон» несёт позднее представление о злом существе; у Дильмана «daemon, daemonion, cacodaemon (spiritus malus)», в том числе фантом, призрак (a.β). Hen. 19,1 назван в основном пункте. Греч. 19:1 δαιμονίοις. Множественное አጋንንት.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

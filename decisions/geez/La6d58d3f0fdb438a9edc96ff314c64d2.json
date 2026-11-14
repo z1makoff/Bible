@@ -1,0 +1,29 @@
+{
+  "key": "La6d58d3f0fdb438a9edc96ff314c64d2",
+  "n": "6962",
+  "head": "ዐመፃ",
+  "kind": "word",
+  "display": "amatsa",
+  "senses": [
+    {
+      "id": "injustice",
+      "ru": "неправда",
+      "stems": [
+        "неправд"
+      ],
+      "gloss": "неправда, несправедливость (Дильман: injustitia, iniquitas, improbitas; ἀδικία)",
+      "evidence": [
+        "1En.9.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман: injustitia. Греч. ἀδικία (9:6), ἀδικίας (9:9).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

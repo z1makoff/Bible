@@ -1,0 +1,31 @@
+{
+  "key": "L16c32c001c584814968b4add42fe816f",
+  "n": "9271",
+  "head": "ጸርኀ",
+  "kind": "word",
+  "display": "tsarekha",
+  "senses": [
+    {
+      "id": "cry",
+      "ru": "кричать",
+      "stems": [
+        "крича",
+        "крик",
+        "кричал"
+      ],
+      "gloss": "кричать (Дильман I,1: alta et clara voce clamare; Hen. 9,2)",
+      "evidence": [
+        "1En.8.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как tsaaq (6817) «кричать».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

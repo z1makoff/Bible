@@ -1,0 +1,46 @@
+{
+  "key": "La94181f52b6d4ff599e12d8123a1d7ea",
+  "n": "5687",
+  "head": "እኅው",
+  "kind": "word",
+  "display": "ekhew",
+  "senses": [
+    {
+      "id": "brother",
+      "ru": "брат",
+      "stems": [
+        "брат"
+      ],
+      "gloss": "брат (Дильман: frater)",
+      "evidence": [
+        "1En.22.7",
+        "Dillmann: Gen. 43,3"
+      ]
+    },
+    {
+      "id": "fellow",
+      "ru": "ближний",
+      "stems": [
+        "ближн"
+      ],
+      "gloss": "ближний, другой человек (Дильман e: quivis alius homo, alter, proximus)",
+      "evidence": [
+        "Dillmann: Jes. 19,2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5687: frater «брат» — እኁሁ Gen. 22,23; እኅዋሁ Kuf. 11; Jer. 38,34; мн. አኀው Gen. 42,8; Matth. 4,18, creberrime; в переносных кругах: a) agnatus, cognatus, consanguineus, affinis «родич»; b) contribulis, popularis «соплеменник» (Num. 16,10; Deut. 15,2; Act. 2,29); c) socius, amicus «товарищ, друг» (2 Esr. 15,10; Cant. 1,13); d) единоверец: α) христиане (Matth. 23,8; Act. 9,17), β) монахи; e) quivis alius homo, alius, alter (proximus) «ближний, другой человек»: ይቀትል ብእሲ እኁሁ Jes. 19,2; Gen. 9,5; Matth. 5,22. 22.7 ዘቀተሎ ቃየል እኁሁ — «убитого Каином, братом его» (Смирнов «убитого своим братом Каином»; греч. ὁ ἀδελφός): родной брат (имена Авеля и Каина названы). 'Ближний' (e) здесь не подходит: речь о родных братьях. Пункты a–d отдельными смыслами не взяты: в них нет примера на геэзе (a, b, c) либо они церковные (d). 91.2 (አኀዊሁ) и 100.1 (ወአኀው) пока auto.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, ru уточнено, notes написаны; добавлен смысл fellow «ближний» (пункт e)"
+    }
+  ]
+}

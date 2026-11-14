@@ -1,0 +1,29 @@
+{
+  "key": "Lf5b10cab6f414b92a2c79dd34d91a9c0",
+  "n": "3127",
+  "head": "መስፈርት",
+  "kind": "word",
+  "display": "masefaret",
+  "senses": [
+    {
+      "id": "measure",
+      "ru": "мера",
+      "stems": [
+        "мер"
+      ],
+      "gloss": "мера (Дильман 1: mensura; ሐብለ መስፈርት Zach. 2,1)",
+      "evidence": [
+        "1En.10.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1: mensura. Греч. 10:19 μέτρον.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

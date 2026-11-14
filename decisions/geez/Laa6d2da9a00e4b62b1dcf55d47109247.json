@@ -1,0 +1,31 @@
+{
+  "key": "Laa6d2da9a00e4b62b1dcf55d47109247",
+  "n": "2896",
+  "head": "ሰከበ",
+  "kind": "word",
+  "display": "sakaba",
+  "senses": [
+    {
+      "id": "lie-down",
+      "ru": "лечь",
+      "stems": [
+        "леч",
+        "лег",
+        "лёг"
+      ],
+      "gloss": "лечь, лежать (Дильман 1: cubare, recumbere; a: cubitum ire; греч. συνεκοιμήθησαν)",
+      "evidence": [
+        "1En.9.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как shakhav (7901) «лечь». Греч. 9:8 συνεκοιμήθησαν.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

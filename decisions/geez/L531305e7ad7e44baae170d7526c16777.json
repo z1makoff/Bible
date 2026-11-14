@@ -1,0 +1,46 @@
+{
+  "key": "L531305e7ad7e44baae170d7526c16777",
+  "n": "6372",
+  "head": "ከፈለ",
+  "kind": "word",
+  "display": "kafala",
+  "senses": [
+    {
+      "id": "divide",
+      "ru": "разделять",
+      "stems": [
+        "раздел"
+      ],
+      "gloss": "разделять, делить на части (Дильман I,1.1: dividere, partiri; a separare, b distinguere)",
+      "evidence": [
+        "Dillmann: Deut. 19,3"
+      ]
+    },
+    {
+      "id": "allot",
+      "ru": "уделять",
+      "stems": [
+        "удел"
+      ],
+      "gloss": "уделять, назначать кому-то долю (Дильман 2: distribuere; a tribuere, attribuere, assignare alicui aliquid; μερίζειν)",
+      "evidence": [
+        "1En.27.4",
+        "Dillmann: Rom. 12,3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6372, I,1: (1) dividere, partiri «разделять на части»: ትከፍል ደወለ መሥልስተ τριμεριεῖς Deut. 19,3; ከፈልዋ ለምድር ፫ መክፈልተ Kuf. 8; a) separare, arcere (Ex. 19,12), b) distinguere (Hez. 42,20), c) dissecare «рассекать»; (2) distribuere, dispertiri, διαμερίζειν «раздавать, распределять»: Deut. 32,8; Hen. 41,8; a) tribuere, attribuere, assignare alicui aliquid «уделять кому-то»: በከመ ከፈሎ Rom. 12,3; ርስትየ ዘከፈልክዎ ለሕዝብየ Jer. 12,14; Hen. 27,4; b) donare, largiri «дарить»: ከመ እክፍሎሙ ጥሪተ Prov. 8,21; c) participem facere. 27.4 ይባርክዎ በምሕረት በከመ ከፈሎሙ — «прославят Его за милость, как Он уделил им» (греч. ὡς ἐμέρισεν αὐτοῖς; Смирнов «по которому он назначил им такой жребий»): пункт 2.a; «разделять на части» (1) тут не подходит: нет целого, которое делят. Прежнее evidence 27.4 для 'divide' было неверно. Пункты 2.b–c (дарить, сделать участником) не взяты. 41.8 auto.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, ru уточнено, notes написаны; evidence 27.4 перенесено с divide на новый смысл allot (Дильман 2.a); ru «разделить»→«разделять»"
+    }
+  ]
+}

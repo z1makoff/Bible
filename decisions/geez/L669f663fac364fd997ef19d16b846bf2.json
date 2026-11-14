@@ -1,0 +1,53 @@
+{
+  "key": "L669f663fac364fd997ef19d16b846bf2",
+  "n": "8459",
+  "head": "አስተጋብአ",
+  "kind": "word",
+  "display": "asetagabea",
+  "senses": [
+    {
+      "id": "gather",
+      "ru": "собирать",
+      "stems": [
+        "собира",
+        "собра",
+        "собер",
+        "собрат",
+        "собран"
+      ],
+      "gloss": "собирать, созывать, стягивать в одно место (Дильман 3: comprehendere, colligere; a cogere, b congregare, c colligere, congerere)",
+      "evidence": [
+        "1En.22.3",
+        "1En.27.2",
+        "Dillmann: Jes. 40,11"
+      ]
+    },
+    {
+      "id": "draw_in",
+      "ru": "втягивать",
+      "stems": [
+        "втягива",
+        "втян",
+        "втяну"
+      ],
+      "gloss": "стягивать к себе, сжимать, складывать (Дильман 1.a: contrahere, ad se recipere)",
+      "evidence": [
+        "Dillmann: Hez. 1,24"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 8459, IV,3: (1) ad se recipere: a) contrahere «втягивать, складывать» (крылья, руки): ያስተጋብኡ ክነፊሆሙ Hez. 1,24; ታስተጋብእ እዴከ ዲበ እንግድዓከ Prov. 6,10; b) ad se rapere; c) apud se recipere, tutelae causa «принимать под защиту»; d) recuperare amissa; (2) facere ut res se contrahant: a) iterum confluere facere aquas (Ex. 15,19), b) adjungere rem rei: አስተጋብኦሙ ለአዕፅምት Hez. 37,7, c) claudere; (3) comprehendere, complecti «охватить, заключить»: ያስተጋብእ አባግዒሁ በመዝራዕቱ Jes. 40,11; a) cogere, colligere copias, homines, populos «созывать, собирать людей»: Joel 4,2; Jes. 43,5; Matth. 22,10; b) congregare «собирать в одно место»: Hen. 22,3; 91,1; Matth. 2,4; c) colligere, congerere «собирать (плоды, имущество)»: Koh. 3,5; Ruth 2,8; Gen. 41,48; d–h) соединять, накопить, суммировать, составить книгу; (5) in suam ditionem redigere, expugnare «захватить» (Num. 21,32 …, примера на геэзе нет, не взято). 22.3 ያስተጋብኡ ኲሎ ነፍሰ ውሉደ ሰብእ — «будут собраны все души сынов человеческих» и 27.2 ዝየ ያስተጋብእዎሙ — «здесь соберут их»: пункт 3.b (Дильман называет Hen. 22,3 сам). Русское «собирать» покрывает 3.a–c (собирать людей и вещи) — один разброс; поэтому один смысл. Остальные места 82.19, 88.3, 91.2 auto.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, ru уточнено, notes написаны; добавлен смысл draw_in (пункт 1.a); пункт 3 объяснён"
+    }
+  ]
+}

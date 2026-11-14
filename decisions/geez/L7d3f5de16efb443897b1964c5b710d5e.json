@@ -1,0 +1,29 @@
+{
+  "key": "L7d3f5de16efb443897b1964c5b710d5e",
+  "n": "386",
+  "head": "ሌሊት",
+  "kind": "word",
+  "display": "lelit",
+  "senses": [
+    {
+      "id": "night",
+      "ru": "ночь",
+      "stems": [
+        "ноч"
+      ],
+      "gloss": "ночь (Дильман: nox)",
+      "evidence": [
+        "1En.14.23"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "L16e03588a0ef457c91ec30ffbc32e418",
+  "n": "4805",
+  "head": "ተንሥአ",
+  "kind": "word",
+  "display": "tanesea",
+  "senses": [
+    {
+      "id": "rise",
+      "ru": "восстать",
+      "stems": [
+        "восста"
+      ],
+      "gloss": "восстать, подняться (Дильман: surgere)",
+      "evidence": [
+        "1En.15.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не anesea «поднять»: здесь они сами восстают.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

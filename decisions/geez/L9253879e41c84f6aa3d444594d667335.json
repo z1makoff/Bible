@@ -1,0 +1,63 @@
+{
+  "key": "L9253879e41c84f6aa3d444594d667335",
+  "n": "3325",
+  "head": "ተቃረበ",
+  "kind": "word",
+  "display": "taqaraba",
+  "senses": [
+    {
+      "id": "approach",
+      "ru": "приблизиться",
+      "stems": [
+        "приближ",
+        "приблиз"
+      ],
+      "gloss": "приблизиться друг к другу, сойтись близко (Дильман III,3: mutuo sibi appropinquare)",
+      "evidence": [
+        "1En.24.2",
+        "Dillmann: Ps. 54,20"
+      ]
+    },
+    {
+      "id": "touch",
+      "ru": "соприкоснуться",
+      "stems": [
+        "соприкас",
+        "соприкосн"
+      ],
+      "gloss": "соприкасаться, граничить (Дильман c: contingere, conterminum esse, attingere)",
+      "evidence": [
+        "1En.24.2"
+      ]
+    },
+    {
+      "id": "meet",
+      "ru": "сойтись",
+      "stems": [
+        "сход",
+        "сошл",
+        "сойд",
+        "сойт"
+      ],
+      "gloss": "сходиться, встречаться, в том числе вплоть до нападения или близости (Дильман a–b: congredi cum aliquo, aggredi; honeste de concubitu)",
+      "evidence": [
+        "Dillmann: Ps. 54,20",
+        "Dillmann: Sir. 41,19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 3325, III,3 (взаимная форма): mutuo sibi appropinquare «приблизиться друг к другу»; a) congredi cum aliquo vel aggredi aliquem «сойтись, напасть»: ይትቃረቡኒ Ps. 54,20; ኀፍረት ለተቃርቦ ለበሊዐ እክለ ባዕድ Sir. 41,19; b) congredi, honeste de contactu, complexu, concubitu venereo «сойтись (о близости)»: ኢይትቃረብ ወኢይኑም ምስለ ብእሲቱ F.M. 14,9; Matth. 1,18; c) contingere, conterminum esse, attingere «соприкасаться, граничить» — Hen. 24,2; 3 Reg. 6,10; d) prope accedere ad similitudinem «приближаться по сходству» (F.M. 27,8); e) συναφῆναι «соединиться» (богословский оборот Нестория, Cyr. c. Pall.). 24.2 ቈላተ ዕሙቃተ ወጠዋያተ አሐቲ ለአሐቲ እይትቃረባ — «глубокие и извилистые долины, одна не сходится (не касается) с другой» (греч. 24.2 ὑπερεῖχεν? в выписке нет): подходят 'approach' (сблизиться) и 'touch' (соприкасаться, Дильман c называет это место сам); поэтому латиница taqaraba. Пункты a–b (нападение, близость) по контексту не подходят; пункты d–e не взяты. Рядом qareba (ቀረበ, «приблизиться») — другой корень, простое «приблизиться».",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→3, ru уточнено, notes написаны; добавлены touch (Дильман c) и meet (a–b); evidence 24.2 у approach и touch"
+    }
+  ]
+}

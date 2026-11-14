@@ -1,0 +1,29 @@
+{
+  "key": "Lfdbfad004e8e493c86b1dc2e70e62d51",
+  "n": "5325",
+  "head": "ነፋስ",
+  "kind": "word",
+  "display": "nafas",
+  "senses": [
+    {
+      "id": "wind",
+      "ru": "ветер",
+      "stems": [
+        "ветр"
+      ],
+      "gloss": "ветер (Дильман: ventus)",
+      "evidence": [
+        "1En.14.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Раздел 8 правил: ነፋስ переводится «ветер». Не manfas.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

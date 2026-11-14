@@ -1,0 +1,29 @@
+{
+  "key": "Lf6113afa16e144d7969ab1453cfa1a78",
+  "n": "501",
+  "head": "ሕልም",
+  "kind": "word",
+  "display": "helem",
+  "senses": [
+    {
+      "id": "dream",
+      "ru": "сновидение",
+      "stems": [
+        "сновиден"
+      ],
+      "gloss": "сновидение (Дильман: somnium)",
+      "evidence": [
+        "1En.13.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не newam «сон»: helem — то, что снится.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

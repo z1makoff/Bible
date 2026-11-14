@@ -1,0 +1,29 @@
+{
+  "key": "Lf3000d35e42b480095aa5fb1ae6efeb3",
+  "n": "1109",
+  "head": "አምለከ",
+  "kind": "word",
+  "display": "amelaka",
+  "senses": [
+    {
+      "id": "worship",
+      "ru": "почитать",
+      "stems": [
+        "почит"
+      ],
+      "gloss": "почитать как бога, воздавать божеские почести (Дильман II,1: Deum colere, divinis honoribus afficere; σέβεσθαι, λατρεύειν)",
+      "evidence": [
+        "1En.10.21"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман. Греч. 10:21 λατρεύοντες «служащие». «Служить» занято евр. avad (5647).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

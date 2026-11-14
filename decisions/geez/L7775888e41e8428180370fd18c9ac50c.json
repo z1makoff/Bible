@@ -1,0 +1,51 @@
+{
+  "key": "L7775888e41e8428180370fd18c9ac50c",
+  "n": "2862",
+  "head": "ስእለት",
+  "kind": "word",
+  "display": "seelat",
+  "senses": [
+    {
+      "id": "petition",
+      "ru": "просьба",
+      "stems": [
+        "просьб"
+      ],
+      "gloss": "просьба (Дильман: rogatio, petitio)",
+      "evidence": [
+        "1En.14.4"
+      ]
+    },
+    {
+      "id": "prayer",
+      "ru": "молитва",
+      "stems": [
+        "молитв"
+      ],
+      "gloss": "молитва (Дильман: precatio, preces, oratio)",
+      "evidence": [
+        "1En.13.4"
+      ]
+    },
+    {
+      "id": "intercession",
+      "ru": "ходатайство",
+      "stems": [
+        "ходатайств"
+      ],
+      "gloss": "ходатайство (Дильман: intercessio; называет Hen. 13,2 и Hen. 14,7)",
+      "evidence": [
+        "1En.13.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Где подходят просьба, молитва и ходатайство, не переводится. Греч. ἐρώτησις и δέησις.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "L38c716b0ff1c41649ba35f4acccfa761",
+  "n": "5443",
+  "head": "እመት",
+  "kind": "word",
+  "display": "emat",
+  "senses": [
+    {
+      "id": "cubit",
+      "ru": "локоть",
+      "stems": [
+        "локт",
+        "локот"
+      ],
+      "gloss": "локоть, мера длины (Дильман 2: mensura; Hen. 7,2)",
+      "evidence": [
+        "1En.7.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как ammah (520a) «локоть». Дильман 2 называет Hen. 7,2.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

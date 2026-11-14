@@ -1,0 +1,40 @@
+{
+ "key": "L2f96c25794c6485eb46c3ae163c2676c",
+ "n": "5200",
+ "head": "ነገር",
+ "kind": "word",
+ "display": "nagar",
+ "senses": [
+  {
+   "id": "speech",
+   "ru": "речь",
+   "stems": [
+    "реч"
+   ],
+   "gloss": "речь, слова (Дильман 2: oratio, verba, verbum)",
+   "evidence": [
+    "Dillmann: Gen. 29,12"
+   ]
+  },
+  {
+   "id": "thing",
+   "ru": "вещь",
+   "stems": [
+    "вещ"
+   ],
+   "gloss": "вещь, дело, о чём речь (Дильман 3: res); «дело» занято gebr",
+   "evidence": [
+    "Dillmann: Gen. 24,50"
+   ]
+  }
+ ],
+ "status": "draft",
+ "notes": "В 12:1 «прежде всего nagar»: и «речь» (греч. τῶν λόγων), и «вещь» (Дильман 3 res) строят фразу. qal — «слово», gebr — «дело».",
+ "history": [
+  {
+   "date": "2026-11-08",
+   "by": "grok",
+   "change": "черновик по главам 12–16"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+  "key": "L41ff39fcf32c42999568821823503266",
+  "n": "2860",
+  "head": "ተስእለ",
+  "kind": "word",
+  "display": "taseela",
+  "senses": [
+    {
+      "id": "inquire",
+      "ru": "спрашивать",
+      "stems": [
+        "спрос",
+        "спрашива"
+      ],
+      "gloss": "спрашивать (Дильман: interrogare, percontari)",
+      "evidence": [
+        "1En.13.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не saala «просить».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

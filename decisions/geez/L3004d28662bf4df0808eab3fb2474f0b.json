@@ -1,0 +1,29 @@
+{
+  "key": "L3004d28662bf4df0808eab3fb2474f0b",
+  "n": "5841",
+  "head": "አዘዘ",
+  "kind": "word",
+  "display": "azaza",
+  "senses": [
+    {
+      "id": "command",
+      "ru": "повелеть",
+      "stems": [
+        "повел"
+      ],
+      "gloss": "повелеть (Дильман 2: imperare, jubere)",
+      "evidence": [
+        "1En.14.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "В 14:1 повеление, не «властвовать» (Дильман 1).",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "key": "L4d8b0dfb65a34df19ac18c256deb30a9",
+  "n": "7164",
+  "head": "ዐቢይ",
+  "kind": "word",
+  "display": "abiy",
+  "senses": [
+    {
+      "id": "big",
+      "ru": "большой",
+      "stems": [
+        "больш"
+      ],
+      "gloss": "большой",
+      "evidence": [
+        "1En.1.3"
+      ]
+    },
+    {
+      "id": "great",
+      "ru": "великий",
+      "stems": [
+        "велик"
+      ],
+      "gloss": "о лице, о Боге (Дильман 7164.2.a, 2.α de Deo: Sir. 39,6; Ps. 46,2; Tit. 2,13)",
+      "evidence": [
+        "1En.1.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 7164 делит: 1 magnus (вещи, зверь, гора; 1.a vehemens: Marc. 4,41) — big «большой»; 2 de personis, 2.α de Deo (Sir. 39,6; Ps. 46,2; Tit. 2,13) — great «великий». Дерзкий оттенок 5:4 — внутри «большой».",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П27: добавлено great «великий» (Дильман 7164.2, de Deo/de personis)"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "key": "L7ded377fd2054e739f7ae40488d80d86",
+  "n": "6613",
+  "head": "ተዋቀሠ",
+  "kind": "word",
+  "display": "tawaqasa",
+  "senses": [
+    {
+      "id": "litigate",
+      "ru": "вести тяжбу",
+      "stems": [
+        "тяжб"
+      ],
+      "gloss": "вести тяжбу",
+      "evidence": [
+        "1En.1.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман III,3: litigare, disputare, causam suam defendere (Isa 1:18 ንዑ ንትዋቀሥ διελεγχθῶμεν; Job 13,3 ἐλέγξω); греч. 1:9 ἐλέγξει. В 1:9 написано ይትዋቀስ с ሰ (ed1); статья и EOTC ወይትዋቀሥ — с ሠ. «Вести тяжбу» отдельно от riv (7378) «спорить» и shafat (8199) «судить»; «быть судимым» — takwanana (6246).",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "claude",
+      "change": "создано: лемма назначена в разметке 1:9 e00132, по рецензии Opus"
+    },
+    {
+      "date": "2026-11-03",
+      "by": "claude",
+      "change": "заметка уточнена после смены ru у takwanana"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "key": "L3116e4d0bc82470b8ca64e6b12278ee3",
+  "n": "5886",
+  "head": "አዳም",
+  "kind": "word",
+  "display": "adam",
+  "senses": [
+    {
+      "id": "pleasant",
+      "ru": "приятный",
+      "stems": [
+        "приятн"
+      ],
+      "gloss": "приятный, усладный (Дильман 1: jucundus, amoenus, suavis, placens)",
+      "evidence": [
+        "1En.24.5",
+        "Dillmann: Prov. 25,25"
+      ]
+    },
+    {
+      "id": "acceptable",
+      "ru": "угодный",
+      "stems": [
+        "угодн"
+      ],
+      "gloss": "угодный, добрый, достойный (Дильман 2: gratus, acceptus, venerabilis, bonus)",
+      "evidence": [
+        "Dillmann: Prov. 22,1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5886, прил.: 1) jucundus, amoenus, suavis, placens, venustus «приятный»: ከመ ማይ ቈሪር አዳም ለነፍስ ጽምእት Prov. 25,25; አዳም አጥባትኪ እምወይን Cant. 1,2; ዕፅ አዳም Hen. 24,5; 2) gratus, acceptus, venerabilis, bonus (σεμνός Prov. 15,26; χάρις ἀγαθή ሞገስ አዳም Prov. 22,1; οὐδὲ ὅσιον Prov. 18,5): «угодный, добрый»; 3) нареч. አዳመ «приятно, хорошо» (εὐόδως Prov. 24,64). 24.5 ወአዳም ቈጽሉ — «приятны (и) листья его» (Смирнов «прекрасны на вид и приятны его листья»; греч. ὡραῖα): 'pleasant'; значение 2 к благоухающему дереву не подходит (угодность требует лица, кому угодно). Наречие (3) в проверенных местах нет, не взято.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, notes написаны; добавлен смысл acceptable (Дильман 2); evidence Prov. 25,25"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "L0998cb5f59a54d96aa1392475f4d06dc",
+  "n": "2608",
+  "head": "ስርየት",
+  "kind": "word",
+  "display": "sereyat",
+  "senses": [
+    {
+      "id": "release",
+      "ru": "отпущение",
+      "stems": [
+        "отпущ"
+      ],
+      "gloss": "отпущение (Дильман 1: remissio, venia; называет Hen. 13,6)",
+      "evidence": [
+        "1En.13.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не khedegat «прощение».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

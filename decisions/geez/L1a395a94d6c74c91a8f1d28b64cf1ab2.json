@@ -1,0 +1,29 @@
+{
+  "key": "L1a395a94d6c74c91a8f1d28b64cf1ab2",
+  "n": "7006",
+  "head": "ዐርበ",
+  "kind": "word",
+  "display": "areba",
+  "senses": [
+    {
+      "id": "set",
+      "ru": "заходить",
+      "stems": [
+        "заход"
+      ],
+      "gloss": "заходить, о светилах",
+      "evidence": [
+        "1En.2.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    }
+  ]
+}

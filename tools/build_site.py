@@ -46,19 +46,27 @@ def main():
     sw = (SITE / "sw.js").read_text("utf-8").replace("__VERSION__", version)
     (SITE / "sw.js").write_text(sw, "utf-8")
 
-    prepared = {}
-    for p in (ROOT / "translations" / "ot").glob("*/*.json"):
-        prepared.setdefault(p.parent.name, {})[int(p.stem)] = server.read_json(p, {}).get("status", "draft")
-    dump(SITE / "data" / "books.json", {"books": d.books, "prepared": prepared})
+    dump(SITE / "data" / "books.json",
+         {"books": d.books, "enoch": d.enoch_books, "prepared": server.prepared_chapters()})
 
     chapters = 0
-    for b in d.books:
+    geez_keys = set()
+    catalogs = list(d.books) + list(d.enoch_books)
+    for b in catalogs:
         for n in range(1, b["chapters"] + 1):
             ch = d.chapter(b["id"], n)
             if ch is None:
                 continue
             for k in ("userDecisions", "notes"):
                 ch.pop(k)
+            if b["id"] == "1En":
+                for verse in ch["verses"]:
+                    for word in verse.get("words", []):
+                        for seg in word.get("segs") or []:
+                            if seg.get("lemma"):
+                                geez_keys.add(seg["lemma"])
+                        for alt in word.get("alts") or []:
+                            geez_keys.add(alt)
             dump(SITE / "data" / "chapter" / b["id"] / f"{n:03d}.json", ch)
             chapters += 1
 
@@ -85,6 +93,15 @@ def main():
                 by_place.setdefault(ref, []).append(it)
     dump(SITE / "data" / "places.json", by_place)
 
+    geez_cards = 0
+    for key in sorted(geez_keys):
+        card = d.geez_public(key)
+        if not card:
+            continue
+        card["interpretations"] = by_lemma.get(key, [])
+        dump(SITE / "data" / "lexeme" / f"{key}.json", card)
+        geez_cards += 1
+
     for key, info in d.lexemes.items():  # как Data.lexeme на сервере, без заметки пользователя
         occ = d.occurrences.get(key, [])
         by_book = {}
@@ -99,7 +116,7 @@ def main():
         })
 
     size = sum(f.stat().st_size for f in SITE.rglob("*") if f.is_file())
-    print(f"site/: {chapters} глав, {len(d.lexemes)} слов, {size / 1e6:.0f} МБ, версия {version}")
+    print(f"site/: {chapters} глав, {len(d.lexemes)} слов, геэз {geez_cards}, {size / 1e6:.0f} МБ, версия {version}")
 
 
 if __name__ == "__main__":

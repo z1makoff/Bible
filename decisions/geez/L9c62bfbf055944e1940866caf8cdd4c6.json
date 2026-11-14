@@ -1,0 +1,30 @@
+{
+  "key": "L9c62bfbf055944e1940866caf8cdd4c6",
+  "n": "6328",
+  "head": "ምክዓው",
+  "kind": "word",
+  "display": "mekeaw",
+  "senses": [
+    {
+      "id": "outpour",
+      "ru": "место излияния",
+      "stems": [
+        "излиян",
+        "излия"
+      ],
+      "gloss": "место излияния (Дильман 1.a: locus effusionis, quo quid effunditur; ምክዓወ ማይ ዘኵሉ ቀላይ Hen. 17,7)",
+      "evidence": [
+        "1En.17.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6328.1.a: locus effusionis, quo quid effunditur; цитирует фразу 17:7. Одного русского слова нет, переведено описательно по Дильману (locus + effusio). Греч. ἔκχυσιν «излияние» — без «места».",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

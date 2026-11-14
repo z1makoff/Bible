@@ -1,0 +1,45 @@
+{
+  "key": "L8b93b042451e4bbd8bb7de567f7a32da",
+  "n": "1586",
+  "head": "ምድር",
+  "kind": "word",
+  "display": "meder",
+  "senses": [
+    {
+      "id": "earth",
+      "ru": "земля",
+      "stems": [
+        "земл"
+      ],
+      "gloss": "земля: почва, страна, мир",
+      "evidence": [
+        "1En.1.5"
+      ]
+    },
+    {
+      "id": "floor",
+      "ru": "пол",
+      "stems": [
+        "пол"
+      ],
+      "gloss": "пол (Дильман 1586.2: pavimentum; Hen. 14,10; Hen. 14,17)",
+      "evidence": [
+        "1En.14.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1586.2 pavimentum — floor «пол» (Hen. 14,10 и Hen. 14,17). earth «земля» оставлен для остальных мест.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 28, 13.11.2026: добавлен смысл floor «пол» (Дильман 1586.2 pavimentum, Hen. 14,10 и Hen. 14,17)."
+    }
+  ]
+}

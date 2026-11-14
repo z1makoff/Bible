@@ -1,0 +1,29 @@
+{
+  "key": "L24803dd7d3f3421686ad66788abbdc30",
+  "n": "8846",
+  "head": "ጥቅም",
+  "kind": "word",
+  "display": "teqem",
+  "senses": [
+    {
+      "id": "fence",
+      "ru": "ограда",
+      "stems": [
+        "оград"
+      ],
+      "gloss": "ограда (Дильман называет Hen. 14,9 ጥቅም)",
+      "evidence": [
+        "1En.14.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не arafet «стена». Греч. 14:9 τεῖχος.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

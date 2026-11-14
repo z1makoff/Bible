@@ -1,0 +1,29 @@
+{
+  "key": "Lc336ca6f5f1c444d8ebccfdcd233da6f",
+  "n": "2808",
+  "head": "ሰንበት",
+  "kind": "word",
+  "display": "sanebat",
+  "senses": [
+    {
+      "id": "sabbath",
+      "ru": "суббота",
+      "stems": [
+        "суббот"
+      ],
+      "gloss": "суббота (Дильман 1: sabbatum, dies hebdomadis septimus; ዕለተ ሰንበት Ex. 20,8)",
+      "evidence": [
+        "Dillmann: Ex. 20,8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 4 называет Hen. 10,17: «sabbatum i.e. feriae aetatis sive extrema aetas» (противопоставлено መዋዕለ ውርዙት); в тексте «суббота», это толкование Дильмана в разбор места.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

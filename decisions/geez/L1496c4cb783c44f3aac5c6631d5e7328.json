@@ -1,0 +1,34 @@
+{
+  "key": "L1496c4cb783c44f3aac5c6631d5e7328",
+  "n": "3289",
+  "head": "መቅሠፍት",
+  "kind": "word",
+  "display": "maqesafet",
+  "senses": [
+    {
+      "id": "torment",
+      "ru": "мука",
+      "stems": [
+        "мук"
+      ],
+      "gloss": "мука, кара",
+      "evidence": [
+        "1En.5.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "13:8 оставлен латиницей maqesafet (это display; написания meqesheft в словаре нет). Дильман 3289.3 перечисляет plaga, calamitas, poena и не называет Hen. 13,8, поэтому torment «мука» на этот стих не поставлен.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 10, 13.11.2026: 13:8 — латиница maqesafet, не meqesheft. Дильман 3289.3 (plaga, calamitas, poena) Hen. 13,8 не называет. torment оставлен для 5:9 и 10."
+    }
+  ]
+}

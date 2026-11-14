@@ -1,0 +1,46 @@
+{
+ "key": "Ld77e419a4a0f4edca01141e62f52d83c",
+ "n": "9470",
+ "head": "ጸውዐ",
+ "kind": "word",
+ "display": "tsawea",
+ "senses": [
+  {
+   "id": "name",
+   "ru": "назвать",
+   "stems": [
+    "назв"
+   ],
+   "gloss": "назвать (Дильман g: appellare, nominare, nuncupare; Hen. 6,6; 106,18)",
+   "evidence": [
+    "1En.6.6"
+   ]
+  },
+  {
+   "id": "call",
+   "ru": "позвать",
+   "stems": [
+    "позв",
+    "зов"
+   ],
+   "gloss": "позвать, призвать (Дильман a: vocando arcessere, advocare)",
+   "evidence": [
+    "1En.12.3"
+   ]
+  }
+ ],
+ "status": "draft",
+ "notes": "Как qara (7121) «назвать». Дильман g называет Hen. 6,6 и 106,18. «Назвать» — appellare (Hen. 6,6). «Позвать» — arcessere (12:3, греч. ἐκάλουν).",
+ "history": [
+  {
+   "date": "2026-11-08",
+   "by": "claude",
+   "change": "создано по главам 6–11"
+  },
+  {
+   "date": "2026-11-08",
+   "by": "grok",
+   "change": "12:3: «позвать» (arcessere), «назвать» не менялось"
+  }
+ ]
+}

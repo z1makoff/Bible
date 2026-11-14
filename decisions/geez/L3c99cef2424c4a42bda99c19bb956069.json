@@ -1,0 +1,31 @@
+{
+  "key": "L3c99cef2424c4a42bda99c19bb956069",
+  "n": "6755",
+  "head": "ወድቀ",
+  "kind": "word",
+  "display": "wadeqa",
+  "senses": [
+    {
+      "id": "fall",
+      "ru": "пасть",
+      "stems": [
+        "пал",
+        "пад",
+        "паст"
+      ],
+      "gloss": "пасть (Дильман: cadere)",
+      "evidence": [
+        "1En.13.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

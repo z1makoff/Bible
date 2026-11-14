@@ -52,21 +52,30 @@ class Data:
             print("Собираю корпус (один раз, около минуты)…")
             subprocess.run([sys.executable, str(ROOT / "tools" / "build_corpus.py")], check=True)
         self.books = read_json(CORPUS / "ot" / "books.json")
-        self.book_ids = {b["id"] for b in self.books}
+        self.enoch_books = read_json(CORPUS / "enoch" / "books.json", [])
+        self.book_ids = {b["id"] for b in self.books} | {b["id"] for b in self.enoch_books}
         self.lexemes = read_json(CORPUS / "lexemes.json")
         self.occurrences = read_json(CORPUS / "occurrences.json")
+        self._geez_lexemes = None
+        self._geez_occurrences = None
+        self._enoch_word_refs = None
         self.library = {b["id"]: b for b in read_json(ROOT / "library" / "books.json", {"books": []})["books"]}
         self.syn_only = {}
         for s in read_json(CORPUS / "ot" / "synodal-only.json", []):
             self.syn_only.setdefault(s["after"], []).append(s)
 
     def chapter(self, book, n):
-        src = read_json(CORPUS / "ot" / book / f"{n:03d}.json")
+        if book == "1En":
+            src = read_json(CORPUS / "enoch" / "1En" / f"{n:03d}.json")
+            tr = read_json(ROOT / "translations" / "1En" / f"{n:03d}.json")
+        else:
+            src = read_json(CORPUS / "ot" / book / f"{n:03d}.json")
+            tr = read_json(ROOT / "translations" / "ot" / book / f"{n:03d}.json")
         if src is None:
             return None
-        tr = read_json(ROOT / "translations" / "ot" / book / f"{n:03d}.json")
-        for v in src["verses"]:
-            v["synOnly"] = self.syn_only.get(v["ref"], [])
+        if book != "1En":
+            for v in src["verses"]:
+                v["synOnly"] = self.syn_only.get(v["ref"], [])
         decisions = read_json(USER / "decisions.json", {})
         notes = read_json(USER / "notes.json", {})
         prefix = f"{book}.{n}."
@@ -78,7 +87,67 @@ class Data:
         }
 
     def lexicon_entry(self, key):
-        return read_json(ROOT / "decisions" / "lexicon" / f"{key}.json")
+        folder = "geez" if str(key).startswith("L") else "lexicon"
+        return read_json(ROOT / "decisions" / folder / f"{key}.json")
+
+    def geez_lexemes(self):
+        if self._geez_lexemes is None:
+            self._geez_lexemes = read_json(CORPUS / "geez-lexemes.json", {})
+        return self._geez_lexemes
+
+    def geez_occurrences(self):
+        if self._geez_occurrences is None:
+            self._geez_occurrences = read_json(CORPUS / "geez-occurrences.json", {})
+        return self._geez_occurrences
+
+    def enoch_word_refs(self):
+        """Номер слова e… → стих 1En.c.v. Считается один раз, когда открывают карточку геэза."""
+        if self._enoch_word_refs is None:
+            refs = {}
+            folder = CORPUS / "enoch" / "1En"
+            if folder.exists():
+                for path in folder.glob("*.json"):
+                    chapter = read_json(path, {})
+                    for verse in chapter.get("verses", []):
+                        for word in verse.get("words", []):
+                            refs[word["id"]] = verse["ref"]
+            self._enoch_word_refs = refs
+        return self._enoch_word_refs
+
+    def geez_refs(self, key):
+        occ = self.geez_occurrences().get(key) or {}
+        index = self.enoch_word_refs()
+        refs, seen = [], set()
+        for wid in occ.get("words") or []:
+            ref = index.get(wid)
+            if ref and ref not in seen:
+                seen.add(ref)
+                refs.append(ref)
+        refs.sort(key=lambda ref: [int(part) for part in ref.split(".")[1:]])
+        return refs
+
+    def geez_public(self, key):
+        info = self.geez_lexemes().get(key)
+        if info is None:
+            return None
+        refs = self.geez_refs(key)
+        return {
+            "key": key,
+            "info": {
+                "geez": True,
+                "lemma": info.get("head") or "",
+                "xlit": info.get("tr") or "",
+                "lat": info.get("lat") or "",
+                "n": info.get("n"),
+                "pos": info.get("pos") or [],
+                "senses": info.get("senses") or [],
+                "en": info.get("en") or [],
+                "greek": info.get("greek") or [],
+            },
+            "decision": self.lexicon_entry(key),
+            "occurrences": [{"book": "1En", "refs": refs}] if refs else [],
+            "count": len((self.geez_occurrences().get(key) or {}).get("words") or []),
+        }
 
     def interpretations(self, key, ref):
         out = []
@@ -97,6 +166,14 @@ class Data:
         return out
 
     def lexeme(self, key, ref):
+        if str(key).startswith("L"):
+            base = self.geez_public(key)
+            if base is None:
+                return None
+            notes = read_json(USER / "notes.json", {})
+            base["interpretations"] = self.interpretations(key, ref)
+            base["note"] = notes.get(f"lexeme:{key}")
+            return base
         info = self.lexemes.get(key)
         if info is None:
             return None
@@ -141,6 +218,20 @@ def read_history():
     except FileNotFoundError:
         return []
     return [json.loads(line) for line in lines if line.strip()]
+
+
+def prepared_chapters():
+    """Статусы подготовленных глав: ВЗ по книге, 1 Енох — ключ «1En»."""
+    done = {}
+    ot = ROOT / "translations" / "ot"
+    if ot.exists():
+        for path in ot.glob("*/*.json"):
+            done.setdefault(path.parent.name, {})[int(path.stem)] = read_json(path, {}).get("status", "draft")
+    enoch = ROOT / "translations" / "1En"
+    if enoch.exists():
+        for path in enoch.glob("*.json"):
+            done.setdefault("1En", {})[int(path.stem)] = read_json(path, {}).get("status", "draft")
+    return done
 
 
 def export_user_data():
@@ -214,18 +305,15 @@ class Handler(SimpleHTTPRequestHandler):
         path = unquote(urlparse(self.path).path)
         d = self.data
         if path == "/api/books":
-            done = {}
-            for p in (ROOT / "translations" / "ot").glob("*/*.json"):
-                tr = read_json(p, {})
-                done.setdefault(p.parent.name, {})[int(p.stem)] = tr.get("status", "draft")
             state = read_json(USER / "state.json", {})
             progress = read_json(USER / "progress.json", {})
-            return self.send_json({"books": d.books, "prepared": done, "state": state, "progress": progress})
+            return self.send_json({"books": d.books, "enoch": d.enoch_books, "prepared": prepared_chapters(),
+                                   "state": state, "progress": progress})
         m = re.fullmatch(r"/api/chapter/([1-3]?[A-Za-z]+)/(\d+)", path)
         if m and m.group(1) in d.book_ids:
             ch = d.chapter(m.group(1), int(m.group(2)))
             return self.send_json(ch) if ch else self.send_json({"error": "нет такой главы"}, 404)
-        m = re.fullmatch(r"/api/lexeme/(\d+[a-z]?)", path)
+        m = re.fullmatch(r"/api/lexeme/(L[0-9a-fA-F]+|\d+[a-z]?)", path)
         if m:
             ref = parse_qs(urlparse(self.path).query).get("ref", [""])[0]
             lx = d.lexeme(m.group(1), ref)
@@ -249,7 +337,7 @@ class Handler(SimpleHTTPRequestHandler):
         with LOCK:
             if path == "/api/note":
                 target, text = str(body.get("target", "")), str(body.get("text", "")).strip()
-                if not re.fullmatch(r"(lexeme:\d+[a-z]?|place:[1-3]?[A-Za-z]+\.\d+\.\d+:\w+|verse:[1-3]?[A-Za-z]+\.\d+\.\d+)", target):
+                if not re.fullmatch(r"(lexeme:(?:\d+[a-z]?|L[0-9a-fA-F]+)|place:[1-3]?[A-Za-z]+\.\d+\.\d+:\w+|verse:[1-3]?[A-Za-z]+\.\d+\.\d+)", target):
                     return self.send_json({"error": "неверная цель заметки"}, 400)
                 notes = read_json(USER / "notes.json", {})
                 before = notes.get(target)
@@ -278,7 +366,7 @@ class Handler(SimpleHTTPRequestHandler):
                 state = read_json(USER / "state.json", {})
                 if re.fullmatch(r"[1-3]?[A-Za-z]+\.\d+(\.\d+)?", str(body.get("last", ""))):
                     state["last"] = body["last"]
-                for k in ("showHebrew", "showSynodal"):
+                for k in ("showHebrew", "showSynodal", "showGeez", "showSmirnov", "showGreek"):
                     if isinstance(body.get(k), bool):
                         state[k] = body[k]
                 if "returnTo" in body:

@@ -1,0 +1,34 @@
+{
+  "key": "Laed9cff9d6a14507a03b4152384b42b2",
+  "n": "778",
+  "head": "ሐቢ",
+  "kind": "word",
+  "display": "habi",
+  "senses": [
+    {
+      "id": "leader",
+      "ru": "предводитель",
+      "stems": [
+        "предводител"
+      ],
+      "gloss": "предводитель (Дильман 778.1: duces Hen. 6,8; в начале статьи procurator, administrator, praefectus; греч. ἀρχαί, δεκαδάρχαι)",
+      "evidence": [
+        "1En.6.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 778.1 начинает с procurator, administrator, praefectus; Hen. 6,8 стоит под duces. Поэтому «предводитель», не «управитель». Это не malak «начальник»: другое слово.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П7: leader «управитель» → «предводитель» (Дильман 778.1: duces, Hen. 6,8)"
+    }
+  ]
+}

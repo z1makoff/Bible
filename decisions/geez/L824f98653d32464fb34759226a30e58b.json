@@ -1,0 +1,29 @@
+{
+  "key": "L824f98653d32464fb34759226a30e58b",
+  "n": "7687",
+  "head": "ዘይት",
+  "kind": "word",
+  "display": "zayet",
+  "senses": [
+    {
+      "id": "oil",
+      "ru": "масло",
+      "stems": [
+        "масл"
+      ],
+      "gloss": "масло (Дильман 3: oleum olivarum; 1: olea, oliva arbor, 2: oliva fructus)",
+      "evidence": [
+        "1En.10.19"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 3: oleum. Как shemen (8081) «масло». Значения 1–2 (маслина) в 10:19 стоят у ኤልያስ n=5406. Греч. 10:19 ἐλαίας «маслин»/βάτους.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

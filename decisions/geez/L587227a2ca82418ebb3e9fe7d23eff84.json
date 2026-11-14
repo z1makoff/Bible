@@ -1,0 +1,29 @@
+{
+  "key": "L587227a2ca82418ebb3e9fe7d23eff84",
+  "n": "5545",
+  "head": "አረፍት",
+  "kind": "word",
+  "display": "arafet",
+  "senses": [
+    {
+      "id": "wall",
+      "ru": "стена",
+      "stems": [
+        "стен"
+      ],
+      "gloss": "стена (Дильман 1: paries; 2: murus)",
+      "evidence": [
+        "1En.14.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не teqem «ограда».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

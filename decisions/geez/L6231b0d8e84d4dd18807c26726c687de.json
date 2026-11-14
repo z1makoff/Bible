@@ -1,0 +1,77 @@
+{
+  "key": "L6231b0d8e84d4dd18807c26726c687de",
+  "n": "5347",
+  "head": "ነፍኀ",
+  "kind": "word",
+  "display": "nafekha",
+  "senses": [
+    {
+      "id": "blow",
+      "ru": "веять",
+      "stems": [
+        "вея",
+        "вее",
+        "веял",
+        "веют",
+        "веян"
+      ],
+      "gloss": "веять, дуть, о ветре (Дильман I,1: flare, spirare, de vento)",
+      "evidence": [
+        "1En.34.3",
+        "Dillmann: Sir. 43,16"
+      ]
+    },
+    {
+      "id": "kindle",
+      "ru": "раздувать",
+      "stems": [
+        "раздув",
+        "раздуе"
+      ],
+      "gloss": "раздувать, разжигать дуновением (Дильман b: flando excitare, sufflare)",
+      "evidence": [
+        "Dillmann: Sir. 28,12"
+      ]
+    },
+    {
+      "id": "scatter",
+      "ru": "развеивать",
+      "stems": [
+        "развеи",
+        "развея",
+        "развеют"
+      ],
+      "gloss": "развеивать, разгонять дуновением (Дильман c: flando dispergere)",
+      "evidence": [
+        "Dillmann: Hagg. 1,9"
+      ]
+    },
+    {
+      "id": "breathe_in",
+      "ru": "вдыхать",
+      "stems": [
+        "вдых",
+        "вдох",
+        "вдун"
+      ],
+      "gloss": "вдувать, вдыхать (Дильман f: inflare, afflare, inspirare)",
+      "evidence": [
+        "Dillmann: Clem. f. 234"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5347, I,1: flare, spirare, de vento «дуть, веять»: ይነፍኅ ነፋስ ጽባሓዊ Sir. 43,16; Joh. 3,8; Hen. 34,2; a) spirando emittere (Ps. 147,7), b) flando excitare, sufflare «раздувать»: እመ ነፋኅካሃ ለፍሕም ትነድድ Sir. 28,12; c) flando dispergere «развеивать»: ነፋኅክዎ Hagg. 1,9; d) flando movere (Hen. 72,5); e) afflare, insufflare c. Acc.: ነፍኆሙ ነፋስ Jes. 40,24; f) inflare, afflare, inspirare «вдыхать»: Gen. 2,7; Hen. 82,7; ነፍኀ ላዕሌሆሙ መንፈሰ ቅዱሰ Clem. f. 234; g) inhalare; h) perflare «продувать»: Cant. 4,16. 34.3 ወእምአሐቲ ኆኅት በሠናይ ይነፍኅ — «из одних врат дует благо (хороший ветер)»; ወሶበ በ፪ሆሙ ኀዋኅው ይነፍኁ በኀይል — «когда из двух врат дуют с силой» (о ветрах): 'blow'; прочие значения (раздувать огонь, развеивать, вдыхать) к ветру из врат не подходят. 82.7 (ወነፍሐ) unsure. Пункт d (72.5, flando movere) — по сути 'blow'.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→4, ru уточнено, notes написаны; добавлены kindle, scatter, breathe_in (пункты b, c, f Дильмана); stems расширены"
+    }
+  ]
+}

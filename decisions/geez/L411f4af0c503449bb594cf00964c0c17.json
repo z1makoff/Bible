@@ -1,0 +1,43 @@
+{
+  "key": "L411f4af0c503449bb594cf00964c0c17",
+  "n": "2436",
+  "head": "ሰላማዊ",
+  "kind": "keep",
+  "display": "salamawi",
+  "displayForms": [
+    "salamawyan"
+  ],
+  "senses": [
+    {
+      "id": "peaceful",
+      "ru": "миролюбивый",
+      "stems": [
+        "миролюб"
+      ],
+      "gloss": "миролюбивый (Дильман 1: pacis amans, pacificus; Ps. 119,7)",
+      "evidence": [
+        "1En.19.2"
+      ]
+    },
+    {
+      "id": "friend",
+      "ru": "друг",
+      "stems": [
+        "друг"
+      ],
+      "gloss": "друг (Дильман 2: ut videtur: pace vel familiaritate junctus, amicus; Hen. 19,2)",
+      "evidence": [
+        "1En.19.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не переводится: Дильман 2436.2 «ut videtur: pace vel familiaritate junctus, amicus» относит 19,2 к «другу», но с оговоркой («по-видимому»); пункт 1 pacificus читается так же. Греч. σειρῆνας не помогает (σειρῆνες в n=8490 — Ис 34,13). Корень салам не переводится (salam, как shalom).",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

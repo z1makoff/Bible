@@ -1,0 +1,30 @@
+{
+  "key": "Le5cdbc8375fa4f548698c274f5af82bb",
+  "n": "2491",
+  "head": "ስሕተ",
+  "kind": "word",
+  "display": "seheta",
+  "senses": [
+    {
+      "id": "err",
+      "ru": "заблуждаться",
+      "stems": [
+        "заблужд",
+        "заблуд"
+      ],
+      "gloss": "заблуждаться (Дильман 1: errare, aberrare; πλανᾶσθαι; Hen. 8,2)",
+      "evidence": [
+        "1En.8.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 3 называет Hen. 8,2. Греч. ἀπεπλανήθησαν.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

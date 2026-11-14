@@ -1,0 +1,29 @@
+{
+  "key": "Ld639abf2d2da42b5b12679728de0be4d",
+  "n": "5326",
+  "head": "ነፍስት",
+  "kind": "word",
+  "display": "nafeset",
+  "senses": [
+    {
+      "id": "body",
+      "ru": "тело",
+      "stems": [
+        "тел"
+      ],
+      "gloss": "тело (Дильман: corpus; animatum)",
+      "evidence": [
+        "1En.15.8"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не nafes и не sega «плоть».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

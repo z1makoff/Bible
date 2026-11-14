@@ -1,0 +1,57 @@
+{
+  "key": "L66ebc6d6c969425a9d5837e8ec7a370f",
+  "n": "9877",
+  "head": "ፍሡሕ",
+  "kind": "word",
+  "display": "fesuh",
+  "senses": [
+    {
+      "id": "joyful",
+      "ru": "радостный",
+      "stems": [
+        "радост"
+      ],
+      "gloss": "радостный, весёлый, ликующий (Дильман a: hilaris, laetans, gaudens)",
+      "evidence": [
+        "Dillmann: Prov. 22,8"
+      ]
+    },
+    {
+      "id": "delightful",
+      "ru": "отрадный",
+      "stems": [
+        "отрадн"
+      ],
+      "gloss": "отрадный, приятный на вид (Дильман f: laetabilis, gratus, jucundus; ἐπίχαρις)",
+      "evidence": [
+        "1En.32.5",
+        "Dillmann: Nah. 3,4"
+      ]
+    },
+    {
+      "id": "willing",
+      "ru": "охотный",
+      "stems": [
+        "охотн"
+      ],
+      "gloss": "охотный, добровольный, о душевном расположении (Дильман c: lubens, promtus)",
+      "evidence": [
+        "Dillmann: Sir. 13,26"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 9877, part.: laetus — a) hilaris, laetans, gaudens «радостный»: ወኢኮንከ ፍሡሐ 2 Esr. 12,2; በፍሡሕ ዐይን Sir. 32,10; ἱλαρός Prov. 22,8; እንዘ ፍሡሕ ገጽከ Sir. 32,11; b) solatio affectus «утешенный» (Ps. 125,1; примера на геэзе нет, не взято); c) lubens, promtus, de animo «охотный»: ዘይገብር ምጽዋተ በፍሡሕ ልብ Clem. f. 174; Sir. 13,26; d) delicatus (τρυφερός, Herm. p. 33; примера на геэзе нет, не взято); e) ፍሥሕት «радость»; f) laetabilis, gratus, jucundus «отрадный, приятный»: Hen. 32,5; ዘማ ሠናይት ወፍሥሕት ἐπίχαρις Nah. 3,4. 32.5 ሠናይ ዝዕፅ ወከመ ሠናይ ወፍሡሕ ርእየቱ — «как прекрасно это дерево, и как прекрасен и прелестен его вид» (греч. ὡς ἐπίχαρι τῇ ὁράσει): пункт f — 'delightful'; 'радостный' (a) о виде дерева не подходит, а старое evidence 32.5 для 'joyful' неверно. ru «приятный» занято у adam (አዳም); «отрадный» — другое слово. Старое ru «радостный» сохранено для пункта a по Дильману.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→3, ru уточнено, notes написаны; evidence 32.5 перенесено с joyful на новый смысл delightful (Дильман f); добавлен willing (пункт c)"
+    }
+  ]
+}

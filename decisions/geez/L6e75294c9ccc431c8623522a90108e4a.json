@@ -1,0 +1,29 @@
+{
+  "key": "L6e75294c9ccc431c8623522a90108e4a",
+  "n": "1134",
+  "head": "መሐለ",
+  "kind": "word",
+  "display": "mahala",
+  "senses": [
+    {
+      "id": "swear",
+      "ru": "поклясться",
+      "stems": [
+        "кля"
+      ],
+      "gloss": "поклясться (Дильман 1: jurare)",
+      "evidence": [
+        "1En.6.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как shava (7650) «поклясться». Греч. ὀμόσωμεν.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

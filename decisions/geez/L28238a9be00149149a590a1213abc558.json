@@ -1,0 +1,56 @@
+{
+  "key": "L28238a9be00149149a590a1213abc558",
+  "n": "5742",
+  "head": "በእንተ",
+  "kind": "word",
+  "display": "baeneta",
+  "senses": [
+    {
+      "id": "about",
+      "ru": "о",
+      "stems": [
+        "о"
+      ],
+      "gloss": "о",
+      "evidence": [
+        "1En.1.3"
+      ]
+    },
+    {
+      "id": "because",
+      "ru": "из-за",
+      "stems": [
+        "из-за"
+      ],
+      "gloss": "из-за",
+      "evidence": [
+        "1En.4.1"
+      ]
+    },
+    {
+      "id": "behalf",
+      "ru": "ради",
+      "stems": [
+        "ради"
+      ],
+      "gloss": "ради, в пользу (Дильман 5742.2.b: in gratiam alicujus vel pro aliquo, ὑπέρ; Hen. 15,2)",
+      "evidence": [
+        "1En.10.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5742: 1 quod attinet, de (ምንተ እሬሲ በእንተ ወልድየ 1 Reg. 10,2) — about «о, об»; 2 ob, propter — because «из-за»; 2.b in gratiam alicujus vel pro aliquo (ὑπέρ; Hen. 15,2) — behalf «ради» (10:10 በእንቲአሆሙ).",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П26: добавлено behalf «ради» (Дильман 5742.2.b, Hen. 15,2)"
+    }
+  ]
+}

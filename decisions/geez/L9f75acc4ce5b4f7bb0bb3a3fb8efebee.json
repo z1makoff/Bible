@@ -1,0 +1,56 @@
+{
+  "key": "L9f75acc4ce5b4f7bb0bb3a3fb8efebee",
+  "n": "3618",
+  "head": "ቀዳሚ",
+  "kind": "word",
+  "display": "qadami",
+  "senses": [
+    {
+      "id": "first",
+      "ru": "первый",
+      "stems": [
+        "перв"
+      ],
+      "gloss": "первый",
+      "evidence": [
+        "1En.2.2"
+      ]
+    },
+    {
+      "id": "prior",
+      "ru": "прежде",
+      "stems": [
+        "прежде"
+      ],
+      "gloss": "прежде (Дильман 3618.C; Hen. 15,6)",
+      "evidence": [
+        "1En.15.6"
+      ]
+    },
+    {
+      "id": "beginning",
+      "ru": "начало",
+      "stems": [
+        "начал"
+      ],
+      "gloss": "начало (Дильман 3618.B.1: initium; Hen. 15,9)",
+      "evidence": [
+        "1En.15.9"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "first «первый» — Дильман 3618.A.1 (2:2). prior «прежде» — пункт C, Hen. 15,6. beginning «начало» — B.1 initium, Hen. 15,9.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правки 43 и 44, О9, 13.11.2026: добавлены prior «прежде» (Дильман 3618.C, Hen. 15,6) и beginning «начало» (Дильман 3618.B.1 initium, Hen. 15,9). first оставлен для 2:2."
+    }
+  ]
+}

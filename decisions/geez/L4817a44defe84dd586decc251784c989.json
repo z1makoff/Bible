@@ -1,0 +1,61 @@
+{
+  "key": "L4817a44defe84dd586decc251784c989",
+  "n": "1574",
+  "head": "ሜጠ",
+  "kind": "word",
+  "display": "meta",
+  "senses": [
+    {
+      "id": "change",
+      "ru": "изменять",
+      "stems": [
+        "измен"
+      ],
+      "gloss": "изменять",
+      "evidence": [
+        "1En.2.1"
+      ]
+    },
+    {
+      "id": "revoke",
+      "ru": "отменить",
+      "stems": [
+        "отмен"
+      ],
+      "gloss": "отменить замысел (Дильман 1574.3.c: revocare, irritum facere consilium, mandatum; Hen. 6,4)",
+      "evidence": [
+        "1En.6.4"
+      ]
+    },
+    {
+      "id": "turn",
+      "ru": "поворачивать",
+      "stems": [
+        "поворач"
+      ],
+      "gloss": "поворачивать (Дильман 1: vertere, circumagere, flectere; Hen. 18,4)",
+      "evidence": [
+        "1En.18.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1574.3: a mutare (Hen. 2,1) — change «изменять»; c revocare, irritum facere consilium (Hen. 6,4) — revoke «отменить». 18:4 — Дильман 1: vertere (circumagere, flectere), Hen. 18,4 назван; ይመይጥዋ ለሰማይ «поворачивают небо». Пункты 3 (изменять), 3.c (отменять) — другие.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П5: добавлено revoke «отменить» (Дильман 1574.3.c, Hen. 6,4); change остаётся для 2:1"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "добавлено значение `turn` «поворачивать» (главы 17–19)"
+    }
+  ]
+}

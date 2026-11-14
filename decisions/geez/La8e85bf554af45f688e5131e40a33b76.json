@@ -1,0 +1,31 @@
+{
+  "key": "La8e85bf554af45f688e5131e40a33b76",
+  "n": "6826",
+  "head": "ተዋገዘ",
+  "kind": "word",
+  "display": "tawagaza",
+  "senses": [
+    {
+      "id": "curse-self",
+      "ru": "заклясться",
+      "stems": [
+        "заклян",
+        "заклял",
+        "заклясть"
+      ],
+      "gloss": "заклясть друг друга, связать себя заклятием (Дильман III,3: sese invicem diris devovere, excommunicare; Hen. 6,4)",
+      "evidence": [
+        "1En.6.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман III,3 называет Hen. 6,4. Взаимный (рефлексивный) залог к አውገዘ n=6824. Греч. ἀναθεματίσωμεν ἀλλήλους.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

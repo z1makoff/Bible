@@ -1,0 +1,29 @@
+{
+  "key": "La5fb865eb0d74139a4bfab91e584771d",
+  "n": "8458",
+  "head": "ተጋብአ",
+  "kind": "word",
+  "display": "tagabea",
+  "senses": [
+    {
+      "id": "confluence",
+      "ru": "стекаться",
+      "stems": [
+        "стека"
+      ],
+      "gloss": "стекаться (Дильман III,3.b: confluere, de fluidis; Gen. 1,9; Hen. 18,10)",
+      "evidence": [
+        "1En.18.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 8458.b: confluere, de fluidis (Быт 1,9; Hen. 18,10 названы). «Собираться» (пункт e se congregare) тоже читается, но стих назван в пункте b, поэтому «стекаться».",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

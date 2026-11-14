@@ -197,6 +197,13 @@ body.on-desk .desk-head h1 { color: var(--ink); }
 .sp.user { color: var(--user); border-bottom: 1px solid var(--user); }
 .gmark { color: var(--accent); font-size: 11px; margin-left: 1px; }
 .he { font-family: var(--hebrew); font-size: 24px; line-height: 1.7; text-align: right; color: var(--ink); opacity: .9; }
+.gez, #card .word.gez, #card [lang="gez"] {
+  font-family: "Noto Sans Ethiopic", Nyala, Ebrima, "Segoe UI", sans-serif;
+}
+.gez { font-size: 22px; line-height: 1.9; }
+#card .word.gez { text-align: left; }
+.grc { font-family: "Palatino Linotype", "Times New Roman", serif; }
+.dillmann-text { font-size: 14px; }
 .hw { cursor: pointer; border-radius: 3px; }
 .hw:hover { background: var(--sel); }
 .ketiv { font-family: var(--sans); font-size: 10px; color: var(--accent); }

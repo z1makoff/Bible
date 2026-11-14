@@ -1,0 +1,29 @@
+{
+  "key": "Le8bac065237f46509cf6aa808d9cc7d2",
+  "n": "2326",
+  "head": "ርዕደ",
+  "kind": "word",
+  "display": "reeda",
+  "senses": [
+    {
+      "id": "shudder",
+      "ru": "содрогаться",
+      "stems": [
+        "содрог"
+      ],
+      "gloss": "содрогаться (Дильман: tremere, contremiscere)",
+      "evidence": [
+        "1En.14.14"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не raad «трепет»: raad — имя трепета, это глагол.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

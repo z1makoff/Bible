@@ -1,0 +1,29 @@
+{
+  "key": "L565b84dcfc0848ff84d65929d5663e8f",
+  "n": "121",
+  "head": "ሀጕለት",
+  "kind": "word",
+  "display": "hagwelat",
+  "senses": [
+    {
+      "id": "perdition",
+      "ru": "гибель",
+      "stems": [
+        "гибел"
+      ],
+      "gloss": "гибель (Дильман: interitus, exitium; Hen. 8,4; 22,12)",
+      "evidence": [
+        "1En.8.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман называет Hen. 8,4 и 22,12.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

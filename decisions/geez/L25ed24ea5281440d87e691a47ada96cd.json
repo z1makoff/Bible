@@ -1,0 +1,45 @@
+{
+  "key": "L25ed24ea5281440d87e691a47ada96cd",
+  "n": "1382",
+  "head": "ምኑን",
+  "kind": "word",
+  "display": "menun",
+  "senses": [
+    {
+      "id": "spurious",
+      "ru": "подложный",
+      "stems": [
+        "подложн"
+      ],
+      "gloss": "подложный, поддельный (Дильман 1382.1: adulterinus — ምኑናነ Sap. 2,16; Hen. 10,9; греч. κίβδηλος). Hen. 16,3 в этом пункте не стоит: он перед adulterinus.",
+      "evidence": [
+        "1En.10.9"
+      ]
+    },
+    {
+      "id": "rejected",
+      "ru": "отвергаемый",
+      "stems": [
+        "отверга"
+      ],
+      "gloss": "отвергаемый (Дильман 1382.1: reprobandus; Hen. 16,3 стоит перед adulterinus)",
+      "evidence": [
+        "1En.16.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1382.1: Hen. 10,9 остаётся при adulterinus (spurious «подложный»). Hen. 16,3 стоит в статье перед adulterinus, при reprobandus — rejected «отвергаемый».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 55, 13.11.2026: добавлен смысл rejected «отвергаемый» (Дильман 1382.1 reprobandus, Hen. 16,3). Hen. 10,9 оставлен при adulterinus."
+    }
+  ]
+}

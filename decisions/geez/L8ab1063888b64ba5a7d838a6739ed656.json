@@ -1,0 +1,59 @@
+{
+  "key": "L8ab1063888b64ba5a7d838a6739ed656",
+  "n": "5554",
+  "head": "እሱር",
+  "kind": "word",
+  "display": "esur",
+  "senses": [
+    {
+      "id": "bound",
+      "ru": "связанный",
+      "stems": [
+        "связан"
+      ],
+      "gloss": "связанный, привязанный (Дильман 1: ligatus, alligatus, colligatus)",
+      "evidence": [
+        "1En.21.3",
+        "Dillmann: Jes. 46,1"
+      ]
+    },
+    {
+      "id": "fettered",
+      "ru": "закованный",
+      "stems": [
+        "закова",
+        "закован"
+      ],
+      "gloss": "закованный, в узах (Дильман 2: vinctus, vinculis adstrictus; δέσμιοι)",
+      "evidence": [
+        "1En.21.3",
+        "Dillmann: Dan. 5,12"
+      ]
+    },
+    {
+      "id": "obliged",
+      "ru": "обязанный",
+      "stems": [
+        "обяза"
+      ],
+      "gloss": "обязанный, связанный законом (Дильман b: obligatus, obstrictus)",
+      "evidence": [
+        "Dillmann: Rom. 7,2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 5554, part.: (1) ligatus, alligatus, colligatus «связанный»: እሱራን እሙንቱ ከመ ጾረ ኵስሕ Jes. 46,1; ነፍስ እስርት በሥጋ Jsp. p. 381; ከናፍር ጠበብት እሱራን በአእምሮ Prov. 15,7; a) alligatus, affixus; b) obligatus, obstrictus «обязанный»: እስርት ይእቲ በሕግ Rom. 7,2; c) ligatus в духовном смысле (Matth. 16,19); d) intextus, inclusus «вправленный» (в золото, Ex. 28,20); e) illigatus; (2) vinctus, vinculis adstrictus «закованный, в узах»: Hen. 21,3; ይፈትሕ ዘእሱር Dan. 5,12; እሱራነ ምድር δέσμιοι Thren. 3,33. 21.3 ርኢኩ ፯ ከዋክብተ ሰማይ እሱራን በላዕሌሁ ኅብረ — «семь небесных звёзд, связанных вместе» (Смирнов; греч. δεδεμένους «связанные»): подходят 'bound' (связанные вместе) и 'fettered' (Дильман ставит это место под 2, «в узах»), поэтому латиница esur. Пункты c–e не взяты.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→3, ru уточнено, notes написаны; добавлены fettered и obliged (пункты 2 и b Дильмана); evidence 21.3 у bound и fettered"
+    }
+  ]
+}

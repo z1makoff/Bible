@@ -1,0 +1,29 @@
+{
+  "key": "L888f39713fbc4390a620fa2ee28492c3",
+  "n": "2306",
+  "head": "ምርዋጽ",
+  "kind": "word",
+  "display": "merewats",
+  "senses": [
+    {
+      "id": "run",
+      "ru": "бег",
+      "stems": [
+        "бег"
+      ],
+      "gloss": "бег, путь бега (Дильман 2: astrorum, называет Hen. 14,17)",
+      "evidence": [
+        "1En.14.17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не rutsat «ход». Греч. 14:17 διαδρομαί.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "L243ee3d27a9f4b1dbf648087aea8d6de",
+  "n": "2562",
+  "head": "ስም",
+  "kind": "word",
+  "display": "sem",
+  "senses": [
+    {
+      "id": "name",
+      "ru": "имя",
+      "stems": [
+        "им"
+      ],
+      "gloss": "имя (Дильман 1: nomen)",
+      "evidence": [
+        "1En.6.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как shem (8034) «имя».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

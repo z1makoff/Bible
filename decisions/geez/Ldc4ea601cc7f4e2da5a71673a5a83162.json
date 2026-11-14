@@ -1,0 +1,29 @@
+{
+  "key": "Ldc4ea601cc7f4e2da5a71673a5a83162",
+  "n": "2460",
+  "head": "ሰሊዳ",
+  "kind": "word",
+  "display": "salida",
+  "senses": [
+    {
+      "id": "slab",
+      "ru": "плита",
+      "stems": [
+        "плит"
+      ],
+      "gloss": "плита, доска (Дильман 2: lamina, tabula)",
+      "evidence": [
+        "1En.14.10"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Также tabella для письма. В 14:10 плита камня (греч. λιθόπλακες).",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

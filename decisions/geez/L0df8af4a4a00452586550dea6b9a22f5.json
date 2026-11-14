@@ -1,0 +1,45 @@
+{
+  "key": "L0df8af4a4a00452586550dea6b9a22f5",
+  "n": "9399",
+  "head": "ጽንዕ",
+  "kind": "word",
+  "display": "sene",
+  "senses": [
+    {
+      "id": "firmness",
+      "ru": "твёрдость",
+      "stems": [
+        "твёрд"
+      ],
+      "gloss": "твёрдость, крепость",
+      "evidence": [
+        "1En.1.4"
+      ]
+    },
+    {
+      "id": "hardness",
+      "ru": "жёсткость",
+      "stems": [
+        "жёстк"
+      ],
+      "gloss": "жёсткость (Дильман 9399.1: durities; ጽንዐ ልብ; Hen. 16,3)",
+      "evidence": [
+        "1En.16.3"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 9399.1 durities — hardness «жёсткость» (Hen. 16,3, ጽንዐ ልብ). firmness «твёрдость» оставлен для 1:4.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 56, 13.11.2026: добавлен смысл hardness «жёсткость» (Дильман 9399.1 durities, Hen. 16,3)."
+    }
+  ]
+}

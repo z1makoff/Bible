@@ -1,0 +1,29 @@
+{
+  "key": "L64a8f144ee37445e956f9074e27cf5f0",
+  "n": "3861",
+  "head": "አብርሀ",
+  "kind": "word",
+  "display": "abereha",
+  "senses": [
+    {
+      "id": "glow",
+      "ru": "сиять",
+      "stems": [
+        "сия"
+      ],
+      "gloss": "сиять (Дильман 5: lucere, intrans.)",
+      "evidence": [
+        "1En.14.18"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не bareha «светить»: это каузатив, здесь светило само сияет.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "key": "L380a01e423e4439d9ba8c442fdde922f",
+  "n": "3969",
+  "head": "አስተብቍዐ",
+  "kind": "word",
+  "display": "asetabeqwea",
+  "senses": [
+    {
+      "id": "plead",
+      "ru": "умолять",
+      "stems": [
+        "умол"
+      ],
+      "gloss": "умолять (Дильман 2: rogare, orare; называет Hen. 14,7)",
+      "evidence": [
+        "1En.13.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не saala «просить» и не taseela «спрашивать».",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

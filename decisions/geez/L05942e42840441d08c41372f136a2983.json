@@ -1,0 +1,29 @@
+{
+  "key": "L05942e42840441d08c41372f136a2983",
+  "n": "6250",
+  "head": "ኵነኔ",
+  "kind": "word",
+  "display": "kwenane",
+  "senses": [
+    {
+      "id": "sentence",
+      "ru": "приговор",
+      "stems": [
+        "приговор"
+      ],
+      "gloss": "приговор, суд-решение (Дильман 1: judicium)",
+      "evidence": [
+        "1En.10.6"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1: judicium. «Суд» занято ፍትሕ n=9977; поэтому «приговор». Греч. κρίσις. Корень ኰነነ: judicare, condemnare.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

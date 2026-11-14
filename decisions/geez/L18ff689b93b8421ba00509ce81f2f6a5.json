@@ -1,0 +1,29 @@
+{
+  "key": "L18ff689b93b8421ba00509ce81f2f6a5",
+  "n": "6218",
+  "head": "ከተማ",
+  "kind": "word",
+  "display": "katama",
+  "senses": [
+    {
+      "id": "apex",
+      "ru": "верхушка",
+      "stems": [
+        "верхуш"
+      ],
+      "gloss": "верхушка (Дильман 1.b: summum, apex, vertex, fastigium; Hen. 17,2)",
+      "evidence": [
+        "1En.17.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6218.1.b: summum, apex, vertex, fastigium — ከተማሁ ለደብር (Исх 19,20; 24,17; Hen. 17,2). «Вершина» занято ድማሕ 7842, поэтому «верхушка» (apex). Пункт 1.a extremum, finis («край») — другой пункт.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

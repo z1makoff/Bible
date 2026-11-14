@@ -1,0 +1,46 @@
+{
+  "key": "L3f435debcdcf46b79ba25c9c4e6bc12f",
+  "n": "1444",
+  "head": "ምክር",
+  "kind": "word",
+  "display": "meker",
+  "senses": [
+    {
+      "id": "plan",
+      "ru": "замысел",
+      "stems": [
+        "замысл",
+        "замысел"
+      ],
+      "gloss": "замысел, решение (Дильман 1.b: consilium quod quis capit; 3: sententia; греч. γνώμη в 6:4)",
+      "evidence": [
+        "1En.6.4"
+      ]
+    },
+    {
+      "id": "counsel",
+      "ru": "совет",
+      "stems": [
+        "совет"
+      ],
+      "gloss": "совет (Дильман 1444.1.a: consilium quod quis vel dat vel petit ab aliquo; Hen. 14,22)",
+      "evidence": [
+        "1En.14.22"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1444.1.a consilium quod quis vel dat vel petit ab aliquo — counsel «совет» (Hen. 14,22). Дильман 1444.1.b quod quis capit — plan «замысел» (6:4).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "О6, 13.11.2026: добавлен смысл counsel «совет» (Дильман 1444.1.a, Hen. 14,22). plan «замысел» оставлен для 6:4."
+    }
+  ]
+}

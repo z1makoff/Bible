@@ -1,0 +1,29 @@
+{
+  "key": "La4b4c9d3b4064d27be073feeb382fc78",
+  "n": "120",
+  "head": "ሀጕል",
+  "kind": "word",
+  "display": "hagwel",
+  "senses": [
+    {
+      "id": "ruin",
+      "ru": "погибель",
+      "stems": [
+        "погибел"
+      ],
+      "gloss": "погибель, гибель (Дильман 1: perditio, interitus, exitium; ἀπώλεια)",
+      "evidence": [
+        "1En.10.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 1: perditio, interitus. «Гибель» отдано ሀጕለት n=121 (Hen. 8,4).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

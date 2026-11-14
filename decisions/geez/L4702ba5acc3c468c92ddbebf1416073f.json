@@ -1,0 +1,41 @@
+{
+  "key": "L4702ba5acc3c468c92ddbebf1416073f",
+  "n": "9293",
+  "head": "ጽባሕ",
+  "kind": "word",
+  "display": "tsebah",
+  "senses": [
+    {
+      "id": "east",
+      "ru": "восток",
+      "stems": [
+        "восток",
+        "восточ"
+      ],
+      "gloss": "восток (Дильман 2: oriens, plaga sive pars orientalis; ብሔረ ጽባሕ Job 1,3)",
+      "evidence": [
+        "1En.18.6"
+      ]
+    },
+    {
+      "id": "rising",
+      "ru": "восход",
+      "stems": [
+        "восход"
+      ],
+      "gloss": "восход (Дильман 1.b: ortus sideris; Hen. 18,15)",
+      "evidence": [
+        "1En.18.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 9293: 1 tempus matutinum, mane; 1.b ortus sideris — Hen. 18,15 назван («восход» светил); 2 oriens, plaga orientalis. В 18:6 መንገለ ጽባሕ — страна света (пункт 2, греч. εἰς ἀνατολάς); в 18:15 — восход звёзд (1.b, греч. ἀνατολῆς). Русские «восход» (действие) и «восток» (сторона) разведены.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

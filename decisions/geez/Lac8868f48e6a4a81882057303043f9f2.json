@@ -1,0 +1,30 @@
+{
+  "key": "Lac8868f48e6a4a81882057303043f9f2",
+  "n": "5566",
+  "head": "እሳት",
+  "kind": "word",
+  "display": "esat",
+  "senses": [
+    {
+      "id": "fire",
+      "ru": "огонь",
+      "stems": [
+        "огн",
+        "огон"
+      ],
+      "gloss": "огонь (Дильман: ignis)",
+      "evidence": [
+        "1En.10.13"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как esh (784) «огонь».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "key": "L0d2d1b4b8a7c42aa89fe21175b70c2b8",
+  "n": "8435",
+  "head": "ምግባር",
+  "kind": "word",
+  "display": "megbar",
+  "senses": [
+    {
+      "id": "action",
+      "ru": "действие",
+      "stems": [
+        "действ"
+      ],
+      "gloss": "действие",
+      "evidence": [
+        "1En.2.2",
+        "1En.5.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Отдельное слово от gebr «дело»: Дильман 1 actio, agendi ratio, facta, opera quae quis facere solet (πράξεις, ποιήματα, ἔργα). «Деяние» занято peullah (6468), «дело» — maaseh (4639) и gebr, поэтому «действие».",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-03",
+      "by": "claude",
+      "change": "значение «действие» вместо «деяние» и «создание», по рецензии Opus"
+    }
+  ]
+}

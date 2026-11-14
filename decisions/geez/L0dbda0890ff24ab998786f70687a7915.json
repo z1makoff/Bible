@@ -1,0 +1,29 @@
+{
+  "key": "L0dbda0890ff24ab998786f70687a7915",
+  "n": "9940",
+  "head": "ፍቁር",
+  "kind": "word",
+  "display": "fequr",
+  "senses": [
+    {
+      "id": "beloved",
+      "ru": "возлюбленный",
+      "stems": [
+        "возлюблен"
+      ],
+      "gloss": "возлюбленный (Дильман: carus, dilectus, amatus)",
+      "evidence": [
+        "1En.10.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман. Греч. 10:12 ἀγαπητῶν.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

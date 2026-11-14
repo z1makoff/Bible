@@ -1,0 +1,29 @@
+{
+  "key": "L1200ef5dd04a41b3854f09e65da29ec1",
+  "n": "7950",
+  "head": "ደቀሰ",
+  "kind": "word",
+  "display": "daqasa",
+  "senses": [
+    {
+      "id": "doze",
+      "ru": "дремать",
+      "stems": [
+        "дрем"
+      ],
+      "gloss": "дремать (Дильман: dormitare; называет Hen. 13,7)",
+      "evidence": [
+        "1En.13.7"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Греч. ἐκοιμήθην «уснул». Геэз — задремал.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

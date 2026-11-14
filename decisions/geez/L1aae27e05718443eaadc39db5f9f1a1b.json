@@ -1,0 +1,46 @@
+{
+  "key": "L1aae27e05718443eaadc39db5f9f1a1b",
+  "n": "9843",
+  "head": "ፈለጠ",
+  "kind": "word",
+  "display": "falata",
+  "senses": [
+    {
+      "id": "separate",
+      "ru": "отделять",
+      "stems": [
+        "отдел"
+      ],
+      "gloss": "отделять, разделять (Дильман I,1.1: separare, disjungere, dirimere; ἀφορίζειν)",
+      "evidence": [
+        "1En.22.9",
+        "Dillmann: Gen. 1,4"
+      ]
+    },
+    {
+      "id": "discern",
+      "ru": "различать",
+      "stems": [
+        "различ"
+      ],
+      "gloss": "различать, распознавать (Дильман 3: discernere, distinguere, dignoscere)",
+      "evidence": [
+        "Dillmann: Job 12,11"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 9843, I,1: (1) separare, disjungere, dirimere — Hen. 22,9; 82,11–12; Gen. 1,4; ዘፈለጠ ብእሴ እምብእሲቱ Sir. 31,26; (2) sejungere, segregare, secernere («выделять»): ወፈለጠ ዕዝራ ዕደወ 2 Esr. 10,16; c) consecrare — «посвящать, выделять» ἀφορίζειν (Ex. 13,12; 29,24); d) ejurare «зарекаться» (Num. 30,3); (3) discernere, distinguere «различать»: እዝን ነገረ ይፈልጥ Job 12,11; ጕርዔ ይፈልጦ ለኵሉ ጣዕመ እክል Sir. 36,24. В 22.9 ይፍልጡ — «эти три отделения сделаны, чтобы разделять души умерших» (греч. χωρίζεσθαι): пункт 1, 'discern' не подходит. Пункты 2.c–d в Енохе не нужны, не взяты.",
+  "history": [
+    {
+      "date": "2026-11-14",
+      "by": "opencode",
+      "change": "создано по главам 20–36"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "рецензия: смыслов 1→2, notes написаны; добавлен смысл discern; evidence дополнено Gen. 1,4"
+    }
+  ]
+}

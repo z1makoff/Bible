@@ -41,7 +41,7 @@ const LocalApi = (() => {
   let places = null;
 
   const REF_PLACE = /^[1-3]?[A-Za-z]+\.\d+\.\d+:\w+$/;
-  const NOTE_TARGET = /^(lexeme:\d+[a-z]?|place:[1-3]?[A-Za-z]+\.\d+\.\d+:\w+|verse:[1-3]?[A-Za-z]+\.\d+\.\d+)$/;
+  const NOTE_TARGET = /^(lexeme:(?:\d+[a-z]?|L[0-9a-fA-F]+)|place:[1-3]?[A-Za-z]+\.\d+\.\d+:\w+|verse:[1-3]?[A-Za-z]+\.\d+\.\d+)$/;
 
   async function get(path, query) {
     if (path === "/api/books") {
@@ -58,7 +58,7 @@ const LocalApi = (() => {
       ch.notes = pick(load("notes", {}), (k) => k.startsWith(`place:${prefix}`) || k.startsWith(`verse:${prefix}`));
       return ch;
     }
-    m = path.match(/^\/api\/lexeme\/(\d+[a-z]?)$/);
+    m = path.match(/^\/api\/lexeme\/(L[0-9a-fA-F]+|\d+[a-z]?)$/);
     if (m) {
       const lx = await file(`data/lexeme/${m[1]}.json`);
       if (!lx) throw new Error("нет такого слова");
@@ -97,7 +97,9 @@ const LocalApi = (() => {
     if (path === "/api/state") {
       const st = load("state", {});
       if (/^[1-3]?[A-Za-z]+\.\d+(\.\d+)?$/.test(String(body.last ?? ""))) st.last = body.last;
-      for (const k of ["showHebrew", "showSynodal"]) if (typeof body[k] === "boolean") st[k] = body[k];
+      for (const k of ["showHebrew", "showSynodal", "showGeez", "showSmirnov", "showGreek"]) {
+        if (typeof body[k] === "boolean") st[k] = body[k];
+      }
       if ("returnTo" in body) {
         const r = body.returnTo;
         if (r === null) delete st.returnTo;

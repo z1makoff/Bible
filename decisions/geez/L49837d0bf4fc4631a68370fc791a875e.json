@@ -1,0 +1,29 @@
+{
+  "key": "L49837d0bf4fc4631a68370fc791a875e",
+  "n": "7010",
+  "head": "ዕርበት",
+  "kind": "word",
+  "display": "erebat",
+  "senses": [
+    {
+      "id": "sunset",
+      "ru": "заход",
+      "stems": [
+        "заход"
+      ],
+      "gloss": "заход (Дильман: n. act. occasus, solis; Hen. 17,4)",
+      "evidence": [
+        "1En.17.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 7010: n. act. occasus, solis, Hen. 17,4. Греч. δύσεις.",
+  "history": [
+    {
+      "date": "2026-11-13",
+      "by": "claude",
+      "change": "создано по главам 17–19"
+    }
+  ]
+}

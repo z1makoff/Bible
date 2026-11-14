@@ -1,0 +1,45 @@
+{
+  "key": "Lf0feecf0e34940ec80c9a8fa9a1bbd0f",
+  "n": "7253",
+  "head": "ዐውድ",
+  "kind": "word",
+  "display": "awed",
+  "senses": [
+    {
+      "id": "circuit",
+      "ru": "обход",
+      "stems": [
+        "обход"
+      ],
+      "gloss": "обход, окружность (Дильман 1: circuitus, ambitus)",
+      "evidence": [
+        "1En.14.12"
+      ]
+    },
+    {
+      "id": "around",
+      "ru": "вокруг",
+      "stems": [
+        "вокруг"
+      ],
+      "gloss": "вокруг (Дильман 7253.1.a: Adv. et Praep. circa)",
+      "evidence": [
+        "1En.14.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Не kebab «круг». Дильман 7253.1.a Adv. et Praep. circa — around «вокруг» (14:12, 14:22). circuit «обход» оставлен в карточке.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 30, 13.11.2026: добавлен смысл around «вокруг» (Дильман 7253.1.a circa). circuit «обход» не стёрт."
+    }
+  ]
+}

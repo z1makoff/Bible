@@ -1,7 +1,8 @@
 """Проверка решений, переводов и трактовок по правилам (ПРАВИЛА.md, DATA.md).
 
 Запуск: python tools/check.py            — всё
-        python tools/check.py Gen 1      — одна глава (и весь словарь)
+        python tools/check.py Gen 1      — одна глава ВЗ (и словарь decisions/lexicon)
+        python tools/check.py 1En 1      — глава 1 Еноха (и словарь decisions/geez)
 Код возврата 1, если есть ошибки. Предупреждения главу не останавливают.
 """
 import json
@@ -16,6 +17,11 @@ ROOT = Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "corpus"
 LEXICON = ROOT / "decisions" / "lexicon"
 TRANSLATIONS = ROOT / "translations" / "ot"
+GEEZ_LEXICON = ROOT / "decisions" / "geez"
+ENOCH_TRANSLATIONS = ROOT / "translations" / "1En"
+ENOCH_CORPUS = CORPUS / "enoch" / "1En"
+ENOCH_MORPH = ROOT / "morph" / "enoch"
+GEEZ_LEXEMES = CORPUS / "geez-lexemes.json"
 INTERPRETATIONS = ROOT / "interpretations"
 
 KINDS = {"word", "name", "divine", "function", "keep"}
@@ -60,8 +66,96 @@ def occurrence_verses():
 
 @lru_cache(maxsize=None)
 def corpus_chapter(book, chapter):
-    path = CORPUS / "ot" / book / f"{chapter:03d}.json"
+    if book == "1En":
+        path = ENOCH_CORPUS / f"{chapter:03d}.json"
+    else:
+        path = CORPUS / "ot" / book / f"{chapter:03d}.json"
     return json.loads(path.read_text("utf-8")) if path.exists() else None
+
+
+@lru_cache(maxsize=None)
+def geez_lexemes():
+    if not GEEZ_LEXEMES.exists():
+        return {}
+    return json.loads(GEEZ_LEXEMES.read_text("utf-8"))
+
+
+@lru_cache(maxsize=None)
+def enoch_morph(chapter):
+    path = ENOCH_MORPH / f"{chapter:03d}.json"
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text("utf-8"))
+    return data.get("words") or {}
+
+
+def enoch_word(chapter, word):
+    """Лемма и статус берутся из morph/enoch, если разметка этой главы есть."""
+    morph = enoch_morph(chapter).get(word["id"])
+    if not morph:
+        return word
+    over = dict(word)
+    if morph.get("segs"):
+        over["segs"] = morph["segs"]
+    for key in ("status", "gram", "alts", "note"):
+        if key in morph:
+            over[key] = morph[key]
+    return over
+
+
+@lru_cache(maxsize=None)
+def enoch_lemma_verses():
+    """Лемма → места 1En.c.v, где она стоит в разметке стиха."""
+    out = {}
+    if not ENOCH_CORPUS.exists():
+        return out
+    for path in sorted(ENOCH_CORPUS.glob("*.json")):
+        chapter = json.loads(path.read_text("utf-8"))
+        number = chapter.get("chapter") or int(path.stem)
+        for verse in chapter.get("verses", []):
+            ref = verse.get("ref") or f"1En.{number}.{verse['n']}"
+            for word in verse.get("words", []):
+                for lemma in content_lemmas(enoch_word(number, word)):
+                    out.setdefault(lemma, set()).add(ref)
+    return out
+
+
+def clear_enoch_caches():
+    corpus_chapter.cache_clear()
+    geez_lexemes.cache_clear()
+    enoch_morph.cache_clear()
+    enoch_lemma_verses.cache_clear()
+
+
+GEEZ_CHAR = re.compile(r"[\u1200-\u137F]")
+DILLMANN_EVIDENCE = re.compile(r"^Dillmann:\s*(\S.*)$")
+ENOCH_REF = re.compile(r"^1En\.(\d+)\.(\d+)$")
+
+
+def enoch_ref_exists(ref):
+    m = ENOCH_REF.fullmatch(str(ref).strip())
+    if not m:
+        return False
+    chapter = corpus_chapter("1En", int(m.group(1)))
+    return bool(chapter) and any(verse["n"] == int(m.group(2)) for verse in chapter["verses"])
+
+
+def cite_in_text(cite, text):
+    """Ссылка Дильмана целиком, а не как начало более длинного номера стиха."""
+    return re.search(re.escape(cite.strip()) + r"(?!\d)", text) is not None
+
+
+def dillmann_cite_state(article, cite):
+    """ok — ссылка в смысле рядом с геэзом; nogez — ссылка без геэзского примера; missing — нет в тексте."""
+    seen = False
+    for sense in article.get("senses") or []:
+        text = sense.get("text") or ""
+        if not cite_in_text(cite, text):
+            continue
+        seen = True
+        if GEEZ_CHAR.search(text):
+            return "ok"
+    return "nogez" if seen else "missing"
 
 
 def ref_exists(ref):
@@ -73,12 +167,12 @@ def ref_exists(ref):
 
 
 def content_lemmas(word):
-    return [s["lemma"] for s in word["segs"] if s["lemma"]]
+    return [s.get("lemma") for s in word.get("segs") or [] if s.get("lemma")]
 
 
 def has_prefix(word):
     """Приставка или местоименное окончание: их можно передать отдельным служебным словом."""
-    return any(s["prefix"] or (s["morph"] or "").startswith("S") for s in word["segs"])
+    return any(s.get("prefix") or (s.get("morph") or "").startswith("S") for s in word.get("segs") or [])
 
 
 def load_lexicon(rep):
@@ -126,6 +220,91 @@ def load_lexicon(rep):
     return entries
 
 
+def load_geez_lexicon(rep):
+    """Словарь решений геэза: та же схема, что у ВЗ, плюс n и head статьи Дильмана.
+
+    Свидетельство — место 1En.c.v, где эта лемма стоит, или строка «Dillmann: …»,
+    которая есть в тексте статьи и в том же смысле есть геэзский пример.
+    """
+    entries = {}
+    if not GEEZ_LEXICON.exists():
+        return entries
+    paths = sorted(GEEZ_LEXICON.glob("*.json"))
+    if not paths:
+        return entries
+    articles = geez_lexemes()
+    for path in paths:
+        where = f"геэз/{path.name}"
+        try:
+            e = json.loads(path.read_text("utf-8"))
+        except json.JSONDecodeError as exc:
+            rep.error(where, f"файл не читается как JSON ({exc})")
+            continue
+        key = e.get("key")
+        if key != path.stem:
+            rep.error(where, f"ключ «{key}» не совпадает с именем файла")
+        if not isinstance(key, str) or not re.fullmatch(r"L[0-9a-fA-F]+", key):
+            rep.error(where, f"ключ геэза «{key}» должен быть вида L…")
+        art = articles.get(key) if isinstance(key, str) else None
+        if art is None:
+            rep.error(where, f"статьи «{key}» нет в словаре Дильмана")
+        elif "n" not in e or "head" not in e:
+            rep.error(where, "нет номера статьи (n) или заголовка (head)")
+        elif str(e.get("n")) != str(art.get("n")) or e.get("head") != art.get("head"):
+            rep.error(where, f"n «{e.get('n')}» или заголовок «{e.get('head')}» не совпадают "
+                             f"со статьёй Дильмана (n={art.get('n')}, {art.get('head')})")
+        if e.get("kind") not in KINDS:
+            rep.error(where, f"неизвестный вид слова «{e.get('kind')}»")
+        if not e.get("display"):
+            rep.error(where, "нет латинской формы (display)")
+        if e.get("status") not in STATUSES:
+            rep.error(where, f"неизвестный статус «{e.get('status')}»")
+        if not e.get("history"):
+            rep.error(where, "нет истории изменений")
+        ids = set()
+        for s in e.get("senses", []):
+            sid = s.get("id")
+            if sid in ids:
+                rep.error(where, f"значение «{sid}» повторяется")
+            ids.add(sid)
+            if not s.get("ru") or not s.get("stems"):
+                rep.error(where, f"у значения «{sid}» нет русского слова или основ для проверки")
+            evidence = s.get("evidence") or []
+            if not evidence:
+                rep.error(where, f"у значения «{sid}» нет ни одного места-свидетельства")
+            for ref in evidence:
+                if not isinstance(ref, str):
+                    rep.error(where, f"значение «{sid}»: свидетельство должно быть строкой")
+                    continue
+                enoch = ENOCH_REF.fullmatch(ref.strip())
+                dillmann = DILLMANN_EVIDENCE.fullmatch(ref.strip())
+                if enoch:
+                    if not enoch_ref_exists(ref):
+                        rep.error(where, f"значение «{sid}»: места {ref} нет в корпусе")
+                    elif ref.strip() not in enoch_lemma_verses().get(key, set()):
+                        rep.error(where, f"значение «{sid}»: в {ref} этого слова нет")
+                elif dillmann:
+                    cite = dillmann.group(1).strip()
+                    if art is None:
+                        rep.error(where, f"значение «{sid}»: статью Дильмана не с чем сверить")
+                    else:
+                        state = dillmann_cite_state(art, cite)
+                        if state == "missing":
+                            rep.error(where, f"значение «{sid}»: ссылки «{cite}» нет в тексте статьи Дильмана")
+                        elif state == "nogez":
+                            rep.error(where, f"значение «{sid}»: у Дильмана «{cite}» без геэзского примера")
+                else:
+                    rep.error(where, f"значение «{sid}»: свидетельство «{ref}» — нужно место 1En.c.v "
+                                     "или «Dillmann: …»")
+        if e.get("kind") == "keep" and not e.get("notes"):
+            rep.error(where, "у слова без перевода не объяснено, почему оно не переводится")
+        if e.get("kind") == "word" and not e.get("senses"):
+            rep.error(where, "у обычного слова нет ни одного значения")
+        if isinstance(key, str):
+            entries[key] = e
+    return entries
+
+
 def stem_at_word_start(stem, text):
     """Основа ищется внутри слова (при-ходить, две-сти), но короткая (1–2 буквы) — только
     в начале слова или после приставки (по-шли, на-поил): иначе «дн» находится в «сегодня»."""
@@ -141,6 +320,59 @@ RU_PREFIX = r"(?:в|во|вз|вс|вы|до|за|из|ис|на|над|о|об|
 def sense_of(span, wid):
     s = span.get("s")
     return s.get(wid) if isinstance(s, dict) else s
+
+
+def check_geez_content(sp, w, keys, lex, rep, here, wid):
+    """Перевод или латиница геэзского слова. Смысл s может относиться к любому сегменту.
+
+    x снимает несовпадение основы и отсутствующее значение. Имя, титул и слово
+    со словарным запретом (keep) не переводятся и с исключением.
+    """
+    k = sp.get("k")
+    if not keys:
+        rep.error(here, f"{w['tr']}: нет словарной формы в разметке")
+        return
+    known = []
+    for lemma in keys:
+        entry = lex.get(lemma)
+        if entry is None:
+            rep.error(here, f"{w['tr']}: для слова {lemma} нет решения в словаре")
+        else:
+            known.append(entry)
+    if k == "lat":
+        if not known:
+            return
+        allowed = [form for entry in known for form in [entry["display"], *entry.get("displayForms", [])]]
+        if sp["t"] not in allowed and not sp.get("x"):
+            rep.error(here, f"латинская форма должна быть «{'» или «'.join(allowed)}» (словарь решений)")
+        return
+    if not known:
+        return
+    words = [entry for entry in known if entry["kind"] == "word"]
+    blocked = [entry for entry in known if entry["kind"] in ("name", "divine", "keep")]
+    sid = sense_of(sp, wid)
+    match = None
+    for entry in words:
+        sense = next((item for item in entry.get("senses", []) if item["id"] == sid), None)
+        if sense is not None:
+            match = (entry, sense)
+            break
+    if match is None:
+        if not words and blocked:
+            entry = blocked[0]
+            if entry["kind"] == "keep":
+                rep.error(here, f"{entry['display']}: по словарю решений это слово не переводится")
+            else:
+                rep.error(here, f"{entry['display']}: имена и титулы не переводятся (правила, раздел 2)")
+            return
+        if sp.get("x"):
+            return
+        shown = words[0] if words else known[0]
+        rep.error(here, f"значение «{sid}» не найдено в словаре для {shown['display']}")
+        return
+    if not sp.get("x") and not any(stem_at_word_start(stem, sp["t"]) for stem in match[1]["stems"]):
+        rep.error(here, f"для значения «{sid}» по словарю решений ожидается «{match[1]['ru']}»; "
+                        "если здесь иначе, нужно исключение с причиной (x)")
 
 
 def check_chapter(path, lex, rep, version):
@@ -175,13 +407,15 @@ def check_chapter(path, lex, rep, version):
         if sv is None:
             rep.error(where, "такого стиха нет в корпусе")
             continue
-        words = {w["id"]: w for w in sv["words"]}
-        alt_of = {q["id"]: w["id"] for w in sv["words"] for q in w.get("qere", [])}
-        alt_words = {q["id"]: q for w in sv["words"] for q in w.get("qere", [])}
+        raw_words = sv["words"]
+        words = {w["id"]: enoch_word(chapter, w) if book == "1En" else w for w in raw_words}
+        alt_of = {q["id"]: w["id"] for w in raw_words for q in w.get("qere", [])}
+        alt_words = {q["id"]: q for w in raw_words for q in w.get("qere", [])}
         all_words = words | alt_words
         omit = v.get("omit", {})
         rendered = set()  # слова, чьё значимое слово передано переводом или транслитерацией
         touched = set(omit)
+        origin = "геэзские" if book == "1En" else "еврейские"
         for i, sp in enumerate(v.get("spans", [])):
             k = sp.get("k")
             here = f"{where}, фрагмент {i + 1} «{sp.get('t')}»"
@@ -193,10 +427,10 @@ def check_chapter(path, lex, rep, version):
             ids = sp.get("w", [])
             if k in ("ins", "p"):
                 if ids:
-                    rep.error(here, "вставка или знак препинания не должны ссылаться на еврейские слова")
+                    rep.error(here, f"вставка или знак препинания не должны ссылаться на {origin} слова")
                 continue
             if not ids:
-                rep.error(here, "не указано, какие еврейские слова переданы")
+                rep.error(here, f"не указано, какие {origin} слова переданы")
             for wid in ids:
                 if wid not in all_words:
                     rep.error(here, f"слова {wid} нет в этом стихе")
@@ -207,9 +441,20 @@ def check_chapter(path, lex, rep, version):
                 if k == "fn":
                     if not has_prefix(w) and not any(lex.get(c, {}).get("kind") == "function" for c in keys):
                         rep.error(here, f"{w['tr']}: служебным может быть только приставка, окончание или служебное слово")
-                    for c in keys:
-                        if lex.get(c, {}).get("kind") == "function":
+                    if book == "1En":
+                        # Служебная лемма передаёт слово, только если других лемм нет.
+                        # Иначе приставка рядом со значимым сегментом слово ещё не переводит.
+                        others = [c for c in keys if lex.get(c, {}).get("kind") != "function"]
+                        if keys and not others:
                             rendered.add(alt_of.get(wid, wid))
+                    else:
+                        for c in keys:
+                            if lex.get(c, {}).get("kind") == "function":
+                                rendered.add(alt_of.get(wid, wid))
+                    continue
+                if book == "1En":
+                    check_geez_content(sp, w, keys, lex, rep, here, wid)
+                    rendered.add(alt_of.get(wid, wid))
                     continue
                 for c in keys:
                     e = lex.get(c)
@@ -260,7 +505,15 @@ def check_chapter(path, lex, rep, version):
             sps = by_word.get(wid, [])
             # причина (x) засчитывается только на служебном фрагменте самого союза, а не на любом фрагменте слова
             if not any(sp["t"].lower() == "и" or (sp.get("x") and sp.get("k") == "fn") for sp in sps):
-                rep.error(where, f"{w['tr']}: союз ve- не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
+                conjunction = "союз ወ" if book == "1En" else "союз ve-"
+                rep.error(where, f"{w['tr']}: {conjunction} не передан как «и» (правила, раздел 4); иначе нужна причина (x)")
+        if book == "1En":
+            for wid, w in words.items():
+                if wid not in touched:
+                    continue
+                status = w.get("status")
+                if status != "checked":
+                    rep.warn(where, f"слово {w.get('tr')} ({wid}): разметка «{status or 'нет'}», не checked")
         for wid, place in v.get("places", {}).items():
             if wid not in all_words:
                 rep.error(where, f"разбор места: слова {wid} нет в стихе")
@@ -405,26 +658,48 @@ def main():
         sys.exit(1)
     rep = Report()
     version = rules_version()
-    lex = load_lexicon(rep)
-    if len(sys.argv) == 3:
+    single = len(sys.argv) == 3
+    geez = {}
+    enoch_paths = []
+    if single and sys.argv[1] == "1En":
+        lex = {}
+        geez = load_geez_lexicon(rep)
+        paths = [ENOCH_TRANSLATIONS / f"{int(sys.argv[2]):03d}.json"]
+        chapter_lex = geez
+    elif single:
+        lex = load_lexicon(rep)
         paths = [TRANSLATIONS / sys.argv[1] / f"{int(sys.argv[2]):03d}.json"]
+        chapter_lex = lex
     else:
+        lex = load_lexicon(rep)
+        geez = load_geez_lexicon(rep)
         paths = sorted(TRANSLATIONS.glob("*/*.json"))
+        enoch_paths = sorted(ENOCH_TRANSLATIONS.glob("*.json")) if ENOCH_TRANSLATIONS.exists() else []
+        chapter_lex = lex
     for path in paths:
         if path.exists():
-            check_chapter(path, lex, rep, version)
+            check_chapter(path, chapter_lex, rep, version)
         else:
             rep.error(path.name, "файла перевода нет")
+    for path in enoch_paths:
+        check_chapter(path, geez, rep, version)
     check_interpretations(rep)
-    if len(sys.argv) != 3:
+    if not single:
         check_shared_ru(lex, rep)
+        if geez:
+            check_shared_ru(geez, rep)
         check_enoch(rep)
     for w in rep.warnings:
         print("предупреждение —", w)
     for e in rep.errors:
         print("ошибка —", e)
-    print(f"\nправила {version}; словарь: {len(lex)} слов; глав: {len(paths)}; "
-          f"ошибок: {len(rep.errors)}, предупреждений: {len(rep.warnings)}")
+    n_chapters = len(paths) + len(enoch_paths)
+    if geez or enoch_paths:
+        print(f"\nправила {version}; словарь: {len(lex)} слов; геэз: {len(geez)} слов; глав: {n_chapters}; "
+              f"ошибок: {len(rep.errors)}, предупреждений: {len(rep.warnings)}")
+    else:
+        print(f"\nправила {version}; словарь: {len(lex)} слов; глав: {len(paths)}; "
+              f"ошибок: {len(rep.errors)}, предупреждений: {len(rep.warnings)}")
     sys.exit(1 if rep.errors else 0)
 
 

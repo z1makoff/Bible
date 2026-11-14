@@ -1,0 +1,31 @@
+{
+  "key": "L24916a4f33f74029a3b14ed35b5467ce",
+  "n": "4509",
+  "head": "ኀርየ",
+  "kind": "word",
+  "display": "khareya",
+  "senses": [
+    {
+      "id": "choose",
+      "ru": "выбрать",
+      "stems": [
+        "выбра",
+        "выбир",
+        "выбер"
+      ],
+      "gloss": "выбрать (Дильман I,1: eligere, seligere, deligere; греч. ἐκλεξώμεθα в 6:2)",
+      "evidence": [
+        "1En.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как bachar (977) «выбрать». Греч. 6:2 ἐκλεξώμεθα.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

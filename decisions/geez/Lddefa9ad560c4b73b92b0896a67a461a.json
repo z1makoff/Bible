@@ -1,0 +1,39 @@
+{
+  "key": "Lddefa9ad560c4b73b92b0896a67a461a",
+  "n": "5721",
+  "head": "አንስት",
+  "kind": "word",
+  "display": "aneset",
+  "senses": [
+    {
+      "id": "woman",
+      "ru": "женщина",
+      "stems": [
+        "женщин"
+      ],
+      "gloss": "женщина, женщины (Дильман 5721: femina; 2 mulieres, feminae cujusvis aetatis et conditionis; 6:2 греч. γυναῖκας)",
+      "evidence": [
+        "1En.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как ishah (802): два геэзских слова — два русских. አንስት 5721 — «женщина» (Дильман 5721: femina; 2 mulieres, feminae cujusvis aetatis et conditionis; слов uxor и marita в статье нет). «Жена» — только አንስቲያ 5722 (anesetiya). Временный смысл wife снят 13.11.2026: главы 12–16 переведены «женщина».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "П1: добавлено значение woman «женщина» (Дильман 5721 без uxor и marita); wife оставлено временно для 12:4, 15, 16"
+    },
+    {
+      "date": "2026-11-13",
+      "by": "grok",
+      "change": "Правка 3, 13.11.2026: временный смысл wife «жена» снят после перевода 12:4, 15:3, 15:4, 15:12 и 16:3 как woman «женщина» (Дильман 5721, без uxor). 5722 не затронут."
+    }
+  ]
+}

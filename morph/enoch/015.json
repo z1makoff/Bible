@@ -257,21 +257,15 @@
       "status": "checked",
       "segs": [
         {
-          "t": "በ",
-          "lemma": null,
-          "prefix": "b",
-          "morph": null
-        },
-        {
-          "t": "ሎሙ",
-          "lemma": "Le4d650c370464996939e7bfb43dd6444",
+          "t": "በሎሙ",
+          "lemma": "L3b4d830677ef46c0beaf9f1c172d2d24",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": "местоимение",
+      "gram": "глагол, повелительное, ты, с «им»",
       "alts": [],
-      "note": "Разбор Opus: лемма прочитана, значение не выбрано."
+      "note": "Разбор 13.11.2026: ብህለ n=3743, форма በሎሙ в перечне 3743.1 (Hez. 14; Matth. 3,7). Это не предлог በ и не ለ."
     },
     "e01762": {
       "status": "checked",
@@ -2730,14 +2724,14 @@
         },
         {
           "t": "ይትበዐሱ",
-          "lemma": "Lbb57e19b04014d6db8ee5dc5d58fa0ad",
+          "lemma": "L1561c07e55734bfdbe62973b8282ef67",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": "глагол, непрошедшее, они",
       "alts": [],
-      "note": "Разбор Opus: ተበአሰ n=4012."
+      "note": "Разбор 13.11.2026: ተባአሰ n=4013, Hen. 15,11 pugnare, luctari. Статья: plerumque ተበአሰ scriptum. Это не n=4012."
     },
     "e01920": {
       "status": "checked",

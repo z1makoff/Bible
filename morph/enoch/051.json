@@ -39,9 +39,9 @@
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05259": {
       "status": "unsure",
@@ -203,7 +203,7 @@
       ],
       "gram": null,
       "alts": [],
-      "note": "нет в словаре Дильмана"
+      "note": "приставка основы II: такой статьи нет"
     },
     "e05268": {
       "status": "unsure",
@@ -299,14 +299,8 @@
       "status": "auto",
       "segs": [
         {
-          "t": "እም",
-          "lemma": null,
-          "prefix": "m",
-          "morph": null
-        },
-        {
-          "t": "ኔ",
-          "lemma": "L371243180fbf41b9b075ff0b3115d342",
+          "t": "እምኔ",
+          "lemma": "L5dded822e50849de809787567415f4a9",
           "prefix": null,
           "morph": null
         },
@@ -317,7 +311,7 @@
           "morph": "S3mp"
         }
       ],
-      "gram": null,
+      "gram": "предлог",
       "alts": [],
       "note": ""
     },
@@ -364,23 +358,18 @@
       "note": ""
     },
     "e05276": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ከመ",
-          "lemma": null,
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": null,
-      "alts": [
-        "L22c2e71ac6c0443e8f05d480b3ac9e85",
-        "L5724e47151364d91bd5e63d589c0ffd9",
-        "Lcddc0aae60324baa9922c63b7c27b716",
-        "L6e84824fe2e1492692a9ea37e104f6eb"
-      ],
-      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+      "alts": [],
+      "note": ""
     },
     "e05277": {
       "status": "unsure",
@@ -464,29 +453,23 @@
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05282": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ዲበ",
-          "lemma": null,
+          "lemma": "L03c70b7d960f4653b5f5848c5fcf8bcd",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "L03c70b7d960f4653b5f5848c5fcf8bcd",
-        "L1d8dc94ceacd4d86b129dc55467e5153",
-        "L8f92a72612064876a02ff76b898060a5",
-        "Lde89114a448443288501676170a0fd36",
-        "La20bb427626a4df1ba791e105f4aa89c"
-      ],
-      "note": "несколько статей; кандидаты: ዲበ n=7980, ደበበ n=7979, ደበበ n=7984, ዲበ n=7965, ዲበ n=8143"
+      "gram": "предлог",
+      "alts": [],
+      "note": ""
     },
     "e05283": {
       "status": "auto",
@@ -500,7 +483,7 @@
       ],
       "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05284": {
       "status": "unsure",
@@ -592,15 +575,21 @@
       "status": "auto",
       "segs": [
         {
-          "t": "አፉሁ",
+          "t": "አፉ",
           "lemma": "Lb662a52dc3e141b7a143d8bc96951d81",
           "prefix": null,
           "morph": null
+        },
+        {
+          "t": "ሁ",
+          "lemma": null,
+          "prefix": null,
+          "morph": "S3ms"
         }
       ],
       "gram": null,
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05290": {
       "status": "unsure",
@@ -676,7 +665,7 @@
       "note": "форма построена от заголовка статьи"
     },
     "e05295": {
-      "status": "auto",
+      "status": "unsure",
       "segs": [
         {
           "t": "ወ",
@@ -686,14 +675,17 @@
         },
         {
           "t": "ሰብሖ",
-          "lemma": "La4ac98548891472bbf53978964fb60d4",
+          "lemma": null,
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": "глагол",
-      "alts": [],
-      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих"
+      "gram": null,
+      "alts": [
+        "La4ac98548891472bbf53978964fb60d4",
+        "L1356a62d93574ed78c0aa66e72a2e878"
+      ],
+      "note": "форма построена от заголовка статьи; Дильман ссылается на этот стих; одноимённые статьи, не выбираю молча: ሰብሐ n=2690, ሠብሐ n=1839"
     },
     "e05296": {
       "status": "unsure",
@@ -733,9 +725,9 @@
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05298": {
       "status": "unsure",
@@ -765,26 +757,21 @@
       ],
       "gram": null,
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05300": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ከመ",
-          "lemma": null,
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": null,
-      "alts": [
-        "L22c2e71ac6c0443e8f05d480b3ac9e85",
-        "L5724e47151364d91bd5e63d589c0ffd9",
-        "Lcddc0aae60324baa9922c63b7c27b716",
-        "L6e84824fe2e1492692a9ea37e104f6eb"
-      ],
-      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+      "alts": [],
+      "note": ""
     },
     "e05301": {
       "status": "auto",
@@ -798,7 +785,7 @@
       ],
       "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05302": {
       "status": "auto",
@@ -824,7 +811,7 @@
       ],
       "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05303": {
       "status": "unsure",
@@ -838,26 +825,21 @@
       ],
       "gram": null,
       "alts": [],
-      "note": "нет в словаре Дильмана"
+      "note": "приставка основы II: такой статьи нет"
     },
     "e05304": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ከመ",
-          "lemma": null,
+          "lemma": "L22c2e71ac6c0443e8f05d480b3ac9e85",
           "prefix": null,
           "morph": null
         }
       ],
       "gram": null,
-      "alts": [
-        "L22c2e71ac6c0443e8f05d480b3ac9e85",
-        "L5724e47151364d91bd5e63d589c0ffd9",
-        "Lcddc0aae60324baa9922c63b7c27b716",
-        "L6e84824fe2e1492692a9ea37e104f6eb"
-      ],
-      "note": "несколько статей; кандидаты: ከመ n=6045, እንተ n=5740, እንተ n=5741, ከመ n=5743"
+      "alts": [],
+      "note": ""
     },
     "e05305": {
       "status": "auto",
@@ -1075,9 +1057,9 @@
           "morph": null
         }
       ],
-      "gram": null,
+      "gram": "имя",
       "alts": [],
-      "note": ""
+      "note": "форма построена от заголовка статьи"
     },
     "e05318": {
       "status": "auto",
@@ -1128,20 +1110,18 @@
       "note": ""
     },
     "e05321": {
-      "status": "unsure",
+      "status": "auto",
       "segs": [
         {
           "t": "ትትፌሣሕ",
-          "lemma": null,
+          "lemma": "La0ebd3009916498c8df404cf4c09d002",
           "prefix": null,
           "morph": null
         }
       ],
-      "gram": null,
-      "alts": [
-        "La0ebd3009916498c8df404cf4c09d002"
-      ],
-      "note": "согласные без глагольной приставки лица, после омофонов, не по написанию; Дильман ссылается на этот стих; кандидаты: ተፈሥሐ n=9875"
+      "gram": "глагол",
+      "alts": [],
+      "note": "приставка ትት: статья III основы"
     },
     "e05322": {
       "status": "auto",
@@ -1265,7 +1245,7 @@
       ],
       "gram": null,
       "alts": [],
-      "note": "нет в словаре Дильмана"
+      "note": "приставка основы II: такой статьи нет"
     }
   }
 }

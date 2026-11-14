@@ -1,0 +1,31 @@
+{
+  "key": "L4833e25cec0f49a5a2fa5e966667afcb",
+  "n": "2390",
+  "head": "ተራገዘ",
+  "kind": "word",
+  "display": "taragaza",
+  "senses": [
+    {
+      "id": "stab-each",
+      "ru": "пронзать",
+      "stems": [
+        "пронзи",
+        "пронзал",
+        "пронза"
+      ],
+      "gloss": "пронзать друг друга (Дильман III,3: se invicem confodere; Hen. 10,12)",
+      "evidence": [
+        "1En.10.12"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман III,3 называет Hen. 10,12. Греч. κατασφαγῶσιν «будут заколоты».",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

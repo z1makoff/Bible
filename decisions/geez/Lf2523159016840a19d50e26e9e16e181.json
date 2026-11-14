@@ -1,0 +1,29 @@
+{
+  "key": "Lf2523159016840a19d50e26e9e16e181",
+  "n": "3343",
+  "head": "ቅርንብ",
+  "kind": "word",
+  "display": "qereneb",
+  "senses": [
+    {
+      "id": "lash",
+      "ru": "ресница",
+      "stems": [
+        "ресниц"
+      ],
+      "gloss": "ресница (Дильман 2: pili oculorum, cilia, palpebrae; Hen. 8,1; βλέφαρα)",
+      "evidence": [
+        "1En.8.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 2 называет Hen. 8,1. Греч. 8:1 καλλιβλέφαρον, βλέφαρα «веки/ресницы». Выбрано «ресницы» (cilia).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

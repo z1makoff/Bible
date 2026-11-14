@@ -1,0 +1,45 @@
+{
+  "key": "Lc858ccec094549ca90760ba2fa801388",
+  "n": "8173",
+  "head": "ዳግም",
+  "kind": "word",
+  "display": "dagem",
+  "senses": [
+    {
+      "id": "second",
+      "ru": "второй",
+      "stems": [
+        "втор"
+      ],
+      "gloss": "второй, повторный",
+      "evidence": [
+        "1En.4.1"
+      ]
+    },
+    {
+      "id": "again",
+      "ru": "вновь",
+      "stems": [
+        "вновь"
+      ],
+      "gloss": "вновь (Дильман 8173.b: ዳግመ iterum, denuo, rursus, secundo; Hen. 4)",
+      "evidence": [
+        "1En.4.1"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Прилагательное «второй». Наречие ዳግመ в 4:1 — «вновь» (Дильман 8173.b: iterum, denuo, rursus; Hen. 4 назван); «снова» занято ካዕበ.",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "by": "grok",
+      "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-09",
+      "by": "claude",
+      "change": "Ф26: добавлено again «вновь» (Дильман 8173.b: ዳግመ iterum, denuo, rursus; Hen. 4)"
+    }
+  ]
+}

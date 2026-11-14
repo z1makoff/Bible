@@ -1,0 +1,29 @@
+{
+  "key": "L9d2b4fbdd0014565b22d65d146481a64",
+  "n": "9998",
+  "head": "ፈተወ",
+  "kind": "word",
+  "display": "fatawa",
+  "senses": [
+    {
+      "id": "desire",
+      "ru": "возжелать",
+      "stems": [
+        "возжела"
+      ],
+      "gloss": "возжелать (Дильман I,1: cupire, concupiscere, appetere; Hen. 6,2; греч. ἐπεθύμησαν)",
+      "evidence": [
+        "1En.6.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман называет Hen. 6,2. «Желать» занято chamad (2530a), «хотеть» — chafets и faqada.",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

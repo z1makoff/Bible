@@ -1,0 +1,29 @@
+{
+  "key": "L4cc37ed986e0473d8bd8493a357bbb68",
+  "n": "2221",
+  "head": "ርኅው",
+  "kind": "word",
+  "display": "rekhew",
+  "senses": [
+    {
+      "id": "ajar",
+      "ru": "отворённый",
+      "stems": [
+        "отвор"
+      ],
+      "gloss": "отворённый, распахнутый (Дильман: apertus, patens)",
+      "evidence": [
+        "1En.14.15"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "kesut тоже «открытый»: здесь дверь стоит отворённой.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}

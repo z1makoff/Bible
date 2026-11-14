@@ -1,0 +1,29 @@
+{
+  "key": "L5451035f5a0a430280bcb27c4bd59418",
+  "n": "8682",
+  "head": "ገዳም",
+  "kind": "word",
+  "display": "gadam",
+  "senses": [
+    {
+      "id": "wilderness",
+      "ru": "пустыня",
+      "stems": [
+        "пустын"
+      ],
+      "gloss": "пустыня (Дильман 3: locus incultus, eremus, desertum, ἔρημος — Hen. 10,4)",
+      "evidence": [
+        "1En.10.4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Как midbar (4057b) «пустыня». Дильман 3: ἔρημος; значение 2 «равнина» к 10:4 не подходит (греч. 10:4 ἔρημος).",
+  "history": [
+    {
+      "date": "2026-11-08",
+      "by": "claude",
+      "change": "создано по главам 6–11"
+    }
+  ]
+}

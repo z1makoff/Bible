@@ -1,0 +1,29 @@
+{
+  "key": "L0b71aab914244d35ad3097a93b9c3174",
+  "n": "1860",
+  "head": "ሣኅት",
+  "kind": "word",
+  "display": "sakhet",
+  "senses": [
+    {
+      "id": "rest",
+      "ru": "покой",
+      "stems": [
+        "поко"
+      ],
+      "gloss": "покой, передышка (Дильман: tranquillitas, requies; называет Hen. 13,2)",
+      "evidence": [
+        "1En.13.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Греч. 13:2 ἀνοχή. Не seelat и не nukhat.",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "by": "grok",
+      "change": "черновик по главам 13–16"
+    }
+  ]
+}
