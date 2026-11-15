@@ -1,0 +1,29 @@
+{
+  "key": "L9ee80f8ef6bd4b6ba906f2f42e467435",
+  "n": "2736",
+  "head": "ሰብዑ",
+  "kind": "word",
+  "display": "sabu",
+  "senses": [
+    {
+      "id": "seven",
+      "ru": "семь",
+      "stems": [
+        "сем"
+      ],
+      "gloss": "семь (Дильман: nom. numerale, septem; ejus character est ፯)",
+      "evidence": [
+        "1En.24.2"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 2736: nom. numerale, plerumque femininis junctum, septem; «ejus character est ፯». ሰብዐቱ n=2737 (masc.) знака ፯ не называет. Число ፯ в 24:2 — «семь» (ፄ፯ አድባረ; греч. ἑπτὰ ὄρη). Число — одно значение.",
+  "history": [
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "создано (23–26): знак ፯ получил лемму (Р3: «найти n» → ሰብዑ n=2736 по статье)"
+    }
+  ]
+}

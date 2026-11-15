@@ -17,7 +17,6 @@
         "1En.22.1",
         "1En.26.5",
         "1En.31.2",
-        "1En.24.2",
         "Dillmann: Jes. 50,7"
       ]
     },
@@ -29,7 +28,6 @@
       ],
       "gloss": "плотный, цельный, массивный (Дильман 2: solidus, compactus, densus; στερεός massiv)",
       "evidence": [
-        "1En.24.2",
         "Dillmann: Job 41,15"
       ]
     },
@@ -54,6 +52,18 @@
       "evidence": [
         "Dillmann: Prov. 29,1"
       ]
+    },
+    {
+      "id": "fortified",
+      "ru": "укреплённый",
+      "stems": [
+        "укреплен",
+        "укреплён"
+      ],
+      "gloss": "укреплённый (Дильман 3.a: firmatus; ኵሉ ጽኑዕ በስብሐቲሁ Sir. 42,17; Hen. 24,2)",
+      "evidence": [
+        "1En.24.2"
+      ]
     }
   ],
   "status": "draft",
@@ -68,6 +78,21 @@
       "date": "2026-11-14",
       "by": "claude",
       "change": "рецензия: смыслов 1→4, ru уточнено, notes написаны; добавлены solid, severe, stubborn (пункты 2, 1.b, 1.a Дильмана); evidence 24.2, 26.5, 31.2"
+    },
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "24:2: новое значение fortified «укреплённый»: пункт 3.a firmatus называет Hen. 24,2, греч. ἐστηριγμένα. Пункты 1–2 (durus, solidus) этот стих не называют."
+    },
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "evidence 24.2 снято: пункт 1 durus 24,2 не называет (в стихе назван 3.a); evidence 22.1, 26.5, 31.2 остаются"
+    },
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "evidence 24.2 снято (см. fortified)"
     }
   ]
 }
