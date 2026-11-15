@@ -24,7 +24,8 @@
       ],
       "gloss": "светило",
       "evidence": [
-        "1En.2.1"
+        "1En.2.1",
+        "1En.20.4"
       ]
     }
   ],
@@ -35,6 +36,11 @@
       "date": "2026-11-03",
       "by": "grok",
       "change": "черновик по главам 1–5"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "evidence: 20.4 — luminaria i.e. sidera, Hen. 20,4 назван в пункте b"
     }
   ]
 }

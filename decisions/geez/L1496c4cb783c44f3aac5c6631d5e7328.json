@@ -15,10 +15,21 @@
       "evidence": [
         "1En.5.9"
       ]
+    },
+    {
+      "id": "lash",
+      "ru": "бич",
+      "stems": [
+        "бич"
+      ],
+      "gloss": "бич, плеть (Дильман 1: flagrum, flagellum, scutica, virgae, μάστιξ: መቅሠፍት ወተግሣጽ Sir. 22,6)",
+      "evidence": [
+        "Dillmann: Sir. 22,6"
+      ]
     }
   ],
   "status": "draft",
-  "notes": "13:8 оставлен латиницей maqesafet (это display; написания meqesheft в словаре нет). Дильман 3289.3 перечисляет plaga, calamitas, poena и не называет Hen. 13,8, поэтому torment «мука» на этот стих не поставлен.",
+  "notes": "13:8 оставлен латиницей maqesafet (это display; написания meqesheft в словаре нет). Дильман 3289.3 перечисляет plaga, calamitas, poena и не называет Hen. 13,8, поэтому torment «мука» на этот стих не поставлен. 15.11.2026: 22:11 ወመቅሠፍት ወፃዕር, греч. τῶν μαστίγων καὶ τῶν βασάνων. Дильман 22,11 не называет; μάστιξ стоит в глоссах пункта 1 (flagrum) и пункта 3 (castigatio divina, plaga, poena a Deo inflicta: μάστιξ Job 21,9; Sir. 23,11). Подходят «бич» и «кара от Бога» → латиница maqesafet (как 13:8). Смысл torment «мука» (5:9) этот стих не называет.",
   "history": [
     {
       "date": "2026-11-03",
@@ -29,6 +40,11 @@
       "date": "2026-11-13",
       "by": "grok",
       "change": "Правка 10, 13.11.2026: 13:8 — латиница maqesafet, не meqesheft. Дильман 3289.3 (plaga, calamitas, poena) Hen. 13,8 не называет. torment оставлен для 5:9 и 10."
+    },
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "новый смысл lash «бич» (Дильман 3289.1 flagrum, flagellum, μάστιξ); 22:11 — латиница maqesafet"
     }
   ]
 }

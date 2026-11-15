@@ -1,0 +1,52 @@
+{
+  "key": "Lf95a0d1ab77d4ee0a886bf4f410b0b27",
+  "n": "7808",
+  "head": "ድልው",
+  "kind": "keep",
+  "display": "delew",
+  "senses": [
+    {
+      "id": "weighed",
+      "ru": "взвешенный",
+      "stems": [
+        "взвеш"
+      ],
+      "gloss": "взвешенный, уравновешенный (Дильман 1: ponderatus, libratus; Esth. 1,7)",
+      "evidence": [
+        "Dillmann: Esth. 1,7"
+      ]
+    },
+    {
+      "id": "worthy",
+      "ru": "достойный",
+      "stems": [
+        "достойн"
+      ],
+      "gloss": "достойный (Дильман 1.a: dignus c. ለ; «fortasse etiam Hen. 21,2»)",
+      "evidence": [
+        "Dillmann: Sap. 3,5"
+      ]
+    },
+    {
+      "id": "ready",
+      "ru": "готовый",
+      "stems": [
+        "готов"
+      ],
+      "gloss": "готовый, приготовленный (Дильман 3: paratus, praeparatus, instructus, promtus; ἕτοιμος)",
+      "evidence": [
+        "Dillmann: Ps. 92,3",
+        "Dillmann: Matth. 22,4"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 7808 (part., fem. ድሉት፡): пункт 1 ponderatus, libratus; 1.a dignus (c. ለ rei vel pers.; «fortasse etiam Hen. 21,2» — стих назван с оговоркой); 1.b decens, conveniens; 3 paratus, praeparatus, instructus, promtus (ድልው መንበርከ Ps. 92,3; «c. ከመ seq. Subj.: Hen. 66,1»); 4 bene paratus. n=7809 — сомнительное существительное, к месту не подходит. 21:2 «ዘድልው» (e02438): греч. ἀκατασκεύαστον «неприготовленное» (отрицание, которого в ed1 нет; пункт 3 paratus — «готовый»), EOTC то же ዘድልው, Смирнов «пустое (пустынное) место». Свидетели расходятся: ed1 без отрицания читается «достойный» (1.a, fortasse) или «готовый» (3), греческое отрицает; значение места не установлено. Решение Opus О7 (15.11.2026): слово остаётся без догадки — в переводе не передаётся (omit с причиной), серых вставок нет.",
+  "history": [
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "создано (О18, 15.11.2026): слово ዘድልው (21:2) получило лемму при правке разметки; значение не выбрано, в тексте не передаётся (О7)"
+    }
+  ]
+}

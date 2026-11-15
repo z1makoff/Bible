@@ -1,0 +1,31 @@
+{
+  "key": "L0bd34870bce7476b84de325c401a8381",
+  "n": "6110",
+  "head": "አንኰርኰረ",
+  "kind": "word",
+  "display": "anekwarekwara",
+  "senses": [
+    {
+      "id": "roll",
+      "ru": "катиться",
+      "stems": [
+        "кат"
+      ],
+      "gloss": "катиться, перекатываться (Дильман 1: intransit. volvi, volutari, rotari, involvi, advolvi, provolvi, devolvi)",
+      "evidence": [
+        "1En.22.2",
+        "Dillmann: Koh. 12,6",
+        "Dillmann: Sap. 17,17"
+      ]
+    }
+  ],
+  "status": "draft",
+  "notes": "Дильман 6110 (V.), пункт 1: intransit. volvi, volutari, rotari … volvendo amoveri: «Hen. 18,15; Zach. 9,16; ልሙጽ ዘያንኰረኵር Hen. 22,2; Jud. 7,13; ያንኰረኵር መንኰራኵር ውስተ ዐዘቅት Koh. 12,6; ἀποκεκύλισται Marc. 16,4». Стих 22,2 и эта же фраза названы (ኵ в статье, ኲ в тексте — разное написание). Пункт 1 непереходный: «катиться». В 18:15 тот же глагол; глава 18 не менялась (там серое «[катятся]»).",
+  "history": [
+    {
+      "date": "2026-11-15",
+      "by": "claude",
+      "change": "создано (О18, 15.11.2026): слово ዘያንኰረኲር (22:2) получило лемму при правке разметки; смысл roll «катиться»"
+    }
+  ]
+}

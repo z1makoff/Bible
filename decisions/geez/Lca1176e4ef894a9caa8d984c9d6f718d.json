@@ -25,7 +25,8 @@
       ],
       "gloss": "переступить (Дильман 1.c: transire terminum; metaph. mandatum, c. Acc.; Hen. 18,15)",
       "evidence": [
-        "1En.18.15"
+        "1En.18.15",
+        "1En.21.6"
       ]
     }
   ],
@@ -41,6 +42,11 @@
       "date": "2026-11-13",
       "by": "claude",
       "change": "добавлено значение `cross` «переступить» (главы 17–19)"
+    },
+    {
+      "date": "2026-11-14",
+      "by": "claude",
+      "change": "evidence: 21.6 — «c. Acc. Hen. 18,15; Hen. 21,6» назван в 1.c"
     }
   ]
 }
